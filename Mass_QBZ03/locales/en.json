@@ -1,0 +1,84 @@
+{   
+	"preset": {
+		"220000C03C03A00000000000": {
+			"Name": ""
+		}
+	},
+	"templates": {
+		"020020BBA03BBA0300000000": {
+			"Name": "QBZ-03 5.56x45 assault rifle",
+			"ShortName": "QBZ-03",
+			"Description": "The Type 03 automatic rifle is a Chinese small caliber rifle developed and finalized in 2003. This gun is an export version that chambers 5.56x45mm NATO."
+		},
+		"041041BBA03BBA0341000000": {
+			"Name": "QBZ-03 handguard",
+			"ShortName": "QBZ-03",
+			"Description": "Default handguard for QBZ-03."
+		},
+		"0410AABBA03BBA03AA000000": {
+			"Name": "QBZ-03 handguard with rail",
+			"ShortName": "QBZ-03 Rail",
+			"Description": "Railed handguard for QBZ-03."
+		},
+		"042042BBA03BBA0342000000": {
+			"Name": "QBZ-03 psitol grip",
+			"ShortName": "QBZ-03",
+			"Description": "Pistol grip for QBZ-03."
+		},
+		"043043BBA03BBA0343000000": {
+			"Name": "QBZ-03 stock",
+			"ShortName": "QBZ-03",
+			"Description": "Default foldable stock for QBZ-03."
+		},
+		"049049BBA03BBA0349000000": {
+			"Name": "QBZ-03 sight rear",
+			"ShortName": "QBZ-03",
+			"Description": "Default rear sight for QBZ-03."
+		},
+		"044AAABBA03BBA030A000000": {
+			"Name": "QBZ-03 mount",
+			"ShortName": "QBZ-03",
+			"Description": "Reciver mount rail for QBZ-03."
+		},
+		"04A04ABBA03BBA034A000000": {
+			"Name": "QBZ-03 muzzle",
+			"ShortName": "QBZ-03",
+			"Description": "Default muzzle device for QBZ-03."
+		},
+		"043BBBBBA03BBA03BB000000": {
+			"Name": "QBZ-03 buffer tube adapter",
+			"ShortName": "QBZ-03",
+			"Description": "Buffer tube adapter for using AR-15 style stock on QBZ-03."
+		},
+		"04C04CBBA03BBA03CCC00000": {
+			"Name": "QBZ-03 piston spring",
+			"ShortName": "QBZ-03",
+			"Description": "The piston spring necessary for the rifle to operate normally."
+		},
+		"042BEFBBA03BBA03BEF00000": {
+			"Name": "QBZ-03 SEK pistol grip",
+			"ShortName": "SEK",
+			"Description": "Ergonomic pistol grip for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+		},
+		"043BEFBBA03BBA03EF000000": {
+			"Name": "QBZ-03 ACR style stock",
+			"ShortName": "03 ACR",
+			"Description": "ACR style stock for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+		},
+		"041BEFBBA03BBA03BEF00000": {
+			"Name": "QBZ-03 SEK M-LOK handguard",
+			"ShortName": "SEK M-LOK",
+			"Description": "Handguard with m-lok mounts for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+		},
+		"04C04DBBA03BBA03DDD00000": {
+			"Name": "QBZ-03 SEK charging handle",
+			"ShortName": "SEK",
+			"Description": "Ergonomic charging handle for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+		},
+		"04E04FBBA03BBA03DEF00000": {
+			"Name": "QBZ-03 SEK fast magazine release",
+			"ShortName": "SEK",
+			"Description": "Fast magazine release for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+		}
+    }
+}

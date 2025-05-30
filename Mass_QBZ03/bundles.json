@@ -1,0 +1,179 @@
+{
+    "manifest": [
+        {
+            "key": "assets/qbz03/weapon_qbz03_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/qbz03/client_assets.bundle",
+                "assets/qbz03/qbz03_audio.bundle",
+                "assets/qbz03/texture.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/client_assets.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/qbz03/qbz03_audio.bundle",
+                "assets/qbz03/texture.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/texture.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/qbz03/qbz03_audio.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/handguard/handguard_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/handguard/handguard_qbz03_rail.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/pistol_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/stock_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/sight_rear_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/mount_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/muzzle_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03/texture.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03/tube_qbz03.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz03_sek/shared_assets.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "assets/qbz03_sek/handguard_qbz03_sek_hmmlok01.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03_sek/shared_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/qbz03_sek/pistol_qbz03_sek_wb02.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03_sek/shared_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/qbz03_sek/charge_qbz03_sek_ljb01.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03_sek/shared_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/qbz03_sek/gas_block_qbz03.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/qbz03_sek/stock_qbz03_sek.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03_sek/shared_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/qbz03_sek/release_qbz03_sek.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz03_sek/shared_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

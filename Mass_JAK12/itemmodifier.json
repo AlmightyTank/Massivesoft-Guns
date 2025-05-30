@@ -1,0 +1,15 @@
+{
+    "023023A12A12A12000000000": {
+        "ItemId": "023023A12A12A12000000000",
+        "MasteringCreate": {
+            "Name": "JAK-12",
+            "Level2": 100,
+            "Level3": 300
+        },
+        "Shelf": true
+    },
+    "02F02FA12A12080800000000": {
+        "ItemId": "02F02FA12A12080800000000",
+        "MagCloneCaliberTable": "itself"
+    }
+}

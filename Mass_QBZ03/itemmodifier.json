@@ -1,0 +1,12 @@
+{
+    "020020BBA03BBA0300000000": {
+        "ItemId": "020020BBA03BBA0300000000",
+        "WeaponCaliberCloneFromId": "itself",
+        "MasteringCreate": {
+            "Name": "QBZ-03",
+            "Level2": 150,
+            "Level3": 300
+        },
+        "Shelf": true
+    }
+}

@@ -1,0 +1,564 @@
+{
+    "manifest": [
+      {
+        "key": "assets/mcw/mods/barrel_mcw_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/textures_000.bundle",
+          "assets/systems/effects/smoke.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_hvy2.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_hvylong.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_hvymarksman.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_hvyshort.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_hvyshort3.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_lgtlong.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_long.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_marksman.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_sil.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/barrel_mcw_sil450.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/charge_mcw_recip.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/textures_000.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_def_blk.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/textures_000.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvy.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvy2.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvy2.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvylong.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvylong.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvymarksman.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvymarksman.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvyshort.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvyshort.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvyshort2.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvyshort2_blk.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/handguard_mcw_hvyshort2.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_hvyshort3.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvyshort3.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_lgtlong.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_lgtlong.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_long.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_long.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_marksman.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_marksman.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_sil.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_sil.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/handguard_mcw_sil450.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_sil450.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/mag_stanag_mcw_drum.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/mag_stanag_mcw_big_drum.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/muzzle_mcw_300.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/muzzle_mcw_450.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/pistolgrip_mcw_snp.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/textures_snp.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/receiver_mcw_300blk.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/receiver_mcw_556_blk.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/receiver_mcw_556_fde.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/receiver_mcw_prt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/receiver_mcw_snp.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/silencer_mcw_sil.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_sil.bundle",
+          "assets/systems/effects/smoke.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/silencer_mcw_sil450.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_sil450.bundle",
+          "assets/systems/effects/smoke.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_ass.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_lgt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_prc.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_tac.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_tah.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_tub.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/stock_mcw_tub_blk.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_hvy2_bott.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvy2.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_hvy2_panel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvy2.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_hvy2_side.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_hvy2.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_lgtlong_panel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_lgtlong.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_long_panel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_long.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_long_side.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_long.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_marksman_panel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_marksman.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_sil450_panel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_sil450.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/tactical_mcw_sil450_side.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/barrel_mcw_sil450.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/mods/textures_000.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/animation.bundle",
+        "dependencyKeys": [
+          "assets/content/weapons/additional_hands/client_assets.bundle",
+          "assets/content/weapons/weapon_root_anim_fix.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/audio.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/blendoptions/assets.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/client_assets.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/mcw/mods/charge_mcw_nonrecip.bundle",
+          "assets/mcw/textures_fde.bundle",
+          "assets/mcw/textures_snp.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/textures_fde.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/textures_snp.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/mcw/weapon_mcw_300blk_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/mcw/animation.bundle",
+          "assets/mcw/audio.bundle",
+          "assets/mcw/client_assets.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/weapon_mcw_556x45_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/mcw/animation.bundle",
+          "assets/mcw/audio.bundle",
+          "assets/mcw/client_assets.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/weapon_mcw_aim_556x45_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/mcw/animation.bundle",
+          "assets/mcw/audio.bundle",
+          "assets/mcw/client_assets.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/weapon_mcw_blk_556x45_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/mcw/animation.bundle",
+          "assets/mcw/audio.bundle",
+          "assets/mcw/client_assets.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      },
+      {
+        "key": "assets/mcw/weapon_mcw_snp_556x45_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/mcw/animation.bundle",
+          "assets/mcw/audio.bundle",
+          "assets/mcw/client_assets.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      }
+    ]
+  }

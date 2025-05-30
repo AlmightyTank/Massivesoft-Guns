@@ -1,0 +1,260 @@
+{
+    "manifest": [
+        {
+            "key": "assets/jak12/mods/barrel_jak12_12g.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/jak12/mods/front_patrs_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/front_patrs_textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/handguard_jak12.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/front_patrs_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/mount_jak12_bottom.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/front_patrs_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/mount_jak12_side.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/front_patrs_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/magazine_jak12_12ga_10.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/magazine_jak12_12ga_20.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/magazine_jak12_12ga_32.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/muzzle_jak12_12g",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/front_patrs_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/sight_front_jak12.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/sight_textures_jak12.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/sight_rear_jak12.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/sight_textures_jak12.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/sight_textures_jak12.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/stock_jak12.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/animations.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/weapon_jak12_12g_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders",
+                "assets/jak12/audio.bundle",
+                "assets/jak12/textures.bundle",
+                "assets/jak12/sound.bundle",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/jak12/animations.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/audio.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/sound.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "assets/jak12/textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/barrel_short_textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/barrel_jak12_short_12g.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_short_textures.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/mount_jak12_side_2.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_short_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/handguard_jak12_short.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_short_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/barrel_heavy_textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/barrel_jak12_heavy_12g.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_heavy_textures.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/mount_jak12_side_3.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_heavy_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/handguard_jak12_heavy.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_heavy_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/muzzle_jak12_heavy_12g.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_heavy_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/barrel_long_textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/barrel_jak12_long_12g.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_long_textures.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/handguard_jak12_long.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_long_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/jak12/mods/muzzle_jak12_long_12g.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/jak12/mods/barrel_long_textures.bundle"
+            ]
+        }
+    ]
+}

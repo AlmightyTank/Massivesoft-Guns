@@ -1,0 +1,341 @@
+{
+    "manifest": [
+        {
+            "key": "assets/grau/weapon_grau_762x39_container.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/grau/animation.bundle",
+                "assets/grau/audio.bundle",
+                "assets/grau/client_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/weapon_grau_556x45_container.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/grau/animation.bundle",
+                "assets/grau/audio.bundle",
+                "assets/grau/client_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/client_assets.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/audio.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/animation.bundle",
+            "dependencyKeys": [
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/receiver_grau_762.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/receiver_grau_556.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_std.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/pistolgrip_grau_std.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/pistolgrip_grau_hvy.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/pistolgrip_grau_light.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/pistolgrip_grau_cust.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/handguard_grau_00.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/textures.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/mount_grau_std.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/handguard_grau_00.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/barrel_grau_00.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/textures_hg550.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/barrel_grau_hg550.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/grau/mods/textures_hg550.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/handguard_grau_hg550.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_hg550.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/sight_front_grau_hg550.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_hg550.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/textures_heavy.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/handguard_grau_heavy.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_heavy.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/barrel_grau_heavy.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/grau/mods/textures_heavy.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/textures_archangel.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/handguard_grau_archangel.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_archangel.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/barrel_grau_archangel.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/grau/mods/textures_archangel.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/sight_front_archangel.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_archangel.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/handguard_grau_light.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/barrel_grau_light.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/handguard_grau_light.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/textures_short.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/barrel_grau_short.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/grau/mods/textures_short.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/handguard_grau_short.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_short.bundle"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_light.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_hvy.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_no.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_rail.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_v2.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_spec.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/textures_v2.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/stock_grau_tube.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/grau/mods/stock_grau_light.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/textures_v2.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/mag_grau_556x45_30.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/mag_grau_556x45_ext.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/grau/mods/mag_grau_556x45_double.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

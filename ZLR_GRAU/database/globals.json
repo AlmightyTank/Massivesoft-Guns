@@ -1,0 +1,141 @@
+{
+  "ItemPresets": {
+    "weapon_grau762_preset": {
+      "_id": "weapon_grau762_preset",
+      "_type": "Preset",
+      "_changeWeaponName": false,
+      "_name": "grau762",
+      "_encyclopedia": "5dbcb66f4827cd761fb3797a",
+      "_parent": "1799ccbaeebaba00bc000003",
+      "_items": [
+        {
+          "_id": "1799ccbaeebaba00bc000003",
+          "_tpl": "5dbcb66f4827cd761fb3797a",
+          "upd": {
+            "Foldable": {
+              "Folded": false
+            }
+          }
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000031",
+          "_tpl": "98f081647a654c307492ae67",
+          "parentId": "1799ccbaeebaba00bc000003",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000032",
+          "_tpl": "e19730b94f5b34b39c82fd25",
+          "parentId": "1799ccbaeebaba00bc000003",
+          "slotId": "mod_reciever"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000033",
+          "_tpl": "2986f5dbe25acdbeff9ba8f2",
+          "parentId": "1799ccbaeebaba00bc000003",
+          "slotId": "mod_stock_001"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000034",
+          "_tpl": "6272874a6c47bd74f92e2087",
+          "parentId": "1799ccbaeebaba00bc000003",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000035",
+          "_tpl": "74a2de7548ee8bad037c18ea",
+          "parentId": "1799ccbaeebaba00bc000032",
+          "slotId": "mod_handguard"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000036",
+          "_tpl": "c1bcaa54461cd1767be1fb7c",
+          "parentId": "1799ccbaeebaba00bc000035",
+          "slotId": "mod_barrel"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000037",
+          "_tpl": "5dcbe965e4ed22586443a79d",
+          "parentId": "1799ccbaeebaba00bc000036",
+          "slotId": "mod_muzzle"
+        }
+      ]
+    },
+    "weapon_grau556_preset": {
+      "_id": "weapon_grau556_preset",
+      "_type": "Preset",
+      "_changeWeaponName": false,
+      "_name": "grau556",
+      "_encyclopedia": "b6c589ec2535085340807057",
+      "_parent": "1799ccbaeebaba00bc000004",
+      "_items": [
+        {
+          "_id": "1799ccbaeebaba00bc000004",
+          "_tpl": "b6c589ec2535085340807057",
+          "upd": {
+            "Foldable": {
+              "Folded": false
+            }
+          }
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000041",
+          "_tpl": "98f081647a654c307492ae67",
+          "parentId": "1799ccbaeebaba00bc000004",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000042",
+          "_tpl": "3b8f80d2f5acca00e55ca855",
+          "parentId": "1799ccbaeebaba00bc000004",
+          "slotId": "mod_reciever"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000043",
+          "_tpl": "2986f5dbe25acdbeff9ba8f2",
+          "parentId": "1799ccbaeebaba00bc000004",
+          "slotId": "mod_stock_001"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000044",
+          "_tpl": "c7332f93b1803894918b1085",
+          "parentId": "1799ccbaeebaba00bc000004",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000045",
+          "_tpl": "74a2de7548ee8bad037c18ea",
+          "parentId": "1799ccbaeebaba00bc000042",
+          "slotId": "mod_handguard"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000046",
+          "_tpl": "0a1ddaa39b718e24bd39cf87",
+          "parentId": "1799ccbaeebaba00bc000045",
+          "slotId": "mod_barrel"
+        },
+        {
+          "_id": "1799ccbaeebaba00bc000047",
+          "_tpl": "5c48a2a42e221602b66d1e07",
+          "parentId": "1799ccbaeebaba00bc000046",
+          "slotId": "mod_muzzle"
+        }
+      ]
+    }        
+ },
+ "config": {
+   "Mastering": [
+
+   ],
+   "Health": {
+     "Effects": {
+       "Stimulator": {
+         "Buffs": {}
+       }
+     }
+   }       
+ }	
+
+
+
+}

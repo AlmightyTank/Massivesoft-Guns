@@ -1,0 +1,129 @@
+{
+    "manifest": [
+        {
+            "key": "assets/weap/weapon_x95_texture.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/weap/weapon_x95_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/banks/m4a1.bundle",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/m4a1.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/mdr/weapon_dt_mdr_556x45_container.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/weap/weapon_x95_texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/weap/weapon_x95_2_container.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/banks/m4a1.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/m4a1.bundle",
+                "assets/content/weapons/mdr/weapon_dt_mdr_556x45_container.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "cubemaps",
+                "shaders",
+                "assets/weap/weapon_x95_container.bundle",
+                "assets/weap/weapon_x95_texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_hg.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/x95_btexture.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_pg.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/weap/weapon_x95_texture.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_btexture.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/pg_x95.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/x95_b1.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/x95_btexture.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_b2.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/x95_btexture.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_16in.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/x95_barrel_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_18in.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/x95_barrel_textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/x95_barrel_textures.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/x95r30.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/x95r60.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Tavor_X95": {
+        "_enabled": false,
+        "_name": "Tavor_X95"
+    },
+    "Mass_QBZ97": {
+        "_enabled": true,
+        "_name": "Mass_QBZ97"
+    },
+    "Mass_QBZ03": {
+        "_enabled": true,
+        "_name": "Mass_QBZ03"
+    },
+    "Mass_MCW": {
+        "_enabled": true,
+        "_name": "Mass_MCW"
+    },
+    "Mass_JAK12": {
+        "_enabled": true,
+        "_name": "Mass_JAK12"
+    },
+    "Mass_ISOH": {
+        "_enabled": true,
+        "_name": "Mass_ISOH"
+    },
+    "Mass_ISO": {
+        "_enabled": true,
+        "_name": "Mass_ISO"
+    },
+    "Mass_DG56": {
+        "_enabled": true,
+        "_name": "Mass_DG56"
+    },
+    "ZLR_GRAU": {
+        "_enabled": true,
+        "_name": "ZLR_GRAU"
+    }
+}

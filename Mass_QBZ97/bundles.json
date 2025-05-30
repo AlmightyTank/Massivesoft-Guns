@@ -1,0 +1,72 @@
+{
+    "manifest": [
+        {
+            "key": "assets/qbz97/client_assets.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/qbz97/textures.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/textures.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps"
+            ]
+        },
+        {
+            "key": "assets/qbz97/weapon_qbz97_556x45_container.bundle",
+            "dependencyKeys": [
+                "assets/qbz97/client_assets.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/qbz97/audio.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/audio.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/mods/sight_rear_qbz97_default.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz97/textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/mods/muzzle_qbz97_default.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz97/textures.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/mods/mount_qbz97_foregrip.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz97/textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/mods/mount_qbz97_optic.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz97/textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/qbz97/mods/mount_qbz97_side.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/qbz97/textures.bundle"
+            ]
+        }
+    ]
+}

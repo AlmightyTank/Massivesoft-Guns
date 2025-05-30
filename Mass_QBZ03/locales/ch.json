@@ -1,0 +1,84 @@
+{
+	"preset": {
+		"220000C03C03A00000000000": {
+			"Name": ""
+		}
+	},
+	"templates": {
+		"020020BBA03BBA0300000000": {
+			"Name": "QBZ-03 5.56x45 突击步枪",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪是中国研制的一种小口径步枪，于2003年定型。这把枪是发射5.56x45mm北约口径子弹的外贸出口版本。"
+		},
+		"041041BBA03BBA0341000000": {
+			"Name": "QBZ-03 护木",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪的默认护木。"
+		},
+		"0410AABBA03BBA03AA000000": {
+			"Name": "QBZ-03 导轨护木",
+			"ShortName": "QBZ-03 Rail",
+			"Description": "03式自动步枪外贸型的可选导轨护木。"
+		},
+		"042042BBA03BBA0342000000": {
+			"Name": "QBZ-03 手枪握把",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪的手枪型握把"
+		},
+		"043043BBA03BBA0343000000": {
+			"Name": "QBZ-03 枪托",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪的折叠式枪托。"
+		},
+		"049049BBA03BBA0349000000": {
+			"Name": "QBZ-03 照门",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪外贸型的缺口式照门。"
+		},
+		"044AAABBA03BBA030A000000": {
+			"Name": "QBZ-03 导轨",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪的机匣导轨。"
+		},
+		"04A04ABBA03BBA034A000000": {
+			"Name": "QBZ-03 枪口装置",
+			"ShortName": "QBZ-03",
+			"Description": "03式自动步枪外贸型的默认枪口装置。"
+		},
+		"043BBBBBA03BBA03BB000000": {
+			"Name": "QBZ-03 缓冲管转换器",
+			"ShortName": "QBZ-03",
+			"Description": "为QBZ-03步枪安装AR-15式伸缩枪托所需要的缓冲管转接器。"
+		},
+		"04C04CBBA03BBA03CCC00000": {
+			"Name": "QBZ-03 活塞簧",
+			"ShortName": "QBZ-03",
+			"Description": "QBZ-03枪机正常工作所必须的活塞弹簧。"
+		},
+		"042BEFBBA03BBA03BEF00000": {
+			"Name": "QBZ-03 SEK 手枪握把",
+			"ShortName": "SEK",
+			"Description": "用于QBZ-03步枪的人机工程学手枪握把，属于SEK套件的一部分。\nTacYL™ 出品。"
+		},
+		"043BEFBBA03BBA03EF000000": {
+			"Name": "QBZ-03 ACR式枪托",
+			"ShortName": "03 ACR",
+			"Description": "用于QBZ-03步枪的ACR样式护木，属于SEK套件的一部分。\nTacYL™ 出品。"
+		},
+		"041BEFBBA03BBA03BEF00000": {
+			"Name": "QBZ-03 SEK M-LOK 护木",
+			"ShortName": "SEK M-LOK",
+			"Description": "用于QBZ-03步枪的M-LOK护木，属于SEK套件的一部分。\nTacYL™ 出品。"
+		},
+		"04C04DBBA03BBA03DDD00000": {
+			"Name": "QBZ-03 SEK 拉机柄",
+			"ShortName": "SEK",
+			"Description": "用于QBZ-03步枪的人机工程学拉机柄，属于SEK套件的一部分。\nTacYL™ 出品。"
+		},
+		"04E04FBBA03BBA03DEF00000": {
+			"Name": "QBZ-03 SEK 快速弹匣释放钮",
+			"ShortName": "SEK",
+			"Description": "用于QBZ-03步枪的快速弹匣释放钮，属于SEK套件的一部分。\nTacYL™ 出品。"
+		}
+	}
+}

@@ -1,0 +1,361 @@
+{
+    "manifest": [
+      {
+        "key": "assets/isoh/mods/barrel_isoh_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/barrel_isoh_long.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/barrel_isoh_pstl.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/barrel_isoh_shrt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/barrel_isoh_sil.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/handguard_isoh_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/handguard_isoh_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/handguard_isoh_long.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/handguard_isoh_pstl.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/handguard_isoh_shrt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mag_stanag_iso.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mag_stanag_iso_300.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_bt_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_def.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_bt_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_hvy.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_fg_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_def.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_fg_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_hvy.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_side_def.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_def.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_side_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_hvy.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/mount_isoh_side_shrt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/handguard_isoh_shrt.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/muzzle_isoh.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/muzzle_isoh_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/muzzle_isoh_shrt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/pistolgrip_isoh.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/pistolgrip_isoh_ass.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/pistolgrip_isoh_skel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/pistolgrip_isoh_sn.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/pistolgrip_isoh_tac.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/receiver_isoh_300.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/textures.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/receiver_isoh_308.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/textures.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/receiver_isoh_556.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/textures.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/sight_front_all_isoh.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/sight_rear_all_isoh.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/mods/sight_front_all_isoh.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/silencer_isoh_sil.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/stock_all_isoh.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/stock_isoh_hvy.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/stock_isoh_lgt.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/stock_isoh_rail.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/mods/stock_isoh_skel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/animation.bundle",
+        "dependencyKeys": [
+          "assets/content/weapons/additional_hands/client_assets.bundle",
+          "assets/content/weapons/weapon_root_anim_fix.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/client_assets.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/isoh/textures.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/sound.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/blendoptions/assets.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/textures.bundle",
+        "dependencyKeys": [
+          "cubemaps",
+          "shaders"
+        ]
+      },
+      {
+        "key": "assets/isoh/weapon_iso_hemlock_556x45_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/isoh/animation.bundle",
+          "assets/isoh/client_assets.bundle",
+          "assets/isoh/sound.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      },
+      {
+        "key": "assets/isoh/weapon_iso_hemlock_762x51_container.bundle",
+        "dependencyKeys": [
+          "assets/content/audio/weapons/generic",
+          "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+          "assets/isoh/animation.bundle",
+          "assets/isoh/client_assets.bundle",
+          "assets/isoh/sound.bundle",
+          "assets/systems/effects/heathaze/defaultheathaze.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+        ]
+      }
+    ]
+  }
