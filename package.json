@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "src/mod.js",
     "license": "MIT",
-    "author": "Mass, AmightyTank",
+    "author": "Mass, Saintdeeer, AmightyTank",
     "sptVersion": "~3.11.*",
     "scripts": {
         "setup:environment": "npm i",

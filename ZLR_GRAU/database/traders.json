@@ -1,4 +1,5 @@
 {
+  "traders": {
    "5a7c2eca46aef81a7ca2145d": {
    "assort": {
     "items":[
@@ -749,5 +750,6 @@
      "a72a4b7f57a0e7e681a40e67":1
     }
    }
+}
 }
 }

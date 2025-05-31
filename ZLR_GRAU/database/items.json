@@ -362,19 +362,84 @@
           "ShortName": "GRAU 762",
           "Description": "ZLR美国分公司参照SG550系列制造的突击步枪,此为使用7.62*39mm弹药,无空仓挂机的版本。"
         }
-      }
+      },
+      "addweaponpreset": true,
+      "weaponpresets": [
+          {
+            "_id": "weapon_grau762_preset",
+            "_type": "Preset",
+            "_changeWeaponName": false,
+            "_name": "grau762",
+            "_encyclopedia": "5dbcb66f4827cd761fb3797a",
+            "_parent": "683b352521a10fafaaad204b",
+            "": "",
+            "_items": [
+            {
+              "_id": "683b352521a10fafaaad204b",
+              "_tpl": "5dbcb66f4827cd761fb3797a",
+              "upd": {
+                "Foldable": {
+                  "Folded": false
+                }
+              }
+            },
+            {
+              "_id": "683b530146b794ad03c5e29d",
+              "_tpl": "98f081647a654c307492ae67",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "683b530504ae8c394a3e7c0b",
+              "_tpl": "e19730b94f5b34b39c82fd25",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "683b53081d89bdd1f268d51b",
+              "_tpl": "2986f5dbe25acdbeff9ba8f2",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "683b530bdf85d6579c36f96f",
+              "_tpl": "6272874a6c47bd74f92e2087",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "683b530e7a74364c13554242",
+              "_tpl": "74a2de7548ee8bad037c18ea",
+              "parentId": "683b530504ae8c394a3e7c0b",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "683b5313744343cb63ce12d7",
+              "_tpl": "c1bcaa54461cd1767be1fb7c",
+              "parentId": "683b530e7a74364c13554242",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "683b5318ff6385bff8167f5c",
+              "_tpl": "5dcbe965e4ed22586443a79d",
+              "parentId": "683b5313744343cb63ce12d7",
+              "slotId": "mod_muzzle"
+            }
+          ]
+        }
+      ]
     },
     "e19730b94f5b34b39c82fd25": {
       "enable": true,
       "item": {
         "_id": "e19730b94f5b34b39c82fd25",
-        "_name": "reciever_ar10_kac_sr25_upper_std",
+        "_name": "reciever_ar10_kac_sr25_upper_stdv1",
         "_parent": "55818a304bdc2db5418b457d",
         "_type": "Item",
         "_props": {
-          "Name": "reciever_ar10_kac_sr25_upper_std",
-          "ShortName": "reciever_ar10_kac_sr25_upper_std",
-          "Description": "reciever_ar10_kac_sr25_upper_std",
+          "Name": "reciever_ar10_kac_sr25_upper_stdv1",
+          "ShortName": "reciever_ar10_kac_sr25_upper_stdv1",
+          "Description": "reciever_ar10_kac_sr25_upper_stdv1",
           "Weight": 0.65,
           "BackgroundColor": "blue",
           "Width": 2,
@@ -927,19 +992,83 @@
           "ShortName": "GRAU 556",
           "Description": "ZLR美国分公司参照SG550系列制造的突击步枪,此为使用5.56*45mm弹药,含空仓挂机的版本。"
         }
-      }
+      },
+      "addweaponpreset": true,
+      "weaponpresets": [
+          {
+            "_id": "weapon_grau556_preset",
+            "_type": "Preset",
+            "_changeWeaponName": false,
+            "_name": "grau556",
+            "_encyclopedia": "b6c589ec2535085340807057",
+            "_parent": "683b3532ac1378c1ce79b561",
+            "_items": [
+            {
+              "_id": "683b3532ac1378c1ce79b561",
+              "_tpl": "b6c589ec2535085340807057",
+              "upd": {
+                "Foldable": {
+                  "Folded": false
+                }
+              }
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000041",
+              "_tpl": "98f081647a654c307492ae67",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000042",
+              "_tpl": "3b8f80d2f5acca00e55ca855",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000043",
+              "_tpl": "2986f5dbe25acdbeff9ba8f2",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000044",
+              "_tpl": "c7332f93b1803894918b1085",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000045",
+              "_tpl": "74a2de7548ee8bad037c18ea",
+              "parentId": "1799ccbaeebaba00bc000042",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000046",
+              "_tpl": "0a1ddaa39b718e24bd39cf87",
+              "parentId": "1799ccbaeebaba00bc000045",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000047",
+              "_tpl": "5c48a2a42e221602b66d1e07",
+              "parentId": "1799ccbaeebaba00bc000046",
+              "slotId": "mod_muzzle"
+            }
+          ]
+        }
+      ]
     },
     "3b8f80d2f5acca00e55ca855": {
       "enable": true,
       "item": {
         "_id": "3b8f80d2f5acca00e55ca855",
-        "_name": "reciever_ar10_kac_sr25_upper_std",
+        "_name": "reciever_ar10_kac_sr25_upper_stdv2",
         "_parent": "55818a304bdc2db5418b457d",
         "_type": "Item",
         "_props": {
-          "Name": "reciever_ar10_kac_sr25_upper_std",
-          "ShortName": "reciever_ar10_kac_sr25_upper_std",
-          "Description": "reciever_ar10_kac_sr25_upper_std",
+          "Name": "reciever_ar10_kac_sr25_upper_stdv2",
+          "ShortName": "reciever_ar10_kac_sr25_upper_stdv2",
+          "Description": "reciever_ar10_kac_sr25_upper_stdv2",
           "Weight": 0.65,
           "BackgroundColor": "blue",
           "Width": 2,
@@ -4065,7 +4194,7 @@
           "Grids": [],
           "Slots": [
             {
-              "_name": "mod_stock",
+              "_name": "mod_stock_001",
               "_id": "58948c8f86f77409493f726a",
               "_parent": "58948c8e86f77409493f7266",
               "_props": {
@@ -4267,7 +4396,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 21563
       },
       "locales": {
@@ -4423,7 +4552,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 21563
       },
       "locales": {
@@ -4572,7 +4701,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 23363
       },
       "locales": {
@@ -4728,7 +4857,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 23363
       },
       "locales": {
@@ -4877,7 +5006,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 25963
       },
       "locales": {
@@ -5033,7 +5162,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 25963
       },
       "locales": {
@@ -5182,7 +5311,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 23363
       },
       "locales": {
@@ -5338,7 +5467,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 23363
       },
       "locales": {
@@ -5487,7 +5616,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 35963
       },
       "locales": {
@@ -5643,7 +5772,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 35963
       },
       "locales": {
@@ -5792,7 +5921,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 45963
       },
       "locales": {
@@ -5948,7 +6077,7 @@
         "_proto": "55d3632e4bdc2d972f8b4569"
       },
       "handbook": {
-        "ParentId": "5b5f75c686f774094242f19f",
+        "ParentId": "555ef6e44bdc2de9068b457e",
         "Price": 45963
       },
       "locales": {
