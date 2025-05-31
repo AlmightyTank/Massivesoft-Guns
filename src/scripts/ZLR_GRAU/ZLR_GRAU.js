@@ -38,7 +38,7 @@ const IDDL = {
     HANDGUARD_GRAU_LIGHT: "c71224cf97f6ac5185217297",
     HANDGUARD_GRAU_ARCH: "c8e19c9d723ed9af90ee92bf",
     HANDGUARD_GRAU_HG550: "e9e307ec92fbe21d8dd61adf",
-    HANDGUARD_GRAU_SHORT: "a87a2f656432103e57a4e984",
+    HANDGUARD_GRAU_HG550: "a87a2f656432103e57a4e984",
     HANDGUARD_GRAU_HEAVY: "43a4154a07e886db8ab1886b",
     HANDGUARD_AR10_KAC: "5df916dfbb49d91fb446d6b9",
     MOUNT_GRAU_STAND: "63262efcfa6fb45914ea990e",
@@ -178,10 +178,10 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "98f081647a654c307492ae67",
-                                "773b42aa3dad8cab5bcd6308",
-                                "05da8ea1317e2fb752129d23",
-                                "dea7d4b4b16a4e82ea03453e"
+                                IDDL.PISTOLGRIP_GRAU_STD,
+                                IDDL.PISTOLGRIP_GRAU_CUST,
+                                IDDL.PISTOLGRIP_GRAU_LIGHT,
+                                IDDL.PISTOLGRIP_GRAU_HVY
                                 ]
                             }
                             ]
@@ -233,7 +233,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "e19730b94f5b34b39c82fd25"
+                                IDDL.RECIEVER_GRAU762
                                 ]
                             }
                             ]
@@ -251,13 +251,13 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "2986f5dbe25acdbeff9ba8f2",
-                                "a422d5cc59d7bcbd1d25d908",
-                                "7494980095aa45a8384469a8",
-                                "523f5d60f73446c477407dfd",
-                                "c084d0bc91c7fa464257d868",
-                                "dcf40ea776b8c6c39ed9cd4c",
-                                "a787e1509ef7500abfc8fc2d"
+                                IDDL.STOCK_GRAU_STAND,
+                                IDDL.STOCK_GRAU_SPEC,
+                                IDDL.STOCK_GRAU_HVY,
+                                IDDL.STOCK_GRAU_LIGHT,
+                                IDDL.STOCK_GRAU_TUBE,
+                                IDDL.STOCK_GRAU_RAIL,
+                                NO_STOCK_GRAU
                                 ]
                             }
                             ]
@@ -627,12 +627,12 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "74a2de7548ee8bad037c18ea",
-                                "e9e307ec92fbe21d8dd61adf",
-                                "c71224cf97f6ac5185217297",
-                                "c8e19c9d723ed9af90ee92bf",
-                                "a87a2f656432103e57a4e984",
-                                "43a4154a07e886db8ab1886b"
+                                IDDL.HANDGUARD_GRAU_STAND,
+                                IDDL.HANDGUARD_GRAU_HG550,
+                                IDDL.HANDGUARD_GRAU_LIGHT,
+                                IDDL.HANDGUARD_GRAU_ARCH,
+                                IDDL.HANDGUARD_GRAU_HG550,
+                                IDDL.HANDGUARD_GRAU_HEAVY
                                 ]
                             }
                             ]
@@ -759,10 +759,10 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "98f081647a654c307492ae67",
-                                "773b42aa3dad8cab5bcd6308",
-                                "05da8ea1317e2fb752129d23",
-                                "dea7d4b4b16a4e82ea03453e"
+                                IDDL.PISTOLGRIP_GRAU_STD,
+                                IDDL.PISTOLGRIP_GRAU_CUST,
+                                IDDL.PISTOLGRIP_GRAU_LIGHT,
+                                IDDL.PISTOLGRIP_GRAU_HVY
                                 ]
                             }
                             ]
@@ -800,7 +800,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "3b8f80d2f5acca00e55ca855"
+                                IDDL.RECIEVER_GRAU556
                                 ]
                             }
                             ]
@@ -818,13 +818,13 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "2986f5dbe25acdbeff9ba8f2",
-                                "a422d5cc59d7bcbd1d25d908",
-                                "7494980095aa45a8384469a8",
-                                "523f5d60f73446c477407dfd",
-                                "c084d0bc91c7fa464257d868",
-                                "dcf40ea776b8c6c39ed9cd4c",
-                                "a787e1509ef7500abfc8fc2d"
+                                IDDL.STOCK_GRAU_STAND,
+                                IDDL.STOCK_GRAU_SPEC,
+                                IDDL.STOCK_GRAU_HVY,
+                                IDDL.STOCK_GRAU_LIGHT,
+                                IDDL.STOCK_GRAU_TUBE,
+                                IDDL.STOCK_GRAU_RAIL,
+                                NO_STOCK_GRAU
                                 ]
                             }
                             ]
@@ -1196,12 +1196,12 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "74a2de7548ee8bad037c18ea",
-                                "e9e307ec92fbe21d8dd61adf",
-                                "c71224cf97f6ac5185217297",
-                                "c8e19c9d723ed9af90ee92bf",
-                                "a87a2f656432103e57a4e984",
-                                "43a4154a07e886db8ab1886b"
+                                IDDL.HANDGUARD_GRAU_STAND,
+                                IDDL.HANDGUARD_GRAU_HG550,
+                                IDDL.HANDGUARD_GRAU_LIGHT,
+                                IDDL.HANDGUARD_GRAU_ARCH,
+                                IDDL.HANDGUARD_GRAU_HG550,
+                                IDDL.HANDGUARD_GRAU_HEAVY
                                 ]
                             }
                             ]
@@ -1780,7 +1780,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "63262efcfa6fb45914ea990e"
+                                IDDL.MOUNT_GRAU_STAND
                                 ]
                             }
                             ]
@@ -1816,7 +1816,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "c1bcaa54461cd1767be1fb7c",
+                                IDDL.BARREL_GRAU762_STANDARD,
                                 "0a1ddaa39b718e24bd39cf87"
                                 ]
                             }
@@ -2113,7 +2113,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                                 "Shift": 0,
                                 "Filter": [
                                 "cca05fdbb0aee5587cf1a458",
-                                "2b24f9c80888335e12256b4c"
+                                IDDL.BARREL_GRA556_LIGHT
                                 ]
                             }
                             ]
@@ -3141,8 +3141,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                             {
                                 "Shift": 0,
                                 "Filter": [
-                                "4027660efe68e9f689dabfd6",
-                                "746748fd271ef2605cd446ae"
+                                IDDL.BARREL_GRAU762_SHORT,
+                                IDDL.BARREL_GRAU556_SHORT
                                 ]
                             }
                             ]
@@ -4397,7 +4397,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "b6c589ec2535085340807057"
+                        "IDDL.WEAPON_GRAU556"
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -4551,7 +4551,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "5dbcb66f4827cd761fb3797a"
+                        IDDL.WEAPON_GRAU762
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -4712,7 +4712,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "b6c589ec2535085340807057"
+                        "IDDL.WEAPON_GRAU556"
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -4866,7 +4866,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "5dbcb66f4827cd761fb3797a"
+                        IDDL.WEAPON_GRAU762
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5032,7 +5032,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "b6c589ec2535085340807057"
+                        "IDDL.WEAPON_GRAU556"
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5186,7 +5186,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "5dbcb66f4827cd761fb3797a"
+                        IDDL.WEAPON_GRAU762
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5347,7 +5347,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "b6c589ec2535085340807057"
+                        "IDDL.WEAPON_GRAU556"
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5501,7 +5501,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "5dbcb66f4827cd761fb3797a"
+                        IDDL.WEAPON_GRAU762
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5662,7 +5662,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "b6c589ec2535085340807057"
+                        "IDDL.WEAPON_GRAU556"
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5816,7 +5816,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "5dbcb66f4827cd761fb3797a"
+                        IDDL.WEAPON_GRAU762
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -5977,7 +5977,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "b6c589ec2535085340807057"
+                        "IDDL.WEAPON_GRAU556"
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -6131,7 +6131,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     "CanSellOnRagfair": true,
                     "CanRequireOnRagfair": false,
                     "ConflictingItems": [
-                        "5dbcb66f4827cd761fb3797a"
+                        IDDL.WEAPON_GRAU762
                     ],
                     "Unlootable": false,
                     "UnlootableFromSlot": "FirstPrimaryWeapon",
@@ -6990,7 +6990,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     var newFilter = this.JsonUtil.clone(this.MMA.itemGetSlotbyName(tgtSlotName, slotData.id)._props.filters[0].Filter);
                     var newSlot = this.MMA.newSlot(slotData.newSlotName, "F" + index.toString(16), id, false, false, newFilter);
                     this.DBitems[id]._props.Slots.push(newSlot);
-                    index += 1;
+                      index += 1;
                 }
             }
             console.log("here 2", this.data[x]);
