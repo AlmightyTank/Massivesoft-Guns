@@ -213,6 +213,12 @@ class Mass_QBZ97 extends Mass_ModClass_1.Mass_ModClass {
                                 "_tpl": IDDL.MUZZLE_QBZ97,
                                 "parentId": "220020BBA97BBA9700000060",
                                 "slotId": "mod_muzzle"
+                            },
+                            {
+                                "_id": "683b920caf1ee057c80feb97",
+                                "_tpl": "043043DF056DF05643000000",
+                                "slotId": "mod_stock",
+                                "parentId": "220020BBA97BBA9700000060"
                             }
                         ],
                         "_name": "QBZ97 Default",
