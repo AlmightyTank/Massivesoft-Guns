@@ -257,7 +257,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                                 IDDL.STOCK_GRAU_LIGHT,
                                 IDDL.STOCK_GRAU_TUBE,
                                 IDDL.STOCK_GRAU_RAIL,
-                                NO_STOCK_GRAU
+                                IDDL.NO_STOCK_GRAU
                                 ]
                             }
                             ]
@@ -824,7 +824,7 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                                 IDDL.STOCK_GRAU_LIGHT,
                                 IDDL.STOCK_GRAU_TUBE,
                                 IDDL.STOCK_GRAU_RAIL,
-                                NO_STOCK_GRAU
+                                IDDL.NO_STOCK_GRAU
                                 ]
                             }
                             ]
