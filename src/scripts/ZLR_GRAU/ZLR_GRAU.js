@@ -14,8 +14,17 @@ const IDDL = {
     BARREL_GRAU762_SHORT: "4027660efe68e9f689dabfd6",
     BARREL_GRAU556_SHORT: "746748fd271ef2605cd446ae",
     BARREL_GRAU762_STANDARD: "c1bcaa54461cd1767be1fb7c",
+    BARREL_GRA556_STANDARD: "6839c2a65a6b9b1ec4ee242f",
+    BARREL_GRAU762_HVY: "6839c2a11d2d870770e7d83d",
+    BARREL_GRA556_HVY: "22dd6a0c75e85c67cc104ad1",
+    BARREL_GRAU762_LIGHT: "6839c29832fe7c19b30bf63c",
+    BARREL_GRA556_LIGHT: "2b24f9c80888335e12256b4c",
+    BARREL_GRAU762_HG550: "6839c28f09e624ce576fcd64",
+    BARREL_GRA556_HG550: "6839c289232e478211e4327c",
+    BARREL_GRAU762_ARCH: "6839c284c5496e940d39549b",
+    BARREL_GRA556_ARCH: "6839c27e13b8e094b67bcf09",
     BARRAL_SCARH762: "6183b0711cb55961fa0fdcad",
-    BARRAL_SCARL556: "6183fd911cb55961fa0fdce9",
+    BARRAL_SCARL556: "6839c29ccd8635da17d72335",
     RECIEVER_GRAU762: "e19730b94f5b34b39c82fd25",
     RECIEVER_GRAU556: "3b8f80d2f5acca00e55ca855",
     RECIEVER_SCARH762: "6165aeedfaa1272e431521e3",
@@ -45,7 +54,13 @@ const IDDL = {
     NO_STOCK_RSA_SCAR: "66ffc246a81a4f85e70d4d06",
     STOCK_AK_CAA_AKTS: "5cf518cfd7f00c065b422214",
     MOUNT_MK16_PWS_SRX: "61965d9058ef8c428c287e0d",
-
+    MAG_GRAU_556x45_30: "6839c2781fa127bcf394679b",
+    MAG_GRAU_556x45_EXT: "6839c26f775af6bd25bd4a4f",
+    MAG_GRAU_556x45_DOUBLE: "6839c2605651b3acaea4d62c",
+    MAG_AK47_545X39_60: "55d482194bdc2d1d4e8b456b",
+    FRONT_SIGHT_GRAU_HG550: "6839c2588a8ef4de6c77baf0",
+    FRONT_SIGHT_GRAU_ARCH: "6839c248ca430b647bf66eb6",
+    FRONT_SIGHT_MOSIN: "5ae099875acfc4001714e593"
 };
 const List_Handguards = [
     IDDL.HANDGUARD_GRAU_DEF,
@@ -839,8 +854,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                 }
             },
             barrel_grau556_standard: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c2a65a6b9b1ec4ee242f",
+                itemTplToClone: IDDL.BARRAL_SCARL556,
+                newId: IDDL.BARREL_GRA556_STANDARD,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_00.bundle",
@@ -868,9 +883,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_heavy: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c2a11d2d870770e7d83d",
+            barrel_grau762_heavy: {
+                itemTplToClone: IDDL.BARRAL_SCARH762,
+                newId: IDDL.BARREL_GRAU762_HVY,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_heavy.bundle",
@@ -898,9 +913,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_heavy: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c29ccd8635da17d72335",
+            barrel_grau556_heavy: {
+                itemTplToClone: IDDL.BARRAL_SCARH762,
+                newId: IDDL.BARREL_GRA556_HVY,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_heavy.bundle",
@@ -928,9 +943,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_light: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c29832fe7c19b30bf63c",
+            barrel_grau762_light: {
+                itemTplToClone: IDDL.BARRAL_SCARH762,
+                newId: IDDL.BARREL_GRAU762_LIGHT,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_light.bundle",
@@ -958,9 +973,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_light: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c2934fd35ea8800c591f",
+            barrel_grau556_light: {
+                itemTplToClone: IDDL.BARRAL_SCARL556,
+                newId: IDDL.BARREL_GRA556_LIGHT,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_light.bundle",
@@ -988,9 +1003,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_hg550: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c28f09e624ce576fcd64",
+            barrel_grau762_hg550: {
+                itemTplToClone: IDDL.BARRAL_SCARH762,
+                newId: IDDL.BARREL_GRAU762_HG550,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_hg550.bundle",
@@ -1018,9 +1033,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_hg550: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c289232e478211e4327c",
+            barrel_grau556_hg550: {
+                itemTplToClone: IDDL.BARRAL_SCARL556,
+                newId: IDDL.BARREL_GRA556_HG550,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_hg550.bundle",
@@ -1048,9 +1063,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_archangel: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c284c5496e940d39549b",
+            barrel_grau762_archangel: {
+                itemTplToClone: IDDL.BARRAL_SCARH762,
+                newId: IDDL.BARREL_GRAU762_ARCH,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_archangel.bundle",
@@ -1078,9 +1093,9 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                     }
                 }
             },
-            barrel_grau_archangel: {
-                itemTplToClone: "6183b0711cb55961fa0fdcad",
-                newId: "6839c27e13b8e094b67bcf09",
+            barrel_grau556_archangel: {
+                itemTplToClone: IDDL.BARRAL_SCARL556,
+                newId: IDDL.BARREL_GRA556_ARCH,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/barrel_grau_archangel.bundle",
@@ -1109,8 +1124,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                 }
             },
             mag_grau_556x45_30: {
-                itemTplToClone: "55d482194bdc2d1d4e8b456b",
-                newId: "6839c2781fa127bcf394679b",
+                itemTplToClone: IDDL.MAG_AK47_545X39_60,
+                newId: IDDL.MAG_GRAU_556x45_30,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/mag_grau_556x45_30.bundle",
@@ -1139,8 +1154,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                 }
             },
             mag_grau_556x45_ext: {
-                itemTplToClone: "55d482194bdc2d1d4e8b456b",
-                newId: "6839c26f775af6bd25bd4a4f",
+                itemTplToClone: IDDL.MAG_AK47_545X39_60,
+                newId: IDDL.MAG_GRAU_556x45_EXT,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/mag_grau_556x45_ext.bundle",
@@ -1169,8 +1184,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                 }
             },
             mag_grau_556x45_double: {
-                itemTplToClone: "55d482194bdc2d1d4e8b456b",
-                newId: "6839c2605651b3acaea4d62c",
+                itemTplToClone: IDDL.MAG_AK47_545X39_60,
+                newId: IDDL.MAG_GRAU_556x45_DOUBLE,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/mag_grau_556x45_double.bundle",
@@ -1199,8 +1214,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                 }
             },
             sight_front_grau_hg550: {
-                itemTplToClone: "5ae099875acfc4001714e593",
-                newId: "6839c2588a8ef4de6c77baf0",
+                itemTplToClone: IDDL.FRONT_SIGHT_MOSIN,
+                newId: IDDL.FRONT_SIGHT_GRAU_HG550,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/sight_front_grau_hg550.bundle",
@@ -1229,8 +1244,8 @@ class ZLR_GRAU extends Mass_ModClass_1.Mass_ModClass {
                 }
             },
             sight_front_archangel: {
-                itemTplToClone: "5ae099875acfc4001714e593",
-                newId: "6839c248ca430b647bf66eb6",
+                itemTplToClone: IDDL.FRONT_SIGHT_MOSIN,
+                newId: IDDL.FRONT_SIGHT_GRAU_ARCH,
                 overrideProperties: {
                     Prefab: {
                         path: "assets/grau/mods/sight_front_archangel.bundle",
