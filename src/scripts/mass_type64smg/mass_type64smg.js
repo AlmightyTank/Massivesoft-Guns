@@ -764,6 +764,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
                 }
             ]
         };
+        var locs = {
+            "ch": {
+                "Name": "64年式 7.62x25 微声冲锋枪",
+                "ShortName": "64微冲",
+                "Description": "64式微声冲锋枪设计于60年代初期，具有前冲击发的自由式枪机，整体式消声器，有单/连发选射功能。设计配备7.62x25毫米64式微声手枪弹，也可发射51式7.62x25毫米手枪弹（托卡列夫弹）。"
+            },
+            "en": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64 LSG C",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            }
+        };
+        this.loadLoc(presetID, locs);
         this.DBpresets[presetID] = preset;
         this.MMA.traderGenerateAssortFromPreset(presetID, 66666, NTrader_1.NTrader.Default);
     }
@@ -826,6 +839,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
                 }
             ]
         };
+        var locs = {
+            "ch": {
+                "Name": "64年式 7.62x25 微声冲锋枪",
+                "ShortName": "64微冲",
+                "Description": "64式微声冲锋枪设计于60年代初期，具有前冲击发的自由式枪机，整体式消声器，有单/连发选射功能。设计配备7.62x25毫米64式微声手枪弹，也可发射51式7.62x25毫米手枪弹（托卡列夫弹）。"
+            },
+            "en": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64 LSG",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            }
+        };
+        this.loadLoc(presetID, locs);
         this.DBpresets[presetID] = preset;
         this.MMA.traderGenerateAssortFromPreset(presetID, 68666, NTrader_1.NTrader.Default);
     }
