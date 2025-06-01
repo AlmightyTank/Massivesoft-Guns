@@ -1,0 +1,46 @@
+{
+    "022022C64C64000000000000": {
+        "ItemId": "022022C64C64000000000000",
+        "MasteringCreate": {
+            "Name": "TYPE-64",
+            "Level2": 100,
+            "Level3": 200
+        },
+        "Shelf": true
+    },
+    "02F000C64C6402F000000000": {
+        "ItemId": "02F000C64C6402F000000000",
+        "MagCloneCaliberTable": "itself"
+    },
+    "02F111C64C64111000000000": {
+        "ItemId": "02F111C64C64111000000000",
+        "MagCloneCaliberTable": "itself"
+    },
+    "Simple_Copied_Mods": {
+        "ItemId": "Chart",
+        "ChartType": "SCM",
+        "Chart": [
+            {
+                "Id_Map": {
+                    "043301C64C64301000000000": "5894a13e86f7742405482982",
+                    "0410FFC64C64FFF000000000": "5bb20dfcd4351e00334c9e24",
+                    "0410CCC64C64CCC000000000": "5bb20dfcd4351e00334c9e24"
+
+                }
+            }
+        ]
+    },
+    "New_Ammo": {
+          "ItemId": "Chart",
+          "ChartType": "ammo",
+          "Chart": [
+                {
+                      "AmmoCloneFrom": "5735ff5c245977640e39ba7e",
+                      "AmmoList": [
+                            "010000abdf000000762a25ff",
+                            "010000abff000000762a25ff"
+                      ]
+                }
+          ]
+    }
+}

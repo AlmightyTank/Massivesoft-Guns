@@ -1,0 +1,82 @@
+{
+	"preset": {
+		"220064C64C64CC0000000000": {
+			"Name": "Laoshan Ghost"
+		},
+		"220064C64C64000000000000": {
+			"Name": "Laoshan Ghost"
+		}
+	},
+	"templates": {
+		"022022C64C64000000000000": {
+			"Name": "Type 64 7.62x25 TT silenced submachine gun",
+			"ShortName": "Type 64",
+			"Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+		},
+		"044044C64C64044000000000": {
+			"Name": "Type 64 dust cover",
+			"ShortName": "Type 64 cover",
+			"Description": "Type 64 default dust cover."
+		},
+		"044C64C64C64C64000000000": {
+			"Name": "LSG64-JXG railed half dust cover",
+			"ShortName": "LSG64-JXG",
+			"Description": "Halved and railed dust cover for Type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+		},
+		"0410CCC64C64CCC000000000": {
+			"Name": "LSG64-MLOK-DGHM-C M-LOK handguard short",
+			"ShortName": "LSG64 C",
+			"Description": "M-LOK handguard for Type 64, part of the Laoshan Ghost modification. Short version.\nMade by TacYL™"
+		},
+		"0410FFC64C64FFF000000000": {
+			"Name": "LSG64-MLOK-DGHM-L M-LOK handguard long",
+			"ShortName": "LSG64 L",
+			"Description": "M-LOK handguard for Type 64, part of the Laoshan Ghost modification. Long version.\nMade by TacYL™"
+		},
+		"042042C64C64042000000000": {
+			"Name": "Type 64 pistol grip",
+			"ShortName": "Type 64 PG",
+			"Description": "Type 64 default pistol grip."
+		},
+		"042F02C64C64F02000000000": {
+			"Name": "YL SQWBUMAK-01 polymer pistol grip",
+			"ShortName": "SQWBUMAK-01",
+			"Description": "Polymer pistol grip, AK compatible.\nMade by TacYL™"
+		},
+		"043043C64C64043000000000": {
+			"Name": "Type 64 foldable stock",
+			"ShortName": "64 foldable",
+			"Description": "Type 64 default foldable stock."
+		},
+		"043301C64C64301000000000": {
+			"Name": "YL QTUM-02P lightweight stock",
+			"ShortName": "QTUM-02P",
+			"Description": "MCX/MPX compatible lightweight stock.\nMade by TacYL™"
+		},
+		"043302C64C64302000000000": {
+			"Name": "LSG64-QTZJQ stock adapter",
+			"ShortName": "LSG64-QTZJQ",
+			"Description": "MPX/MCX compatible stock adapter for Type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+		},
+		"04B04BC64C6404B000000000": {
+			"Name": "Type 64 integral barrel-silencer",
+			"ShortName": "Type 64 silencer",
+			"Description": "Type 64 default integral barrel-silencer."
+		},
+		"04BB01C64C64B01000000000": {
+			"Name": "LSG64-XYQ integral barrel-silencer",
+			"ShortName": "LSG64-XYQ",
+			"Description": "Advanced integral barrel-silencer for type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+		},
+		"02F000C64C6402F000000000": {
+			"Name": "Type 64 7.62x25 30-round magazine",
+			"ShortName": "Type 64",
+			"Description": "Type 64 default steel magazine."
+		},
+		"02F111C64C64111000000000": {
+			"Name": "LSG64-DX-30 7.62x25 30-round magazine",
+			"ShortName": "LSG64-DX-30",
+			"Description": "Polymer magazine for type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+		}
+	}
+}

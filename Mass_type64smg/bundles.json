@@ -1,0 +1,175 @@
+{
+    "manifest": [
+        {
+            "key": "assets/type64smg/client_assets.bundle",
+            "dependencyKeys": [
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle"]
+        },
+        {
+            "key": "assets/type64smg/texture.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/type64smg/audio.bundle",
+            "dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/type64smg/weapon_type64_762x25_container.bundle",
+            "dependencyKeys": [
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/type64smg/client_assets.bundle",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/type64smg/texture.bundle",
+                "cubemaps",
+                "assets/type64smg/prefab.bundle",
+                "assets/type64smg/audio.bundle",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/prefab.bundle",
+            "dependencyKeys": [
+                "assets/type64smg/texture.bundle",
+                "cubemaps",
+                "shaders",
+                "assets/type64smg/client_assets.bundle",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/barrel_typr64_default.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/barrel_type64_lsg.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/systems/effects/smoke.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/magazine_type64_default",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/magazine_type64_poly",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/pistol_grip_type64_default.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/pistol_grip_type64_lsg.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/reciever_type64_default",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/reciever_type64_lsg",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/stock_type64_default",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/stock_type64_lsg",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/stock_qtum.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/handguard_type64_m_lok_c.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/mods/handguard_type64_m_lok_l.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/ammo/patron_762x25tt_apds.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "assets/type64smg/ammo/patron_762x25tt_ap.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/type64smg/ammo/patron_762x25tt_apds.bundle"
+            ]
+        }
+    ]
+}

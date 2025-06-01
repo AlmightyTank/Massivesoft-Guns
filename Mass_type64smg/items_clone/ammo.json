@@ -1,0 +1,70 @@
+{
+    "010000abdf000000762a25ff": {
+        "cloneid": "5735ff5c245977640e39ba7e",
+        "data": {
+            "_id": "010000abdf000000762a25ff",
+            "_props": {
+                "Prefab": {
+                    "path": "assets/type64smg/ammo/patron_762x25tt_apds.bundle",
+                    "rcid": ""
+                },
+                "Weight": 0.01,
+                "InitialSpeed": 610,
+                "BallisticCoeficient": 0.233,
+                "BulletMassGram": 4,
+                "BulletDiameterMilimeters": 5.7,
+                "Damage": 45,
+                "ArmorDamage": 48,
+                "PenetrationPower": 39,
+                "PenetrationPowerDiviation": 1.375,
+                "MinFragmentsCount": 2,
+                "MaxFragmentsCount": 3,
+                "PenetrationChance": 0.50,
+                "RicochetChance": 0.38,
+                "FragmentationChance": 0.05,
+                "SpeedRetardation": 2.3e-5,
+                "DurabilityBurnModificator": 1.30,
+                "HeatFactor": 1.31,
+                "MalfFeedChance": 0.094,
+                "HeavyBleedingDelta": 0,
+                "LightBleedingDelta": 0,
+                "ammoAccr": -10,
+                "ammoRec": 5
+            }
+        }
+    },
+    "010000abff000000762a25ff": {
+        "cloneid": "5735ff5c245977640e39ba7e",
+        "data": {
+            "_id": "010000abff000000762a25ff",
+            "_props": {
+                "Prefab": {
+                    "path": "assets/type64smg/ammo/patron_762x25tt_ap.bundle",
+                    "rcid": ""
+                },
+                "Weight": 0.01,
+                "InitialSpeed": 452,
+                "BallisticCoeficient": 0.125,
+                "BulletMassGram": 5.3,
+                "BulletDiameterMilimeters": 7.85,
+                "Damage": 50,
+                "ArmorDamage": 50,
+                "PenetrationPower": 34,
+                "PenetrationPowerDiviation": 0.8,
+                "MinFragmentsCount": 2,
+                "MaxFragmentsCount": 3,
+                "PenetrationChance": 0.50,
+                "RicochetChance": 0.2,
+                "FragmentationChance": 0.05,
+                "SpeedRetardation": 0.0001,
+                "DurabilityBurnModificator": 1.5,
+                "HeatFactor": 1.19,
+                "MalfFeedChance": 0.077,
+                "HeavyBleedingDelta": 0,
+                "LightBleedingDelta": 0,
+                "ammoAccr": -5,
+                "ammoRec": 5
+            }
+        }
+    }
+}

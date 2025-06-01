@@ -46,5 +46,9 @@
     "Mass_NCODMag": {
         "_enabled": true,
         "_name": "Mass_NCODMag"
+    },
+    "Mass_type64smg": {
+        "_enabled": true,
+        "_name": "Mass_type64smg"
     }
 }
