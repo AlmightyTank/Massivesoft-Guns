@@ -35,7 +35,7 @@ const IDList = {
     MAGAZINE_PPSH: "5ea034eb5aad6446a939737b",
     MAGAZINE_TYPE64: "02F000C64C6402F000000000",
     MAGAZINE_TYPE64_POLY: "02F111C64C64111000000000",
-    AMMO_762X25_APDS: "010000abdf000000762a25ff",
+    AMMO_762X25_APDS: "683be28a35a774e8551bad00",
     AMMO_762X25_APST: "010000abff000000762a25ff",
     AMMO_762X25_FMJ43: "5735ff5c245977640e39ba7e"
 };
@@ -151,6 +151,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         type64._props.AllowSlide = false;
         type64._props.AllowOverheat = false;
         type64._props.ConflictingItems.push("619b69037b9de8162902673e");
+        var locs = {
+            "ch": {
+                "Name": "64年式 7.62x25 微声冲锋枪",
+                "ShortName": "64微冲",
+                "Description": "64式微声冲锋枪设计于60年代初期，具有前冲击发的自由式枪机，整体式消声器，有单/连发选射功能。设计配备7.62x25毫米64式微声手枪弹，也可发射51式7.62x25毫米手枪弹（托卡列夫弹）。"
+            },
+            "en": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = type64;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.WEAPON_PPSH);
@@ -170,6 +183,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         reciever._props.Prefab.path = "assets/type64smg/mods/reciever_type64_default";
         reciever._props.Slots = [];
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "64式 机匣盖",
+                "ShortName": "64式机匣盖",
+                "Description": "64式微声冲锋枪的原厂机匣盖。"
+            },
+            "en": {
+                "Name": "Type 64 dust cover",
+                "ShortName": "Type 64 cover",
+                "Description": "Type 64 default dust cover."
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = reciever;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.RECIEVER_AKM);
@@ -193,6 +219,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         slots.push(sight_rear);
         reciever._props.Slots = slots;
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "LSG64-JXG railed half dust cover",
+                "ShortName": "LSG64-JXG",
+                "Description": "Halved and railed dust cover for Type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = reciever;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.RECIEVER_PPSH);
@@ -236,6 +275,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.DBprice[id] = Price;
         handguard_C._props.Prefab.path = "assets/type64smg/mods/handguard_type64_m_lok_c.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "LSG64-MLOK-DGHM-C M-LOK handguard short",
+                "ShortName": "LSG64 C",
+                "Description": "M-LOK handguard for Type 64, part of the Laoshan Ghost modification. Short version.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = handguard_C;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.HANDGUARD_MIDWEST);
@@ -282,6 +334,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.DBprice[id] = Price;
         handguard_L._props.Prefab.path = "assets/type64smg/mods/handguard_type64_m_lok_l.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "LSG64-MLOK-DGHM-L M-LOK handguard long",
+                "ShortName": "LSG64 L",
+                "Description": "M-LOK handguard for Type 64, part of the Laoshan Ghost modification. Long version.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = handguard_L;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.HANDGUARD_MIDWEST);
@@ -298,6 +363,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         pslgrp._props.Prefab.path = "assets/type64smg/mods/pistol_grip_type64_default.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "Type 64 pistol grip",
+                "ShortName": "Type 64 PG",
+                "Description": "Type 64 default pistol grip."
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = pslgrp;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.PISTOL_GRIP_AKM);
@@ -314,6 +392,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         pslgrp._props.Prefab.path = "assets/type64smg/mods/pistol_grip_type64_lsg.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "YL SQWBUMAK-01 polymer pistol grip",
+                "ShortName": "SQWBUMAK-01",
+                "Description": "Polymer pistol grip, AK compatible.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = pslgrp;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.PISTOL_GRIP_AK12);
@@ -332,6 +423,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_type64_default";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "Type 64 foldable stock",
+                "ShortName": "64 foldable",
+                "Description": "Type 64 default foldable stock."
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = stock;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.STOCK_AKMS);
@@ -356,6 +460,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_type64_lsg";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "YL QTUM-02P lightweight stock",
+                "ShortName": "QTUM-02P",
+                "Description": "MCX/MPX compatible lightweight stock.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = stock;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(tube);
@@ -374,6 +491,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_qtum.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "LSG64-QTZJQ stock adapter",
+                "ShortName": "LSG64-QTZJQ",
+                "Description": "MPX/MCX compatible stock adapter for Type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = stock;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(LWSTOCK);
@@ -393,6 +523,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         barrel._props.Prefab.path = "assets/type64smg/mods/barrel_typr64_default.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "Type 64 integral barrel-silencer",
+                "ShortName": "Type 64 silencer",
+                "Description": "Type 64 default integral barrel-silencer."
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = barrel;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.BARREL_ASVAL);
@@ -412,6 +555,19 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         barrel._props.Prefab.path = "assets/type64smg/mods/barrel_type64_lsg.bundle";
         //	Logger.log(l85a2._props.Slots);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "LSG64-XYQ integral barrel-silencer",
+                "ShortName": "LSG64-XYQ",
+                "Description": "Advanced integral barrel-silencer for type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = barrel;
         this.MMA.registerNewItem(id);
         var hb = this.MMA.cloneHandbookById(IDList.BARREL_ASVAL);
@@ -435,13 +591,32 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
     // }
     magazine() {
         let mag = this.JsonUtil.clone(this.DBitems[IDList.MAGAZINE_PPSH]);
+        console.log(mag);
         const id = IDList.MAGAZINE_TYPE64;
         mag._id = id;
         this.DBprice[id] = this.DBprice[IDList.MAGAZINE_PPSH];
         mag._props.Prefab.path = "assets/type64smg/mods/magazine_type64_default";
         mag._props.Weight = 0.31;
+        console.log(mag._props.Cartridges[0]._props.filters[0].Filter);
         mag._props.Cartridges[0]._max_count = 30;
+        mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APDS);
+        mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APST);
+        console.log(mag._props.Cartridges[0]._props.filters[0].Filter);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "Type 64 7.62x25 30-round magazine",
+                "ShortName": "Type 64",
+                "Description": "Type 64 default steel magazine."
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = mag;
+        console.log(mag);
         this.MMA.registerNewItem(id);
         this.MMA.processItemCartridges(mag);
         this.MMA.traderAddItems(id, this.DBprice[IDList.MAGAZINE_PPSH], NTrader_1.NTrader.Default);
@@ -460,6 +635,21 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         mag._props.Cartridges[0]._max_count = 30;
         mag._props.LoadUnloadModifier = -5;
         mag._props.CheckTimeModifier = 0;
+        mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APDS);
+        mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APST);
+        var locs = {
+            "ch": {
+                "Name": "Type 64 7.62x25 TT silenced submachine gun",
+                "ShortName": "Type 64",
+                "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
+            },
+            "en": {
+                "Name": "LSG64-DX-30 7.62x25 30-round magazine",
+                "ShortName": "LSG64-DX-30",
+                "Description": "Polymer magazine for type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
+            }
+        };
+        this.loadLoc(id, locs);
         this.DBitems[id] = mag;
         this.MMA.registerNewItem(id);
         this.MMA.processItemCartridges(mag);
@@ -645,7 +835,9 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
     }
     ammo_apds() {
         const id = IDList.AMMO_762X25_APDS;
-        const cloneid = IDList.AMMO_762X25_FMJ43;
+        const ParentId = IDList.AMMO_762X25_FMJ43;
+        let ammo = this.MMA.cloneItem(ParentId, id);
+        console.log(ammo);
         const Price = 300;
         this.DBprice[id] = Price;
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
@@ -662,15 +854,47 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
             }
         };
         this.loadLoc(id, locs);
-        var hb = this.MMA.cloneHandbookById(cloneid);
+        ammo._props.Prefab.path = "assets/type64smg/ammo/patron_762x25tt_apds.bundle";
+        ammo._props.Weight = 0.01;
+        ammo._props.InitialSpeed = 610;
+        ammo._props.BallisticCoeficient = 0.233;
+        ammo._props.BulletMassGram = 4;
+        ammo._props.BulletDiameterMilimeters = 5.7;
+        ammo._props.Damage = 45;
+        ammo._props.ArmorDamage = 48;
+        ammo._props.PenetrationPower = 39;
+        ammo._props.PenetrationPowerDiviation = 1.375;
+        ammo._props.MinFragmentsCount = 2;
+        ammo._props.MaxFragmentsCount = 3;
+        ammo._props.PenetrationChance = 0.50;
+        ammo._props.RicochetChance = 0.38;
+        ammo._props.FragmentationChance = 0.05;
+        ammo._props.SpeedRetardation = 2.3e-5;
+        ammo._props.DurabilityBurnModificator = 1.30;
+        ammo._props.HeatFactor = 1.31;
+        ammo._props.MalfFeedChance = 0.094;
+        ammo._props.HeavyBleedingDelta = 0;
+        ammo._props.LightBleedingDelta = 0;
+        ammo._props.ammoAccr = -10;
+        ammo._props.ammoRec = 5;
+        ammo.handbook = ammo.handbook || {};
+        ammo.handbook.Price = Price;
+        ammo.handbook.ParentId = ParentId;
+        ammo.handbook.Id = id;
+        this.DBitems[id] = ammo;
+        this.MMA.registerNewItem(id);
+        var hb = this.MMA.cloneHandbookById(IDList.AMMO_762X25_FMJ43);
         hb.Price = Price;
+        hb.ParentId = ParentId;
         hb.Id = id;
-        this.DBhbItems.push(hb);
+        this.DBhbItems.push(hb);        
     }
     ammo_apst() {
         const id = IDList.AMMO_762X25_APST;
-        const cloneid = IDList.AMMO_762X25_FMJ43;
+        const ParentId = IDList.AMMO_762X25_FMJ43;
+        let ammo = this.MMA.cloneItem(ParentId, id);
         const Price = 280;
+        console.log(ammo);
         this.DBprice[id] = Price;
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         var locs = {
@@ -685,9 +909,40 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "7.62x25mm Tokarev cartridge with a steel tip.",
             }
         };
+        ammo.locales = locs;
         this.loadLoc(id, locs);
-        var hb = this.MMA.cloneHandbookById(cloneid);
+        ammo._props.Prefab.path = "assets/type64smg/ammo/patron_762x25tt_ap.bundle";
+        ammo._props.Weight = 0.01;
+        ammo._props.InitialSpeed = 452;
+        ammo._props.BallisticCoeficient = 0.125;
+        ammo._props.BulletMassGram = 5.3;
+        ammo._props.BulletDiameterMilimeters = 7.85;
+        ammo._props.Damage = 50;
+        ammo._props.ArmorDamage = 50;
+        ammo._props.PenetrationPower = 34;
+        ammo._props.PenetrationPowerDiviation = 0.8;
+        ammo._props.MinFragmentsCount = 2;
+        ammo._props.MaxFragmentsCount = 3;
+        ammo._props.PenetrationChance = 0.50;
+        ammo._props.RicochetChance = 0.2;
+        ammo._props.FragmentationChance = 0.05;
+        ammo._props.SpeedRetardation = 0.0001;
+        ammo._props.DurabilityBurnModificator = 1.5;
+        ammo._props.HeatFactor = 1.19;
+        ammo._props.MalfFeedChance = 0.077;
+        ammo._props.HeavyBleedingDelta = 0;
+        ammo._props.LightBleedingDelta = 0;
+        ammo._props.ammoAccr = -5;
+        ammo._props.ammoRec = 5;
+        ammo.handbook = ammo.handbook || {};
+        ammo.handbook.Price = Price;
+        ammo.handbook.ParentId = ParentId;
+        ammo.handbook.Id = id;
+        this.DBitems[id] = ammo;
+        this.MMA.registerNewItem(id);
+        var hb = this.MMA.cloneHandbookById(IDList.AMMO_762X25_FMJ43);
         hb.Price = Price;
+        hb.ParentId = ParentId;
         hb.Id = id;
         this.DBhbItems.push(hb);
     }
