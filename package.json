@@ -1,6 +1,6 @@
 {
     "name": "Massivesoft Guns",
-    "version": "1.0.0",
+    "version": "0.1.4",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Mass, Saintdeeer, AmightyTank",
