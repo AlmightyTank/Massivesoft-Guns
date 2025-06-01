@@ -92,9 +92,9 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
     * load Clone Items from folder
     * @param {*} folderPath folder path node of item to clone
     */
-    loadCloneItems(folderPath) {
+    async loadCloneItems(folderPath) {
         for (let x in folderPath) {
-            var clonelist = this.jsonRead(folderPath[x]);
+            var clonelist = await this.jsonRead(folderPath[x]);
             for (let it in clonelist) {
                 var itemToAdd = this.cloneItem(clonelist[it].cloneid, it);
                 this.copyValue(itemToAdd, clonelist[it].data);
@@ -231,7 +231,7 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
      * Load assorts to Database
      * @param {*} folderPath folder path node of locales
      */
-    loadLocales(folderPath, locLangs) {
+    async loadLocales(folderPath, locLangs) {
         var Obj = false;
         if (locLangs != undefined) {
             Obj = true;
@@ -249,7 +249,7 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
         }
         for (let lang in this.DBlocales) {
             if (langlist.includes(lang)) {
-                var toAdd = Obj ? locLangs[lang] : this.jsonRead(folderPath[lang]);
+                var toAdd = Obj ? locLangs[lang] : await this.jsonRead(folderPath[lang]);
                 for (let data in toAdd.templates) {
                     var loc = toAdd.templates[data];
                     this.addNewLoc(data, lang, loc);
@@ -444,8 +444,8 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
     * Load Presets to Database
     * @param {*} filePath file path of modifier
     */
-    loadModifierList(filePath) {
-        var itemModDataList = this.jsonRead(filePath);
+    async loadModifierList(filePath) {
+        var itemModDataList = await this.jsonRead(filePath);
         for (let mditem in itemModDataList) {
             if ((mditem != itemModDataList[mditem].ItemId) && (itemModDataList[mditem].ItemId != "Chart")) {
                 this.logger.log(`Unpaired Modifier ID ${mditem}`, "red");

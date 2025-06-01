@@ -50,7 +50,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
     /**
      * onLoadMod
      */
-    onLoadMod() {
+    async onLoadMod() {
         const MThisModPath = this.MThisModPath;
         const Mass_ModApi = this.MMA;
         this.TYPE64();
@@ -70,12 +70,14 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         // this.stock_tube();
         this.magazine();
         this.magazine_lsg();
-        const cloneList = MThisModPath[cpntName].items_clone;
-        Mass_ModApi.loadCloneItems(cloneList);
+        //const cloneList = MThisModPath[cpntName].items_clone;
+        //await Mass_ModApi.loadCloneItems(cloneList);
         // Mass_ModApi.loadTraderAssort(MThisModPath[cpntName].traders.assort, NTrader.Default);
         // Mass_ModApi.loadPresets(MThisModPath[cpntName].itemPresets);
-        Mass_ModApi.loadLocales(MThisModPath[cpntName].locales);
-        Mass_ModApi.loadModifierList(MThisModPath[cpntName].itemmodifier);
+        //console.log(MThisModPath[cpntName].locales);
+        //console.log(MThisModPath[cpntName].itemmodifier);
+        await Mass_ModApi.loadLocales(MThisModPath[cpntName].locales);
+        await Mass_ModApi.loadModifierList(MThisModPath[cpntName].itemmodifier);
         this.createPresetAssortLsgC();
         this.createPresetAssortLsgL();
         this.createPresetAssort();
