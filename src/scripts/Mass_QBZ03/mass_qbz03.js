@@ -399,7 +399,7 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         var preset = {
             _id: presetID,
             _type: "Preset",
-            _changeWeaponName: true,
+            _changeWeaponName: false,
             _name: "QBZ-03",
             _encyclopedia: presetID,
             _parent: presetParent,
@@ -473,7 +473,7 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         var preset = {
             _id: presetID,
             _type: "Preset",
-            _changeWeaponName: true,
+            _changeWeaponName: false,
             _encyclopedia: presetID,
             _name: "QBZ-03 Rail",
             _parent: presetParent,
@@ -535,7 +535,7 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         const locales = {
             "en": {
                 "Name": "QBZ-03 5.56x45 assault rifle",
-                "ShortName": "QBZ-03",
+                "ShortName": "QBZ-03 Rail",
                 "Description": "The Type 03 automatic rifle is a Chinese small caliber rifle developed and finalized in 2003. This gun is an export version that chambers 5.56x45mm NATO."
             }
         };

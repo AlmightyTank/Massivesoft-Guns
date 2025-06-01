@@ -106,7 +106,7 @@ class MainLoader {
             }
 
             const bundlePath = path.join(this.ThisModPath, componentName, "bundles.json");
-            console.log(bundlePath);
+            //console.log(bundlePath);
             if (this.FileSystem.exists(bundlePath)) {
                 BundleLoader.addBundles(`${this.ThisModPath}/${componentName}/`);
             }
@@ -123,14 +123,14 @@ class MainLoader {
 
         const mechanicId = "5a7c2eca46aef81a7ca2145d";
 
-        this.logger.info(`Loading: ${modFullName} by Saintdeeer & MassiveSoft, Updated by AmightyTank`);
+        //this.logger.info(`Loading: ${modFullName} by Saintdeeer & MassiveSoft, Updated by AmightyTank`);
         // Load JSON files
-        this.logger.info("here 1", "green")
+        //this.logger.info("here 1", "green")
         this.items = await this.jsonUtil.deserialize(await this.FileSystem.read(path.join(modPath, "database", "items.json")));
         this.traders = await this.jsonUtil.deserialize(await this.FileSystem.read(path.join(modPath, "database", "traders.json")));
-        this.logger.info("here 2", "green")
+        //this.logger.info("here 2", "green")
         this.modConfig = await this.jsonUtil.deserialize(await this.FileSystem.read(path.join(modPath, "config.json")));
-        this.logger.info("here 3", "green")
+        //this.logger.info("here 3", "green")
         // Process items
         for (const [id, item] of Object.entries(this.items.items)) {
             if (!item.enable) continue;
@@ -145,13 +145,13 @@ class MainLoader {
             this.addLocales(id, item);
             this.weaponAddtoShelf(id, item);
         }
-        this.logger.info("here 4", "green")
+        //this.logger.info("here 4", "green")
 
         //Item Filters
         for (const ID in this.items.items) if ( this.items.items[ID].enable ) this.addToFilters(ID);
         this.logger.debug(modFolderName + " item filters finished");
 
-        this.logger.info("here 5", "green")
+        //this.logger.info("here 5", "green")
         // Presets
         for (const ID in this.items.items) {
             if ( this.items.items[ID].enable )
@@ -163,11 +163,11 @@ class MainLoader {
         }
         }
 
-        this.logger.info("here 6", "green")
+        //this.logger.info("here 6", "green")
         // Traders
         this.addTraderAssort(mechanicId);
 
-        this.logger.info("here 7", "green")
+        //this.logger.info("here 7", "green")
         for (const mastery of this.db.globals.config.Mastering) {
             if (mastery.Name === "AK74") {
                 mastery.Templates.push("5dbcb66f4827cd761fb3797a", "b6c589ec2535085340807057");
@@ -175,7 +175,7 @@ class MainLoader {
         }
 
         const bundlePath = path.join(this.ThisModPath, modFolderName, "bundles.json");
-        console.log(bundlePath);
+        //console.log(bundlePath);
         if (this.FileSystem.exists(bundlePath)) {
             BundleLoader.addBundles(`${this.ThisModPath}/${modFolderName}/`);
         }

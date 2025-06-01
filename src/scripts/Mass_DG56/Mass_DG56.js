@@ -234,7 +234,7 @@ class Mass_DG56 extends Mass_ModClass_1.Mass_ModClass {
                 masteries: true,
                 masterySections: [
                     {
-                        Name: "QBZ-97",
+                        Name: "DG-56",
                         Templates: [
                             IDDL.WEAPON_DG56
                         ],
