@@ -591,17 +591,14 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
     // }
     magazine() {
         let mag = this.JsonUtil.clone(this.DBitems[IDList.MAGAZINE_PPSH]);
-        console.log(mag);
         const id = IDList.MAGAZINE_TYPE64;
         mag._id = id;
         this.DBprice[id] = this.DBprice[IDList.MAGAZINE_PPSH];
         mag._props.Prefab.path = "assets/type64smg/mods/magazine_type64_default";
         mag._props.Weight = 0.31;
-        console.log(mag._props.Cartridges[0]._props.filters[0].Filter);
         mag._props.Cartridges[0]._max_count = 30;
         mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APDS);
         mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APST);
-        console.log(mag._props.Cartridges[0]._props.filters[0].Filter);
         var locs = {
             "ch": {
                 "Name": "Type 64 7.62x25 TT silenced submachine gun",
@@ -616,7 +613,6 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         };
         this.loadLoc(id, locs);
         this.DBitems[id] = mag;
-        console.log(mag);
         this.MMA.registerNewItem(id);
         this.MMA.processItemCartridges(mag);
         this.MMA.traderAddItems(id, this.DBprice[IDList.MAGAZINE_PPSH], NTrader_1.NTrader.Default);
@@ -716,7 +712,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         var preset = {
             _id: presetID,
             _type: "Preset",
-            _changeWeaponName: true,
+            _changeWeaponName: false,
             _name: "TYPE64 LSG C",
             _parent: presetParent,
             _items: [
@@ -778,7 +774,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         var preset = {
             _id: presetID,
             _type: "Preset",
-            _changeWeaponName: true,
+            _changeWeaponName: false,
             _name: "TYPE64 LSG L",
             _parent: presetParent,
             _items: [
@@ -837,7 +833,6 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.AMMO_762X25_APDS;
         const ParentId = IDList.AMMO_762X25_FMJ43;
         let ammo = this.MMA.cloneItem(ParentId, id);
-        console.log(ammo);
         const Price = 300;
         this.DBprice[id] = Price;
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
@@ -894,7 +889,6 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const ParentId = IDList.AMMO_762X25_FMJ43;
         let ammo = this.MMA.cloneItem(ParentId, id);
         const Price = 280;
-        console.log(ammo);
         this.DBprice[id] = Price;
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         var locs = {
