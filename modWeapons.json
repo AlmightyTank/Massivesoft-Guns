@@ -42,5 +42,9 @@
     "Mass_M14": {
         "_enabled": true,
         "_name": "Mass_M14"
+    },
+    "Mass_NCODMag": {
+        "_enabled": true,
+        "_name": "Mass_NCODMag"
     }
 }
