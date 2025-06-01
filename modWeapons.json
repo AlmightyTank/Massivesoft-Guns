@@ -34,5 +34,13 @@
     "ZLR_GRAU": {
         "_enabled": true,
         "_name": "ZLR_GRAU"
+    },
+    "Mass_Longbow": {
+        "_enabled": true,
+        "_name": "Mass_Longbow"
+    },
+    "Mass_M14": {
+        "_enabled": true,
+        "_name": "Mass_M14"
     }
 }

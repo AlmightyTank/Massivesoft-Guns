@@ -899,7 +899,7 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
     }
     generatePrice(itemId, orgId, multi) {
         if (this.DBprice[orgId] == undefined) {
-            this.logger.log(`Found no Price for ${orgId}, use price in handbook`, "yellow");
+            //this.logger.log(`Found no Price for ${orgId}, use price in handbook`, "yellow");
             this.DBprice[itemId] = this.getPrice(orgId);
         }
         else {

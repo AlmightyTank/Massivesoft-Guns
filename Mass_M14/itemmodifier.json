@@ -1,0 +1,23 @@
+{
+    "020020AA14AA140000000000": {
+        "ItemId": "020020AA14AA140000000000",
+        "MasteringCloneFromId": "5aafa857e5b5b00018480968",
+        "WeaponCaliberCloneFromId": "itself",
+        "Shelf": true
+    },
+    "Simple_Copied_Mods": {
+        "ItemId": "Chart",
+        "ChartType": "SCM",
+        "Chart": [
+            {
+                "Id_Map": {
+                    "041041AA14AA144100000000": "5aaf8e43e5b5b00015693246",
+                    "04B04BAA14AA14BB00000000": "5addbac75acfc400194dbc56",
+                    "04A04AAA14AA14AA00000000": "5addbb6e5acfc408fb1393fd",
+                    "049049AA14AA14FF00000000": "5addba3e5acfc4001669f0ab",
+                    "0410EBAA14AA14EB00000000": "5addc7005acfc4001669f275"
+                }
+            }
+        ]
+    }
+}

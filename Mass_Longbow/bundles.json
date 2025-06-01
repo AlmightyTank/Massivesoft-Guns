@@ -1,0 +1,184 @@
+{
+  "manifest": [
+    {
+      "key": "assets/longbow/mods/barrel_longbow_def.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/longbow/mods/handguard_longbow_def.bundle",
+        "assets/systems/effects/smoke.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/barrel_longbow_lgtlong.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/barrel_longbow_shrt.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/barrel_longbow_sil.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/charge_longbow_bolt.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/longbow/textures.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/charge_longbow_bolt_heavy.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/charge_longbow_bolt_light.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/handguard_longbow_def.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/handguard_longbow_shrt.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/mount_longbow_def.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/longbow/mods/handguard_longbow_def.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/muzzle_ak103_longbow_762x39.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/muzzle_longbow_sil.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/longbow/mods/barrel_longbow_sil.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/pistolgrip_ak_longbow.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/receiver_longbow_def.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/longbow/textures.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/receiver_longbow_jak.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/sight_longbow_front.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/sight_longbow_rear.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/mods/stock_ak74m_longbow.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/animations.bundle",
+      "dependencyKeys": [
+        "assets/content/weapons/additional_hands/client_assets.bundle",
+        "assets/content/weapons/weapon_root_anim_fix.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/audio.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "assets/longbow/client_assets.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/longbow/textures.bundle"
+      ]
+    },
+    {
+      "key": "assets/longbow/textures.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/longbow/weapon_longbow_762x39_container.bundle",
+      "dependencyKeys": [
+        "assets/content/audio/weapons/generic",
+        "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+        "assets/longbow/animations.bundle",
+        "assets/longbow/audio.bundle",
+        "assets/longbow/client_assets.bundle",
+        "assets/systems/effects/heathaze/defaultheathaze.bundle",
+        "assets/systems/effects/muzzleflash/muzzleflash.bundle"
+      ]
+    }
+  ]
+}

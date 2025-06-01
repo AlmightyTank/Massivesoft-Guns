@@ -1,0 +1,56 @@
+{
+    "manifest": [
+        {
+        "key": "assets/m14/weapon_m14_762x51_container.bundle",
+        "dependencyKeys": [
+            "assets/m14/textures.bundle",
+            "assets/m14/texture2.bundle",
+            "assets/content/weapons/m1a/client_assets.bundle",
+            "assets/content/weapons/m1a/weapon_springfield_m1a_762x51_container.bundle",
+            "assets/content/weapons/additional_hands/client_assets.bundle",
+            "assets/content/weapons/weapon_root_anim_fix.bundle",
+            "assets/commonassets/physics/physicsmaterials.bundle", 
+            "assets/systems/effects/muzzleflash/muzzleflash.bundle", 
+            "assets/systems/effects/heathaze/defaultheathaze.bundle", 
+            "assets/content/audio/weapons/ak74.bundle", 
+            "assets/content/audio/weapons/generic",
+            "assets/systems/effects/smoke.bundle",
+            "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+            "assets/content/audio/banks/m1a.bundle", 
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/m14/textures.bundle",
+        "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+        ]
+    },
+    {
+        "key": "assets/m14/texture2.bundle",
+        "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+        ]
+    },
+    {
+        "key": "assets/m14/m14_handguard.bundle",
+        "dependencyKeys": [
+            "cubemaps",
+            "shaders",
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "assets/content/items/mods/stocks/stock_m1a_springfield_armory_socom_16.bundle"
+        ]
+    },
+    {
+        "key": "assets/m14/m14_handguard_ebr.bundle",
+        "dependencyKeys": [
+            "cubemaps",
+            "shaders",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+    }
+    ]
+}
