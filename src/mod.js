@@ -178,7 +178,7 @@ class MainLoader {
         if (this.FileSystem.exists(bundlePath)) {
             BundleLoader.addBundles(`${this.ThisModPath}/${modFolderName}/`);
         }
-        this.logger.info(`${modFolderName} integration complete`);
+        //this.logger.info(`${modFolderName} integration complete`);
     }
     async addTraderAssort(trader) {
         const modPath = path_1.default.join(this.ThisModPath, "ZLR_GRAU");

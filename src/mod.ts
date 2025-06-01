@@ -180,7 +180,7 @@ class MainLoader {
             BundleLoader.addBundles(`${this.ThisModPath}/${modFolderName}/`);
         }
          
-        this.logger.info(`${modFolderName} integration complete`);
+        //this.logger.info(`${modFolderName} integration complete`);
     }
 
     private async addTraderAssort(trader: string): Promise<void> 
