@@ -146,7 +146,7 @@ class MainLoader {
         if (fs_1.default.existsSync(bundlePath)) {
             BundleLoader.addBundles(`${this.ThisModPath}/${modFolderName}/`);
         }
-        this.logger.log(`${this.mod} integration complete`, "cyan");
+        this.logger.log(`[${this.mod}] Integration complete`, "cyan");
     }
     addTraderAssort(trader) {
         const modPath = path_1.default.join(this.ThisModPath, "ZLR_GRAU");

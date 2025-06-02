@@ -180,7 +180,7 @@ class MainLoader {
             BundleLoader.addBundles(`${this.ThisModPath}/${modFolderName}/`);
         }
          
-        this.logger.log(`[${this.mod}] integration complete`, "cyan");
+        this.logger.log(`[${this.mod}] Integration complete`, "cyan");
     }
 
     private addTraderAssort(trader: string): void 
