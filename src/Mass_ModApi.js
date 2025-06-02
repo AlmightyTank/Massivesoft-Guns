@@ -216,8 +216,8 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
      * Initialize mod path nodes and other things
      * @param {*} filePath File path of handbook.json
      */
-    loadHandbooksfromFile(filePath) {
-        var hbToAddList = this.jsonRead(filePath).Items;
+    async loadHandbooksfromFile(filePath) {
+        var hbToAddList = await this.jsonRead(filePath).Items;
         for (let x in hbToAddList) {
             this.DBhbItems.push(hbToAddList[x]);
         }
@@ -385,8 +385,8 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
    * @param {*} assortFilePath File path of assort.json
    * @param {*} vendorID Id of the trader to add
    */
-    loadTraderAssort(assortFilePath, vendorID, validation = false, print = false) {
-        var assortAdd = this.jsonRead(assortFilePath);
+    async loadTraderAssort(assortFilePath, vendorID, validation = false, print = false) {
+        var assortAdd = await this.jsonRead(assortFilePath);
         for (let data in assortAdd.items) {
             if ((assortAdd.items[data].parentId == undefined) || (assortAdd.items[data].slotId == undefined)) {
                 this.logger.log(`Trader Item ${assortAdd.items[data]._id} has no valid data`, "red");
@@ -416,18 +416,18 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
             this.DBtraders[vendorID].assort.loyal_level_items[data] = (assortAdd.loyal_level_items[data]);
         }
     }
-    loadBuffs(folderPath) {
+    async loadBuffs(folderPath) {
         for (let i in folderPath) {
-            this.Table.globals.config.Health.Effects.Stimulator.Buffs[i] = this.jsonRead(folderPath[i]);
+            this.Table.globals.config.Health.Effects.Stimulator.Buffs[i] = await this.jsonRead(folderPath[i]);
         }
     }
     /**
      * Load Presets to Database
      * @param {*} folderPath folder path node of presets
      */
-    loadPresets(folderPath) {
+    async loadPresets(folderPath) {
         for (let i in folderPath) {
-            let preset = this.jsonRead(folderPath[i]);
+            let preset = await this.jsonRead(folderPath[i]);
             this.addPreset(preset);
         }
     }
