@@ -34,7 +34,7 @@ class MFACitems implements IPostDBLoadMod
     private logger:     ILogger;
     private jsonUtil:   JsonUtil;
 
-    public async postDBLoad(container: DependencyContainer): Promise<void>
+    public async postsptload(container: DependencyContainer): Promise<void>
     {
         this.logger =               container.resolve<ILogger>("WinstonLogger");
         this.jsonUtil =             container.resolve<JsonUtil>("JsonUtil");

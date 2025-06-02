@@ -1,4 +1,37 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -8,7 +41,6 @@ const Mass_ModApi_1 = require("./Mass_ModApi");
 //Item template file
 const itemTemplate = require("../ZLR_GRAU/templates/item_template.json");
 const path_1 = __importDefault(require("path"));
-const fs_1 = __importDefault(require("fs"));
 class MainLoader {
     mod = "Massivesoft-Guns";
     beforeLoadHbList = [];
@@ -31,7 +63,7 @@ class MainLoader {
         this.ThisModPath = this.preSptModLoader.getModPath(this.mod);
         this.FileSystem = container.resolve("FileSystem");
     }
-    postDBLoad(container) {
+    async postDBLoad(container) {
         this.logger.debug(`[${this.mod}] Delayed Loading...`);
         this.databaseServer = container.resolve("DatabaseServer");
         this.jsonUtil = container.resolve("JsonUtil");
@@ -39,11 +71,11 @@ class MainLoader {
         this.MassModApi.initMod(this.ThisModPath);
         this.db = this.databaseServer.getTables();
         const configPath = path_1.default.join(this.ThisModPath, "modWeapons.json");
-        if (!fs_1.default.existsSync(configPath)) {
+        if (!this.FileSystem.exists(configPath)) {
             this.logger.error(`[${this.mod}] modWeapons.json not found!`);
             return;
         }
-        const weaponConfig = this.jsonUtil.deserialize(fs_1.default.readFileSync(configPath, "utf-8"));
+        const weaponConfig = await this.jsonUtil.deserialize(await this.FileSystem.read(configPath));
         const enabledWeapons = [];
         for (const weaponKey in weaponConfig) {
             const weaponData = weaponConfig[weaponKey];
@@ -55,20 +87,20 @@ class MainLoader {
                 this.logger.log(`[${this.mod}] Skipping disabled weapon: ${weaponData._name || weaponKey}`, "yellow");
             }
         }
-        this.loadComponetList(container, enabledWeapons);
+        await this.loadComponetList(container, enabledWeapons);
     }
-    loadComponetList(container, componentList) {
+    async loadComponetList(container, componentList) {
         const BundleLoader = container.resolve("BundleLoader");
         for (const componentName of componentList) {
             const scriptDir = path_1.default.resolve(this.ThisModPath, "src", "scripts", componentName);
             const scriptFile = path_1.default.join(scriptDir, `${componentName}.js`);
             if (componentName === "ZLR_GRAU") {
-                this.loadZLRGRAU(container);
+                await this.loadZLRGRAU(container);
                 continue;
             }
-            if (fs_1.default.existsSync(scriptFile)) {
+            if (this.FileSystem.exists(scriptFile)) {
                 try {
-                    const ModJs = require(scriptFile);
+                    const { default: ModJs } = await Promise.resolve(`${scriptFile}`).then(s => __importStar(require(s)));
                     const ModInst = new ModJs(container, this.MassModApi);
                     ModInst.onLoadMod();
                 }
@@ -81,12 +113,12 @@ class MainLoader {
             }
             const bundlePath = path_1.default.join(this.ThisModPath, componentName, "bundles.json");
             //console.log(bundlePath);
-            if (fs_1.default.existsSync(bundlePath)) {
+            if (this.FileSystem.exists(bundlePath)) {
                 BundleLoader.addBundles(`${this.ThisModPath}/${componentName}/`);
             }
         }
     }
-    loadZLRGRAU(container) {
+    async loadZLRGRAU(container) {
         const modFolderName = "ZLR_GRAU";
         const modFullName = "ZLR_GRAU_RIFLE";
         const modPath = path_1.default.join(this.ThisModPath, modFolderName);
@@ -96,10 +128,10 @@ class MainLoader {
         //this.logger.info(`Loading: ${modFullName} by Saintdeeer & MassiveSoft, Updated by AmightyTank`);
         // Load JSON files
         //this.logger.info("here 1", "green")
-        this.items = this.jsonUtil.deserialize(fs_1.default.readFileSync(path_1.default.join(modPath, "database", "items.json"), "utf-8"));
-        this.traders = this.jsonUtil.deserialize(fs_1.default.readFileSync(path_1.default.join(modPath, "database", "traders.json"), "utf-8"));
+        this.items = await this.jsonUtil.deserialize(await this.FileSystem.read(path_1.default.join(modPath, "database", "items.json")));
+        this.traders = await this.jsonUtil.deserialize(await this.FileSystem.read(path_1.default.join(modPath, "database", "traders.json")));
         //this.logger.info("here 2", "green")
-        this.modConfig = this.jsonUtil.deserialize(fs_1.default.readFileSync(path_1.default.join(modPath, "config.json"), "utf-8"));
+        this.modConfig = await this.jsonUtil.deserialize(await this.FileSystem.read(path_1.default.join(modPath, "config.json")));
         //this.logger.info("here 3", "green")
         // Process items
         for (const [id, item] of Object.entries(this.items.items)) {
@@ -143,14 +175,14 @@ class MainLoader {
         }
         const bundlePath = path_1.default.join(this.ThisModPath, modFolderName, "bundles.json");
         //console.log(bundlePath);
-        if (fs_1.default.existsSync(bundlePath)) {
+        if (this.FileSystem.exists(bundlePath)) {
             BundleLoader.addBundles(`${this.ThisModPath}/${modFolderName}/`);
         }
-        this.logger.log(`${this.mod} integration complete`, "cyan");
+        //this.logger.info(`${modFolderName} integration complete`);
     }
-    addTraderAssort(trader) {
+    async addTraderAssort(trader) {
         const modPath = path_1.default.join(this.ThisModPath, "ZLR_GRAU");
-        const traders = this.jsonUtil.deserialize(fs_1.default.readFileSync(path_1.default.join(modPath, "database", "traders.json"), "utf-8"));
+        const traders = await this.jsonUtil.deserialize(await this.FileSystem.read(path_1.default.join(modPath, "database", "traders.json")));
         //console.log(traders);
         //Items
         for (const item in traders.traders[trader].assort.items) {
@@ -422,4 +454,4 @@ class MainLoader {
     }
 }
 exports.mod = new MainLoader();
-//# sourceMappingURL=mod.js.map
+//# sourceMappingURL=mod_old.js.map
