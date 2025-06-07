@@ -25,10 +25,10 @@
   },
   "preset": {
     "price": 700,
-    "loyaltyLevel": 1
+    "loyaltyLevel": 2
   },
   "preset_EBR": {
     "price": 850,
-    "loyaltyLevel": 1
+    "loyaltyLevel": 3
   }
 }

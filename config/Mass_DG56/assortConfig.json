@@ -89,6 +89,6 @@
   },
   "preset2": {
     "price": 60000,
-    "loyaltyLevel": 1
+    "loyaltyLevel": 2
   }
 }

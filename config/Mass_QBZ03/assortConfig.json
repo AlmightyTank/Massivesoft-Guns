@@ -29,11 +29,11 @@
   },
   "AssortRail": {
     "price": 66666,
-    "loyaltyLevel": 1
+    "loyaltyLevel": 3
   },
   "Assort": {
     "price": 50000,
-    "loyaltyLevel": 1
+    "loyaltyLevel": 2
   },
   "release_sek": {
     "price": 6000,

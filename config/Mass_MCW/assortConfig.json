@@ -1,27 +1,27 @@
 {
   "fde": {
     "price": 90000,
-    "loyaltyLevel": 1,
+    "loyaltyLevel": 2,
     "isPreset": true
   },
   "blk": {
     "price": 90000,
-    "loyaltyLevel": 1,
+    "loyaltyLevel": 3,
     "isPreset": true
   },
   "p300": {
     "price": 100000,
-    "loyaltyLevel": 1,
+    "loyaltyLevel": 2,
     "isPreset": true
   },
   "aim": {
     "price": 160000,
-    "loyaltyLevel": 1,
+    "loyaltyLevel": 2,
     "isPreset": true
   },
   "snp": {  
     "price": 16500,
-    "loyaltyLevel": 1,
+    "loyaltyLevel": 3,
     "isPreset": true
   },
   "042042AACBB3000000000000": {  
