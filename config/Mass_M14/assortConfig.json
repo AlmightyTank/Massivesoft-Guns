@@ -1,12 +1,34 @@
 {
-  "fde": {
-    "price": 90000,
-    "loyaltyLevel": 1,
-    "isPreset": true
+  "m14": {
+    "price": 30264,
+    "loyaltyLevel": 1
   },
-  "blk": {
-    "price": 90000,
-    "loyaltyLevel": 1,
-    "isPreset": true
+  "handguard": {
+    "price": 13056,
+    "loyaltyLevel": 1
+  },
+  "handguard_ebr": {
+    "price": 17972,
+    "loyaltyLevel": 1
+  },
+  "barrel": {
+    "price": 24457,
+    "loyaltyLevel": 1
+  },
+  "muzzle": {
+    "price": 4759,
+    "loyaltyLevel": 1
+  },
+  "sight": {
+    "price": 1628,
+    "loyaltyLevel": 1
+  },
+  "preset": {
+    "price": 700,
+    "loyaltyLevel": 1
+  },
+  "preset_EBR": {
+    "price": 850,
+    "loyaltyLevel": 1
   }
 }

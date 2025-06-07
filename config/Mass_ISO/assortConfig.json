@@ -1,0 +1,122 @@
+{
+  "04BA4BF150F15A4B00000000": {
+    "price": 8000,
+    "loyaltyLevel": 1
+  },
+  "04BA4BF152F25A4B00000000": {
+    "price": 8000,
+    "loyaltyLevel": 1
+  },
+  "04BB4BF150F15B4B00000000": {
+    "price": 8000,
+    "loyaltyLevel": 1
+  },
+  "04BB4BF152F25B4B00000000": {
+    "price": 8000,
+    "loyaltyLevel": 1
+  },
+  "04BC4BF150F15C4B00000000": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "04BE4BF152F25E4B00000000": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "041041F150F1504100000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "041D41F150F15D4100000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "041B41F150F15B4100000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "041C41F150F15C4100000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "041E41F150F15E4100000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "048048F150F1504800000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048A48F150F15A4800000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048C48F150F15C4800000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "047A47F151F151A470000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "047B47F151F151B470000000": {
+    "price": 22000,
+    "loyaltyLevel": 1
+  },
+  "047C47F151F151C470000000": {
+    "price": 5000,
+    "loyaltyLevel": 1
+  },
+  "043A43F150F15A4300000000": {
+    "price": 10000,
+    "loyaltyLevel": 1
+  },
+  "043B43F150F15B4300000000": {
+    "price": 13000,
+    "loyaltyLevel": 1
+  },
+  "043C43F150F15C4300000000": {
+    "price": 22000,
+    "loyaltyLevel": 1
+  },
+  "04B94BF150F1594B00000000": {
+    "price": 13000,
+    "loyaltyLevel": 1
+  },
+  "04B74BF150F1574B00000000": {
+    "price": 23000,
+    "loyaltyLevel": 1
+  },
+  "02F02FF152F1520000000000": {
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "02F12FF152F1521110000000": {
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "02F22FF152F1522220000000": {
+    "price": 15000,
+    "loyaltyLevel": 1
+  },
+  "preset1": {
+    "price": 50000,
+    "loyaltyLevel": 1
+  },
+  "preset2": {
+    "price": 56000,
+    "loyaltyLevel": 1
+  },
+  "preset3": {
+    "price": 56000,
+    "loyaltyLevel": 1
+  },
+  "preset4": {
+    "price": 56000,
+    "loyaltyLevel": 1
+  },
+  "preset5": {
+    "price": 56000,
+    "loyaltyLevel": 1
+  }
+}

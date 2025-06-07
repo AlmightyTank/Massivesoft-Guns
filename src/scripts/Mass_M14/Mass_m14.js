@@ -4,6 +4,7 @@ const Mass_ModClass_1 = require("../../Mass_ModClass");
 const mod_slot_1 = require("../../enum/mod_slot");
 const NTrader_1 = require("../../enum/NTrader");
 const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
+const assortConfig = require("../../../config/Mass_M14/assortConfig.json");
 const cpntName = "Mass_M14";
 const IDList = {
     WEAPON_M1A: "5aafa857e5b5b00018480968",
@@ -73,13 +74,14 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "M14 rifle is a USGI rifle designed and manufactured by Springfield Armory. It is basically a magazine-fed M1 Grand chambered in 7.62x51NATO and was replaced by M16 rifle shortly after being in service.",
             }
         };
+        const Config = assortConfig.m14;
+        this.DBprice[id] = Config.price;
         this.DBitems[id] = m14;
-        this.MMA.generatePrice(id, IDList.WEAPON_M1A, 1.1);
         var hb = this.MMA.cloneHandbookById(IDList.WEAPON_M1A);
         hb.Id = id;
         this.DBhbItems.push(hb);
         this.loadLoc(id, locs);
-        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, Config.loyaltyLevel, Money_1.Money.ROUBLES);
     }
     afterModifiScript() {
         const id = IDList.WEAPON_M14;
@@ -113,13 +115,14 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "Standard wooden stock for M14.",
             }
         };
+        const Config = assortConfig.handguard;
+        this.DBprice[id] = Config.price;
         this.DBitems[id] = item;
-        this.MMA.generatePrice(id, IDList.HANDGUARD_M1A, 1);
         var hb = this.MMA.cloneHandbookById(IDList.HANDGUARD_M1A);
         hb.Id = id;
         this.DBhbItems.push(hb);
         this.loadLoc(id, locs);
-        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     handguard_ebr() {
         const id = IDList.HANDGUARD_M14_EBR;
@@ -138,13 +141,14 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "The M14ALCS chassis for M14 rifles from the Enhanced Battle Rifle (EBR) kit. Manufactured by SAGE International. M14 compitable version.",
             }
         };
+        const Config = assortConfig.handguard_ebr;
+        this.DBprice[id] = Config.price;
         this.DBitems[id] = item;
-        this.MMA.generatePrice(id, IDList.HANDGUARD_M1A_EBR, 1);
         var hb = this.MMA.cloneHandbookById(IDList.HANDGUARD_M1A_EBR);
         hb.Id = id;
         this.DBhbItems.push(hb);
         this.loadLoc(id, locs);
-        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     barrel() {
         const id = IDList.BARREL_M14;
@@ -169,13 +173,14 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "A standard 22 inch mbarrel for M14 based weapons chambered in 7.62x51 NATO ammo.",
             }
         };
+        const Config = assortConfig.barrel;
+        this.DBprice[id] = Config.price;
         this.DBitems[id] = item;
-        this.MMA.generatePrice(id, IDList.BARREL_M1A, 1);
         var hb = this.MMA.cloneHandbookById(IDList.BARREL_M1A);
         hb.Id = id;
         this.DBhbItems.push(hb);
         this.loadLoc(id, locs);
-        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     muzzle() {
         const id = IDList.MUZZLE_M14;
@@ -194,13 +199,14 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
             }
         };
         item._props.Recoil += -1;
+        const Config = assortConfig.muzzle;
+        this.DBprice[id] = Config.price;
         this.DBitems[id] = item;
-        this.MMA.generatePrice(id, IDList.MUZZLE_M1A, 1);
         var hb = this.MMA.cloneHandbookById(IDList.MUZZLE_M1A);
         hb.Id = id;
         this.DBhbItems.push(hb);
         this.loadLoc(id, locs);
-        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     sight() {
         const id = IDList.SIGHT_M14;
@@ -218,13 +224,15 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "The standard Blade detachable front sight for M14 rifles, manufactured by Springfield Armory.",
             }
         };
+        const Config = assortConfig.sight;
+        this.DBprice[id] = Config.price;
         this.DBitems[id] = item;
         this.MMA.generatePrice(id, IDList.SIGHT_M1A, 1);
         var hb = this.MMA.cloneHandbookById(IDList.SIGHT_M1A);
         hb.Id = id;
         this.DBhbItems.push(hb);
         this.loadLoc(id, locs);
-        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, this.DBprice[id], NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     preset() {
         const Mid = "221400A14A140000000000";
@@ -284,7 +292,8 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
             ]
         };
         this.DBpresets[id] = preset;
-        this.MMA.traderGenerateAssortFromPreset(id, 700, NTrader_1.NTrader.Default, 1, Money_1.Money.DOLLARS);
+        const Config = assortConfig.preset;
+        this.MMA.traderGenerateAssortFromPreset(id, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel, Money_1.Money.DOLLARS);
     }
     preset_EBR() {
         const Mid = "221400A14A14E000000000";
@@ -358,7 +367,8 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
         for (let lang in this.DBlocales) {
             this.DBlocales[lang][id] = "EBR";
         }
-        this.MMA.traderGenerateAssortFromPreset(id, 850, NTrader_1.NTrader.Default, 1, Money_1.Money.DOLLARS);
+        const Config = assortConfig.preset_EBR;
+        this.MMA.traderGenerateAssortFromPreset(id, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel, Money_1.Money.DOLLARS);
     }
 }
 module.exports = Mass_M14;

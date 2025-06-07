@@ -1,0 +1,54 @@
+{
+  "barrel": {
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "muzzle": {
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "handguard": {
+    "price": 4000,
+    "loyaltyLevel": 1
+  },
+  "rail_side": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "stock": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "magazine": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "drum20": {
+    "price": 22000,
+    "loyaltyLevel": 1
+  },
+  "drum32": {
+    "price": 32000,
+    "loyaltyLevel": 1
+  },
+  "sight_front": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "sight_rear": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "short_rail_side": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "short_barrel": {
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "preset": {
+    "price": 220,
+    "loyaltyLevel": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "04B14B10AB10AB4B10000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "04B24B10AB10AB4B20000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "04B34B10AB10AB4B30000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "04104110AB10AB4100000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "04114110AB10AB4110000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "04204210AB10AB4200000000": {
+    "price": 1000,
+    "loyaltyLevel": 1
+  },
+  "04304310AB10AB4300000000": {
+    "price": 800,
+    "loyaltyLevel": 1
+  },
+  "04404410AB10AB4400000000": {
+    "price": 8000,
+    "loyaltyLevel": 1
+  },
+  "04414410AB10AB4410000000": {
+    "price": 16500,
+    "loyaltyLevel": 1
+  },
+  "04C04C10AB10AB4C00000000": {
+    "price": 4000,
+    "loyaltyLevel": 1
+  },
+  "04C14C10AB10AB4C10000000": {
+    "price": 4000,
+    "loyaltyLevel": 1
+  },
+  "04C24C10AB10AB4C20000000": {
+    "price": 4000,
+    "loyaltyLevel": 1
+  },
+  "04504510AB10AB4500000000": {
+    "price": 5000,
+    "loyaltyLevel": 1
+  },
+  "04604610AB10AB4600000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "04514510AB10AB4510000000": {
+    "price": 5000,
+    "loyaltyLevel": 1
+  },
+  "preset": {
+    "price": 65000,
+    "loyaltyLevel": 1
+  }
+}

@@ -4,6 +4,7 @@ const Mass_ModClass_1 = require("../../Mass_ModClass");
 const NTrader_1 = require("../../enum/NTrader");
 const mod_slot_1 = require("../../enum/mod_slot");
 const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
+const assortConfig = require("../../../config/Mass_Longbow/assortConfig.json");
 const handbookCategory_1 = require("../../enum/handbookCategory");
 const IDDL = {
     WEAPON_LONGBOW: "02002010AB10AB0000000000",
@@ -1310,7 +1311,14 @@ class Mass_Longbow extends Mass_ModClass_1.Mass_ModClass {
             CustomItem.createItemFromClone(item);
             MMA.registerNewItem(id);
             if (this.data[x].addtoTraders) {
-                MMA.traderAddItems(id, this.data[x].barterScheme[0].count, NTrader_1.NTrader.Default, this.data[x].loyallevelitems);
+                // Determine price and loyalty from assortConfig.json
+                const configKey = this.data[x].id;
+                const config = assortConfig[configKey];
+
+                const price = config?.price ?? this.data[x].barterScheme[0].count;
+                const loyaltyLevel = config?.loyaltyLevel ?? this.data[x].loyallevelitems;
+
+                MMA.traderAddItems(id, price, NTrader_1.NTrader.Default, loyaltyLevel);
             }
             if (this.data[x].copySlot) {
                 var index = 0;
@@ -1356,7 +1364,8 @@ class Mass_Longbow extends Mass_ModClass_1.Mass_ModClass {
                 MMA.modifyItems(MODINFO);
             }
         }
-        MMA.traderGenerateAssortFromPreset("22002010AB10AB0000000000", 65000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        const Config = assortConfig.preset;
+        MMA.traderGenerateAssortFromPreset("22002010AB10AB0000000000", Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel, Money_1.Money.ROUBLES);
         ModifyInfos[IDDL.WEAPON_LONGBOW] = {
             ItemId: IDDL.WEAPON_LONGBOW,
             WeaponCaliberCloneFromId: "itself"

@@ -1,0 +1,150 @@
+{
+  "02F02FF15FF15F0000000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "02F02FF15EF15E0000000000": {
+    "price": 5000,
+    "loyaltyLevel": 1
+  },
+  "04B94BF15EF1594B00000000": {
+    "price": 13000,
+    "loyaltyLevel": 1
+  },
+  "04B84BF15DF1584B00000000": {
+    "price": 10000,
+    "loyaltyLevel": 1
+  },
+  "043443F15FF15F4340000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "043343F15FF15F4330000000": {
+    "price": 31000,
+    "loyaltyLevel": 1
+  },
+  "043243F15FF15F4320000000": {
+    "price": 7000,
+    "loyaltyLevel": 1
+  },
+  "043143F15FF15F4310000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "047347F15FF15F3470000000": {
+    "price": 32000,
+    "loyaltyLevel": 1
+  },
+  "047247F15FF15F2470000000": {
+    "price": 10000,
+    "loyaltyLevel": 1
+  },
+  "047147F15FF15F1470000000": {
+    "price": 10000,
+    "loyaltyLevel": 1
+  },
+  "047047F15FF15F0470000000": {
+    "price": 5000,
+    "loyaltyLevel": 1
+  },
+  "048248F15EF15E4820000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048248F15FF15F4820000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048148F15EF15E4810000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048148F15FF15F4810000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048048F15DF15D4800000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048048F15EF15E4800000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "048048F15FF15F4800000000": {
+    "price": 1200,
+    "loyaltyLevel": 1
+  },
+  "041441F15FF1544100000000": {
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "041141F15FF1514100000000": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "041341F15FF1534100000000": {
+    "price": 26000,
+    "loyaltyLevel": 1
+  },
+  "041241F15FF1524100000000": {
+    "price": 36000,
+    "loyaltyLevel": 1
+  },
+  "041041F15FF15F4100000000": {
+    "price": 26000,
+    "loyaltyLevel": 1
+  },
+  "04B44BF15EF15E44B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B34BF15DF15D34B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B34BF15EF15E34B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B34BF15FF15F34B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B24BF15DF15D24B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B24BF15EF15E24B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B24BF15FF15F24B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B14BF15DF15D14B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B14BF15EF15E14B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "04B14BF15FF15F14B0000000": {
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "preset1": {
+    "price": 100000,
+    "loyaltyLevel": 1
+  },
+  "preset2": {
+    "price": 100000,
+    "loyaltyLevel": 1
+  },
+  "preset3": {
+    "price": 100000,
+    "loyaltyLevel": 1
+  }
+}

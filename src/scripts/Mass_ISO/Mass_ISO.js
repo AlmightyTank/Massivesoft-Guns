@@ -4,6 +4,7 @@ const Mass_ModClass_1 = require("../../Mass_ModClass");
 const NTrader_1 = require("../../enum/NTrader");
 const mod_slot_1 = require("../../enum/mod_slot");
 const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
+const assortConfig = require("../../../config/Mass_ISO/assortConfig.json");
 const handbookCategory_1 = require("../../enum/handbookCategory");
 const IDDL = {
     WEAPON_ISO_GEN1: "020020F150F1500000000000",
@@ -3029,7 +3030,14 @@ class Mass_ISO extends Mass_ModClass_1.Mass_ModClass {
             CustomItem.createItemFromClone(item);
             MMA.registerNewItem(id);
             if (this.data[x].addtoTraders) {
-                MMA.traderAddItems(id, this.data[x].barterScheme[0].count, NTrader_1.NTrader.Default, this.data[x].loyallevelitems);
+                // Determine price and loyalty from assortConfig.json
+                const configKey = id;
+                const config = assortConfig[configKey];
+
+                const price = config?.price ?? this.data[x].barterScheme[0].count;
+                const loyaltyLevel = config?.loyaltyLevel ?? this.data[x].loyallevelitems;
+
+                MMA.traderAddItems(id, price, NTrader_1.NTrader.Default, loyaltyLevel);
             }
             if (this.data[x].copySlot) {
                 var index = 0;
@@ -3075,11 +3083,12 @@ class Mass_ISO extends Mass_ModClass_1.Mass_ModClass {
                 MMA.modifyItems(MODINFO);
             }
         }
-        MMA.traderGenerateAssortFromPreset("220020F150F1500000000000", 50000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
-        MMA.traderGenerateAssortFromPreset("220020F151F1510000000000", 56000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
-        MMA.traderGenerateAssortFromPreset("220020F152F1520000000000", 56000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
-        MMA.traderGenerateAssortFromPreset("220020F153F1530000000000", 56000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
-        MMA.traderGenerateAssortFromPreset("220020F154F1540000000000", 56000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+
+        MMA.traderGenerateAssortFromPreset("220020F150F1500000000000", assortConfig.preset1.price, NTrader_1.NTrader.Default, assortConfig.preset1.loyaltyLevel, Money_1.Money.ROUBLES);
+        MMA.traderGenerateAssortFromPreset("220020F151F1510000000000", assortConfig.preset2.price, NTrader_1.NTrader.Default, assortConfig.preset2.loyaltyLevel, Money_1.Money.ROUBLES);
+        MMA.traderGenerateAssortFromPreset("220020F152F1520000000000", assortConfig.preset3.price, NTrader_1.NTrader.Default, assortConfig.preset3.loyaltyLevel, Money_1.Money.ROUBLES);
+        MMA.traderGenerateAssortFromPreset("220020F153F1530000000000", assortConfig.preset4.price, NTrader_1.NTrader.Default, assortConfig.preset4.loyaltyLevel, Money_1.Money.ROUBLES);
+        MMA.traderGenerateAssortFromPreset("220020F154F1540000000000", assortConfig.preset5.price, NTrader_1.NTrader.Default, assortConfig.preset5.loyaltyLevel, Money_1.Money.ROUBLES);
         ModifyInfos[IDDL.WEAPON_ISO_GEN1] = {
             ItemId: IDDL.WEAPON_ISO_GEN1,
             WeaponCaliberCloneFromId: "itself"
