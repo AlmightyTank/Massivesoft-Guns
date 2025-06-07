@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Mass_ModClass_1 = require("../../Mass_ModClass");
+const assortConfig = require("../../../config/Mass_QBZ97/assortConfig.json");
 const NTrader_1 = require("../../enum/NTrader");
 const mod_slot_1 = require("../../enum/mod_slot");
 const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
@@ -432,8 +433,10 @@ class Mass_QBZ97 extends Mass_ModClass_1.Mass_ModClass {
             };
             CustomItem.createItemFromClone(item);
             MMA.registerNewItem(id);
+            const railsConfig = assortConfig.rails;
+            const Price = railsConfig.price;
             if (this.data[x].addtoTraders) {
-                MMA.traderAddItems(id, this.data[x].barterScheme[0].count, NTrader_1.NTrader.Default, this.data[x].loyallevelitems);
+                MMA.traderAddItems(id, Price, this.data[x].barterScheme[0].count, NTrader_1.NTrader.Default, railsConfig.loyaltyLevel);
             }
             if (this.data[x].copySlot) {
                 var index = 0;
@@ -478,7 +481,8 @@ class Mass_QBZ97 extends Mass_ModClass_1.Mass_ModClass {
                 MMA.modifyItems(MODINFO);
             }
         }
-        MMA.traderGenerateAssortFromPreset("220020BBA97BBA9700000000", 50000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        const WEAPON_QBZ97Config = assortConfig.WEAPON_QBZ97;
+        MMA.traderGenerateAssortFromPreset("220020BBA97BBA9700000000", WEAPON_QBZ97Config.price, NTrader_1.NTrader.Default, WEAPON_QBZ97Config.loyaltyLevel, Money_1.Money.ROUBLES);
         ModifyInfos[IDDL.WEAPON_QBZ97] = {
             ItemId: IDDL.WEAPON_QBZ97,
             WeaponCaliberCloneFromId: "itself"

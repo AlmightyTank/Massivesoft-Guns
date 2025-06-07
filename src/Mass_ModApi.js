@@ -355,7 +355,7 @@ class Mass_ModApi extends Mass_ModClass_1.Mass_ModClass {
      * Generate assort from weapon preset
      * @returns assrotId
      */
-    traderAddItems(Id, Price, trader, loyal = 1, currency = Money_1.Money.ROUBLES, postfix = "3") {
+    traderAddItems(Id, Price, trader, loyal, currency = Money_1.Money.ROUBLES, postfix = "3") {
         const pflegth = postfix.length;
         const assortId = postfix + Id.slice(pflegth);
         this.DBtraders[trader].assort.items.push({

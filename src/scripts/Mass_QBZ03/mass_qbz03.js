@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Mass_ModClass_1 = require("../../Mass_ModClass");
+const assortConfig = require("../../../config/Mass_QBZ03/assortConfig.json");
 const NTrader_1 = require("../../enum/NTrader");
 const mod_slot_1 = require("../../enum/mod_slot");
 const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
@@ -222,9 +223,10 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         scope._props.filters[0].Filter = newslot;
         handguard_rail._props.Slots.splice(j, 1);
         handguard_rail._props.Slots.splice(this.MMA.itemObjGetSlotNumbyName(mod_slot_1.mod_slot.sight_front, handguard_rail), 1);
-        const Price = 8300;
+        const handguard_railConfig = assortConfig.handguard_rail;
+        const Price = handguard_railConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, handguard_railConfig.loyaltyLevel, Money_1.Money.ROUBLES);
         handguard_rail._props.Prefab.path = "assets/qbz03/handguard/handguard_qbz03_rail.bundle";
         //	Logger.log(l85a2._props.Slots);
         this.DBitems[id] = handguard_rail;
@@ -334,7 +336,8 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.MOUNT_QBZ03;
         let qbzMount = this.JsonUtil.clone(this.DBitems[IDList.MOUNT_TULA]);
         qbzMount._id = IDList.MOUNT_QBZ03;
-        const Price = 2350;
+        const mountConfig = assortConfig.mount;
+        const Price = mountConfig.price;
         this.DBprice[IDList.MOUNT_QBZ03] = Price;
         this.MMA.processItemSlots(qbzMount);
         qbzMount._props.Weight = 0.08;
@@ -345,7 +348,7 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         var hb = this.MMA.cloneHandbookById(IDList.MOUNT_TULA);
         hb.Id = id;
         this.DBhbItems.push(hb);
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, mountConfig.loyaltyLevel, Money_1.Money.ROUBLES);
     }
     muzzle() {
         let muzzle = this.JsonUtil.clone(this.DBitems[IDList.MUZZLE_AR15]);
@@ -370,7 +373,8 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.STOCK_TUBE_QBZ03;
         stock_tube._id = id;
         this.MMA.processItemSlots(stock_tube);
-        const Price = 2000;
+        const stock_tubeConfig = assortConfig.stock_tube;
+        const Price = stock_tubeConfig.price;
         this.DBprice[id] = Price;
         stock_tube._props.Weight = 0.13;
         stock_tube._props.BlocksFolding = true;
@@ -380,7 +384,7 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         var hb = this.MMA.cloneHandbookById(IDList.STOCK_TUBE_SVD);
         hb.Id = id;
         this.DBhbItems.push(hb);
-        this.MMA.traderAddItems(id, 2000, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, stock_tubeConfig.loyaltyLevel, Money_1.Money.ROUBLES);
     }
     magazine() {
         let mag = this.JsonUtil.clone(this.DBitems[IDList.MAGAZINE_416]);
@@ -465,7 +469,8 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
             this.MMA.addNewLoc(presetID, lang, locales[lang]);
         }
         this.DBpresets[presetID] = preset;
-        this.MMA.traderGenerateAssortFromPreset(presetID, 50000, NTrader_1.NTrader.Default);
+        const Config = assortConfig.Assort;
+        this.MMA.traderGenerateAssortFromPreset(presetID, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     createPresetAssortRail() {
         var presetID = "220000C03C03A00000000000";
@@ -544,7 +549,8 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
             this.MMA.addNewLoc(presetID, lang, locales[lang]);
         }
         this.DBpresets[presetID] = preset;
-        this.MMA.traderGenerateAssortFromPreset(presetID, 66666, NTrader_1.NTrader.Default);
+        const Config = assortConfig.AssortRail;
+        this.MMA.traderGenerateAssortFromPreset(presetID, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     test() {
         if (true) {
@@ -583,9 +589,10 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
             this.JsonUtil.clone(this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.foregrip, IDList.HANDGUARD_MIDWEST)),
         ];
         this.MMA.processItemSlots(handguard_sek);
-        const Price = 28300;
+        const handguard_sekConfig = assortConfig.handguard_sek;
+        const Price = handguard_sekConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, 1, Money_1.Money.ROUBLES);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, handguard_sekConfig.loyaltyLevel, Money_1.Money.ROUBLES);
         handguard_sek._props.Prefab.path = "assets/qbz03_sek/handguard_qbz03_sek_hmmlok01.bundle";
         this.DBitems[id] = handguard_sek;
         this.MMA.registerNewItem(id);
@@ -599,10 +606,11 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         pslgrp._id = id;
         pslgrp._props.Weight += 0.01;
         this.MMA.processItemSlots(pslgrp);
-        const Price = 11000;
+        const pistol_grip_sekConfig = assortConfig.pistol_grip_sek;
+        const Price = pistol_grip_sekConfig.price;
         this.DBprice[id] = Price;
         pslgrp._props.Prefab.path = "assets/qbz03_sek/pistol_qbz03_sek_wb02.bundle";
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, pistol_grip_sekConfig.loyaltyLevel);
         this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.pistol_grip, IDList.WEAPON_QBZ03)._props.filters[0].Filter.push(id);
         this.DBitems[id] = pslgrp;
         this.MMA.registerNewItem(id);
@@ -618,10 +626,11 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         muzzle._props.Slots = [];
         muzzle._props.Ergonomics = -2;
         muzzle._props.Recoil = -8;
-        const Price = 12000;
+        const muzzle_sekConfig = assortConfig.muzzle_sek;
+        const Price = muzzle_sekConfig.price;
         this.DBprice[id] = Price;
         muzzle._props.Prefab.path = "assets/qbz03_sek/muzzle_qbz03_ztq_my.bundle";
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, muzzle_sekConfig.loyaltyLevel);
         this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.muzzle, IDList.WEAPON_QBZ03)._props.filters[0].Filter.push(id);
         this.DBitems[id] = muzzle;
         this.MMA.registerNewItem(id);
@@ -655,13 +664,14 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.CHARGE_SEK_QBZ03;
         charge_sek._id = id;
         charge_sek._props.Ergonomics = 4;
-        const Price = 3000;
+        const Config = assortConfig.charge_sek;
+        const Price = Config.price;
         this.DBprice[id] = Price;
         charge_sek._props.Prefab.path = "assets/qbz03_sek/charge_qbz03_sek_ljb01.bundle";
         this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.charge, IDList.WEAPON_QBZ03)._props.filters[0].Filter.push(id);
         this.DBitems[id] = charge_sek;
         this.MMA.registerNewItem(id);
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
         var hb = this.MMA.cloneHandbookById(IDList.CHARGE_AKM);
         hb.Id = id;
         this.DBhbItems.push(hb);
@@ -675,11 +685,12 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         stock._props.Recoil = -27;
         stock._props.BlocksFolding = true;
         stock._props.Slots = [];
-        const Price = 22000;
+        const Config = assortConfig.stock_sek;
+        const Price = Config.price;
         this.DBprice[id] = Price;
         stock._props.Prefab.path = "assets/qbz03_sek/stock_qbz03_sek.bundle";
         this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.stock, IDList.WEAPON_QBZ03)._props.filters[0].Filter.push(id);
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
         //	Logger.log(l85a2._props.Slots);
         this.DBitems[id] = stock;
         this.MMA.registerNewItem(id);
@@ -693,13 +704,14 @@ class Mass_QBZ03 extends Mass_ModClass_1.Mass_ModClass {
         release_sek._props.Weight = 0.005;
         release_sek._id = id;
         release_sek._props.Ergonomics = 2;
-        const Price = 6000;
+        const Config = assortConfig.release_sek;
+        const Price = Config.price;
         this.DBprice[id] = Price;
         release_sek._props.Prefab.path = "assets/qbz03_sek/release_qbz03_sek.bundle";
         this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.tactical, IDList.WEAPON_QBZ03)._props.filters[0].Filter.push(id);
         this.DBitems[id] = release_sek;
         this.MMA.registerNewItem(id);
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
         var hb = this.MMA.cloneHandbookById(IDList.CHARGE_AKM);
         hb.Id = id;
         this.DBhbItems.push(hb);

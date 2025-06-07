@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Mass_ModClass_1 = require("../../Mass_ModClass");
 const NTrader_1 = require("../../enum/NTrader");
+const assortConfig = require("../../../config/Mass_NCODMag/assortConfig.json");
 const mod_slot_1 = require("../../enum/mod_slot");
 const handbookCategory_1 = require("../../enum/handbookCategory");
 const IDDL = {
@@ -398,7 +399,7 @@ class Mass_NCODMag extends Mass_ModClass_1.Mass_ModClass {
                 ],
                 "barterScheme": [
                     {
-                        "count": 23000,
+                        "count": 16000,
                         "_tpl": "ROUBLES"
                     }
                 ],
@@ -1205,7 +1206,8 @@ class Mass_NCODMag extends Mass_ModClass_1.Mass_ModClass {
             CustomItem.createItemFromClone(item);
             MMA.registerNewItem(id);
             if (this.data[x].addtoTraders) {
-                MMA.traderAddItems(id, this.data[x].barterScheme[0].count, NTrader_1.NTrader.Default, this.data[x].loyallevelitems);
+                const config = assortConfig[id];
+                MMA.traderAddItems(id, config.price, NTrader_1.NTrader.Default, config.loyaltyLevel);
             }
             if (this.data[x].copySlot) {
                 var index = 0;

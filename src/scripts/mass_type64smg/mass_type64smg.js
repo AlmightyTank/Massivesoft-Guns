@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Mass_ModClass_1 = require("../../Mass_ModClass");
+const assortConfig = require("../../../config/Mass_type64smg/assortConfig.json");
 const NTrader_1 = require("../../enum/NTrader");
 const mod_slot_1 = require("../../enum/mod_slot");
 const cpntName = "Mass_type64smg";
@@ -179,9 +180,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         reciever._props.Weight = 0.09;
         reciever._props.Ergonomics = 4;
         this.MMA.processItemSlots(reciever);
-        const Price = 4000;
+        const type64RecieverConfig = assortConfig.type64Reciever;
+        const Price = type64RecieverConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, type64RecieverConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         reciever._props.Prefab.path = "assets/type64smg/mods/reciever_type64_default";
         reciever._props.Slots = [];
         //	Logger.log(l85a2._props.Slots);
@@ -211,9 +213,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         reciever._props.Weight = 0.07;
         reciever._props.Ergonomics = 2;
         this.MMA.processItemSlots(reciever);
-        const Price = 5000;
+        const type64Reciever_lsgConfig = assortConfig.type64Reciever_lsg;
+        const Price = type64Reciever_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, type64Reciever_lsgConfig, NTrader_1.NTrader.Default);
         reciever._props.Prefab.path = "assets/type64smg/mods/reciever_type64_lsg";
         var slots = [];
         var sight_rear = this.MMA.newSlot(mod_slot_1.mod_slot.sight_rear, "AA1", id);
@@ -360,9 +363,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.PISTOL_GRIP_TYPE64_DEFAULT;
         pslgrp._id = id;
         this.MMA.processItemSlots(pslgrp);
-        const Price = 3000;
+        const pistol_gripConfig = assortConfig.type64pistol_grip;
+        const Price = pistol_gripConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, pistol_gripConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         pslgrp._props.Prefab.path = "assets/type64smg/mods/pistol_grip_type64_default.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -389,9 +393,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.PISTOL_GRIP_TYPE64_LSG;
         pslgrp._id = id;
         this.MMA.processItemSlots(pslgrp);
-        const Price = 5600;
+        const pistol_grip_lsgConfig = assortConfig.type64pistol_grip_lsg;
+        const Price = pistol_grip_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, pistol_grip_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         pslgrp._props.Prefab.path = "assets/type64smg/mods/pistol_grip_type64_lsg.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -420,9 +425,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         stock._props.Weight = 0.52;
         stock._props.Slots = [];
         stock._props.IsAnimated = false;
-        const Price = 1800;
+        const stockConfig = assortConfig.type64stock;
+        const Price = stockConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price , stockConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_type64_default";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -457,9 +463,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         stockslot._props.filters[0].Filter = this.JsonUtil.clone(this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.stock, IDList.WEAPON_MPX)._props.filters[0].Filter);
         // stockslot._props.filters[0].Filter.push(IDList.STOCK_TYPE64_QTUM);
         stock._props.Slots.push(stockslot);
-        const Price = 2200;
+        const stock_lsgConfig = assortConfig.type64stock_lsg;
+        const Price = stock_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price , stock_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_type64_lsg";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -488,7 +495,8 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         stock._id = id;
         stock._props.Slots = [];
         this.MMA.processItemSlots(stock);
-        const Price = 8000;
+        const stock_qtumConfig = assortConfig.type64stock_qtum;
+        const Price = stock_qtumConfig.price;
         this.DBprice[id] = Price;
         this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_qtum.bundle";
@@ -520,9 +528,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         barrel._props.Slots = [];
         barrel._props.Ergonomics = -5;
         barrel._props.Recoil = -18;
-        const Price = 20000;
+        const barrelConfig = assortConfig.type64barrel;
+        const Price = barrelConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, barrelConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         barrel._props.Prefab.path = "assets/type64smg/mods/barrel_typr64_default.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -552,9 +561,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         barrel._props.Slots = [];
         barrel._props.Ergonomics = -4;
         barrel._props.Recoil = -21;
-        const Price = 25000;
+        const barrel_lsgConfig = assortConfig.type64barrel_lsg;
+        const Price = barrel_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, barrel_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         barrel._props.Prefab.path = "assets/type64smg/mods/barrel_type64_lsg.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -617,7 +627,9 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.DBitems[id] = mag;
         this.MMA.registerNewItem(id);
         this.MMA.processItemCartridges(mag);
-        this.MMA.traderAddItems(id, this.DBprice[IDList.MAGAZINE_PPSH], NTrader_1.NTrader.Default);
+        const magazineConfig = assortConfig.type64magazine;
+        const Price = magazineConfig.price;
+        this.MMA.traderAddItems(id, Price, magazineConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         var hb = this.MMA.cloneHandbookById(IDList.MAGAZINE_PPSH);
         hb.Id = id;
         this.DBhbItems.push(hb);
@@ -630,7 +642,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         mag._props.ItemSound = "mag_plastic";
         mag._props.Prefab.path = "assets/type64smg/mods/magazine_type64_poly";
         mag._props.Weight = 0.2;
-        mag._props.Cartridges[0]._max_count = 30;
+        mag._props.Cartridges[0]._max_count = 60;
         mag._props.LoadUnloadModifier = -5;
         mag._props.CheckTimeModifier = 0;
         mag._props.Cartridges[0]._props.filters[0].Filter.push(IDList.AMMO_762X25_APDS);
@@ -642,8 +654,8 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
                 "Description": "Type 64 is a China designed silenced submachine gun chambered in 7.62x25mm."
             },
             "en": {
-                "Name": "LSG64-DX-30 7.62x25 30-round magazine",
-                "ShortName": "LSG64-DX-30",
+                "Name": "LSG64-DX-30 7.62x25 60-round magazine",
+                "ShortName": "LSG64-DX-60",
                 "Description": "Polymer magazine for type 64, part of the Laoshan Ghost modification.\nMade by TacYL™"
             }
         };
@@ -651,7 +663,9 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.DBitems[id] = mag;
         this.MMA.registerNewItem(id);
         this.MMA.processItemCartridges(mag);
-        this.MMA.traderAddItems(id, this.DBprice[IDList.MAGAZINE_PPSH], NTrader_1.NTrader.Default);
+        const magazine_lsgConfig = assortConfig.type64magazine_lsg;
+        const Price = magazine_lsgConfig.price;
+        this.MMA.traderAddItems(id, Price, magazine_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         var hb = this.MMA.cloneHandbookById(IDList.MAGAZINE_PPSH);
         hb.Id = id;
         this.DBhbItems.push(hb);
@@ -705,7 +719,8 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
             ]
         };
         this.DBpresets[presetID] = preset;
-        this.MMA.traderGenerateAssortFromPreset(presetID, 50000, NTrader_1.NTrader.Default);
+        const Config = assortConfig.Assort;
+        this.MMA.traderGenerateAssortFromPreset(presetID, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     createPresetAssortLsgC() {
         var Mid = "220064C64C64CC00000000";
@@ -780,7 +795,8 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         };
         this.loadLoc(presetID, locs);
         this.DBpresets[presetID] = preset;
-        this.MMA.traderGenerateAssortFromPreset(presetID, 66666, NTrader_1.NTrader.Default);
+        const Config = assortConfig.AssortLsgLC;
+        this.MMA.traderGenerateAssortFromPreset(presetID, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     createPresetAssortLsgL() {
         var Mid = "220064C64C640000000000";
@@ -855,15 +871,17 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         };
         this.loadLoc(presetID, locs);
         this.DBpresets[presetID] = preset;
-        this.MMA.traderGenerateAssortFromPreset(presetID, 68666, NTrader_1.NTrader.Default);
+        const Config = assortConfig.AssortLsgL;
+        this.MMA.traderGenerateAssortFromPreset(presetID, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
     }
     ammo_apds() {
         const id = IDList.AMMO_762X25_APDS;
         const ParentId = IDList.AMMO_762X25_FMJ43;
         let ammo = this.MMA.cloneItem(ParentId, id);
-        const Price = 300;
+        const ammo_apdsConfig = assortConfig.type64ammo_apds;
+        const Price = ammo_apdsConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, ammo_apdsConfig.loyaltyLevel, NTrader_1.NTrader.Default);
         var locs = {
             "ch": {
                 "Name": "7.62x25毫米TT APDS",

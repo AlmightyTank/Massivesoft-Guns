@@ -1,0 +1,42 @@
+{
+  "handguard_rail": {
+    "price": 8300,
+    "loyaltyLevel": 1
+  },
+  "mount": {
+    "price": 2350,
+    "loyaltyLevel": 1
+  },
+  "stock_tube": {
+    "price": 2000,
+    "loyaltyLevel": 1
+  },
+  "handguard_sek": {
+    "price": 28300,
+    "loyaltyLevel": 1
+  },
+  "pistol_grip_sek": {
+    "price": 11000,
+    "loyaltyLevel": 1
+  },
+  "muzzle_sek": {
+    "price": 12000,
+    "loyaltyLevel": 1
+  },
+  "charge_sek": {
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "stock_sek": {
+    "price": 22000,
+    "loyaltyLevel": 1
+  },
+  "AssortRail": {
+    "price": 66666,
+    "loyaltyLevel": 1
+  },
+  "Assort": {
+    "price": 50000,
+    "loyaltyLevel": 1
+  }
+}

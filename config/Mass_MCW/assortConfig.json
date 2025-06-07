@@ -1,0 +1,54 @@
+{
+  "FDE": {
+    "price": 90000,
+    "loyaltyLevel": 1
+  },
+  "BLK": {
+    "price": 90000,
+    "loyaltyLevel": 1
+  },
+  "P300": {
+    "price": 100000,
+    "loyaltyLevel": 1
+  },
+  "AIM": {
+    "price": 160000,
+    "loyaltyLevel": 1
+  },
+  "SNP": {  
+    "price": 16500,
+    "loyaltyLevel": 1
+  },
+  "02F02FABAAABAA02F0000000": {  
+    "price": 30000,
+    "loyaltyLevel": 1
+  },
+  "02F020A16A16020000000000": {  
+    "price": 3000,
+    "loyaltyLevel": 1
+  },
+  "02F556A40A40000000000000": {  
+    "price": 10000,
+    "loyaltyLevel": 1
+  },
+  "02F02B1BDB87625101700000": {  
+    "price": 24000,
+    "loyaltyLevel": 1
+  },
+  "02F556A60A60000000000000": {  
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "02F751D60CCC000000000000": {  
+    "price": 16000,
+    "loyaltyLevel": 1
+  },
+  "02f02ff36f36f36000000000": {  
+    "price": 23000,
+    "loyaltyLevel": 1
+  },
+  "02F02FCCAEB0000000000000": {  
+    "price": 14000,
+    "loyaltyLevel": 1
+  }
+}

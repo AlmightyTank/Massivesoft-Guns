@@ -4,6 +4,7 @@ const Mass_ModClass_1 = require("../../Mass_ModClass");
 const NTrader_1 = require("../../enum/NTrader");
 const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
 const handbookCategory_1 = require("../../enum/handbookCategory");
+const assortConfig = require("../../../config/Tavor_X95/assortConfig.json");
 const cpntName = "Tavor_X95";
 const tavor_x95 = "020020195195F95556000000";
 const tavor_x95_R = "020020195195F95545000000";
@@ -1202,8 +1203,23 @@ class Tavor_X95 extends Mass_ModClass_1.Mass_ModClass {
         };
         this.DBpresets[weapon_x95R_preset._id] = weapon_x95R_preset;
         this.DBpresets[weapon_x95_preset._id] = weapon_x95_preset;
-        this.MMA.traderGenerateAssortFromPreset(weapon_x95R_preset._id, 80000, NTrader_1.NTrader.Default, 4, Money_1.Money.ROUBLES);
-        this.MMA.traderGenerateAssortFromPreset(weapon_x95_preset._id, 80000, NTrader_1.NTrader.Default, 4, Money_1.Money.ROUBLES);
+        const x95RConfig = assortConfig.x95R;
+        this.MMA.traderGenerateAssortFromPreset(
+            weapon_x95R_preset._id,
+            x95RConfig.price,
+            NTrader_1.NTrader.Default,
+            x95RConfig.loyaltyLevel,
+            Money_1.Money.ROUBLES
+        );
+
+        const x95Config = assortConfig.x95;
+        this.MMA.traderGenerateAssortFromPreset(
+            weapon_x95_preset._id,
+            x95Config.price,
+            NTrader_1.NTrader.Default,
+            x95Config.loyaltyLevel,
+            Money_1.Money.ROUBLES
+        );
     }
 }
 module.exports = Tavor_X95;
