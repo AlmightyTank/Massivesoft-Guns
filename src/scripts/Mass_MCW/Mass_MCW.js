@@ -21,7 +21,7 @@ const IDDL = {
     WEAPON___SCAR_H: "6183afd850224f204c1da514",
     WEAPON_SIG__MCX: "5fbcc1d9016cce60e8341ab3",
     WEAPON__MDR_308: "5dcbd56fdbd3d91b3e5468d5",
-    REC_MCW_FDE: "042042AACBBFDE0000000000",
+    REC_MCW_FDE: "32F020A16A16020000000000",
     REC_MCW_BLK: "042042AACBBB1C0000000000",
     REC_MCW_300: "042042AACBB3000000000000",
     REC_MCW_SNP: "042042AACBBCFB0000000000",
@@ -223,6 +223,7 @@ class Mass_MCW extends Mass_ModClass_1.Mass_ModClass {
     constructor(container, MMA) {
         super(container);
         this.MMA = MMA;
+        this.assortMap = new Map();
         this.MThisModPath = this.MMA.ThisModPathNodes;
         this.def_mag = this.DBitems[IDDL.MAG_ISOH____MAG] == undefined ? IDDL.MAG_PMAG_30_556 : IDDL.MAG_ISOH____MAG;
         const List_foregrips = this.JsonUtil.clone(this.MMA.itemGetSlotbyName(mod_slot_1.mod_slot.foregrip, IDDL.HANDGUARD_HK416_DEF)._props.filters[0].Filter);
@@ -4548,9 +4549,27 @@ class Mass_MCW extends Mass_ModClass_1.Mass_ModClass {
             };
             CustomItem.createItemFromClone(item);
             MMA.registerNewItem(id);
-            if (this.data[x].addtoTraders) {
-                const config = assortConfig[id];
-                MMA.traderAddItems(id, config.price, NTrader_1.NTrader.Default, config.loyaltyLevel);
+            for (const presetId in assortConfig) {
+                const config = assortConfig[presetId];
+
+                // Skip if not marked as a valid preset
+                if (config.isPreset === false) {
+                    continue;
+                }
+
+                // Optional: skip if already added
+                if (this.assortMap.has(presetId)) {
+                    continue;
+                }
+
+                this.MMA.traderAddItems(
+                    presetId,
+                    config.price,
+                    NTrader_1.NTrader.Default,
+                    config.loyaltyLevel
+                );
+
+                this.assortMap.set(presetId, true); // if you're not already doing this in traderAddItems
             }
             if (this.data[x].copySlot) {
                 var index = 0;
@@ -4608,16 +4627,16 @@ class Mass_MCW extends Mass_ModClass_1.Mass_ModClass {
                 }
             }
         }
-        const FDEConfig = assortConfig.FDE;
-        MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_FDE}000`, FDEConfig.price, NTrader_1.NTrader.Default, FDEConfig.loyaltyLevel, Money_1.Money.ROUBLES);
-        const BLKConfig = assortConfig.BLK;
-        MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_BLK}000`, BLKConfig.price, NTrader_1.NTrader.Default, BLKConfig.loyaltyLevel, Money_1.Money.ROUBLES);
-        const P300Config = assortConfig.P300;
-        MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_300}000`, P300Config.price, NTrader_1.NTrader.Default, P300Config.loyaltyLevel, Money_1.Money.ROUBLES);
-        const AIMConfig = assortConfig.AIM;
-        MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_AIM}000`, AIMConfig.price, NTrader_1.NTrader.Default, AIMConfig.loyaltyLevel, Money_1.Money.ROUBLES);
-        const SNPConfig = assortConfig.SNP;
-        MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_SNP}000`, SNPConfig.price, NTrader_1.NTrader.Default, SNPConfig.loyaltyLevel, Money_1.Money.ROUBLES);
+        const FDEConfig = assortConfig.fde;
+        //MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_FDE}000`, FDEConfig.price, NTrader_1.NTrader.Default, FDEConfig.loyaltyLevel, Money_1.Money.ROUBLES);
+        const BLKConfig = assortConfig.blk;
+        //MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_BLK}000`, BLKConfig.price, NTrader_1.NTrader.Default, BLKConfig.loyaltyLevel, Money_1.Money.ROUBLES);
+        const P300Config = assortConfig.p300;
+        //MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_300}000`, P300Config.price, NTrader_1.NTrader.Default, P300Config.loyaltyLevel, Money_1.Money.ROUBLES);
+        const AIMConfig = assortConfig.aim;
+        //MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_AIM}000`, AIMConfig.price, NTrader_1.NTrader.Default, AIMConfig.loyaltyLevel, Money_1.Money.ROUBLES);
+        const SNPConfig = assortConfig.snp;
+        //MMA.traderGenerateAssortFromPreset(`${IDDL.PRESET_SNP}000`, SNPConfig.price, NTrader_1.NTrader.Default, SNPConfig.loyaltyLevel, Money_1.Money.ROUBLES);
         const weaponList = [
             IDDL.WEAPON_MCW_FDE,
             IDDL.WEAPON_MCW_BLK,

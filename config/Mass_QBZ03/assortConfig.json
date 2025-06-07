@@ -19,10 +19,6 @@
     "price": 11000,
     "loyaltyLevel": 1
   },
-  "muzzle_sek": {
-    "price": 12000,
-    "loyaltyLevel": 1
-  },
   "charge_sek": {
     "price": 3000,
     "loyaltyLevel": 1
@@ -37,6 +33,14 @@
   },
   "Assort": {
     "price": 50000,
+    "loyaltyLevel": 1
+  },
+  "release_sek": {
+    "price": 6000,
+    "loyaltyLevel": 1
+  },
+  "pistol_grip_lsg": {
+    "price": 8000,
     "loyaltyLevel": 1
   }
 }

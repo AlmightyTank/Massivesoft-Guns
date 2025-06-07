@@ -47,6 +47,10 @@
     "price": 300,
     "loyaltyLevel": 1
   },
+  "type64ammo_apst": {
+    "price": 280,
+    "loyaltyLevel": 1
+  },
   "AssortLsgL": {
     "price": 68666,
     "loyaltyLevel": 1

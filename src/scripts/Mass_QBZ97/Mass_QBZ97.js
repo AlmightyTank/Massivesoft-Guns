@@ -390,6 +390,7 @@ class Mass_QBZ97 extends Mass_ModClass_1.Mass_ModClass {
                     }
                 },
                 addtoTraders: true,
+                
                 traderId: NTrader_1.NTrader.Default,
                 "barterScheme": [
                     {
@@ -436,7 +437,7 @@ class Mass_QBZ97 extends Mass_ModClass_1.Mass_ModClass {
             const railsConfig = assortConfig.rails;
             const Price = railsConfig.price;
             if (this.data[x].addtoTraders) {
-                MMA.traderAddItems(id, Price, this.data[x].barterScheme[0].count, NTrader_1.NTrader.Default, railsConfig.loyaltyLevel);
+                MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, railsConfig.loyaltyLevel);
             }
             if (this.data[x].copySlot) {
                 var index = 0;
@@ -481,7 +482,7 @@ class Mass_QBZ97 extends Mass_ModClass_1.Mass_ModClass {
                 MMA.modifyItems(MODINFO);
             }
         }
-        const WEAPON_QBZ97Config = assortConfig.WEAPON_QBZ97;
+        const WEAPON_QBZ97Config = assortConfig.weapon_qbz97;
         MMA.traderGenerateAssortFromPreset("220020BBA97BBA9700000000", WEAPON_QBZ97Config.price, NTrader_1.NTrader.Default, WEAPON_QBZ97Config.loyaltyLevel, Money_1.Money.ROUBLES);
         ModifyInfos[IDDL.WEAPON_QBZ97] = {
             ItemId: IDDL.WEAPON_QBZ97,

@@ -183,7 +183,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const type64RecieverConfig = assortConfig.type64Reciever;
         const Price = type64RecieverConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, type64RecieverConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, type64RecieverConfig.loyaltyLevel);
         reciever._props.Prefab.path = "assets/type64smg/mods/reciever_type64_default";
         reciever._props.Slots = [];
         //	Logger.log(l85a2._props.Slots);
@@ -216,7 +216,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const type64Reciever_lsgConfig = assortConfig.type64Reciever_lsg;
         const Price = type64Reciever_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, type64Reciever_lsgConfig, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, type64Reciever_lsgConfig.loyaltyLevel);
         reciever._props.Prefab.path = "assets/type64smg/mods/reciever_type64_lsg";
         var slots = [];
         var sight_rear = this.MMA.newSlot(mod_slot_1.mod_slot.sight_rear, "AA1", id);
@@ -366,7 +366,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const pistol_gripConfig = assortConfig.type64pistol_grip;
         const Price = pistol_gripConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, pistol_gripConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, pistol_gripConfig.loyaltyLevel);
         pslgrp._props.Prefab.path = "assets/type64smg/mods/pistol_grip_type64_default.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -396,7 +396,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const pistol_grip_lsgConfig = assortConfig.type64pistol_grip_lsg;
         const Price = pistol_grip_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, pistol_grip_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, pistol_grip_lsgConfig.loyaltyLevel);
         pslgrp._props.Prefab.path = "assets/type64smg/mods/pistol_grip_type64_lsg.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -428,7 +428,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const stockConfig = assortConfig.type64stock;
         const Price = stockConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price , stockConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price,  NTrader_1.NTrader.Default, stockConfig.loyaltyLevel);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_type64_default";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -466,7 +466,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const stock_lsgConfig = assortConfig.type64stock_lsg;
         const Price = stock_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price , stock_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, stock_lsgConfig.loyaltyLevel);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_type64_lsg";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -498,7 +498,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const stock_qtumConfig = assortConfig.type64stock_qtum;
         const Price = stock_qtumConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, stock_qtumConfig.loyaltyLevel);
         stock._props.Prefab.path = "assets/type64smg/mods/stock_qtum.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -531,7 +531,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const barrelConfig = assortConfig.type64barrel;
         const Price = barrelConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, barrelConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, barrelConfig.loyaltyLevel);
         barrel._props.Prefab.path = "assets/type64smg/mods/barrel_typr64_default.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -564,7 +564,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const barrel_lsgConfig = assortConfig.type64barrel_lsg;
         const Price = barrel_lsgConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, barrel_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, barrel_lsgConfig.loyaltyLevel);
         barrel._props.Prefab.path = "assets/type64smg/mods/barrel_type64_lsg.bundle";
         //	Logger.log(l85a2._props.Slots);
         var locs = {
@@ -629,7 +629,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.processItemCartridges(mag);
         const magazineConfig = assortConfig.type64magazine;
         const Price = magazineConfig.price;
-        this.MMA.traderAddItems(id, Price, magazineConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, magazineConfig.loyaltyLevel);
         var hb = this.MMA.cloneHandbookById(IDList.MAGAZINE_PPSH);
         hb.Id = id;
         this.DBhbItems.push(hb);
@@ -665,7 +665,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         this.MMA.processItemCartridges(mag);
         const magazine_lsgConfig = assortConfig.type64magazine_lsg;
         const Price = magazine_lsgConfig.price;
-        this.MMA.traderAddItems(id, Price, magazine_lsgConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, magazine_lsgConfig.loyaltyLevel);
         var hb = this.MMA.cloneHandbookById(IDList.MAGAZINE_PPSH);
         hb.Id = id;
         this.DBhbItems.push(hb);
@@ -881,7 +881,7 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const ammo_apdsConfig = assortConfig.type64ammo_apds;
         const Price = ammo_apdsConfig.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, ammo_apdsConfig.loyaltyLevel, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, ammo_apdsConfig.loyaltyLevel);
         var locs = {
             "ch": {
                 "Name": "7.62x25毫米TT APDS",
@@ -934,9 +934,10 @@ class Mass_type64smg extends Mass_ModClass_1.Mass_ModClass {
         const id = IDList.AMMO_762X25_APST;
         const ParentId = IDList.AMMO_762X25_FMJ43;
         let ammo = this.MMA.cloneItem(ParentId, id);
-        const Price = 280;
+        const Config = assortConfig.type64ammo_apst;
+        const Price = Config.price;
         this.DBprice[id] = Price;
-        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default);
+        this.MMA.traderAddItems(id, Price, NTrader_1.NTrader.Default, Config.loyaltyLevel);
         var locs = {
             "ch": {
                 "Name": "7.62x25毫米TT APST",

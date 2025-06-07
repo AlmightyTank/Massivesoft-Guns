@@ -1,9 +1,9 @@
 {
   "rails": {
-    "price": 4000,
+    "price": 3000,
     "loyaltyLevel": 1
   },
-  "WEAPON_QBZ97": {
+  "weapon_qbz97": {
     "price": 50000,
     "loyaltyLevel": 1
   }

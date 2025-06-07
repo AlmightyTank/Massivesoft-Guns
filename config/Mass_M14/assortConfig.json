@@ -1,0 +1,12 @@
+{
+  "fde": {
+    "price": 90000,
+    "loyaltyLevel": 1,
+    "isPreset": true
+  },
+  "blk": {
+    "price": 90000,
+    "loyaltyLevel": 1,
+    "isPreset": true
+  }
+}

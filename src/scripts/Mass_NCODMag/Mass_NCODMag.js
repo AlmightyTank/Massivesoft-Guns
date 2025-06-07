@@ -37,6 +37,7 @@ class Mass_NCODMag extends Mass_ModClass_1.Mass_ModClass {
         super(container);
         this.MMA = MMA;
         this.MThisModPath = this.MMA.ThisModPathNodes;
+        this.assortMap = new Map();
         this.data = {
             "ar10_xmag_762x51_30": {
                 newId: IDDL.NMAG_AR10_XMAG_30,
@@ -1205,9 +1206,18 @@ class Mass_NCODMag extends Mass_ModClass_1.Mass_ModClass {
             };
             CustomItem.createItemFromClone(item);
             MMA.registerNewItem(id);
-            if (this.data[x].addtoTraders) {
-                const config = assortConfig[id];
-                MMA.traderAddItems(id, config.price, NTrader_1.NTrader.Default, config.loyaltyLevel);
+            for (const presetId in assortConfig) {
+                if (this.assortMap.has(presetId)) {
+                    continue;
+                }
+                const config = assortConfig[presetId];
+                this.MMA.traderAddItems(
+                    presetId,
+                    config.price,
+                    NTrader_1.NTrader.Default,
+                    config.loyaltyLevel
+                );
+                this.assortMap.set(presetId, true);
             }
             if (this.data[x].copySlot) {
                 var index = 0;
