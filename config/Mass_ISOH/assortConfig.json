@@ -137,11 +137,11 @@
   },
   "preset1": {
     "price": 100000,
-    "loyaltyLevel": 3
+    "loyaltyLevel": 2
   },
   "preset2": {
     "price": 100000,
-    "loyaltyLevel": 2
+    "loyaltyLevel": 3
   },
   "preset3": {
     "price": 100000,
