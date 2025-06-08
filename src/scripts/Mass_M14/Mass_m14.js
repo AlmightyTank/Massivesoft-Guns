@@ -40,6 +40,7 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
         this.sight();
         this.preset();
         this.preset_EBR();
+        this.preset_SASS();
         Mass_ModApi.loadModifierList(MThisModPath[cpntName].itemmodifier);
         this.afterModifiScript();
         // this.DBitems["5aafa857e5b5b00018480968"]._props.weapFireType.push("fullauto");
@@ -368,6 +369,71 @@ class Mass_M14 extends Mass_ModClass_1.Mass_ModClass {
             this.DBlocales[lang][id] = "EBR";
         }
         const Config = assortConfig.preset_EBR;
+        this.MMA.traderGenerateAssortFromPreset(id, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel, Money_1.Money.DOLLARS);
+    }
+    preset_SASS() {
+        const id = "6845ff2d29a6685224039c12";
+        const parentID = "684613c672805016e1302136";
+        var preset = {
+            _id: id,
+            _name: "M14_SASS",
+            _changeWeaponName: true,
+            _parent: parentID,
+            _type: "Preset",
+            _items: [
+                {
+                    "_id": parentID,
+                    "_tpl": "020020AA14AA140000000000",
+                },
+                {
+                    "_id": "6845ff2d29a6685224039c13",
+                    "_tpl": "5aaf8a0be5b5b00015693243",
+                    "slotId": "mod_magazine",
+                    "parentId": parentID
+                },
+                {
+                    "_id": "6845ff2d29a6685224039c14",
+                    "_tpl": "5ab372a310e891001717f0d8",
+                    "slotId": "mod_stock",
+                    "parentId": parentID
+                },
+                {
+                    "_id": "6845ff2d29a6685224039c15",
+                    "_tpl": "04B04BAA14AA14BB00000000",
+                    slotId: mod_slot_1.mod_slot.barrel,
+                    "parentId": parentID
+                },
+                {
+                    "_id": "6845ff2d29a6685224039c16",
+                    "_tpl": "571659bb2459771fb2755a12",
+                    "slotId": "mod_pistolgrip",
+                    "parentId": "6845ff2d29a6685224039c14"
+                },
+                {
+                    "_id": "6845ff2d29a6685224039c17",
+                    "_tpl": "5649be884bdc2d79388b4577",
+                    "slotId": "mod_stock",
+                    "parentId": "6845ff2d29a6685224039c14"
+                },
+                {
+                    _id: "6845ff2d29a6685224039c20",
+                    _tpl: IDList.MUZZLE_M14,
+                    parentId: "6845ff2d29a6685224039c15",
+                    slotId: mod_slot_1.mod_slot.muzzle
+                },
+                {
+                    "_id": "6845ff2d29a6685224039c19",
+                    "_tpl": "58d2946386f774496974c37e",
+                    "slotId": "mod_stock_000",
+                    "parentId": "6845ff2d29a6685224039c17"
+                }
+            ]
+        };
+        this.DBpresets[id] = preset;
+        for (let lang in this.DBlocales) {
+            this.DBlocales[lang][id] = "SASS";
+        }
+        const Config = assortConfig.preset_SASS;
         this.MMA.traderGenerateAssortFromPreset(id, Config.price, NTrader_1.NTrader.Default, Config.loyaltyLevel, Money_1.Money.DOLLARS);
     }
 }

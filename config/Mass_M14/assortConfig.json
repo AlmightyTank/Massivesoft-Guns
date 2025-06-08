@@ -30,5 +30,9 @@
   "preset_EBR": {
     "price": 850,
     "loyaltyLevel": 3
+  },
+  "preset_SASS": {
+    "price": 1150,
+    "loyaltyLevel": 3
   }
 }
