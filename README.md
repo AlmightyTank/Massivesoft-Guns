@@ -63,28 +63,6 @@ A pack of sleek, modern magazines from MW — tactical, high-capacity, and cross
 
 ---
 
-## ⚙️ Configurable Modules
-
-This pack includes a `config.json` that lets you enable or disable specific weapons:
-
-```json
-{
-  "Mass_MCW": { "_enabled": true },
-  "Mass_QBZ97": { "_enabled": true },
-  "Mass_DG56": { "_enabled": true },
-  "Mass_JAK12": { "_enabled": true },
-  "ZLR_GRAU": { "_enabled": true },
-  "Mass_ISO": { "_enabled": true },
-  "Mass_ISOH": { "_enabled": true },
-  "Mass_QBZ03": { "_enabled": true },
-  "Tavor_X95": { "_enabled": true }
-}
-```
-
-Disable a weapon by setting `_enabled` to `false`.
-
----
-
 ## 🧩 Setup Instructions
 
 1. Download and unzip the release.
