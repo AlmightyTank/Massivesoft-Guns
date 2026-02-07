@@ -1,0 +1,1841 @@
+{
+    "023023A12A12A12000000000": {
+        "itemTplToClone": "5de652c31b7e3716273428be",
+        "parentId": "5447b6254bdc2dc3278b4568",
+        "handbookParentId": "5b5f798886f77447ed5636b5",
+        "overrideProperties": {
+            "AdjustCollimatorsToTrajectory": false,
+            "AimPlane": 0.101,
+            "AimSensitivity": 0.65,
+            "AllowFeed": false,
+            "AllowJam": false,
+            "AllowMisfire": false,
+            "AllowOverheat": true,
+            "AllowSlide": false,
+            "AnimationVariantsNumber": 0,
+            "BackgroundColor": "black",
+            "BaseMalfunctionChance": 0.284625,
+            "BoltAction": false,
+            "BurstShotsCount": 3,
+            "CameraSnap": 3.5,
+            "CameraToWeaponAngleSpeedRange": {
+                "x": 0.1,
+                "y": 0.2,
+                "z": 0
+            },
+            "CameraToWeaponAngleStep": 0.1,
+            "CanPutIntoDuringTheRaid": true,
+            "CanQueueSecondShot": true,
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": true,
+            "CanUnloadAmmoByPlayer": true,
+            "CantRemoveFromSlotsDuringRaid": [],
+            "CenterOfImpact": 0.4,
+            "Chambers": [
+                {
+                "_id": "57616e2e2459773c362ab462",
+                "_mergeSlotWithChildren": false,
+                "_name": "patron_in_weapon",
+                "_parent": "576165642459773c7a400233",
+                "_props": {
+                    "filters": [
+                    {
+                        "Filter": [
+                        "560d5e524bdc2d25448b4571",
+                        "5d6e6772a4b936088465b17c",
+                        "5d6e67fba4b9361bc73bc779",
+                        "5d6e6806a4b936088465b17e",
+                        "5d6e68dea4b9361bcc29e659",
+                        "5d6e6911a4b9361bd5780d52",
+                        "5c0d591486f7744c505b416f",
+                        "58820d1224597753c90aeb13",
+                        "5d6e68c4a4b9361b93413f79",
+                        "5d6e68a8a4b9360b6c0d54e2",
+                        "5d6e68e6a4b9361c140bcfe0",
+                        "5d6e6869a4b9361c140bcfde",
+                        "5d6e68b3a4b9361bca7e50b5",
+                        "5d6e6891a4b9361bd473feea",
+                        "5d6e689ca4b9361bc8618956",
+                        "5d6e68d1a4b93622fe60e845",
+                        "64b8ee384b75259c590fa89b"
+                        ]
+                    }
+                    ]
+                },
+                "_proto": "55d4af244bdc2d962f8b4571",
+                "_required": false
+                }
+            ],
+            "CompactHandling": false,
+            "ConflictingItems": [],
+            "CoolFactorGun": 4.032,
+            "CoolFactorGunMods": 1.03,
+            "Description": "Saiga",
+            "DeviationCurve": 2.5,
+            "DeviationMax": 10,
+            "DiscardLimit": -1,
+            "DiscardingBlock": false,
+            "DoubleActionAccuracyPenalty": 1.5,
+            "DropSoundType": "Rifle",
+            "Durability": 100,
+            "DurabilityBurnRatio": 1.15,
+            "Ergonomics": 40,
+            "ExamineExperience": 4,
+            "ExamineTime": 1,
+            "ExaminedByDefault": true,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "Foldable": false,
+            "FoldedSlot": "",
+            "ForbidMissingVitalParts": false,
+            "ForbidNonEmptyContainers": false,
+            "Grids": [],
+            "HeatFactorByShot": 5.5,
+            "HeatFactorGun": 0.99,
+            "Height": 2,
+            "HideEntrails": false,
+            "HipAccuracyRestorationDelay": 0.2,
+            "HipAccuracyRestorationSpeed": 7,
+            "HipInnaccuracyGain": 0.16,
+            "InsuranceDisabled": false,
+            "IronSightRange": 25,
+            "IsAlwaysAvailableForInsurance": false,
+            "IsBeltMachineGun": false,
+            "IsFlareGun": false,
+            "IsGrenadeLauncher": false,
+            "IsLockedafterEquip": false,
+            "IsMountable": true,
+            "IsOneoff": false,
+            "IsSecretExitRequirement": false,
+            "IsSpecialSlotOnly": false,
+            "IsStationaryWeapon": false,
+            "IsUnbuyable": false,
+            "IsUndiscardable": false,
+            "IsUngivable": false,
+            "IsUnremovable": false,
+            "IsUnsaleable": false,
+            "ItemSound": "weap_ar",
+            "LeftHandItem": false,
+            "LootExperience": 20,
+            "ManualBoltCatch": false,
+            "MaxDurability": 100,
+            "MaxRepairDegradation": 0.04,
+            "MaxRepairKitDegradation": 0.035,
+            "MergesWithChildren": true,
+            "MetascoreGroup": "Firepower",
+            "MinRepairDegradation": 0,
+            "MinRepairKitDegradation": 0,
+            "MountCameraSnapMultiplier": 3,
+            "MountHorizontalRecoilMultiplier": 0.6,
+            "MountReturnSpeedHandMultiplier": 1,
+            "MountVerticalRecoilMultiplier": 0.85,
+            "MountingHorizontalOutOfBreathMultiplier": 0.4,
+            "MountingPosition": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "MountingVerticalOutOfBreathMultiplier": 0.8,
+            "MustBoltBeOpennedForExternalReload": false,
+            "MustBoltBeOpennedForInternalReload": false,
+            "Name": "Saiga",
+            "NoFiremodeOnBoltcatch": false,
+            "NotShownInSlot": false,
+            "OperatingResource": 2250,
+            "PostRecoilHorizontalRangeHandRotation": {
+                "x": -2.5,
+                "y": 2.5,
+                "z": 0
+            },
+            "PostRecoilVerticalRangeHandRotation": {
+                "x": -1.3,
+                "y": 0,
+                "z": 0
+            },
+            "ProgressRecoilAngleOnStable": {
+                "x": 0,
+                "y": 30,
+                "z": 0
+            },
+            "QuestItem": false,
+            "QuestStashMaxCount": 0,
+            "RagFairCommissionModifier": 1,
+            "RarityPvE": "Common",
+            "RecoilAngle": 90,
+            "RecoilCamera": 0.06,
+            "RecoilCategoryMultiplierHandRotation": 0.23,
+            "RecoilCenter": {
+                "x": 0,
+                "y": -0.25,
+                "z": 0
+            },
+            "RecoilDampingHandRotation": 0.85,
+            "RecoilForceBack": 320,
+            "RecoilForceUp": 160,
+            "RecoilPosZMult": 1,
+            "RecoilReturnPathDampingHandRotation": 0.4,
+            "RecoilReturnPathOffsetHandRotation": 0.01,
+            "RecoilReturnSpeedHandRotation": 2.0,
+            "RecoilStableAngleIncreaseStep": 2.5,
+            "RecoilStableIndexShot": 5,
+            "RecolDispersion": 10,
+            "ReloadMode": "ExternalMagazine",
+            "RepairComplexity": 0,
+            "RepairCost": 99,
+            "RepairSpeed": 7,
+            "ResetAfterShot": false,
+            "Retractable": false,
+            "RotationCenter": {
+                "x": 0,
+                "y": -0.1,
+                "z": -0.03
+            },
+            "RotationCenterNoStock": {
+                "x": 0,
+                "y": -0.27,
+                "z": -0.08
+            },
+            "ShortName": "Saiga",
+            "ShotgunDispersion": 1,
+            "ShotsGroupSettings": [
+                {
+                "EndShotIndex": 99,
+                "ShotRecoilPositionStrength": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ShotRecoilRadianRange": {
+                    "x": -5,
+                    "y": 5,
+                    "z": 0
+                },
+                "ShotRecoilRotationStrength": {
+                    "x": 0,
+                    "y": 2,
+                    "z": 0
+                },
+                "StartShotIndex": 4
+                }
+            ],
+            "SightingRange": 100,
+            "SingleFireRate": 450,
+            "SizeReduceRight": 0,
+            "StackMaxSize": 1,
+            "StackObjectsCount": 1,
+            "TacticalReloadFixation": 0.95,
+            "TacticalReloadStiffnes": {
+                "x": 0.95,
+                "y": 0.33,
+                "z": 0.95
+            },
+            "Unlootable": false,
+            "UnlootableFromSide": [],
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UseAltMountBone": false,
+            "UsePrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "Velocity": 0,
+            "WeaponRecoilSettings": {
+                "Enable": true,
+                "Values": [
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "Y",
+                    "CurveAimingValueMultiply": 0.7,
+                    "CurveTimeMultiply": 2,
+                    "CurveValueMultiply": 1.1,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.1,
+                            "value": 2
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.3,
+                            "value": -0.75
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "HandsRotation"
+                },
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "X",
+                    "CurveAimingValueMultiply": 0.002,
+                    "CurveTimeMultiply": 4,
+                    "CurveValueMultiply": 0.002,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.1,
+                            "value": 2
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.3,
+                            "value": -0.75
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "HandsPosition"
+                },
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "Z",
+                    "CurveAimingValueMultiply": 0.4,
+                    "CurveTimeMultiply": 1.3,
+                    "CurveValueMultiply": 0.7,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.1,
+                            "value": 2
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.3,
+                            "value": -0.75
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "CameraRotation"
+                }
+                ]
+            },
+            "Weight": 3.21,
+            "Width": 5,
+            "WithAnimatorAiming": false,
+            "ammoCaliber": "Caliber12g",
+            "bEffDist": 70,
+            "bFirerate": 305,
+            "bHearDist": 1,
+            "blockLeftStance": false,
+            "chamberAmmoCount": 1,
+            "defAmmo": "560d5e524bdc2d25448b4571",
+            "defMagType": "02F02FA12A12080800000000",
+            "durabSpawnMax": 100,
+            "durabSpawnMin": 25,
+            "isBoltCatch": false,
+            "isChamberLoad": false,
+            "isFastReload": true,
+            "shotgunDispersion": 20,
+            "weapClass": "shotgun",
+            "weapFireType": [
+                "single" , "fullauto"
+            ],
+            "weapUseType": "primary",
+
+            "Prefab": {
+                "path": "JAK12/weapon_jak12_12g_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "697772812ea95483a0061ab1",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_barrel",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B04Ba12a12BABA00000000",
+                                    "04BA4Ba12a12BABA00000000",
+                                    "04BB4Ba12a12BBBB00000000",
+                                    "04BC4Ba12a12CCCC00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "697772cc91a0e53732235b4e",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "02F02FA12A12080800000000",
+                                    "02F02FA12A12202000000000",
+                                    "02F02FA12A12323200000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_id": "697772ece62a810bb2dea1e5",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_handguard",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "041041A12A12041000000000",
+                                    "041A41A12A12A41000000000",
+                                    "041B41A12A12B41000000000",
+                                    "041C41A12A12C41000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "69777380ba587c990023479a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "049049A12A120F9000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697773e14fc47528ac0ad7ce",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "049099a12a120b9000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697773ea2f00b945ab26cd68",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_stock",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "043043a12a12043000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697774253401cfcbdb827a2c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_000",
+                    "_parent": "023023A12A12A12000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "57ac965c24597706be5f975c",
+                                    "57aca93d2459771f2c7e26db",
+                                    "544a3f024bdc2d1d388b4568",
+                                    "544a3a774bdc2d3a388b4567",
+                                    "5d2dc3e548f035404a1a4798",
+                                    "57adff4f24597737f373b6e6",
+                                    "5c0517910db83400232ffee5",
+                                    "591c4efa86f7741030027726",
+                                    "570fd79bd2720bc7458b4583",
+                                    "570fd6c2d2720bc6458b457f",
+                                    "558022b54bdc2dac148b458d",
+                                    "5c07dd120db834001c39092d",
+                                    "5c0a2cec0db834001b7ce47d",
+                                    "58491f3324597764bc48fa02",
+                                    "584924ec24597768f12ae244",
+                                    "5b30b0dc5acfc400153b7124",
+                                    "6165ac8c290d254f5e6b2f6c",
+                                    "60a23797a37c940de7062d02",
+                                    "5d2da1e948f035477b1ce2ba",
+                                    "5c0505e00db834001b735073",
+                                    "609a63b6e2ff132951242d09",
+                                    "584984812459776a704a82a6",
+                                    "59f9d81586f7744c7506ee62",
+                                    "570fd721d2720bc5458b4596",
+                                    "57ae0171245977343c27bfcf",
+                                    "5dfe6104585a0c3e995c7b82",
+                                    "5d1b5e94d7ad1a2b865a96b0",
+                                    "609bab8b455afd752b2e6138",
+                                    "58d39d3d86f77445bb794ae7",
+                                    "616554fe50224f204c1da2aa",
+                                    "5c7d55f52e221644f31bff6a",
+                                    "616584766ef05c2ce828ef57",
+                                    "5b3b6dc75acfc47a8773fb1e",
+                                    "615d8d878004cc50514c3233",
+                                    "577d128124597739d65d0e56",
+                                    "58d2664f86f7747fec5834f6",
+                                    "5c1cdd302e221602b3137250",
+                                    "61714b2467085e45ef140b2c",
+                                    "5b31163c5acfc400153b71cb",
+                                    "5a33b652c4a28232996e407c",
+                                    "5a33b2c9c4a282000c5a9511",
+                                    "59db7eed86f77461f8380365",
+                                    "5a1ead28fcdbcb001912fa9f",
+                                    "626bb8532c923541184624b4",
+                                    "63fc449f5bd61c6cf3784a88",
+                                    "6477772ea8a38bb2050ed4db",
+                                    "6478641c19d732620e045e17",
+                                    "64785e7c19d732620e045e15",
+                                    "65392f611406374f82152ba5",
+                                    "653931da5db71d30ab1d6296",
+                                    "655f13e0a246670fb0373245",
+                                    "67641a851b2899700609901a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "XRK JAK-12 12ga automatic shotgun",
+                "shortName": "JAK-12",
+                "description": "JAK-12 automatic shotgun chambered in 12ga."
+            }
+        },
+        "fleaPriceRoubles": 35000,
+        "handbookPriceRoubles": 35000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "JAK",
+                "Templates": [
+                    "023023A12A12A12000000000"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "04B04Ba12a12BABA00000000": {
+        "itemTplToClone": "6076c1b9f2cb2e02a42acedc",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Weight": 0.65,
+            "CenterOfImpact": 0.80,
+            "Recoil": 0,
+            "ShotgunDispersion": 1.6,
+            "DurabilityBurnModificator": 0.9,
+            "Prefab": {
+                "path": "JAK12/mods/barrel_jak12_12g.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "6977754690cf758194694c4f",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04B04Ba12a12BABA00000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5c0111ab0db834001966914d",
+                            "560838c94bdc2d77798b4569",
+                            "5b363dea5acfc4771e1c5e7e",
+                            "04A04AA12A120AA000000000",
+                            "04AB4AA12A12BAA000000000",
+                            "04AC4AA12A12CAA000000000"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 barrel std.",
+                "shortName": "JAK-12 std.",
+                "description": "Standard barrel for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04A04AA12A120AA000000000": {
+        "itemTplToClone": "59e8a00d86f7742ad93b569c",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/muzzle_jak12_12g.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.02
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 muzzle thread protector",
+                "shortName": "JAK-12 muz.",
+                "description": "Default muzzle thread protector for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041041A12A12041000000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/handguard_jak12.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.4,
+            "Recoil": -1,
+            "ExtraSizeLeft": 0,
+            "Ergonomics": 10,
+            "CoolFactor": 0.99,
+            "HeatFactor": 1.01,
+            "Slots": [
+                {
+                    "_id": "697776e03544646c6852e950",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041041A12A12041000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5c7fc87d2e221644f31c0298",
+                            "5cda9bcfd7f00c0c0b53e900",
+                            "59f8a37386f7747af3328f06",
+                            "619386379fb0c665d5490dbe",
+                            "5c87ca002e221600114cb150",
+                            "588226d124597767ad33f787",
+                            "588226dd24597767ad33f789",
+                            "588226e62459776e3e094af7",
+                            "588226ef24597767af46e39c",
+                            "59fc48e086f77463b1118392",
+                            "5fce0cf655375d18a253eff0",
+                            "5cf4fb76d7f00c065703d3ac",
+                            "5b057b4f5acfc4771e1bd3e9",
+                            "5c791e872e2216001219c40a",
+                            "558032614bdc2de7118b4585",
+                            "58c157be86f77403c74b2bb6",
+                            "58c157c886f774032749fb06",
+                            "5f6340d3ca442212f4047eb2",
+                            "591af28e86f77414a27a9e1d",
+                            "5c1cd46f2e22164bef5cfedb",
+                            "5c1bc4812e22164bef5cfde7",
+                            "5c1bc5612e221602b5429350",
+                            "5c1bc5af2e221602b412949b",
+                            "5c1bc5fb2e221602b1779b32",
+                            "5c1bc7432e221602b412949d",
+                            "5c1bc7752e221602b1779b34",
+                            "64806bdd26c80811d408d37a",
+                            "64807a29e5ffe165600abc97",
+                            "648067db042be0705c0b3009",
+                            "65169d5b30425317755f8e25",
+                            "655dccfdbdcc6b5df71382b6",
+                            "655df24fdf80b12750626d0a",
+                            "661e52e29c8b4dadef008577",
+                            "661e53149c8b4dadef008579",
+                            "661e52415be02310ed07a07a",
+                            "661e52b5b099f32c28003586"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6979f128d282e1596d128b5b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "041041A12A12041000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "0410FFA12A120FF000000000"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6979f12cc597243933ae9149",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "041041A12A12041000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "0410FFA12A120FF000000000"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 handguard std.",
+                "shortName": "JAK-12 std.",
+                "description": "Default handguard for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "0410FFA12A120FF000000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": { 
+            "Prefab": {
+                "path": "JAK12/mods/mount_jak12_side.bundle",
+                "rcid": ""
+            }    
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 side rail",
+                "shortName": "JAK-12 rail side",
+                "description": "Side rail for JAK-12 standard handguard."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043043a12a12043000000000": {
+        "itemTplToClone": "58d2912286f7744e27117493",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": { 
+            "Prefab": {
+                "path": "JAK12/mods/stock_jak12.bundle",
+                "rcid": ""
+            },
+            "IsShoulderContact": true,
+            "HasShoulderContact": true,
+            "Ergonomics": 3,
+            "Recoil": -2.5
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 stock pad",
+                "shortName": "JAK-12 pad",
+                "description": "Stock pad for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F02FA12A12080800000000": {
+        "itemTplToClone": "57616a9e2459773c7a400234",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/magazine_jak12_12ga_10.bundle",
+                "rcid": ""
+            },
+
+            "Weight": 0.4,
+            "ExtraSizeDown": 0,
+            "magAnimationIndex": 0,
+
+            "Cartridges": [
+                {
+                    "_id": "697778269091081372e0981f",
+                    "_max_count": 8,
+                    "_name": "cartridges",
+                    "_parent": "02F02FA12A12080800000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "560d5e524bdc2d25448b4571",
+                                    "5d6e6772a4b936088465b17c",
+                                    "5d6e67fba4b9361bc73bc779",
+                                    "5d6e6806a4b936088465b17e",
+                                    "5d6e68dea4b9361bcc29e659",
+                                    "5d6e6911a4b9361bd5780d52",
+                                    "5c0d591486f7744c505b416f",
+                                    "58820d1224597753c90aeb13",
+                                    "5d6e68c4a4b9361b93413f79",
+                                    "5d6e68a8a4b9360b6c0d54e2",
+                                    "5d6e68e6a4b9361c140bcfe0",
+                                    "5d6e6869a4b9361c140bcfde",
+                                    "5d6e68b3a4b9361bca7e50b5",
+                                    "5d6e6891a4b9361bd473feea",
+                                    "5d6e689ca4b9361bc8618956",
+                                    "5d6e68d1a4b93622fe60e845",
+                                    "64b8ee384b75259c590fa89b"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 12/70 8-round magazine",
+                "shortName": "JAK-12 8",
+                "description": "A 8-round magazine for JAK-12, intended for use with 12/70 shells."
+            }
+        },
+        "fleaPriceRoubles": 2500,
+        "handbookPriceRoubles": 2500,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F02FA12A12202000000000": {
+        "itemTplToClone": "5cf8f3b0d7f00c00217872ef",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/magazine_jak12_12ga_20.bundle",
+                "rcid": ""
+            },
+
+            "Weight": 0.4,
+            "ExtraSizeDown": 0,
+            "magAnimationIndex": 1,
+            "VisibleAmmoRangesString": "1-2",
+            "CheckOverride": 0,
+
+            "Cartridges": [
+                {
+                    "_id": "6977788818c627664fc50060",
+                    "_max_count": 20,
+                    "_name": "cartridges",
+                    "_parent": "02F02FA12A12202000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "560d5e524bdc2d25448b4571",
+                                    "5d6e6772a4b936088465b17c",
+                                    "5d6e67fba4b9361bc73bc779",
+                                    "5d6e6806a4b936088465b17e",
+                                    "5d6e68dea4b9361bcc29e659",
+                                    "5d6e6911a4b9361bd5780d52",
+                                    "5c0d591486f7744c505b416f",
+                                    "58820d1224597753c90aeb13",
+                                    "5d6e68c4a4b9361b93413f79",
+                                    "5d6e68a8a4b9360b6c0d54e2",
+                                    "5d6e68e6a4b9361c140bcfe0",
+                                    "5d6e6869a4b9361c140bcfde",
+                                    "5d6e68b3a4b9361bca7e50b5",
+                                    "5d6e6891a4b9361bd473feea",
+                                    "5d6e689ca4b9361bc8618956",
+                                    "5d6e68d1a4b93622fe60e845",
+                                    "64b8ee384b75259c590fa89b"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Corvus JAK-12 12/70 20-round drum magazine",
+                "shortName": "JAK-12 20",
+                "description": "A 20-round drum magazine for JAK-12, intended for use with  12/70 shells."
+            }
+        },
+        "fleaPriceRoubles": 22000,
+        "handbookPriceRoubles": 22000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F02FA12A12323200000000": {
+        "itemTplToClone": "5cf8f3b0d7f00c00217872ef",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/magazine_jak12_12ga_32.bundle",
+                "rcid": ""
+            },
+
+            "Weight": 0.4,
+            "ExtraSizeDown": 0,
+            "magAnimationIndex": 1,
+            "VisibleAmmoRangesString": "1-2",
+            "Ergonomics": -30,
+            "CheckOverride": 0,
+            "LoadUnloadModifier": 20,
+
+            "Cartridges": [
+                {
+                    "_id": "6977790a94353d155e02e2c1",
+                    "_max_count": 32,
+                    "_name": "cartridges",
+                    "_parent": "02F02FA12A12323200000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "560d5e524bdc2d25448b4571",
+                                    "5d6e6772a4b936088465b17c",
+                                    "5d6e67fba4b9361bc73bc779",
+                                    "5d6e6806a4b936088465b17e",
+                                    "5d6e68dea4b9361bcc29e659",
+                                    "5d6e6911a4b9361bd5780d52",
+                                    "5c0d591486f7744c505b416f",
+                                    "58820d1224597753c90aeb13",
+                                    "5d6e68c4a4b9361b93413f79",
+                                    "5d6e68a8a4b9360b6c0d54e2",
+                                    "5d6e68e6a4b9361c140bcfe0",
+                                    "5d6e6869a4b9361c140bcfde",
+                                    "5d6e68b3a4b9361bca7e50b5",
+                                    "5d6e6891a4b9361bd473feea",
+                                    "5d6e689ca4b9361bc8618956",
+                                    "5d6e68d1a4b93622fe60e845",
+                                    "64b8ee384b75259c590fa89b"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Corvus JAK-12 12/70 32-round drum magazine",
+                "shortName": "JAK-12 32",
+                "description": "A 32-round drum magazine for JAK-12, intended for use with 12/70 shells."
+            }
+        },
+        "fleaPriceRoubles": 32000,
+        "handbookPriceRoubles": 32000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "049049A12A120F9000000000": {
+        "itemTplToClone": "5894a73486f77426d259076c",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/sight_front_jak12.bundle",
+                "rcid": ""
+            },
+
+            "Weight": 0.03,
+            "SightingRange": 100,
+            "CalibrationDistances": [[25]]
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 front sight",
+                "shortName": "JAK-12 FS",
+                "description": "A detachable front sight for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "049099a12a120b9000000000": {
+        "itemTplToClone": "57a9b9ce2459770ee926038d",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/sight_rear_jak12.bundle",
+                "rcid": ""
+            },
+
+            "Weight": 0.03
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 rear sight",
+                "shortName": "JAK-12 RS",
+                "description": "A detachable rear sight for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041AFFA12A12AFF000000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/mount_jak12_side_2.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "XRK Karbon handguard side rail",
+                "shortName": "XRK Karbon",
+                "description": "Side rail for JAK-12's XRK Karbon handguard."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BA4Ba12a12BABA00000000": {
+        "itemTplToClone": "5a787fdfc5856700142fdd9a",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/barrel_jak12_short_12g.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.62,
+            "CenterOfImpact": 0.9,
+            "Recoil": 2,
+            "Ergonomics": 5,
+            "Velocity": 2,
+            "ConflictingItems": [
+                "041041A12A12041000000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "697782cf5b3ebf345d1b7c2c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04BA4Ba12a12BABA00000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5c0111ab0db834001966914d",
+                                "560838c94bdc2d77798b4569",
+                                "5b363dea5acfc4771e1c5e7e",
+                                "04A04AA12A120AA000000000",
+                                "04AB4AA12A12BAA000000000",
+                                "04AC4AA12A12CAA000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Urban King JAK-12 short barrel",
+                "shortName": "Urban King",
+                "description": "Short barrel for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041A41A12A12A41000000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/handguard_jak12_short.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.35,
+            "ExtraSizeLeft": 0,
+            "Ergonomics": 12,
+            "Recoil": -2,
+            "CoolFactor": 0.99,
+            "HeatFactor": 1.02,
+            "ConflictingItems": [
+                "04B04Ba12a12BABA00000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "697782c9d234b67700ee30f7",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041A41A12A12A41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5c7fc87d2e221644f31c0298",
+                                "5cda9bcfd7f00c0c0b53e900",
+                                "59f8a37386f7747af3328f06",
+                                "619386379fb0c665d5490dbe",
+                                "5c87ca002e221600114cb150",
+                                "588226d124597767ad33f787",
+                                "588226dd24597767ad33f789",
+                                "588226e62459776e3e094af7",
+                                "588226ef24597767af46e39c",
+                                "59fc48e086f77463b1118392",
+                                "5fce0cf655375d18a253eff0",
+                                "5cf4fb76d7f00c065703d3ac",
+                                "5b057b4f5acfc4771e1bd3e9",
+                                "5c791e872e2216001219c40a",
+                                "558032614bdc2de7118b4585",
+                                "58c157be86f77403c74b2bb6",
+                                "58c157c886f774032749fb06",
+                                "5f6340d3ca442212f4047eb2",
+                                "591af28e86f77414a27a9e1d",
+                                "5c1cd46f2e22164bef5cfedb",
+                                "5c1bc4812e22164bef5cfde7",
+                                "5c1bc5612e221602b5429350",
+                                "5c1bc5af2e221602b412949b",
+                                "5c1bc5fb2e221602b1779b32",
+                                "5c1bc7432e221602b412949d",
+                                "5c1bc7752e221602b1779b34",
+                                "64806bdd26c80811d408d37a",
+                                "64807a29e5ffe165600abc97",
+                                "648067db042be0705c0b3009",
+                                "65169d5b30425317755f8e25",
+                                "655dccfdbdcc6b5df71382b6",
+                                "655df24fdf80b12750626d0a",
+                                "661e52e29c8b4dadef008577",
+                                "661e53149c8b4dadef008579",
+                                "661e52415be02310ed07a07a",
+                                "661e52b5b099f32c28003586"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6979f1e3f28cf6d07a7230e5",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "041A41A12A12A41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "041AFFA12A12AFF000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6979f1f4c1d1159eb41213b3",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "041A41A12A12A41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "041AFFA12A12AFF000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "XRK Karbon JAK-12 handguard",
+                "shortName": "XRK Karbon",
+                "description": "XRK Karbon handguard for JAK-12, compatible with the Urban King short barrel."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041BFFA12A12BFF000000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/mount_jak12_side_3.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "JAK-12 short handguard side rail",
+                "shortName": "JAK-12 short",
+                "description": "Side rail for JAK-12's short handguard."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BB4Ba12a12BBBB00000000": {
+        "itemTplToClone": "5a787fdfc5856700142fdd9a",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/barrel_jak12_heavy_12g.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.85,
+            "Width": 3,
+            "CenterOfImpact": 0.4,
+            "ExtraSizeLeft": 1,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ShotgunDispersion": 1,
+            "DurabilityBurnModificator": 0.9,
+            "HeatFactor": 0.9,
+            "CoolFactor": 1.1,
+            "Recoil": -3,
+            "Ergonomics": -2,
+            "Velocity": 3.2,
+            "ConflictingItems": [
+                "041041A12A12041000000000",
+                "041A41A12A12A41000000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "697782c3923f835167d83596",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04BB4Ba12a12BBBB00000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5c0111ab0db834001966914d",
+                                "560838c94bdc2d77798b4569",
+                                "5b363dea5acfc4771e1c5e7e",
+                                "04A04AA12A120AA000000000",
+                                "04AB4AA12A12BAA000000000",
+                                "04AC4AA12A12CAA000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR J-2800 Influx heavy barrel",
+                "shortName": "J-2800",
+                "description": "Heavy barrel for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041B41A12A12B41000000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/handguard_jak12_heavy.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.4,
+            "ExtraSizeLeft": 0,
+            "Ergonomics": 10,
+            "CoolFactor": 0.99,
+            "Recoil": -3,
+            "HeatFactor": 1.01,
+            "ConflictingItems": [
+                "04B04Ba12a12BABA00000000",
+                "04BA4Ba12a12BABA00000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "6979f1e8fdd0f3cb56800835",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041B41A12A12B41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5c7fc87d2e221644f31c0298",
+                                "5cda9bcfd7f00c0c0b53e900",
+                                "59f8a37386f7747af3328f06",
+                                "619386379fb0c665d5490dbe",
+                                "5c87ca002e221600114cb150",
+                                "588226d124597767ad33f787",
+                                "588226dd24597767ad33f789",
+                                "588226e62459776e3e094af7",
+                                "588226ef24597767af46e39c",
+                                "59fc48e086f77463b1118392",
+                                "5fce0cf655375d18a253eff0",
+                                "5cf4fb76d7f00c065703d3ac",
+                                "5b057b4f5acfc4771e1bd3e9",
+                                "5c791e872e2216001219c40a",
+                                "558032614bdc2de7118b4585",
+                                "58c157be86f77403c74b2bb6",
+                                "58c157c886f774032749fb06",
+                                "5f6340d3ca442212f4047eb2",
+                                "591af28e86f77414a27a9e1d",
+                                "5c1cd46f2e22164bef5cfedb",
+                                "5c1bc4812e22164bef5cfde7",
+                                "5c1bc5612e221602b5429350",
+                                "5c1bc5af2e221602b412949b",
+                                "5c1bc5fb2e221602b1779b32",
+                                "5c1bc7432e221602b412949d",
+                                "5c1bc7752e221602b1779b34",
+                                "64806bdd26c80811d408d37a",
+                                "64807a29e5ffe165600abc97",
+                                "648067db042be0705c0b3009",
+                                "65169d5b30425317755f8e25",
+                                "655dccfdbdcc6b5df71382b6",
+                                "655df24fdf80b12750626d0a",
+                                "661e52e29c8b4dadef008577",
+                                "661e53149c8b4dadef008579",
+                                "661e52415be02310ed07a07a",
+                                "661e52b5b099f32c28003586"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6979f1ec4f8cb67ec2d255e4",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "041B41A12A12B41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "041AFFA12A12AFF000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6979f1f8f5ec66b546ae18aa",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "041B41A12A12B41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "041AFFA12A12AFF000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR J-2800 Influx JAK-12 handguard",
+                "shortName": "Influx",
+                "description": "JAK-12 handguard compatible with ZLR J-2800 Influx heavy barrel."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04AB4AA12A12BAA000000000": {
+        "itemTplToClone": "59e8a00d86f7742ad93b569c",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/muzzle_jak12_heavy_12g.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.02,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeForceAdd": false,
+            "Ergonomics": -2,
+            "Recoil": -8,
+            "HeatFactor": 0.99,
+            "CoolFactor": 1.01,
+            "DurabilityBurnModificator": 0.99
+         },
+        "locales": {
+            "en": {
+                "name": "ZLR J-2800 Influx JAK-12 muzzle device",
+                "shortName": "Influx",
+                "description": "ZLR J-2800 Influx muzzle device for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BC4Ba12a12CCCC00000000": {
+        "itemTplToClone": "5a787fdfc5856700142fdd9a",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/barrel_jak12_long_12g.bundle",
+                "rcid": ""
+            },
+            "Weight": 1.0,
+            "Width": 3,
+            "CenterOfImpact": 0.2,
+            "ExtraSizeLeft": 1,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "ShotgunDispersion": 0.80,
+            "DurabilityBurnModificator": 1,
+            "HeatFactor": 0.9,
+            "CoolFactor": 1.1,
+            "DeviationCurve": 2.5,
+            "DeviationMax": 10,
+            "Recoil": -6,
+            "Ergonomics": -5,
+            "Velocity": 5.2,
+            "ConflictingItems": [
+                "041041A12A12041000000000",
+                "041A41A12A12A41000000000",
+                "041B41A12A12B41000000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "697784d188a69a502cdc230a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04BC4Ba12a12CCCC00000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5c0111ab0db834001966914d",
+                                "560838c94bdc2d77798b4569",
+                                "5b363dea5acfc4771e1c5e7e",
+                                "04A04AA12A120AA000000000",
+                                "04AB4AA12A12BAA000000000",
+                                "04AC4AA12A12CAA000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR J-3600 Torrent JAK-12 extended barrel",
+                "shortName": "J-3600",
+                "description": "Extended barrel for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041C41A12A12C41000000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/handguard_jak12_long.bundle",
+                "rcid": ""
+            },
+            "Width": 3,
+            "Weight": 0.55,
+            "ExtraSizeLeft": 1,
+            "Ergonomics": 7,
+            "Recoil": -5,
+            "CoolFactor": 0.99,
+            "HeatFactor": 1.01,
+            "ExtraSizeForceAdd": false,
+            "ConflictingItems": [
+                "04B04Ba12a12BABA00000000",
+                "04BA4Ba12a12BABA00000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "6979f1d61e96abea030f1954",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041C41A12A12C41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5c7fc87d2e221644f31c0298",
+                                "5cda9bcfd7f00c0c0b53e900",
+                                "59f8a37386f7747af3328f06",
+                                "619386379fb0c665d5490dbe",
+                                "5c87ca002e221600114cb150",
+                                "588226d124597767ad33f787",
+                                "588226dd24597767ad33f789",
+                                "588226e62459776e3e094af7",
+                                "588226ef24597767af46e39c",
+                                "59fc48e086f77463b1118392",
+                                "5fce0cf655375d18a253eff0",
+                                "5cf4fb76d7f00c065703d3ac",
+                                "5b057b4f5acfc4771e1bd3e9",
+                                "5c791e872e2216001219c40a",
+                                "558032614bdc2de7118b4585",
+                                "58c157be86f77403c74b2bb6",
+                                "58c157c886f774032749fb06",
+                                "5f6340d3ca442212f4047eb2",
+                                "591af28e86f77414a27a9e1d",
+                                "5c1cd46f2e22164bef5cfedb",
+                                "5c1bc4812e22164bef5cfde7",
+                                "5c1bc5612e221602b5429350",
+                                "5c1bc5af2e221602b412949b",
+                                "5c1bc5fb2e221602b1779b32",
+                                "5c1bc7432e221602b412949d",
+                                "5c1bc7752e221602b1779b34",
+                                "64806bdd26c80811d408d37a",
+                                "64807a29e5ffe165600abc97",
+                                "648067db042be0705c0b3009",
+                                "65169d5b30425317755f8e25",
+                                "655dccfdbdcc6b5df71382b6",
+                                "655df24fdf80b12750626d0a",
+                                "661e52e29c8b4dadef008577",
+                                "661e53149c8b4dadef008579",
+                                "661e52415be02310ed07a07a",
+                                "661e52b5b099f32c28003586"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697785a18e20cb216a055b28",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "041C41A12A12C41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697785c7a572634970a16525",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "041C41A12A12C41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697785dc86c71ffc7e724317",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_000",
+                    "_parent": "041C41A12A12C41000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR J-3600 Torrent JAK-12 handguard",
+                "shortName": "Torrent",
+                "description": "JAK-12 handguard compatible with ZLR J-3600 Torrent extended barrel."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04AC4AA12A12CAA000000000": {
+        "itemTplToClone": "59e8a00d86f7742ad93b569c",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "JAK12/mods/muzzle_jak12_long_12g.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.08,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeForceAdd": false,
+            "Ergonomics": 0
+         },
+        "locales": {
+            "en": {
+                "name": "JAK-12 muzzle device adapter",
+                "shortName": "muz. adapter",
+                "description": "Muzzle device adapter for JAK-12."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    }
+}

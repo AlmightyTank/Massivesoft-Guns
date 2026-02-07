@@ -1,0 +1,3677 @@
+{
+    "020020F150F1500000000000": {
+        "itemTplToClone": "60339954d62c9b14ed777c06",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Width": 1,
+            "Foldable": true,
+            "FoldedSlot": "mod_stock_000",
+            "weapFireType": [
+                "single",
+                "fullauto"
+            ],
+            "bFirerate": 850,
+            "Ergonomics": 59,
+            "Weight": 0.66,
+            "RecoilReturnSpeedHandRotation": 3.1,
+            "RecoilDampingHandRotation": 0.84,
+            "RecoilCamera": 0.0367,
+            "RecoilForceUp": 52,
+            "RecoilForceBack": 285,
+            "RecolDispersion": 8,
+            "BaseMalfunctionChance": 0.1771,
+            "HeatFactorByShot": 1.84,
+            "defMagType": "5a718b548dc32e000d46d262",
+
+            "Prefab": {
+                "path": "ISO/weapon_iso_9x19_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "697721ae527c1d4c01c454e1",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "020020F150F1500000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "AnimationIndex": -1,
+                            "Filter": [
+                            "5a7ad2e851dfba0016153692",
+                            "5a718b548dc32e000d46d262",
+                            "5a718da68dc32e000d46d264",
+                            "5a718f958dc32e00094b97e7",
+                            "630769c4962d0247b029dc60",
+                            "630767c37d50ff5e8a1ea71a",
+                            "63076701a987397c0816d21b"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "697719d85a5164b34e479add",
+                    "_parent": "020020F150F1500000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "042042F150F1500000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "697719d53f7f14577241e21d",
+                    "_parent": "020020F150F1500000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "047B47F151F151B470000000",
+                                    "047A47F151F151A470000000",
+                                    "047C47F151F151C470000000",
+                                    "047047F150F1500000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "697719d2ea1c0a71994733b8",
+                    "_parent": "020020F150F1500000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "043043F150F1504300000000",
+                                    "043043F151F1514300000000",
+                                    "043A43F150F15A4300000000",
+                                    "043B43F150F15B4300000000",
+                                    "043C43F150F15C4300000000",
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR ISO 9G 9x19 submachine gun",
+                "shortName": "ZLR ISO 9G",
+                "description": "A submachine gun based on B&T APC9 K PRO G which chambered in 9x19mm cartridge. Model name G means magazines are interchangeable with 9x19mm Glock pistols."
+            }
+        },
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO",
+                "Templates": [
+                    "020020F150F1500000000000"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "020020F151F1510000000000": {
+        "itemTplToClone": "020020F150F1500000000000",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": true,
+            "FoldedSlot": "mod_stock",
+            "bFirerate": 1000,
+            "Ergonomics": 58,
+            
+            "Prefab": {
+                "path": "ISO/weapon_iso_gen2_9x19_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "69771a2ced70580c520dd0dc",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "020020F151F1510000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "AnimationIndex": -1,
+                            "Filter": [
+                            "5a7ad2e851dfba0016153692",
+                            "5a718b548dc32e000d46d262",
+                            "5a718da68dc32e000d46d264",
+                            "5a718f958dc32e00094b97e7",
+                            "630769c4962d0247b029dc60",
+                            "630767c37d50ff5e8a1ea71a",
+                            "63076701a987397c0816d21b"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69771c27230b110b679ab67b",
+                    "_parent": "020020F151F1510000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "042042F151F1510000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "69771c3542ed1cb8ad6e53ce",
+                    "_parent": "020020F151F1510000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "047B47F151F151B470000000",
+                                    "047A47F151F151A470000000",
+                                    "047C47F151F151C470000000",
+                                    "047047F151F1510000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69771c3f726612a013a9a098",
+                    "_parent": "020020F151F1510000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "043043F150F1504300000000",
+                                    "043043F151F1514300000000",
+                                    "043A43F150F15A4300000000",
+                                    "043B43F150F15B4300000000",
+                                    "043C43F150F15C4300000000",
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO 9G 9x19 submachine gun",
+                "shortName": "EXF ISO 9G",
+                "description": "Gen. 2 ISO submachine gun made by Expedite Firearms with foldable non-reciprocating charging handle and shortened upper receiver. Model name G means magazines are interchangeable with 9x19mm Glock pistols."
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO",
+                "Templates": [
+                    "020020F151F1510000000000"
+                ]
+            }
+        ]
+    },
+
+    "020020F154F1540000000000": {
+        "itemTplToClone": "020020F150F1500000000000",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": true,
+            "FoldedSlot": "mod_stock",
+            "bFirerate": 1000,
+            "Ergonomics": 55,
+            "Weight": 0.69,
+            
+            "Prefab": {
+                "path": "ISO/weapon_iso_ng_gen2_9x19_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "697725f4ff055c90947ea828",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "020020F154F1540000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "AnimationIndex": -1,
+                            "Filter": [
+                            "5de8e8dafd6b4e6e2276dc32",
+                            "5de8ea8ffd6b4e6e2276dc35",
+                            "5de8eaadbbaf010b10528a6d",
+                            "5de8eac42a78646d96665d91"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                    },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69771c223dae4fdba9156c59",
+                    "_parent": "020020F154F1540000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "042042F151F1510000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "69771c303601954042418b89",
+                    "_parent": "020020F154F1540000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "047B47F151F151B470000000",
+                                    "047A47F151F151A470000000",
+                                    "047C47F151F151C470000000",
+                                    "047047F151F1510000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69771c4422a3e30bf9ab3952",
+                    "_parent": "020020F154F1540000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "043043F150F1504300000000",
+                                    "043043F151F1514300000000",
+                                    "043A43F150F15A4300000000",
+                                    "043B43F150F15B4300000000",
+                                    "043C43F150F15C4300000000",
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO 9 9x19 submachine gun",
+                "shortName": "EXF ISO 9",
+                "description": "Gen. 2 ISO submachine gun made by Expedite Firearms with foldable non-reciprocating charging handle and shortened upper receiver. Magazines are interchangeable with B&T MP9."
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO",
+                "Templates": [
+                    "020020F154F1540000000000"
+                ]
+            }
+        ]
+    },
+
+    "020020F152F1520000000000": {
+        "itemTplToClone": "020020F150F1500000000000",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": true,
+            "FoldedSlot": "mod_stock",
+            "bFirerate": 900,
+            "Ergonomics": 55,
+            "Weight": 0.75,
+            "defMagType": "02F02FF152F1520000000000",
+            "defAmmo": "5e81f423763d9f754677bf2e",
+            "ammoCaliber": "Caliber1143x23ACP",
+            "Chambers": [
+                {
+                    "_name": "patron_in_weapon",
+                    "_id": "69772616853ae7b9369f7f90",
+                    "_parent": "020020F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e81f423763d9f754677bf2e",
+                                    "5efb0cabfb3e451d70735af5",
+                                    "5efb0fc6aeb21837e749c801",
+                                    "5efb0d4f4bc50b58e81710f3",
+                                    "5ea2a8e200685063ec28c05a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d4af244bdc2d962f8b4571"
+                }
+            ],
+            "RecoilReturnSpeedHandRotation": 3.1,
+            "RecoilDampingHandRotation": 0.84,
+            "RecoilCamera": 0.045,
+            "RecoilForceUp": 64,
+            "RecoilForceBack": 318,
+            "RecolDispersion": 9,
+            "BaseMalfunctionChance": 0.1771,
+            "HeatFactorByShot": 1.99,
+            
+            "Prefab": {
+                "path": "ISO/weapon_iso_1143x23_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "69771ded1606d5e49b22984a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "020020F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "AnimationIndex": -1,
+                            "Filter": [
+                            "02F02FF152F1520000000000",
+                            "02F12FF152F1521110000000",
+                            "02F22FF152F1522220000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69771df459259b6f2e3f299e",
+                    "_parent": "020020F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "042042F152F1520000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "69771dfbabbfe653f76a6103",
+                    "_parent": "020020F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "047B47F151F151B470000000",
+                                    "047A47F151F151A470000000",
+                                    "047C47F151F151C470000000",
+                                    "047047F151F1510000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "6979cf60ba3e0d837d329cf3",
+                    "_parent": "020020F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "043043F150F1504300000000",
+                                    "043043F151F1514300000000",
+                                    "043A43F150F15A4300000000",
+                                    "043B43F150F15B4300000000",
+                                    "043C43F150F15C4300000000",
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO 45 .45 ACP submachine gun",
+                "shortName": "EXF ISO 45",
+                "description": "Gen. 2 ISO submachine gun made by Expedite Firearms with ambidextrous non-reciprocating charging handle and shortened upper receiver."
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO",
+                "Templates": [
+                    "020020F152F1520000000000"
+                ]
+            }
+        ]
+    },
+
+    "020020F153F1530000000000": {
+        "itemTplToClone": "020020F152F1520000000000",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": true,
+            "FoldedSlot": "mod_stock",
+            "Ergonomics": 58,
+            "Weight": 0.72,
+            "defMagType": "5fb651b52b1b027b1f50bcff",
+            
+            "Prefab": {
+                "path": "ISO/weapon_iso_g_1143x23_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "697727df19e9ebe483242adc",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "020020F153F1530000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "AnimationIndex": -1,
+                            "Filter": [
+                                "5fb651b52b1b027b1f50bcff",
+                                "5fb651dc85f90547f674b6f4"
+                            ]
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69771df459259b6f2e3f299e",
+                    "_parent": "020020F153F1530000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "042042F152F1520000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "69771dfbabbfe653f76a6103",
+                    "_parent": "020020F153F1530000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "047B47F151F151B470000000",
+                                    "047A47F151F151A470000000",
+                                    "047C47F151F151C470000000",
+                                    "047047F151F1510000000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69771e01d5d21e5c2be2b23f",
+                    "_parent": "020020F153F1530000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "043043F150F1504300000000",
+                                    "043043F151F1514300000000",
+                                    "043A43F150F15A4300000000",
+                                    "043B43F150F15B4300000000",
+                                    "043C43F150F15C4300000000",
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO 45G .45 ACP submachine gun",
+                "shortName": "EXF ISO 45G",
+                "description": "Gen. 2 ISO submachine gun made by Expedite Firearms with ambidextrous non-reciprocating charging handle and shortened upper receiver. Model name G means magazines are interchangeable with .45 ACP Glock pistols."
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO",
+                "Templates": [
+                    "020020F153F1530000000000"
+                ]
+            }
+        ]
+    },
+
+    "042042F150F1500000000000": {
+        "itemTplToClone": "602e63fb6335467b0c5ac94d",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISO/mods/reciever_iso.bundle",
+                        "rcid": ""
+                    },
+                    "Slots": [
+                        {
+                            "_name": "mod_barrel",
+                            "_id": "69772d536acec973de56345f",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "04BA4BF150F15A4B00000000",
+                                            "04B04BF150F1500000000000",
+                                            "04BB4BF150F15B4B00000000",
+                                            "04BC4BF150F15C4B00000000"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": true,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        },
+                        {
+                            "_name": "mod_mount_001",
+                            "_id": "69772d4622fb6c553bb1dfee",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "048048F150F1504800000000"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": false,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        },
+                        {
+                            "_name": "mod_mount_002",
+                            "_id": "69772d27b427a463cee2d2ac",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "048048F150F1504800000000"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": false,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        },
+                        {
+                            "_name": "mod_foregrip",
+                            "_id": "69772cf5ce28bc11bf89c0de",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "5c7fc87d2e221644f31c0298",
+                                            "5cda9bcfd7f00c0c0b53e900",
+                                            "59f8a37386f7747af3328f06",
+                                            "619386379fb0c665d5490dbe",
+                                            "5c87ca002e221600114cb150",
+                                            "59fc48e086f77463b1118392",
+                                            "5fce0cf655375d18a253eff0",
+                                            "5cf4fb76d7f00c065703d3ac",
+                                            "5b057b4f5acfc4771e1bd3e9",
+                                            "5c791e872e2216001219c40a",
+                                            "558032614bdc2de7118b4585",
+                                            "58c157be86f77403c74b2bb6",
+                                            "58c157c886f774032749fb06",
+                                            "5f6340d3ca442212f4047eb2",
+                                            "591af28e86f77414a27a9e1d",
+                                            "5c1cd46f2e22164bef5cfedb",
+                                            "5c1bc4812e22164bef5cfde7",
+                                            "5c1bc5612e221602b5429350",
+                                            "5c1bc5af2e221602b412949b",
+                                            "5c1bc5fb2e221602b1779b32",
+                                            "5c1bc7432e221602b412949d",
+                                            "5c1bc7752e221602b1779b34",
+                                            "64806bdd26c80811d408d37a",
+                                            "64807a29e5ffe165600abc97",
+                                            "648067db042be0705c0b3009",
+                                            "65169d5b30425317755f8e25",
+                                            "655df24fdf80b12750626d0a",
+                                            "655dccfdbdcc6b5df71382b6",
+                                            "661e52e29c8b4dadef008577",
+                                            "661e53149c8b4dadef008579",
+                                            "661e52415be02310ed07a07a",
+                                            "661e52b5b099f32c28003586",
+                                            "041E41F150F15E4100000000",
+                                            "041B41F150F15B4100000000",
+                                            "041C41F150F15C4100000000",
+                                            "041D41F150F15D4100000000",
+                                            "041E41F150F15E4100000000"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": false,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        },
+                        {
+                            "_name": "mod_scope",
+                            "_id": "69772f185103f184922baa39",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "57ac965c24597706be5f975c",
+                                            "57aca93d2459771f2c7e26db",
+                                            "544a3f024bdc2d1d388b4568",
+                                            "544a3a774bdc2d3a388b4567",
+                                            "5d2dc3e548f035404a1a4798",
+                                            "57adff4f24597737f373b6e6",
+                                            "5c0517910db83400232ffee5",
+                                            "591c4efa86f7741030027726",
+                                            "570fd79bd2720bc7458b4583",
+                                            "570fd6c2d2720bc6458b457f",
+                                            "558022b54bdc2dac148b458d",
+                                            "5c07dd120db834001c39092d",
+                                            "5c0a2cec0db834001b7ce47d",
+                                            "58491f3324597764bc48fa02",
+                                            "584924ec24597768f12ae244",
+                                            "5b30b0dc5acfc400153b7124",
+                                            "6165ac8c290d254f5e6b2f6c",
+                                            "60a23797a37c940de7062d02",
+                                            "5d2da1e948f035477b1ce2ba",
+                                            "5c0505e00db834001b735073",
+                                            "609a63b6e2ff132951242d09",
+                                            "584984812459776a704a82a6",
+                                            "59f9d81586f7744c7506ee62",
+                                            "570fd721d2720bc5458b4596",
+                                            "57ae0171245977343c27bfcf",
+                                            "5dfe6104585a0c3e995c7b82",
+                                            "544a3d0a4bdc2d1b388b4567",
+                                            "5d1b5e94d7ad1a2b865a96b0",
+                                            "609bab8b455afd752b2e6138",
+                                            "58d39d3d86f77445bb794ae7",
+                                            "616554fe50224f204c1da2aa",
+                                            "5c7d55f52e221644f31bff6a",
+                                            "616584766ef05c2ce828ef57",
+                                            "5b3b6dc75acfc47a8773fb1e",
+                                            "615d8d878004cc50514c3233",
+                                            "5b2389515acfc4771e1be0c0",
+                                            "577d128124597739d65d0e56",
+                                            "618b9643526131765025ab35",
+                                            "618bab21526131765025ab3f",
+                                            "5c86592b2e2216000e69e77c",
+                                            "5a37ca54c4a282000d72296a",
+                                            "5d0a29fed7ad1a002769ad08",
+                                            "5c064c400db834001d23f468",
+                                            "58d2664f86f7747fec5834f6",
+                                            "57c69dd424597774c03b7bbc",
+                                            "5b3b99265acfc4704b4a1afb",
+                                            "5aa66a9be5b5b0214e506e89",
+                                            "5aa66c72e5b5b00016327c93",
+                                            "5c1cdd302e221602b3137250",
+                                            "61714b2467085e45ef140b2c",
+                                            "6171407e50224f204c1da3c5",
+                                            "61713cc4d8e3106d9806c109",
+                                            "5b31163c5acfc400153b71cb",
+                                            "5a33b652c4a28232996e407c",
+                                            "5a33b2c9c4a282000c5a9511",
+                                            "59db7eed86f77461f8380365",
+                                            "5a1ead28fcdbcb001912fa9f",
+                                            "5dff77c759400025ea5150cf",
+                                            "626bb8532c923541184624b4",
+                                            "62811f461d5df4475f46a332",
+                                            "63fc449f5bd61c6cf3784a88",
+                                            "6477772ea8a38bb2050ed4db",
+                                            "6478641c19d732620e045e17",
+                                            "64785e7c19d732620e045e15",
+                                            "65392f611406374f82152ba5",
+                                            "653931da5db71d30ab1d6296",
+                                            "655f13e0a246670fb0373245",
+                                            "6567e751a715f85433025998",
+                                            "67641a851b2899700609901a"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": false,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        },
+                        {
+                            "_name": "mod_sight_front",
+                            "_id": "69772f7f4d10bd41e531fb2f",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "5ba26b01d4351e0085325a51",
+                                            "5dfa3d950dee1b22f862eae0",
+                                            "5c17804b2e2216152006c02f",
+                                            "5fb6567747ce63734e3fa1dc",
+                                            "5bc09a30d4351e00367fb7c8",
+                                            "5c18b90d2e2216152142466b",
+                                            "5894a73486f77426d259076c"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": false,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        },
+                        {
+                            "_name": "mod_sight_rear",
+                            "_id": "69772fcbeb01d644efd05212",
+                            "_parent": "042042F150F1500000000000",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Shift": 0,
+                                        "Filter": [
+                                            "5ba26b17d4351e00367f9bdd",
+                                            "5dfa3d7ac41b2312ea33362a",
+                                            "5c1780312e221602b66cc189",
+                                            "5fb6564947ce63734e3fa1da",
+                                            "5bc09a18d4351e003562b68e",
+                                            "5c18b9192e2216398b5a8104",
+                                            "5894a81786f77427140b8347"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_required": false,
+                            "_mergeSlotWithChildren": false,
+                            "_proto": "55d30c4c4bdc2db4468b457e"
+                        }
+                    ],
+                    "ExtraSizeLeft": 1,
+                    "ExtraSizeForceAdd": false,
+                    "Weight": 0.58
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ZLR ISO upper receiver",
+                "shortName": "ZLR ISO",
+                "description": "Upper receiver for ZLR ISO."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "042042F151F1510000000000": {
+        "itemTplToClone": "042042F150F1500000000000",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/reciever_iso_gen2.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.57,
+            "MergesWithChildren": true
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO9 upper receiver",
+                "shortName": "EXF ISO9",
+                "description": "Upper receiver for EXF ISO9."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "042042F152F1520000000000": {
+        "itemTplToClone": "042042F150F1500000000000",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/reciever_iso_45.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.57,
+            "Slots": [
+                {
+                    "_name": "mod_barrel",
+                    "_id": "69773454f954bede33983e1a",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04BA4BF152F25A4B00000000",
+                                    "04B04BF152F2500000000000",
+                                    "04BB4BF152F25B4B00000000",
+                                    "04BE4BF152F25E4B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_id": "6977344d0d8bad1e05d5f3c7",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "048048F150F1504800000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "697734451979d2514843b67e",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "048048F150F1504800000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "6977343c0efdbe46e1fb8be3",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64806bdd26c80811d408d37a",
+                                    "64807a29e5ffe165600abc97",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655df24fdf80b12750626d0a",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586",
+                                    "041E41F150F15E4100000000",
+                                    "041B41F150F15B4100000000",
+                                    "041C41F150F15C4100000000",
+                                    "041D41F150F15D4100000000",
+                                    "041E41F150F15E4100000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_scope",
+                    "_id": "697734327858ff760927981e",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "57ac965c24597706be5f975c",
+                                    "57aca93d2459771f2c7e26db",
+                                    "544a3f024bdc2d1d388b4568",
+                                    "544a3a774bdc2d3a388b4567",
+                                    "5d2dc3e548f035404a1a4798",
+                                    "57adff4f24597737f373b6e6",
+                                    "5c0517910db83400232ffee5",
+                                    "591c4efa86f7741030027726",
+                                    "570fd79bd2720bc7458b4583",
+                                    "570fd6c2d2720bc6458b457f",
+                                    "558022b54bdc2dac148b458d",
+                                    "5c07dd120db834001c39092d",
+                                    "5c0a2cec0db834001b7ce47d",
+                                    "58491f3324597764bc48fa02",
+                                    "584924ec24597768f12ae244",
+                                    "5b30b0dc5acfc400153b7124",
+                                    "6165ac8c290d254f5e6b2f6c",
+                                    "60a23797a37c940de7062d02",
+                                    "5d2da1e948f035477b1ce2ba",
+                                    "5c0505e00db834001b735073",
+                                    "609a63b6e2ff132951242d09",
+                                    "584984812459776a704a82a6",
+                                    "59f9d81586f7744c7506ee62",
+                                    "570fd721d2720bc5458b4596",
+                                    "57ae0171245977343c27bfcf",
+                                    "5dfe6104585a0c3e995c7b82",
+                                    "544a3d0a4bdc2d1b388b4567",
+                                    "5d1b5e94d7ad1a2b865a96b0",
+                                    "609bab8b455afd752b2e6138",
+                                    "58d39d3d86f77445bb794ae7",
+                                    "616554fe50224f204c1da2aa",
+                                    "5c7d55f52e221644f31bff6a",
+                                    "616584766ef05c2ce828ef57",
+                                    "5b3b6dc75acfc47a8773fb1e",
+                                    "615d8d878004cc50514c3233",
+                                    "5b2389515acfc4771e1be0c0",
+                                    "577d128124597739d65d0e56",
+                                    "618b9643526131765025ab35",
+                                    "618bab21526131765025ab3f",
+                                    "5c86592b2e2216000e69e77c",
+                                    "5a37ca54c4a282000d72296a",
+                                    "5d0a29fed7ad1a002769ad08",
+                                    "5c064c400db834001d23f468",
+                                    "58d2664f86f7747fec5834f6",
+                                    "57c69dd424597774c03b7bbc",
+                                    "5b3b99265acfc4704b4a1afb",
+                                    "5aa66a9be5b5b0214e506e89",
+                                    "5aa66c72e5b5b00016327c93",
+                                    "5c1cdd302e221602b3137250",
+                                    "61714b2467085e45ef140b2c",
+                                    "6171407e50224f204c1da3c5",
+                                    "61713cc4d8e3106d9806c109",
+                                    "5b31163c5acfc400153b71cb",
+                                    "5a33b652c4a28232996e407c",
+                                    "5a33b2c9c4a282000c5a9511",
+                                    "59db7eed86f77461f8380365",
+                                    "5a1ead28fcdbcb001912fa9f",
+                                    "5dff77c759400025ea5150cf",
+                                    "626bb8532c923541184624b4",
+                                    "62811f461d5df4475f46a332",
+                                    "63fc449f5bd61c6cf3784a88",
+                                    "6477772ea8a38bb2050ed4db",
+                                    "6478641c19d732620e045e17",
+                                    "64785e7c19d732620e045e15",
+                                    "65392f611406374f82152ba5",
+                                    "653931da5db71d30ab1d6296",
+                                    "655f13e0a246670fb0373245",
+                                    "6567e751a715f85433025998",
+                                    "67641a851b2899700609901a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "6977342a30fca6f3620d4123",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5894a73486f77426d259076c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_rear",
+                    "_id": "69773423ea4b9d320e5bb4c2",
+                    "_parent": "042042F152F1520000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5ba26b17d4351e00367f9bdd",
+                                    "5dfa3d7ac41b2312ea33362a",
+                                    "5c1780312e221602b66cc189",
+                                    "5fb6564947ce63734e3fa1da",
+                                    "5bc09a18d4351e003562b68e",
+                                    "5c18b9192e2216398b5a8104",
+                                    "5894a81786f77427140b8347"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO9 upper receiver",
+                "shortName": "EXF ISO9",
+                "description": "Upper receiver for EXF ISO9."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BA4BF150F15A4B00000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_hvy.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.35,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Velocity": -1.5,
+            "CenterOfImpact": 0.165,
+            "DurabilityBurnModificator": 0.78,
+            "HeatFactor": 1,
+            "CoolFactor": 1,
+            "DeviationCurve": 2.3,
+            "DeviationMax": 10,
+            "Recoil": 0,
+            "Ergonomics": -6,
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "6977363f3ccda05789745548",
+                    "_parent": "04BA4BF150F15A4B00000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "60337f5dce399e10262255d1",
+                                    "5fbbc3324e8a554c40648348",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5a9fb739a2750c003215717f",
+                                    "5c6165902e22160010261b28",
+                                    "5a32a064c4a28200741e22de",
+                                    "04B84BF150F1584B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO9 185mm barrel",
+                "shortName": "ISO9 185",
+                "description": "185mm barrel for ISO9."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BA4BF152F25A4B00000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_f45.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.375,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Velocity": -1.71,
+            "CenterOfImpact": 0.168,
+            "DurabilityBurnModificator": 0.78,
+            "HeatFactor": 1,
+            "CoolFactor": 1,
+            "DeviationCurve": 2.3,
+            "DeviationMax": 10,
+            "Recoil": 0,
+            "Ergonomics": -6,
+
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773b46223b51802c856b37",
+                    "_parent": "04BA4BF152F25A4B00000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5fb65424956329274326f316",
+                                    "5fc4b992187fea44d52edaa9",
+                                    "5fb6548dd1409e5ca04b54f9",
+                                    "04B84BF152F2584B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO45 185mm barrel",
+                "shortName": "ISO45 185",
+                "description": "185mm barrel for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BB4BF150F15B4B00000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.4,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Velocity": -0.3,
+            "CenterOfImpact": 0.15,
+            "DurabilityBurnModificator": 0.81,
+            "HeatFactor": 0.97,
+            "CoolFactor": 1.03,
+            "DeviationCurve": 2.12,
+            "DeviationMax": 12,
+            "Recoil": -4,
+            "Ergonomics": -10,
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773873e6f623a4603a4d89",
+                    "_parent": "04BB4BF150F15B4B00000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "60337f5dce399e10262255d1",
+                                    "5fbbc3324e8a554c40648348",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5a9fb739a2750c003215717f",
+                                    "5c6165902e22160010261b28",
+                                    "5a32a064c4a28200741e22de",
+                                    "04B84BF150F1584B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO9 225mm barrel",
+                "shortName": "ISO9 225",
+                "description": "225mm barrel for ISO9."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BB4BF152F25B4B00000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.425,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Velocity": -0.335,
+            "CenterOfImpact": 0.153,
+            "DurabilityBurnModificator": 0.81,
+            "HeatFactor": 0.97,
+            "CoolFactor": 1.03,
+            "DeviationCurve": 2.12,
+            "DeviationMax": 12,
+            "Recoil": -4,
+            "Ergonomics": -10,
+
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773b401cae3d897f2ebd08",
+                    "_parent": "04BB4BF152F25B4B00000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5fb65424956329274326f316",
+                                    "5fc4b992187fea44d52edaa9",
+                                    "5fb6548dd1409e5ca04b54f9",
+                                    "04B84BF152F2584B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO45 225mm barrel",
+                "shortName": "ISO45 225",
+                "description": "225mm barrel for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B04BF150F1500000000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_mini.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.165,
+            "ExtraSizeLeft": 0,
+            "Velocity": -4,
+            "CenterOfImpact": 0.19,
+            "DurabilityBurnModificator": 0.75,
+            "HeatFactor": 1.05,
+            "CoolFactor": 0.95,
+            "DeviationCurve": 2.7,
+            "DeviationMax": 8,
+            "Recoil": 2,
+            "Ergonomics": -3,
+
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773938c1b20d5e127be500",
+                    "_parent": "04B04BF150F1500000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "60337f5dce399e10262255d1",
+                                    "5fbbc3324e8a554c40648348",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5a9fb739a2750c003215717f",
+                                    "5c6165902e22160010261b28",
+                                    "5a32a064c4a28200741e22de",
+                                    "04B84BF150F1584B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO9 standard barrel",
+                "shortName": "ISO9",
+                "description": "Standard barrel for ISO9."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B04BF152F2500000000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_mini_45.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.175,
+            "ExtraSizeLeft": 0,
+            "Velocity": -4.4,
+            "CenterOfImpact": 0.2,
+            "DurabilityBurnModificator": 0.75,
+            "HeatFactor": 1.05,
+            "CoolFactor": 0.95,
+            "DeviationCurve": 2.7,
+            "DeviationMax": 8,
+            "Recoil": 2,
+            "Ergonomics": -3,
+
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773b3a0a11ef7e52f28e23",
+                    "_parent": "04B04BF152F2500000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5fb65424956329274326f316",
+                                    "5fc4b992187fea44d52edaa9",
+                                    "5fb6548dd1409e5ca04b54f9",
+                                    "04B84BF152F2584B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO45 standard barrel",
+                "shortName": "ISO45",
+                "description": "Standard barrel for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BC4BF150F15C4B00000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_sil.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.06,
+            "ExtraSizeLeft": 0,
+            "Width": 1,
+            "Velocity": -16,
+            "CenterOfImpact": 0.185,
+            "DurabilityBurnModificator": 0.85,
+            "HeatFactor": 1.04,
+            "CoolFactor": 0.93,
+            "DeviationCurve": 2.7,
+            "DeviationMax": 8,
+            "Recoil": -2,
+            "Ergonomics": -3,
+            "IsSilencer": true,
+
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773a1935d07d07c81ccbf1",
+                    "_parent": "04BC4BF150F15C4B00000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B94BF150F1594B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Axeblade integrated suppressor barrel",
+                "shortName": "Axeblade",
+                "description": "Barrel for ISO to mount integrated suppressor."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BE4BF152F25E4B00000000": {
+        "itemTplToClone": "603372b4da11d6478d5a07ff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/barrel_iso_sil.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.06,
+            "ExtraSizeLeft": 0,
+            "Width": 1,
+            "Velocity": -16,
+            "CenterOfImpact": 0.15,
+            "DurabilityBurnModificator": 0.85,
+            "HeatFactor": 1.04,
+            "CoolFactor": 0.93,
+            "DeviationCurve": 2.7,
+            "DeviationMax": 8,
+            "Recoil": -2,
+            "Ergonomics": -3,
+            "IsSilencer": true,
+
+            "ConflictingItems": [
+                "041041F150F1504100000000",
+                "041B41F150F15B4100000000",
+                "041D41F150F15D4100000000",
+                "041C41F150F15C4100000000"
+            ],
+
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "69773b3331d915170d1f55fb",
+                    "_parent": "04BE4BF152F25E4B00000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B74BF150F1574B00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO XLB-S integrated suppressor barrel",
+                "shortName": "XLB-S",
+                "description": "Barrel for ISO to mount integrated suppressor."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041041F150F1504100000000": {
+        "itemTplToClone": "5fbb978207e8a97d1f0902d3",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Weight": 0.223,
+            "Ergonomics": 1,
+            "RaidModdable": false,
+            "ToolModdable": true,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Prefab": {
+                "path": "ISO/mods/handguard_iso_hvy.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "04B04BF150F1500000000000",
+                "04BC4BF150F15C4B00000000",
+                "04B04BF152F2500000000000"
+            ],
+            "Slots": [
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "69773f5763f97ed46407f487",
+                    "_parent": "041041F150F1504100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "048A48F150F15A4800000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_id": "69773ff5f9adeab0886e5a86",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "041041F150F1504100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ba26b01d4351e0085325a51",
+                            "5dfa3d950dee1b22f862eae0",
+                            "5c17804b2e2216152006c02f",
+                            "5fb6567747ce63734e3fa1dc",
+                            "5bc09a30d4351e00367fb7c8",
+                            "5c18b90d2e2216152142466b",
+                            "5894a73486f77426d259076c"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697740d87443868244172e38",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "041041F150F1504100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5d10b49bd7ad1a1a560708b0",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697740d31cb0b8e70c1d0599",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "041041F150F1504100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5d10b49bd7ad1a1a560708b0",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Ex Raptor-V2 handguard",
+                "shortName": "Ex Raptor-V2",
+                "description": "Ex Raptor-V2 handguard for ISO."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041D41F150F15D4100000000": {
+        "itemTplToClone": "5fbb978207e8a97d1f0902d3",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Weight": 0.29,
+            "Ergonomics": 2,
+            "RaidModdable": false,
+            "ToolModdable": true,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Prefab": {
+                "path": "ISO/mods/handguard_iso_f45.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "04B04BF150F1500000000000",
+                "04BC4BF150F15C4B00000000",
+                "04B04BF152F2500000000000"
+            ],
+            "Slots": [
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "69773f5763f97ed46407f487",
+                    "_parent": "041D41F150F15D4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "588226d124597767ad33f787",
+                                    "588226dd24597767ad33f789",
+                                    "588226e62459776e3e094af7",
+                                    "588226ef24597767af46e39c",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64806bdd26c80811d408d37a",
+                                    "64807a29e5ffe165600abc97",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "655df24fdf80b12750626d0a",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_id": "697745f16c4bfc52e0725f35",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_000",
+                    "_parent": "041D41F150F15D4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ba26b01d4351e0085325a51",
+                            "5dfa3d950dee1b22f862eae0",
+                            "5c17804b2e2216152006c02f",
+                            "5fb6567747ce63734e3fa1dc",
+                            "5bc09a30d4351e00367fb7c8",
+                            "5c18b90d2e2216152142466b",
+                            "5894a73486f77426d259076c"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697740d87443868244172e38",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "041D41F150F15D4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5d10b49bd7ad1a1a560708b0",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697740d31cb0b8e70c1d0599",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "041D41F150F15D4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5d10b49bd7ad1a1a560708b0",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO45 handguard",
+                "shortName": "ISO45",
+                "description": "Extented handguard for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041B41F150F15B4100000000": {
+        "itemTplToClone": "5fbb978207e8a97d1f0902d3",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Weight": 0.288,
+            "Ergonomics": 1,
+            "Recoil": -2,
+            "RaidModdable": false,
+            "ToolModdable": true,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Prefab": {
+                "path": "ISO/mods/handguard_iso_long.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "04B04BF150F1500000000000",
+                "04BC4BF150F15C4B00000000",
+                "04BA4BF150F15A4B00000000",
+                "04B04BF152F2500000000000",
+                "04BA4BF152F25A4B00000000"
+            ],
+            "Slots": [
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "69773f5763f97ed46407f487",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64806bdd26c80811d408d37a",
+                                    "64807a29e5ffe165600abc97",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655df24fdf80b12750626d0a",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_id": "697745e66d41f68ec165622b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_000",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                                "5a800961159bd4315e3a1657",
+                                "57fd23e32459772d0805bcf1",
+                                "544909bb4bdc2d6f028b4577",
+                                "5d10b49bd7ad1a1a560708b0",
+                                "5c06595c0db834001a66af6c",
+                                "5cc9c20cd7f00c001336c65d",
+                                "5d2369418abbc306c62e0c80",
+                                "5b07dd285acfc4001754240d",
+                                "56def37dd2720bec348b456a",
+                                "5a7b483fe899ef0016170d15",
+                                "61605d88ffa6e502ac5e7eeb",
+                                "5a5f1ce64f39f90b401987bc",
+                                "560d657b4bdc2da74d8b4572",
+                                "5b3a337e5acfc4704b4a19a0",
+                                "5c5952732e2216398b5abda2",
+                                "57d17e212459775a1179a0f5",
+                                "6267c6396b642f77f56f5c1c",
+                                "6272370ee4013c5d7e31f418",
+                                "6272379924e29f06af4d5ecb",
+                                "626becf9582c3e319310b837",
+                                "644a3df63b0b6f03e101e065",
+                                "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697745dbcc9651b3a7219f7d",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                                "5a800961159bd4315e3a1657",
+                                "57fd23e32459772d0805bcf1",
+                                "544909bb4bdc2d6f028b4577",
+                                "5d10b49bd7ad1a1a560708b0",
+                                "5c06595c0db834001a66af6c",
+                                "5cc9c20cd7f00c001336c65d",
+                                "5d2369418abbc306c62e0c80",
+                                "5b07dd285acfc4001754240d",
+                                "56def37dd2720bec348b456a",
+                                "5a7b483fe899ef0016170d15",
+                                "61605d88ffa6e502ac5e7eeb",
+                                "5a5f1ce64f39f90b401987bc",
+                                "560d657b4bdc2da74d8b4572",
+                                "5b3a337e5acfc4704b4a19a0",
+                                "5c5952732e2216398b5abda2",
+                                "57d17e212459775a1179a0f5",
+                                "6267c6396b642f77f56f5c1c",
+                                "6272370ee4013c5d7e31f418",
+                                "6272379924e29f06af4d5ecb",
+                                "626becf9582c3e319310b837",
+                                "644a3df63b0b6f03e101e065",
+                                "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697745d3e86b3c638fc891ec",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                                "5a800961159bd4315e3a1657",
+                                "57fd23e32459772d0805bcf1",
+                                "544909bb4bdc2d6f028b4577",
+                                "5d10b49bd7ad1a1a560708b0",
+                                "5c06595c0db834001a66af6c",
+                                "5cc9c20cd7f00c001336c65d",
+                                "5d2369418abbc306c62e0c80",
+                                "5b07dd285acfc4001754240d",
+                                "56def37dd2720bec348b456a",
+                                "5a7b483fe899ef0016170d15",
+                                "61605d88ffa6e502ac5e7eeb",
+                                "5a5f1ce64f39f90b401987bc",
+                                "560d657b4bdc2da74d8b4572",
+                                "5b3a337e5acfc4704b4a19a0",
+                                "5c5952732e2216398b5abda2",
+                                "57d17e212459775a1179a0f5",
+                                "6267c6396b642f77f56f5c1c",
+                                "6272370ee4013c5d7e31f418",
+                                "6272379924e29f06af4d5ecb",
+                                "626becf9582c3e319310b837",
+                                "644a3df63b0b6f03e101e065",
+                                "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697745cbe22a3703770e5696",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_003",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                                "5a800961159bd4315e3a1657",
+                                "57fd23e32459772d0805bcf1",
+                                "544909bb4bdc2d6f028b4577",
+                                "5d10b49bd7ad1a1a560708b0",
+                                "5c06595c0db834001a66af6c",
+                                "5cc9c20cd7f00c001336c65d",
+                                "5d2369418abbc306c62e0c80",
+                                "5b07dd285acfc4001754240d",
+                                "56def37dd2720bec348b456a",
+                                "5a7b483fe899ef0016170d15",
+                                "61605d88ffa6e502ac5e7eeb",
+                                "5a5f1ce64f39f90b401987bc",
+                                "560d657b4bdc2da74d8b4572",
+                                "5b3a337e5acfc4704b4a19a0",
+                                "5c5952732e2216398b5abda2",
+                                "57d17e212459775a1179a0f5",
+                                "6267c6396b642f77f56f5c1c",
+                                "6272370ee4013c5d7e31f418",
+                                "6272379924e29f06af4d5ecb",
+                                "626becf9582c3e319310b837",
+                                "644a3df63b0b6f03e101e065",
+                                "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697745c527c74553147c6830",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_004",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                                "5a800961159bd4315e3a1657",
+                                "57fd23e32459772d0805bcf1",
+                                "544909bb4bdc2d6f028b4577",
+                                "5d10b49bd7ad1a1a560708b0",
+                                "5c06595c0db834001a66af6c",
+                                "5cc9c20cd7f00c001336c65d",
+                                "5d2369418abbc306c62e0c80",
+                                "5b07dd285acfc4001754240d",
+                                "56def37dd2720bec348b456a",
+                                "5a7b483fe899ef0016170d15",
+                                "61605d88ffa6e502ac5e7eeb",
+                                "5a5f1ce64f39f90b401987bc",
+                                "560d657b4bdc2da74d8b4572",
+                                "5b3a337e5acfc4704b4a19a0",
+                                "5c5952732e2216398b5abda2",
+                                "57d17e212459775a1179a0f5",
+                                "6267c6396b642f77f56f5c1c",
+                                "6272370ee4013c5d7e31f418",
+                                "6272379924e29f06af4d5ecb",
+                                "626becf9582c3e319310b837",
+                                "644a3df63b0b6f03e101e065",
+                                "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697745b7626cc04e3ce4cace",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical",
+                    "_parent": "041B41F150F15B4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5c5952732e2216398b5abda2",
+                                    "644a3df63b0b6f03e101e065"
+                                ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO PTX Trainer handguard",
+                "shortName": "PTX Trainer",
+                "description": "PTX Trainer handguard for ISO."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041C41F150F15C4100000000": {
+        "itemTplToClone": "5fbb978207e8a97d1f0902d3",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Weight": 0.232,
+            "Ergonomics": 4,
+            "Recoil": -2,
+            "RaidModdable": false,
+            "ToolModdable": true,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Prefab": {
+                "path": "ISO/mods/handguard_iso_sil.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "04B04BF150F1500000000000",
+                "04B04BF152F2500000000000"
+            ],
+            "Slots": [
+                                {
+                    "_name": "mod_mount_001",
+                    "_id": "69774725df8dd83211b5147f",
+                    "_parent": "041C41F150F15C4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "048C48F150F15C4800000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_id": "6977472aeaffb343adbcb8ae",
+                    "_parent": "041C41F150F15C4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "048C48F150F15C4800000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "69774730c5c499abd5ec91cc",
+                    "_parent": "041C41F150F15C4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64806bdd26c80811d408d37a",
+                                    "64807a29e5ffe165600abc97",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655df24fdf80b12750626d0a",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "69774735ff215c47d0e379b4",
+                    "_parent": "041C41F150F15C4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5894a73486f77426d259076c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Axeblade handguard",
+                "shortName": "Axeblade",
+                "description": "Axeblade handguard for ISO."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041E41F150F15E4100000000": {
+        "itemTplToClone": "5aaf8e43e5b5b00015693246",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Weight": 0.452,
+            "Ergonomics": 2,
+            "Recoil": -2,
+            "RaidModdable": false,
+            "ToolModdable": true,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Prefab": {
+                "path": "ISO/mods/handguard_iso_s45.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "69774be07ce2dc617028b626",
+                    "_parent": "041E41F150F15E4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5894a73486f77426d259076c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "69774c2efe2c40211a1888d4",
+                    "_parent": "041E41F150F15E4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical_001",
+                    "_id": "69774c2efe2c40211a1888d4",
+                    "_parent": "041E41F150F15E4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5d10b49bd7ad1a1a560708b0",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical_002",
+                    "_id": "69774c980eae6b3b61584466",
+                    "_parent": "041E41F150F15E4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5d10b49bd7ad1a1a560708b0",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_foregrip",
+                    "_id": "69774cb693505e37008b3ea0",
+                    "_parent": "041E41F150F15E4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "588226d124597767ad33f787",
+                                    "588226dd24597767ad33f789",
+                                    "588226e62459776e3e094af7",
+                                    "588226ef24597767af46e39c",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64806bdd26c80811d408d37a",
+                                    "64807a29e5ffe165600abc97",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "655df24fdf80b12750626d0a",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_mount",
+                    "_id": "69774d130d0b3cb47950174a",
+                    "_parent": "041E41F150F15E4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5649a2464bdc2d91118b45a8"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+            "ConflictingItems": [
+                "04B04BF150F1500000000000",
+                "04B04BF152F2500000000000",
+                "04BC4BF150F15C4B00000000",
+                "04BA4BF150F15A4B00000000",
+                "04BA4BF152F25A4B00000000",
+                "04BB4BF150F15B4B00000000",
+                "04BB4BF152F25B4B00000000"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO XLB-S handguard",
+                "shortName": "XLB-S",
+                "description": "XLB-S handguard for ISO."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "048048F150F1504800000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/mount_iso_mini.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "041041F150F1504100000000",
+                "041B41F150F15B4100000000",
+                "041C41F150F15C4100000000",
+                "041D41F150F15D4100000000",
+                "041E41F150F15E4100000000"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO side rail",
+                "shortName": "ISO side",
+                "description": "Side rail for ISO."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "048A48F150F15A4800000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/mount_iso_hvy.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "69774e4c069dfa4d01be00d6",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "048A48F150F15A4800000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5c7fc87d2e221644f31c0298",
+                            "5cda9bcfd7f00c0c0b53e900",
+                            "59f8a37386f7747af3328f06",
+                            "619386379fb0c665d5490dbe",
+                            "5c87ca002e221600114cb150",
+                            "59fc48e086f77463b1118392",
+                            "5fce0cf655375d18a253eff0",
+                            "5cf4fb76d7f00c065703d3ac",
+                            "5b057b4f5acfc4771e1bd3e9",
+                            "5c791e872e2216001219c40a",
+                            "558032614bdc2de7118b4585",
+                            "58c157be86f77403c74b2bb6",
+                            "58c157c886f774032749fb06",
+                            "5f6340d3ca442212f4047eb2",
+                            "591af28e86f77414a27a9e1d",
+                            "5c1cd46f2e22164bef5cfedb",
+                            "5c1bc4812e22164bef5cfde7",
+                            "5c1bc5612e221602b5429350",
+                            "5c1bc5af2e221602b412949b",
+                            "5c1bc5fb2e221602b1779b32",
+                            "5c1bc7432e221602b412949d",
+                            "5c1bc7752e221602b1779b34",
+                            "64806bdd26c80811d408d37a",
+                            "64807a29e5ffe165600abc97",
+                            "648067db042be0705c0b3009",
+                            "65169d5b30425317755f8e25",
+                            "655df24fdf80b12750626d0a",
+                            "655dccfdbdcc6b5df71382b6",
+                            "661e52e29c8b4dadef008577",
+                            "661e53149c8b4dadef008579",
+                            "661e52415be02310ed07a07a",
+                            "661e52b5b099f32c28003586"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Ex Raptor-V2 bottom rail",
+                "shortName": "Ex Raptor-V2",
+                "description": "Bottom rail for ISO Ex Raptor-V2 handguard."
+            }
+        },
+        "fleaPriceRoubles": 100,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "048C48F150F15C4800000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/mount_iso_sil.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.085,
+            "Ergonomics": -1
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Axeblade side rail",
+                "shortName": "Axeblade",
+                "description": "Side rail for ISO Axeblade handguard."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "047047F150F1500000000000": {
+        "itemTplToClone": "5bd704e7209c4d00d7167c31",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/stock_iso_gen1_std.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 8,
+            "Recoil": -20
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR ISO retractable stock",
+                "shortName": "ZLR retractable",
+                "description": "Retractable stock for ZLR ISO."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "047047F151F1510000000000": {
+        "itemTplToClone": "047047F150F1500000000000",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/stock_iso_gen2_std.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.195
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO retractable stock",
+                "shortName": "EXF retractable",
+                "description": "Retractable stock for EXF ISO."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "047A47F151F151A470000000": {
+        "itemTplToClone": "5649b1c04bdc2d16268b457c",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/stock_iso_fixed_light.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "BlocksFolding": true,
+            "BlocksCollapsible": true,
+            "Weight": 0.23,
+            "Ergonomics": 6,
+            "Recoil": -22
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Res 2 fixed stock",
+                "shortName": "Res 2",
+                "description": "Res 2 fixed stock for ISO."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "047B47F151F151B470000000": {
+        "itemTplToClone": "5649b1c04bdc2d16268b457c",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/stock_iso_fixed_hvy.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "BlocksFolding": true,
+            "BlocksCollapsible": true,
+            "Weight": 0.6,
+            "Ergonomics": 10,
+            "Recoil": -26
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Mace 650 stock",
+                "shortName": "Mace 650",
+                "description": "Mace 650 ergonomical stock for ISO."
+            }
+        },
+        "fleaPriceRoubles": 28000,
+        "handbookPriceRoubles": 22000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "047C47F151F151C470000000": {
+        "itemTplToClone": "5649be884bdc2d79388b4577",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/stock_iso_adapter.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "69774fdbc54005c436884784",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_stock_000",
+                    "_parent": "047C47F151F151C470000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5fc2369685fd526b824a5713",
+                            "606587d11246154cad35d635",
+                            "5a9eb32da2750c00171b3f9c",
+                            "5bfe86df0db834001b734685",
+                            "55d4ae6c4bdc2d8b2f8b456e",
+                            "5c87a07c2e2216001219d4a2",
+                            "5bb20e70d4351e0035629f8f",
+                            "5beec8c20db834001d2c465c",
+                            "5fbbaa86f9986c4cff3fe5f6",
+                            "5fce16961f152d4312622bc9",
+                            "5ae30c9a5acfc408fb139a03",
+                            "5d135e83d7ad1a21b83f42d8",
+                            "5d135ecbd7ad1a21c176542e",
+                            "56eabf3bd2720b75698b4569",
+                            "58d2946386f774496974c37e",
+                            "58d2946c86f7744e271174b5",
+                            "58d2947686f774485c6a1ee5",
+                            "58d2947e86f77447aa070d53",
+                            "5d44069ca4b9361ebd26fc37",
+                            "5d4406a8a4b9361e4f6eb8b7",
+                            "5947c73886f7747701588af5",
+                            "5c793fde2e221601da358614",
+                            "5b39f8db5acfc40016387a1b",
+                            "628a85ee6b1d481ff772e9d5",
+                            "602e620f9b513876d4338d9a",
+                            "6516e91f609aaf354b34b3e2",
+                            "6516e971a3d4c6497930b450",
+                            "6529370c405a5f51dd023db8"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                    }
+            ],
+            "Recoil": -1,
+            "Ergonomics": -1
+        },
+        "locales": {
+            "en": {
+                "name": "ISO stock buffer tube",
+                "shortName": "ISO buff. tube",
+                "description": "ISO buffer tube for ISO."
+            }
+        },
+        "fleaPriceRoubles": 28000,
+        "handbookPriceRoubles": 22000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043043F150F1504300000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/pistolgrip_iso_default_gen1.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 6,
+            "Weight": 0.08
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR ISO pistol grip",
+                "shortName": "ZLR",
+                "description": "Standard pistol grip for ZLE ISO."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043043F151F1514300000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/pistolgrip_iso_default_gen2.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 6,
+            "Weight": 0.078
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO pistol grip",
+                "shortName": "EXF",
+                "description": "Standard pistol grip for ISO."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043A43F150F15A4300000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/pistolgrip_iso_gripass.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 10,
+            "Weight": 0.1
+        },
+        "locales": {
+            "en": {
+                "name": "ISO A30 Stout pistol grip",
+                "shortName": "Stout",
+                "description": "A30 Stout pistol grip for ISO."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043B43F150F15B4300000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/pistolgrip_iso_griptac.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 8,
+            "Weight": 0.055
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Exp Shear pistol grip",
+                "shortName": "Exp Shear",
+                "description": "Exp Shear pistol grip for ISO."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043C43F150F15C4300000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/pistolgrip_iso_griergo.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 11,
+            "Weight": 0.07
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Stalwart GX pistol grip",
+                "shortName": "Stalwart GX",
+                "description": "Stalwart GX pistol grip for ISO."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 15000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04CB4CF150F15B4C00000000": {
+        "itemTplToClone": "5bc09a18d4351e003562b68e",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/sight_rear_all_iso.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR ISO foldable rear sight",
+                "shortName": "ZLR ISO",
+                "description": "Foldable rear sight for ISO."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ]
+    },
+
+    "04CF4CF150F15F4C00000000": {
+        "itemTplToClone": "5bc09a30d4351e00367fb7c8",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/sight_front_all_iso.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "ZLR ISO foldable front sight",
+                "shortName": "ZLR ISO",
+                "description": "Foldable front sight for ISO."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_front"
+        ]
+    },
+
+    "04CB4CF151F15B4C00000000": {
+        "itemTplToClone": "5bc09a18d4351e003562b68e",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/sight_rear_all_iso_gen2.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO foldable rear sight",
+                "shortName": "EFX ISO",
+                "description": "Foldable rear sight for ISO."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ]
+    },
+
+    "04CF4CF151F15F4C00000000": {
+        "itemTplToClone": "5bc09a30d4351e00367fb7c8",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/sight_front_all_iso_gen2.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO foldable front sight",
+                "shortName": "EXF ISO",
+                "description": "Foldable front sight for ISO."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_front"
+        ]
+    },
+
+    "04B84BF150F1584B00000000": {
+        "itemTplToClone": "5fbbc3324e8a554c40648348",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/muzzle_iso_9x19.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "ISO9 muzzle device",
+                "shortName": "ISO9",
+                "description": "Standard muzzle device for ISO."
+            }
+        },
+        "fleaPriceRoubles": 1200,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B84BF152F2584B00000000": {
+        "itemTplToClone": "5fbbc3324e8a554c40648348",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/muzzle_iso_9x19.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "ISO45 muzzle device",
+                "shortName": "ISO45",
+                "description": "Standard muzzle device for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 1200,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B94BF150F1594B00000000": {
+        "itemTplToClone": "5926d33d86f77410de68ebc0",
+        "parentId": "550aa4cd4bdc2dd8348b456c",
+        "handbookParentId": "5b5f731a86f774093e6cb4f9",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/silencer_iso_sil.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "Ergonomics": -7,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Axeblade integrated suppressor",
+                "shortName": "Axeblade integrated",
+                "description": "Axeblade integrated suppressor for ISO."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B74BF150F1574B00000000": {
+        "itemTplToClone": "5926d33d86f77410de68ebc0",
+        "parentId": "550aa4cd4bdc2dd8348b456c",
+        "handbookParentId": "5b5f731a86f774093e6cb4f9",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/silencer_iso_s45.bundle",
+                "rcid": ""
+            },
+            "Width": 3,
+            "Weight": 0.923,
+            "ExtraSizeLeft": 3,
+            "ExtraSizeForceAdd": false,
+            "Slots": [],
+            "Ergonomics": -14,
+            "Velocity": 6,
+            "Recoil": -23,
+            "Loudness": -62,
+            "HeatFactor": 1.24,
+            "CoolFactor": 1.08
+        },
+        "locales": {
+            "en": {
+                "name": "ISO XLB-S integrated suppressor",
+                "shortName": "XLB-S integrated",
+                "description": "XLB-S integrated suppressor for ISO."
+            }
+        },
+        "fleaPriceRoubles": 16000,
+        "handbookPriceRoubles": 16000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F02FF152F1520000000000": {
+        "itemTplToClone": "5fb651dc85f90547f674b6f4",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/magazine_iso_45acp_mag.bundle",
+                "rcid": ""
+            },
+            "magAnimationIndex": 3,
+            "Ergonomics": 0
+        },
+        "locales": {
+            "en": {
+                "name": ".45 ACP ISO 30-round magazine",
+                "shortName": "ISO 30",
+                "description": "30-rd magazine for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F12FF152F1521110000000": {
+        "itemTplToClone": "5fb651b52b1b027b1f50bcff",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/magazine_iso_45acp_smag.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "69775303e0415cdedec83ea8",
+                    "_parent": "02F12FF152F1521110000000",
+                    "_max_count": 12,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e81f423763d9f754677bf2e",
+                                    "5efb0cabfb3e451d70735af5",
+                                    "5efb0fc6aeb21837e749c801",
+                                    "5efb0d4f4bc50b58e81710f3",
+                                    "5ea2a8e200685063ec28c05a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 0,
+            "Ergonomics": 5
+        },
+        "locales": {
+            "en": {
+                "name": ".45 ACP ISO 12-round magazine",
+                "shortName": "ISO 12",
+                "description": "12-rd magazine for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F22FF152F1522220000000": {
+        "itemTplToClone": "5a718f958dc32e00094b97e7",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISO/mods/magazine_iso_45acp_drum.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "697753670f8b364288a553da",
+                    "_parent": "02F22FF152F1522220000000",
+                    "_max_count": 45,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e81f423763d9f754677bf2e",
+                                    "5efb0cabfb3e451d70735af5",
+                                    "5efb0fc6aeb21837e749c801",
+                                    "5efb0d4f4bc50b58e81710f3",
+                                    "5ea2a8e200685063ec28c05a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 0,
+            "Ergonomics": -12
+        },
+        "locales": {
+            "en": {
+                "name": ".45 ACP ISO 45-round drum magazine",
+                "shortName": "ISO 45",
+                "description": "45-rd drum magazine for ISO45."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    }
+}

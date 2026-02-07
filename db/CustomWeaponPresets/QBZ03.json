@@ -1,0 +1,120 @@
+{
+    "220000C03C03000000000000": {
+        "_id": "220000C03C03000000000000",
+        "_name": "QBZ-03 Default",
+        "_changeWeaponName": false,
+        "_parent": "697339d5eb36ea9a141c8689",
+        "_encyclopedia": "020020BBA03BBA0300000000",
+        "_type": "Preset",
+        "_items": [
+            {
+            "_id": "697339d5eb36ea9a141c8689",
+            "_tpl": "020020bba03bba0300000000"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c868a",
+            "_tpl": "55d4887d4bdc2d962f8b4570",
+            "parentId": "697339d5eb36ea9a141c8689",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c868b",
+            "_tpl": "04c04cbba03bba03ccc00000",
+            "parentId": "697339d5eb36ea9a141c8689",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c868c",
+            "_tpl": "042042bba03bba0342000000",
+            "parentId": "697339d5eb36ea9a141c8689",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c868d",
+            "_tpl": "043043bba03bba0343000000",
+            "parentId": "697339d5eb36ea9a141c8689",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c868e",
+            "_tpl": "049049bba03bba0349000000",
+            "parentId": "697339d5eb36ea9a141c8689",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c868f",
+            "_tpl": "04a04abba03bba034a000000",
+            "parentId": "697339d5eb36ea9a141c8689",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "697339d5eb36ea9a141c8690",
+            "_tpl": "041041bba03bba0341000000",
+            "parentId": "697339d5eb36ea9a141c868b",
+            "slotId": "mod_handguard"
+          }
+        ]
+    },
+    "220000C03C03A00000000000": {
+        "_id": "220000C03C03A00000000000",
+        "_name": "QBZ-03 Rail",
+        "_changeWeaponName": false,
+        "_parent": "697339eeeb36ea9a141c8691",
+        "_encyclopedia": "020020BBA03BBA0300000000",
+        "_type": "Preset",
+        "_items": [
+{
+            "_id": "697339eeeb36ea9a141c8691",
+            "_tpl": "020020bba03bba0300000000"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8692",
+            "_tpl": "55d4887d4bdc2d962f8b4570",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8693",
+            "_tpl": "04c04cbba03bba03ccc00000",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8694",
+            "_tpl": "042042bba03bba0342000000",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8695",
+            "_tpl": "043043bba03bba0343000000",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8696",
+            "_tpl": "049049bba03bba0349000000",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8697",
+            "_tpl": "044aaabba03bba030a000000",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8698",
+            "_tpl": "04a04abba03bba034a000000",
+            "parentId": "697339eeeb36ea9a141c8691",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "697339eeeb36ea9a141c8699",
+            "_tpl": "0410aabba03bba03aa000000",
+            "parentId": "697339eeeb36ea9a141c8693",
+            "slotId": "mod_handguard"
+          }
+        ]
+    }
+}

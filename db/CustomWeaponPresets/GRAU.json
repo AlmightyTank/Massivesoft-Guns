@@ -1,0 +1,115 @@
+{
+    "6978816158ef9f2a203866b8": {
+        "_id": "6978816158ef9f2a203866b8",
+        "_name": "Grau 762 Default",
+        "_changeWeaponName": false,
+        "_parent": "683b352521a10fafaaad204b",
+        "_encyclopedia": "5dbcb66f4827cd761fb3797a",
+        "_type": "Preset",
+        "_items": [
+            {
+              "_id": "683b352521a10fafaaad204b",
+              "_tpl": "5dbcb66f4827cd761fb3797a"
+            },
+            {
+              "_id": "683b530146b794ad03c5e29d",
+              "_tpl": "98f081647a654c307492ae67",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "683b530504ae8c394a3e7c0b",
+              "_tpl": "e19730b94f5b34b39c82fd25",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "683b53081d89bdd1f268d51b",
+              "_tpl": "2986f5dbe25acdbeff9ba8f2",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "683b530bdf85d6579c36f96f",
+              "_tpl": "6272874a6c47bd74f92e2087",
+              "parentId": "683b352521a10fafaaad204b",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "683b530e7a74364c13554242",
+              "_tpl": "74a2de7548ee8bad037c18ea",
+              "parentId": "683b530504ae8c394a3e7c0b",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "683b5313744343cb63ce12d7",
+              "_tpl": "c1bcaa54461cd1767be1fb7c",
+              "parentId": "683b530e7a74364c13554242",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "683b5318ff6385bff8167f5c",
+              "_tpl": "5dcbe965e4ed22586443a79d",
+              "parentId": "683b5313744343cb63ce12d7",
+              "slotId": "mod_muzzle"
+            }
+        ]
+    },
+    
+    "697881c53332a18dcb924c87": {
+        "_id": "697881c53332a18dcb924c87",
+        "_name": "Grau 556 Default",
+        "_changeWeaponName": false,
+        "_parent": "683b3532ac1378c1ce79b561",
+        "_encyclopedia": "b6c589ec2535085340807057",
+        "_type": "Preset",
+        "_items": [
+            {
+              "_id": "683b3532ac1378c1ce79b561",
+              "_tpl": "b6c589ec2535085340807057"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000041",
+              "_tpl": "98f081647a654c307492ae67",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000042",
+              "_tpl": "3b8f80d2f5acca00e55ca855",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000043",
+              "_tpl": "2986f5dbe25acdbeff9ba8f2",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000044",
+              "_tpl": "c7332f93b1803894918b1085",
+              "parentId": "683b3532ac1378c1ce79b561",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000045",
+              "_tpl": "74a2de7548ee8bad037c18ea",
+              "parentId": "1799ccbaeebaba00bc000042",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000046",
+              "_tpl": "0a1ddaa39b718e24bd39cf87",
+              "parentId": "1799ccbaeebaba00bc000045",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "1799ccbaeebaba00bc000047",
+              "_tpl": "5c48a2a42e221602b66d1e07",
+              "parentId": "1799ccbaeebaba00bc000046",
+              "slotId": "mod_muzzle"
+            }
+        ]
+    }
+}

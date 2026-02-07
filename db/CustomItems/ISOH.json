@@ -1,0 +1,4258 @@
+{
+    "6975f729ccca05b310f4c73b": {
+        "itemTplToClone": "6184055050224f204c1da540",
+        "parentId": "5447b5f14bdc2d61278b4567",
+        "handbookParentId": "5b5f78fc86f77409407a7f90",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Weight": 0.695,
+            "Prefab": {
+                "path": "ISOH/weapon_iso_hemlock_556x45_container.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 46,
+            "RecoilForceUp": 100,
+            "RecoilForceBack": 340,
+            "RecolDispersion": 8,
+            "bFirerate": 600,
+            "RecoilCamera": 0.05,
+            "RecoilReturnSpeedHandRotation": 2.6,
+
+            "defMagType": "02F02FF15FF15F0000000000",
+
+            "Slots": [
+                {
+                    "_name": "mod_magazine",
+                    "_id": "020020BBA03BBA030000AAF",
+                    "_parent": "6975f729ccca05b310f4c73b",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "55d4887d4bdc2d962f8b4570",
+                                "61840bedd92c473c77021635",
+                                "61840d85568c120fdd2962a5",
+                                "5c05413a0db834001c390617",
+                                "5c6d450c2e221600114c997d",
+                                "5c6d42cb2e2216000e69d7d1",
+                                "59c1383d86f774290a37e0ca",
+                                "5aaa5e60e5b5b000140293d6",
+                                "5448c1d04bdc2dff2f8b4569",
+                                "5aaa5dfee5b5b000140293d3",
+                                "5d1340b3d7ad1a0b52682ed7",
+                                "544a378f4bdc2d30388b4567",
+                                "5d1340bdd7ad1a0e8d245aab",
+                                "55802d5f4bdc2dac148b458e",
+                                "5d1340cad7ad1a0b0b249869",
+                                "6241c2c2117ad530666a5108",
+                                "5c6592372e221600133e47d7",
+                                "544a37c44bdc2d25388b4567",
+                                "5c6d46132e221601da357d56",
+                                "6761765f1f08ed5e8800b7a6",
+                                "02F02FF15FF15F0000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c394bdc2dae468b4577"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69734f8ec72333fd82bcfc3a",
+                    "_parent": "6975f729ccca05b310f4c73b",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "697344a7bf9c409db51f9886",
+                    "_parent": "6975f729ccca05b310f4c73b",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "047047F15FF15F0470000000",
+                                "047447F15FF15F4470000000",
+                                "047347F15FF15F3470000000",
+                                "047247F15FF15F2470000000",
+                                "047147F15FF15F1470000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69734a8d5ff8a6beabd81840",
+                    "_parent": "6975f729ccca05b310f4c73b",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "042042F15FF15F0000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+
+            "Chambers": [
+                {
+                    "_id": "697353f2718491bd4a228925",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "patron_in_weapon",
+                    "_parent": "6975f729ccca05b310f4c73b",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e6920f86f77411d82aa167",
+                                    "59e6927d86f77411da468256",
+                                    "54527a984bdc2d4e668b4567",
+                                    "54527ac44bdc2d36668b4567",
+                                    "59e68f6f86f7746c9f75e846",
+                                    "59e6906286f7746c9f75e847",
+                                    "59e690b686f7746c9f75e848",
+                                    "59e6918f86f7746c9f75e849",
+                                    "60194943740c5d77f6705eea",
+                                    "601949593ae8f707c4608daa",
+                                    "5c0d5ae286f7741e46554302"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d4af244bdc2d962f8b4571",
+                    "_required": false
+                }
+            ]
+        },
+
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO Hemlock 5.56x45 assault rifle",
+                "shortName": "ISO Hemlock",
+                "description": "This powerful and enhanced rifle from Expedite Firearms is designed to take 5.56 NATO ammunition, providing battlefield-advantage in any situation."
+            }
+        },
+
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO_HEML",
+                "Templates": [
+                    "6975f729ccca05b310f4c73b"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "020020F15EF15E0000000000": {
+        "itemTplToClone": "6184055050224f204c1da540",
+        "parentId": "5447b5f14bdc2d61278b4567",
+        "handbookParentId": "5b5f78fc86f77409407a7f90",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Weight": 0.695,
+            "Prefab": {
+                "path": "ISOH/weapon_iso_hemlock_556x45_container.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 46,
+            "RecoilForceUp": 100,
+            "RecoilForceBack": 340,
+            "RecolDispersion": 8,
+            "bFirerate": 600,
+            "RecoilCamera": 0.05,
+            "RecoilReturnSpeedHandRotation": 2.6,
+
+            "defMagType": "02F02FF15EF15E0000000000",
+            "ammoCaliber": "Caliber762x35",
+            "defAmmo": "5fbe3ffdf8b6a877a729ea82",
+
+            "Slots": [
+                {
+                    "_name": "mod_magazine",
+                    "_id": "69734f6d1956d5a2946aa1d9",
+                    "_parent": "020020F15EF15E0000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "55d4887d4bdc2d962f8b4570",
+                                "61840bedd92c473c77021635",
+                                "61840d85568c120fdd2962a5",
+                                "5c05413a0db834001c390617",
+                                "5c6d450c2e221600114c997d",
+                                "5c6d42cb2e2216000e69d7d1",
+                                "59c1383d86f774290a37e0ca",
+                                "5aaa5e60e5b5b000140293d6",
+                                "5448c1d04bdc2dff2f8b4569",
+                                "5aaa5dfee5b5b000140293d3",
+                                "5d1340b3d7ad1a0b52682ed7",
+                                "544a378f4bdc2d30388b4567",
+                                "5d1340bdd7ad1a0e8d245aab",
+                                "55802d5f4bdc2dac148b458e",
+                                "5d1340cad7ad1a0b0b249869",
+                                "6241c2c2117ad530666a5108",
+                                "5c6592372e221600133e47d7",
+                                "544a37c44bdc2d25388b4567",
+                                "5c6d46132e221601da357d56",
+                                "6761765f1f08ed5e8800b7a6",
+                                "02F02FF15EF15E0000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c394bdc2dae468b4577"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69734aba62016bc792493dd0",
+                    "_parent": "020020F15EF15E0000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "69734aaf10e3ef9d1e7eec48",
+                    "_parent": "020020F15EF15E0000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "047047F15FF15F0470000000",
+                                "047447F15FF15F4470000000",
+                                "047347F15FF15F3470000000",
+                                "047247F15FF15F2470000000",
+                                "047147F15FF15F1470000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "697344ab1624b497f7e26c87",
+                    "_parent": "020020F15EF15E0000000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "042042F15EF15E0000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+
+            "Chambers": [
+                {
+                    "_id": "696fcdac1ce091d9bd98e080",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "patron_in_weapon",
+                    "_parent": "020020F15EF15E0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5fbe3ffdf8b6a877a729ea82",
+                                    "5fd20ff893a8961fc660a954",
+                                    "619636be6db0f2477964e710",
+                                    "6196364158ef8c428c287d9f",
+                                    "6196365d58ef8c428c287da1",
+                                    "64b8725c4b75259c590fa899"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d4af244bdc2d962f8b4571",
+                    "_required": false
+                }
+            ]
+        },
+
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO Hemlock .300 Blackout assault rifle",
+                "shortName": "ISO Hemlock",
+                "description": "This powerful and enhanced rifle from Expedite Firearms is designed to take .300 BLK ammunition, providing battlefield-advantage in any situation."
+            }
+        },
+
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO_HEML",
+                "Templates": [
+                    "020020F15EF15E0000000000"
+                ]
+            }
+        ]
+    },
+
+    "69735838ed1ac8c40baa0365": {
+        "itemTplToClone": "6183afd850224f204c1da514",
+        "parentId": "5447b5f14bdc2d61278b4567",
+        "handbookParentId": "5b5f78fc86f77409407a7f90",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "CanSellOnRagfair": true,
+            "Weight": 0.7,
+            "Prefab": {
+                "path": "ISOH/weapon_iso_hemlock_762x51_container.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 46,
+            "RecoilForceUp": 150,
+            "RecoilForceBack": 378,
+            "RecolDispersion": 10,
+            "bFirerate": 580,
+            "RecoilCamera": 0.055,
+            "RecoilReturnSpeedHandRotation": 2.6,
+
+            "defMagType": "5a3501acc4a282000d72293a",
+
+            "Slots": [
+                {
+                    "_name": "mod_magazine",
+                    "_id": "697353d846e2b6d53a8b08cd",
+                    "_parent": "69735838ed1ac8c40baa0365",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5df8f535bb49d91fb446d6b0",
+                                    "5df8f541c41b2312ea3335e3",
+                                    "5a3501acc4a282000d72293a",
+                                    "65293c38fc460e50a509cb25",
+                                    "65293c7a17e14363030ad308",
+                                    "6761770e48fa5c377e06fc3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c394bdc2dae468b4577"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69734abeaf5f6b0a8d3f51e8",
+                    "_parent": "69735838ed1ac8c40baa0365",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                    "55d4b9964bdc2d1d4e8b456e",
+                                    "571659bb2459771fb2755a12",
+                                    "602e71bd53a60014f9705bfa",
+                                    "6113c3586c780c1e710c90bc",
+                                    "6113cc78d3a39d50044c065a",
+                                    "6113cce3d92c473c770200c7",
+                                    "5cc9bcaed7f00c011c04e179",
+                                    "5bb20e18d4351e00320205d5",
+                                    "5bb20e0ed4351e3bac1212dc",
+                                    "6193dcd0f8ee7e52e4210a28",
+                                    "5d025cc1d7ad1a53845279ef",
+                                    "5c6d7b3d2e221600114c9b7d",
+                                    "57c55efc2459772d2c6271e7",
+                                    "57af48872459771f0b2ebf11",
+                                    "57c55f092459772d291a8463",
+                                    "57c55f112459772d28133310",
+                                    "57c55f172459772d27602381",
+                                    "5a339805c4a2826c6e06d73d",
+                                    "55802f5d4bdc2dac148b458f",
+                                    "5d15cf3bd7ad1a67e71518b2",
+                                    "59db3a1d86f77429e05b4e92",
+                                    "5fbcbd6c187fea44d52eda14",
+                                    "59db3acc86f7742a2c4ab912",
+                                    "59db3b0886f77429d72fb895",
+                                    "615d8faecabb9b7ad90f4d5d",
+                                    "5b07db875acfc40dc528a5f6",
+                                    "63f5feead259b42f0b4d6d0f",
+                                    "652911675ae2ae97b80fdf3c"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "69734aaaa4d9f3ebed9f16e9",
+                    "_parent": "69735838ed1ac8c40baa0365",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "047047F15FF15F0470000000",
+                                "047447F15FF15F4470000000",
+                                "047347F15FF15F3470000000",
+                                "047247F15FF15F2470000000",
+                                "047147F15FF15F1470000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69734a9c04d20a68663e94f3",
+                    "_parent": "69735838ed1ac8c40baa0365",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "042042F15DF15D0000000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+
+        "locales": {
+            "en": {
+                "name": "Expedite Firearms ISO Hemlock 7.62x51 assault rifle",
+                "shortName": "ISO Hemlock",
+                "description": "This powerful and enhanced rifle from Expedite Firearms is designed to take 7.62 NATO ammunition, providing battlefield-advantage in any situation."
+            }
+        },
+
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 40000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "ISO_HEML",
+                "Templates": [
+                    "69735838ed1ac8c40baa0365"
+                ]
+            }
+        ]
+    },
+
+    "042042F15FF15F0000000000": {
+        "itemTplToClone": "618405198004cc50514c3594",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Weight": 0.58,
+            "ExtraSizeLeft": 1,
+            "ExtraSizeForceAdd": false,
+            "Width": 2,
+            "Prefab": {
+                "path": "ISOH/mods/receiver_isoh_556.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_handguard",
+                    "_id": "5c488af32e2216398b5a9608",
+                    "_parent": "041041BBA03BBA0341000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "041041F15FF15F4100000000",
+                                    "041341F15FF1534100000000",
+                                    "041141F15FF1514100000000",
+                                    "041441F15FF1544100000000",
+                                    "041241F15FF1524100000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_barrel",
+                    "_id": "69734d29b1d14b8fbda0bcc8",
+                    "_parent": "041041BBA03BBA0341000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B04BF15FF15F0000000000",
+                                    "04B14BF15FF15F14B0000000",
+                                    "04B34BF15FF15F34B0000000",
+                                    "04B24BF15FF15F24B0000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_rear",
+                    "_id": "69734e2b108c4a6b42c99af9",
+                    "_parent": "041041BBA03BBA0341000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "61817865d3a39d50044c13a4",
+                                    "5bb20e49d4351e3bac1212de",
+                                    "5ba26b17d4351e00367f9bdd",
+                                    "5dfa3d7ac41b2312ea33362a",
+                                    "5c1780312e221602b66cc189",
+                                    "5fb6564947ce63734e3fa1da",
+                                    "5bc09a18d4351e003562b68e",
+                                    "5c18b9192e2216398b5a8104",
+                                    "5fc0fa957283c4046c58147e",
+                                    "5894a81786f77427140b8347",
+                                    "55d5f46a4bdc2d1b198b4567",
+                                    "5ae30bad5acfc400185c2dc4",
+                                    "04CB4CF15FF15B4C00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_scope",
+                    "_id": "69734e107fa1951795de0a2b",
+                    "_parent": "041041BBA03BBA0341000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "57ac965c24597706be5f975c",
+                                    "57aca93d2459771f2c7e26db",
+                                    "544a3f024bdc2d1d388b4568",
+                                    "544a3a774bdc2d3a388b4567",
+                                    "5d2dc3e548f035404a1a4798",
+                                    "57adff4f24597737f373b6e6",
+                                    "5c0517910db83400232ffee5",
+                                    "591c4efa86f7741030027726",
+                                    "570fd79bd2720bc7458b4583",
+                                    "570fd6c2d2720bc6458b457f",
+                                    "558022b54bdc2dac148b458d",
+                                    "5c07dd120db834001c39092d",
+                                    "5c0a2cec0db834001b7ce47d",
+                                    "58491f3324597764bc48fa02",
+                                    "584924ec24597768f12ae244",
+                                    "5b30b0dc5acfc400153b7124",
+                                    "6165ac8c290d254f5e6b2f6c",
+                                    "60a23797a37c940de7062d02",
+                                    "5d2da1e948f035477b1ce2ba",
+                                    "5c0505e00db834001b735073",
+                                    "609a63b6e2ff132951242d09",
+                                    "584984812459776a704a82a6",
+                                    "59f9d81586f7744c7506ee62",
+                                    "570fd721d2720bc5458b4596",
+                                    "57ae0171245977343c27bfcf",
+                                    "5dfe6104585a0c3e995c7b82",
+                                    "544a3d0a4bdc2d1b388b4567",
+                                    "5d1b5e94d7ad1a2b865a96b0",
+                                    "609bab8b455afd752b2e6138",
+                                    "58d39d3d86f77445bb794ae7",
+                                    "616554fe50224f204c1da2aa",
+                                    "5c7d55f52e221644f31bff6a",
+                                    "616584766ef05c2ce828ef57",
+                                    "5b3b6dc75acfc47a8773fb1e",
+                                    "615d8d878004cc50514c3233",
+                                    "5b2389515acfc4771e1be0c0",
+                                    "577d128124597739d65d0e56",
+                                    "618b9643526131765025ab35",
+                                    "618bab21526131765025ab3f",
+                                    "5c86592b2e2216000e69e77c",
+                                    "5a37ca54c4a282000d72296a",
+                                    "5d0a29fed7ad1a002769ad08",
+                                    "5c064c400db834001d23f468",
+                                    "58d2664f86f7747fec5834f6",
+                                    "57c69dd424597774c03b7bbc",
+                                    "5b3b99265acfc4704b4a1afb",
+                                    "5aa66a9be5b5b0214e506e89",
+                                    "5aa66c72e5b5b00016327c93",
+                                    "5c1cdd302e221602b3137250",
+                                    "61714b2467085e45ef140b2c",
+                                    "6171407e50224f204c1da3c5",
+                                    "61713cc4d8e3106d9806c109",
+                                    "5b31163c5acfc400153b71cb",
+                                    "5a33b652c4a28232996e407c",
+                                    "5a33b2c9c4a282000c5a9511",
+                                    "59db7eed86f77461f8380365",
+                                    "5a1ead28fcdbcb001912fa9f",
+                                    "5dff77c759400025ea5150cf",
+                                    "626bb8532c923541184624b4",
+                                    "62811f461d5df4475f46a332",
+                                    "63fc449f5bd61c6cf3784a88",
+                                    "6477772ea8a38bb2050ed4db",
+                                    "6478641c19d732620e045e17",
+                                    "64785e7c19d732620e045e15",
+                                    "65392f611406374f82152ba5",
+                                    "653931da5db71d30ab1d6296",
+                                    "655f13e0a246670fb0373245",
+                                    "6567e751a715f85433025998",
+                                    "67641a851b2899700609901a",
+                                    "6761759e7ee06333f108bf86"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 556 upper receiver",
+                "shortName": "Hemlock 556",
+                "description": "Upper receiver for EXF ISO Hemlock in 5.56x45."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 14000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "042042F15DF15D0000000000": {
+        "itemTplToClone": "042042F15FF15F0000000000",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Weight": 0.6,
+
+            "Prefab": {
+                "path": "ISOH/mods/receiver_isoh_308.bundle",
+                "rcid": ""
+            } ,
+
+            "Slots": [
+                {
+                    "_name": "mod_barrel",
+                    "_id": "69735c2e07282e4f9e8c3267",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B04BF15DF15D0000000000",
+                                    "04B14BF15DF15D14B0000000",
+                                    "04B34BF15DF15D34B0000000",
+                                    "04B24BF15DF15D24B0000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_handguard",
+                    "_id": "69735ca19c8010a3f6e4bea6",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "041041F15FF15F4100000000",
+                                    "041341F15FF1534100000000",
+                                    "041141F15FF1514100000000",
+                                    "041441F15FF1544100000000",
+                                    "041241F15FF1524100000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_rear",
+                    "_id": "69735d14d81f7e6aeb1a0bbc",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "61817865d3a39d50044c13a4",
+                                    "5bb20e49d4351e3bac1212de",
+                                    "5ba26b17d4351e00367f9bdd",
+                                    "5dfa3d7ac41b2312ea33362a",
+                                    "5c1780312e221602b66cc189",
+                                    "5fb6564947ce63734e3fa1da",
+                                    "5bc09a18d4351e003562b68e",
+                                    "5c18b9192e2216398b5a8104",
+                                    "5fc0fa957283c4046c58147e",
+                                    "5894a81786f77427140b8347",
+                                    "55d5f46a4bdc2d1b198b4567",
+                                    "5ae30bad5acfc400185c2dc4",
+                                    "04CB4CF15FF15B4C00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_scope",
+                    "_id": "69735d10203e4c416a69711cv",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "57ac965c24597706be5f975c",
+                                    "57aca93d2459771f2c7e26db",
+                                    "544a3f024bdc2d1d388b4568",
+                                    "544a3a774bdc2d3a388b4567",
+                                    "5d2dc3e548f035404a1a4798",
+                                    "57adff4f24597737f373b6e6",
+                                    "5c0517910db83400232ffee5",
+                                    "591c4efa86f7741030027726",
+                                    "570fd79bd2720bc7458b4583",
+                                    "570fd6c2d2720bc6458b457f",
+                                    "558022b54bdc2dac148b458d",
+                                    "5c07dd120db834001c39092d",
+                                    "5c0a2cec0db834001b7ce47d",
+                                    "58491f3324597764bc48fa02",
+                                    "584924ec24597768f12ae244",
+                                    "5b30b0dc5acfc400153b7124",
+                                    "6165ac8c290d254f5e6b2f6c",
+                                    "60a23797a37c940de7062d02",
+                                    "5d2da1e948f035477b1ce2ba",
+                                    "5c0505e00db834001b735073",
+                                    "609a63b6e2ff132951242d09",
+                                    "584984812459776a704a82a6",
+                                    "59f9d81586f7744c7506ee62",
+                                    "570fd721d2720bc5458b4596",
+                                    "57ae0171245977343c27bfcf",
+                                    "5dfe6104585a0c3e995c7b82",
+                                    "544a3d0a4bdc2d1b388b4567",
+                                    "5d1b5e94d7ad1a2b865a96b0",
+                                    "609bab8b455afd752b2e6138",
+                                    "58d39d3d86f77445bb794ae7",
+                                    "616554fe50224f204c1da2aa",
+                                    "5c7d55f52e221644f31bff6a",
+                                    "616584766ef05c2ce828ef57",
+                                    "5b3b6dc75acfc47a8773fb1e",
+                                    "615d8d878004cc50514c3233",
+                                    "5b2389515acfc4771e1be0c0",
+                                    "577d128124597739d65d0e56",
+                                    "618b9643526131765025ab35",
+                                    "618bab21526131765025ab3f",
+                                    "5c86592b2e2216000e69e77c",
+                                    "5a37ca54c4a282000d72296a",
+                                    "5d0a29fed7ad1a002769ad08",
+                                    "5c064c400db834001d23f468",
+                                    "58d2664f86f7747fec5834f6",
+                                    "57c69dd424597774c03b7bbc",
+                                    "5b3b99265acfc4704b4a1afb",
+                                    "5aa66a9be5b5b0214e506e89",
+                                    "5aa66c72e5b5b00016327c93",
+                                    "5c1cdd302e221602b3137250",
+                                    "61714b2467085e45ef140b2c",
+                                    "6171407e50224f204c1da3c5",
+                                    "61713cc4d8e3106d9806c109",
+                                    "5b31163c5acfc400153b71cb",
+                                    "5a33b652c4a28232996e407c",
+                                    "5a33b2c9c4a282000c5a9511",
+                                    "59db7eed86f77461f8380365",
+                                    "5a1ead28fcdbcb001912fa9f",
+                                    "5dff77c759400025ea5150cf",
+                                    "626bb8532c923541184624b4",
+                                    "62811f461d5df4475f46a332",
+                                    "63fc449f5bd61c6cf3784a88",
+                                    "6477772ea8a38bb2050ed4db",
+                                    "6478641c19d732620e045e17",
+                                    "64785e7c19d732620e045e15",
+                                    "65392f611406374f82152ba5",
+                                    "653931da5db71d30ab1d6296",
+                                    "655f13e0a246670fb0373245",
+                                    "6567e751a715f85433025998",
+                                    "67641a851b2899700609901a",
+                                    "6761759e7ee06333f108bf86"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 762 upper receiver",
+                "shortName": "Hemlock 762",
+                "description": "Upper receiver for EXF ISO Hemlock in 7.62x51."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 14000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "042042F15EF15E0000000000": {
+        "itemTplToClone": "042042F15FF15F0000000000",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/receiver_isoh_300.bundle",
+                "rcid": ""
+            } ,
+
+            "Slots": [
+                {
+                    "_name": "mod_barrel",
+                    "_id": "69735c2e07282e4f9e8c3267",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B04BF15EF15E0000000000",
+                                    "04B14BF15EF15E14B0000000",
+                                    "04B34BF15EF15E34B0000000",
+                                    "04B24BF15EF15E24B0000000",
+                                    "04B44BF15EF15E44B0000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_handguard",
+                    "_id": "69735ca19c8010a3f6e4bea6",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "041041F15FF15F4100000000",
+                                    "041341F15FF1534100000000",
+                                    "041141F15FF1514100000000",
+                                    "041441F15FF1544100000000",
+                                    "041241F15FF1524100000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_rear",
+                    "_id": "69735d14d81f7e6aeb1a0bbc",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "61817865d3a39d50044c13a4",
+                                    "5bb20e49d4351e3bac1212de",
+                                    "5ba26b17d4351e00367f9bdd",
+                                    "5dfa3d7ac41b2312ea33362a",
+                                    "5c1780312e221602b66cc189",
+                                    "5fb6564947ce63734e3fa1da",
+                                    "5bc09a18d4351e003562b68e",
+                                    "5c18b9192e2216398b5a8104",
+                                    "5fc0fa957283c4046c58147e",
+                                    "5894a81786f77427140b8347",
+                                    "55d5f46a4bdc2d1b198b4567",
+                                    "5ae30bad5acfc400185c2dc4",
+                                    "04CB4CF15FF15B4C00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_scope",
+                    "_id": "69735d10203e4c416a69711cv",
+                    "_parent": "042042F15DF15D0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "57ac965c24597706be5f975c",
+                                    "57aca93d2459771f2c7e26db",
+                                    "544a3f024bdc2d1d388b4568",
+                                    "544a3a774bdc2d3a388b4567",
+                                    "5d2dc3e548f035404a1a4798",
+                                    "57adff4f24597737f373b6e6",
+                                    "5c0517910db83400232ffee5",
+                                    "591c4efa86f7741030027726",
+                                    "570fd79bd2720bc7458b4583",
+                                    "570fd6c2d2720bc6458b457f",
+                                    "558022b54bdc2dac148b458d",
+                                    "5c07dd120db834001c39092d",
+                                    "5c0a2cec0db834001b7ce47d",
+                                    "58491f3324597764bc48fa02",
+                                    "584924ec24597768f12ae244",
+                                    "5b30b0dc5acfc400153b7124",
+                                    "6165ac8c290d254f5e6b2f6c",
+                                    "60a23797a37c940de7062d02",
+                                    "5d2da1e948f035477b1ce2ba",
+                                    "5c0505e00db834001b735073",
+                                    "609a63b6e2ff132951242d09",
+                                    "584984812459776a704a82a6",
+                                    "59f9d81586f7744c7506ee62",
+                                    "570fd721d2720bc5458b4596",
+                                    "57ae0171245977343c27bfcf",
+                                    "5dfe6104585a0c3e995c7b82",
+                                    "544a3d0a4bdc2d1b388b4567",
+                                    "5d1b5e94d7ad1a2b865a96b0",
+                                    "609bab8b455afd752b2e6138",
+                                    "58d39d3d86f77445bb794ae7",
+                                    "616554fe50224f204c1da2aa",
+                                    "5c7d55f52e221644f31bff6a",
+                                    "616584766ef05c2ce828ef57",
+                                    "5b3b6dc75acfc47a8773fb1e",
+                                    "615d8d878004cc50514c3233",
+                                    "5b2389515acfc4771e1be0c0",
+                                    "577d128124597739d65d0e56",
+                                    "618b9643526131765025ab35",
+                                    "618bab21526131765025ab3f",
+                                    "5c86592b2e2216000e69e77c",
+                                    "5a37ca54c4a282000d72296a",
+                                    "5d0a29fed7ad1a002769ad08",
+                                    "5c064c400db834001d23f468",
+                                    "58d2664f86f7747fec5834f6",
+                                    "57c69dd424597774c03b7bbc",
+                                    "5b3b99265acfc4704b4a1afb",
+                                    "5aa66a9be5b5b0214e506e89",
+                                    "5aa66c72e5b5b00016327c93",
+                                    "5c1cdd302e221602b3137250",
+                                    "61714b2467085e45ef140b2c",
+                                    "6171407e50224f204c1da3c5",
+                                    "61713cc4d8e3106d9806c109",
+                                    "5b31163c5acfc400153b71cb",
+                                    "5a33b652c4a28232996e407c",
+                                    "5a33b2c9c4a282000c5a9511",
+                                    "59db7eed86f77461f8380365",
+                                    "5a1ead28fcdbcb001912fa9f",
+                                    "5dff77c759400025ea5150cf",
+                                    "626bb8532c923541184624b4",
+                                    "62811f461d5df4475f46a332",
+                                    "63fc449f5bd61c6cf3784a88",
+                                    "6477772ea8a38bb2050ed4db",
+                                    "6478641c19d732620e045e17",
+                                    "64785e7c19d732620e045e15",
+                                    "65392f611406374f82152ba5",
+                                    "653931da5db71d30ab1d6296",
+                                    "655f13e0a246670fb0373245",
+                                    "6567e751a715f85433025998",
+                                    "67641a851b2899700609901a",
+                                    "6761759e7ee06333f108bf86"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock .300 upper receiver",
+                "shortName": "Hemlock .300",
+                "description": "Upper receiver for EXF ISO Hemlock in .300 Blackout."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 14000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B04BF15FF15F0000000000": {
+        "itemTplToClone": "618168b350224f204c1da4d8",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_def.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.98,
+            "Width": 2,
+            "Height": 1,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Slots": [
+                {
+                "_id": "69735f1e9daa18621e18652b",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B04BF15FF15F0000000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "5b3a16655acfc40016387a2a",
+                                "5c7e5f112e221600106f4ede",
+                                "5c0fafb6d174af02a96260ba",
+                                "612e0cfc8004cc50514c2d9e",
+                                "5cf6937cd7f00c056c53fb39",
+                                "544a38634bdc2d58388b4568",
+                                "5cff9e5ed7ad1a09407397d4",
+                                "5c48a2a42e221602b66d1e07",
+                                "5f6372e2865db925d54f3869",
+                                "618407a850224f204c1da549",
+                                "615d8e2f1cb55961fa0fd9a4",
+                                "56ea8180d2720bf2698b456a",
+                                "5d02676dd7ad1a049e54f6dc",
+                                "56ea6fafd2720b844b8b4593",
+                                "5943ee5a86f77413872d25ec",
+                                "609269c3b0e443224b421cc1",
+                                "5c7fb51d2e2216001219ce11",
+                                "5ea172e498dacb342978818e",
+                                "5c6d710d2e22165df16b81e7",
+                                "612e0e55a112697a4b3a66e7",
+                                "5d440625a4b9361eec4ae6c5",
+                                "5cc9b815d7f00c000e2579d6",
+                                "5a7c147ce899ef00150bd8b8",
+                                "5c7954d52e221600106f4cc7",
+                                "59bffc1f86f77435b128b872",
+                                "5a9fbb84a2750c00137fa685",
+                                "626667e87379c44d557b7550",
+                                "62669bccdb9ebb4daa44cd14",
+                                "626a74340be03179a165e30c",
+                                "6386120cd6baa055ad1e201c",
+                                "63ac5c9658d0485fc039f0b8",
+                                "6405ff6bd4578826ec3e377a",
+                                "64943b74e9998d641b0412ed",
+                                "6621455e3aceea9e2b0b01e7",
+                                "664301213dd83ddae20dda18"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 5.56x45 standard barrel",
+                "shortName": "Std. 556",
+                "description": "Default barrel for ISO Hemlock in 5.56x45."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B04BF15EF15E0000000000": {
+        "itemTplToClone": "04B04BF15FF15F0000000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_def.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.105,
+            "DeviationCurve": 1.4,
+            "DeviationMax": 22,
+            "CenterOfImpact": 0.0655,
+            "Slots": [
+                {
+                "_id": "6973608177fa4464c4283752",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B04BF15EF15E0000000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock .300 BLK standard barrel",
+                "shortName": "Std. .300",
+                "description": "Default barrel for ISO Hemlock in .300 BLK."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B04BF15DF15D0000000000": {
+        "itemTplToClone": "04B04BF15FF15F0000000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_def.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.11,
+            "CenterOfImpact": 0.0651,
+            "Slots": [
+                {
+                "_id": "6973608d00cf975a231a0323",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B04BF15DF15D0000000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 7.62x51 standard barrel",
+                "shortName": "Std. 762",
+                "description": "Default barrel for ISO Hemlock in 7.62x51."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B14BF15FF15F14B0000000": {
+        "itemTplToClone": "6183b0711cb55961fa0fdcad",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 1.125,
+            "ExtraSizeLeft": 3,
+            "ExtraSizeForceAdd": false,
+            "Slots": [
+                {
+                "_id": "69736228144fc600eb953dd2",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B14BF15FF15F14B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "5b3a16655acfc40016387a2a",
+                                "5c7e5f112e221600106f4ede",
+                                "5c0fafb6d174af02a96260ba",
+                                "612e0cfc8004cc50514c2d9e",
+                                "5cf6937cd7f00c056c53fb39",
+                                "544a38634bdc2d58388b4568",
+                                "5cff9e5ed7ad1a09407397d4",
+                                "5c48a2a42e221602b66d1e07",
+                                "5f6372e2865db925d54f3869",
+                                "618407a850224f204c1da549",
+                                "615d8e2f1cb55961fa0fd9a4",
+                                "56ea8180d2720bf2698b456a",
+                                "5d02676dd7ad1a049e54f6dc",
+                                "56ea6fafd2720b844b8b4593",
+                                "5943ee5a86f77413872d25ec",
+                                "609269c3b0e443224b421cc1",
+                                "5c7fb51d2e2216001219ce11",
+                                "5ea172e498dacb342978818e",
+                                "5c6d710d2e22165df16b81e7",
+                                "612e0e55a112697a4b3a66e7",
+                                "5d440625a4b9361eec4ae6c5",
+                                "5cc9b815d7f00c000e2579d6",
+                                "5a7c147ce899ef00150bd8b8",
+                                "5c7954d52e221600106f4cc7",
+                                "59bffc1f86f77435b128b872",
+                                "5a9fbb84a2750c00137fa685",
+                                "626667e87379c44d557b7550",
+                                "62669bccdb9ebb4daa44cd14",
+                                "626a74340be03179a165e30c",
+                                "6386120cd6baa055ad1e201c",
+                                "63ac5c9658d0485fc039f0b8",
+                                "6405ff6bd4578826ec3e377a",
+                                "64943b74e9998d641b0412ed",
+                                "6621455e3aceea9e2b0b01e7",
+                                "664301213dd83ddae20dda18"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 5.56x45 long barrel",
+                "shortName": "Long 556",
+                "description": "Long barrel for ISO Hemlock in 5.56x45."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69737108d640cadddeddf2f8": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B14BF15EF15E14B0000000": {
+        "itemTplToClone": "04B14BF15FF15F14B0000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 1.13,
+            "DeviationCurve": 1.36,
+            "DeviationMax": 23,
+            "CenterOfImpact": 0.0508,
+            "Slots": [
+                {
+                "_id": "6973662d76a29139fe838142",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B14BF15EF15E14B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock .300 BLK long standard barrel",
+                "shortName": "Long .300",
+                "description": "Long barrel for ISO Hemlock in .300 BLK."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B14BF15DF15D14B0000000": {
+        "itemTplToClone": "04B14BF15FF15F14B0000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 1.134,
+            "CenterOfImpact": 0.0503,
+            "Slots": [
+                {
+                "_id": "6973632c446e3029dcda7739",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B14BF15DF15D14B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 7.62x51 long barrel",
+                "shortName": "Long 762",
+                "description": "Long barrel for ISO Hemlock in 7.62x51."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697375b59677be5876138f26": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B24BF15FF15F24B0000000": {
+        "itemTplToClone": "6183fc15d3a39d50044c13e9",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_pstl.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.77,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.079,
+            "DeviationCurve": 1.62,
+            "DeviationMax": 18,
+            "Slots": [
+                {
+                "_id": "697363dd7837266d7e91f869",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B24BF15FF15F24B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "5b3a16655acfc40016387a2a",
+                                "5c7e5f112e221600106f4ede",
+                                "5c0fafb6d174af02a96260ba",
+                                "612e0cfc8004cc50514c2d9e",
+                                "5cf6937cd7f00c056c53fb39",
+                                "544a38634bdc2d58388b4568",
+                                "5cff9e5ed7ad1a09407397d4",
+                                "5c48a2a42e221602b66d1e07",
+                                "5f6372e2865db925d54f3869",
+                                "618407a850224f204c1da549",
+                                "615d8e2f1cb55961fa0fd9a4",
+                                "56ea8180d2720bf2698b456a",
+                                "5d02676dd7ad1a049e54f6dc",
+                                "56ea6fafd2720b844b8b4593",
+                                "5943ee5a86f77413872d25ec",
+                                "609269c3b0e443224b421cc1",
+                                "5c7fb51d2e2216001219ce11",
+                                "5ea172e498dacb342978818e",
+                                "5c6d710d2e22165df16b81e7",
+                                "612e0e55a112697a4b3a66e7",
+                                "5d440625a4b9361eec4ae6c5",
+                                "5cc9b815d7f00c000e2579d6",
+                                "5a7c147ce899ef00150bd8b8",
+                                "5c7954d52e221600106f4cc7",
+                                "59bffc1f86f77435b128b872",
+                                "5a9fbb84a2750c00137fa685",
+                                "626667e87379c44d557b7550",
+                                "62669bccdb9ebb4daa44cd14",
+                                "626a74340be03179a165e30c",
+                                "6386120cd6baa055ad1e201c",
+                                "63ac5c9658d0485fc039f0b8",
+                                "6405ff6bd4578826ec3e377a",
+                                "64943b74e9998d641b0412ed",
+                                "6621455e3aceea9e2b0b01e7",
+                                "664301213dd83ddae20dda18"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 5.56x45  ex. short barrel",
+                "shortName": "Ex. short 556",
+                "description": "Extremely short barrel for ISO Hemlock in 5.56x45."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371d93bae074b7d36cd40": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B24BF15EF15E24B0000000": {
+        "itemTplToClone": "6183fc15d3a39d50044c13e9",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_pstl.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.771,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "DeviationCurve": 1.63,
+            "DeviationMax": 17,
+            "CenterOfImpact": 0.0792,
+            "Slots": [
+                {
+                "_id": "69736627233d3bedc0024c4b",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B24BF15EF15E24B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock .300 BLK ex. short barrel",
+                "shortName": "Ex. short .300",
+                "description": "Extremely short barrel for ISO Hemlock in .300 BLK."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371d4372134ab307c505f": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B24BF15DF15D24B0000000": {
+        "itemTplToClone": "6183fc15d3a39d50044c13e9",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_pstl.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.772,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.0791,
+            "Slots": [
+                {
+                "_id": "04B24BF15DF15D24B0000000",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B04BF15DF15D0000000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 7.62x51 ex. short  barrel",
+                "shortName": "Ex. short 762",
+                "description": "Extremely short barrel for ISO Hemlock in 7.62x51."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371cf1e6562576ad33316": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B34BF15FF15F34B0000000": {
+        "itemTplToClone": "6183fc15d3a39d50044c13e9",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_shrt.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.87,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.0775,
+            "Slots": [
+                {
+                "_id": "697366a47de96b065bb82e0b",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B34BF15FF15F34B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "5b3a16655acfc40016387a2a",
+                                "5c7e5f112e221600106f4ede",
+                                "5c0fafb6d174af02a96260ba",
+                                "612e0cfc8004cc50514c2d9e",
+                                "5cf6937cd7f00c056c53fb39",
+                                "544a38634bdc2d58388b4568",
+                                "5cff9e5ed7ad1a09407397d4",
+                                "5c48a2a42e221602b66d1e07",
+                                "5f6372e2865db925d54f3869",
+                                "618407a850224f204c1da549",
+                                "615d8e2f1cb55961fa0fd9a4",
+                                "56ea8180d2720bf2698b456a",
+                                "5d02676dd7ad1a049e54f6dc",
+                                "56ea6fafd2720b844b8b4593",
+                                "5943ee5a86f77413872d25ec",
+                                "609269c3b0e443224b421cc1",
+                                "5c7fb51d2e2216001219ce11",
+                                "5ea172e498dacb342978818e",
+                                "5c6d710d2e22165df16b81e7",
+                                "612e0e55a112697a4b3a66e7",
+                                "5d440625a4b9361eec4ae6c5",
+                                "5cc9b815d7f00c000e2579d6",
+                                "5a7c147ce899ef00150bd8b8",
+                                "5c7954d52e221600106f4cc7",
+                                "59bffc1f86f77435b128b872",
+                                "5a9fbb84a2750c00137fa685",
+                                "626667e87379c44d557b7550",
+                                "62669bccdb9ebb4daa44cd14",
+                                "626a74340be03179a165e30c",
+                                "6386120cd6baa055ad1e201c",
+                                "63ac5c9658d0485fc039f0b8",
+                                "6405ff6bd4578826ec3e377a",
+                                "64943b74e9998d641b0412ed",
+                                "6621455e3aceea9e2b0b01e7",
+                                "664301213dd83ddae20dda18"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 5.56x45  Short barrel",
+                "shortName": "Short 556",
+                "description": "Short barrel for ISO Hemlock in 5.56x45."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371ca94729c65edd62f30": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B34BF15EF15E34B0000000": {
+        "itemTplToClone": "04B34BF15FF15F34B0000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_shrt.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.885,
+            "DeviationCurve": 1.62,
+            "DeviationMax": 18,
+            "CenterOfImpact": 0.0783,
+            "Slots": [
+                {
+                "_id": "6973661ff77b54f284f59eb4",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B34BF15EF15E34B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock .300 BLK Short barrel",
+                "shortName": "Short .300",
+                "description": "Short barrel for ISO Hemlock in .300 BLK."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371c52dffc703b54c72a8": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B34BF15DF15D34B0000000": {
+        "itemTplToClone": "04B34BF15FF15F34B0000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_shrt.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.89,
+            "CenterOfImpact": 0.078,
+            "Slots": [
+                {
+                "_id": "697366188cfa7e237cf458f0",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B34BF15DF15D34B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                    "612e0d3767085e45ef14057f",
+                                    "5b7d693d5acfc43bca706a3d",
+                                    "5a34fd2bc4a282329a73b4c5",
+                                    "618178aa1cb55961fa0fdc80",
+                                    "6065c6e7132d4d12c81fd8e1",
+                                    "5d1f819086f7744b355c219b",
+                                    "5dcbe965e4ed22586443a79d",
+                                    "5d026791d7ad1a04a067ea63",
+                                    "5dfa3cd1b33c0951220c079b",
+                                    "6130c43c67085e45ef1405a1",
+                                    "5cdd7685d7f00c000f260ed2",
+                                    "5c878e9d2e2216000f201903",
+                                    "5d02677ad7ad1a04a15c0f95",
+                                    "5bbdb8bdd4351e4502011460",
+                                    "5cdd7693d7f00c0010373aa5",
+                                    "607ffb988900dc2d9a55b6e4",
+                                    "615d8eb350224f204c1da1cf",
+                                    "612e0e3c290d254f5e6b291d",
+                                    "5d443f8fa4b93678dd4a01aa",
+                                    "5c7954d52e221600106f4cc7",
+                                    "5fbc22ccf24b94483f726483",
+                                    "59bffc1f86f77435b128b872",
+                                    "5cf78496d7f00c065703d6ca",
+                                    "5fbe7618d6fa9c00c571bb6c",
+                                    "628a66b41d5e41750e314f34",
+                                    "6642f63667f5cb56a00662eb"
+                                ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock 7.62x51 short  barrel",
+                "shortName": "Short 762",
+                "description": "Short barrel for ISO Hemlock in 7.62x51."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371c0e275bb050e80ed59": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "04B44BF15EF15E44B0000000": {
+        "itemTplToClone": "04B34BF15EF15E34B0000000",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/barrel_isoh_sil.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.87,
+            "Slots": [
+                {
+                "_id": "6973669f67852065a5cd5cd2",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B44BF15EF15E44B0000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "04B94BF15EF1594B00000000"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": true
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "ISO Hemlock .300 BLK barrel for suppressor",
+                "shortName": "Suppr. .300",
+                "description": "Short barrel for ISO Hemlock in .300 BLK to mount proprietary Cipher-121 suppressor."
+            }
+        },
+        "fleaPriceRoubles": 30000,
+        "handbookPriceRoubles": 25000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697371ba9737b6300b6a22bd": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "041041F15FF15F4100000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/handguard_isoh_def.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.32,
+            "Ergonomics": 8,
+            "Recoil": -2,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "ConflictingItems": [
+                "04B24BF15FF15F24B0000000",
+                "04B24BF15EF15E24B0000000",
+                "04B24BF15DF15D24B0000000",
+                "04B14BF15FF15F14B0000000",
+                "04B14BF15EF15E14B0000000",
+                "04B14BF15DF15D14B0000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "69736aff591156f34c984f4e",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_000",
+                    "_parent": "041041F15FF15F4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048148F15FF15F4810000000",
+                                        "048148F15EF15E4810000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69736afa9f3c4e76c9ef5962",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "041041F15FF15F4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048048F15FF15F4800000000",
+                                        "048048F15EF15E4800000000",
+                                        "048048F15DF15D4800000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69736af4ad4cc13a43b5a4ba",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "041041F15FF15F4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048048F15FF15F4800000000",
+                                        "048048F15EF15E4800000000",
+                                        "048048F15DF15D4800000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69736aee1b5189d5311d7011",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_003",
+                    "_parent": "041041F15FF15F4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048248F15FF15F4820000000",
+                                        "048248F15EF15E4820000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69736ae9a2548956dcc4873a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "041041F15FF15F4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5ba26b01d4351e0085325a51",
+                                        "5dfa3d950dee1b22f862eae0",
+                                        "5c17804b2e2216152006c02f",
+                                        "5fb6567747ce63734e3fa1dc",
+                                        "5bc09a30d4351e00367fb7c8",
+                                        "5c18b90d2e2216152142466b",
+                                        "5fc0fa362770a0045c59c677",
+                                        "5894a73486f77426d259076c",
+                                        "55d4af3a4bdc2d972f8b456f",
+                                        "04CF4CF15FF15F4C00000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69736956ce1f73e1e60b92ab",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "041041F15FF15F4100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5649a2464bdc2d91118b45a8"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Forge Tac ISO Hemlock handguard",
+                "shortName": "F. T.",
+                "description": "Handguard for ISO manufactured by Forge Tac."
+            }
+        },
+        "fleaPriceRoubles": 28000,
+        "handbookPriceRoubles": 16000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69737255246ab95ef4a85086": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 26000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "041241F15FF1524100000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/handguard_isoh_hvy.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.53,
+            "Ergonomics": 10,
+            "Recoil": -6,
+            "ExtraSizeLeft": 3,
+            "ExtraSizeForceAdd": false,
+            "ConflictingItems": [
+                "04B24BF15FF15F24B0000000",
+                "04B24BF15EF15E24B0000000",
+                "04B24BF15DF15D24B0000000",
+                "04B34BF15FF15F34B0000000",
+                "04B34BF15EF15E34B0000000",
+                "04B34BF15DF15D34B0000000",
+                "04B04BF15FF15F0000000000",
+                "04B04BF15EF15E0000000000",
+                "04B04BF15DF15D0000000000",
+                "04B44BF15EF15E44B0000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "69736878f301a97cfc54389f",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_000",
+                    "_parent": "041241F15FF1524100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048148F15FF15F4810000000",
+                                        "048148F15EF15E4810000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6974790bd899fa5b5c39b72f",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "041241F15FF1524100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048048F15FF15F4800000000",
+                                        "048048F15EF15E4800000000",
+                                        "048048F15DF15D4800000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697368def4baab22f077eb6a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "041241F15FF1524100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048048F15FF15F4800000000",
+                                        "048048F15EF15E4800000000",
+                                        "048048F15DF15D4800000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973731a6e8c0d7e2b5aea67",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_003",
+                    "_parent": "041241F15FF1524100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048248F15FF15F4820000000",
+                                        "048248F15EF15E4820000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973731545b76bb76a1c8e4d",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "041241F15FF1524100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5ba26b01d4351e0085325a51",
+                                        "5dfa3d950dee1b22f862eae0",
+                                        "5c17804b2e2216152006c02f",
+                                        "5fb6567747ce63734e3fa1dc",
+                                        "5bc09a30d4351e00367fb7c8",
+                                        "5c18b90d2e2216152142466b",
+                                        "5fc0fa362770a0045c59c677",
+                                        "5894a73486f77426d259076c",
+                                        "55d4af3a4bdc2d972f8b456f",
+                                        "04CF4CF15FF15F4C00000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6974783c81ac17d8906f09f1",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "041241F15FF1524100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5649a2464bdc2d91118b45a8"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "SA Fielder-T50 ISO Hemlock handguard",
+                "shortName": "Fielder-T50",
+                "description": "Handguard for ISO manufactured by Singuard Arms System."
+            }
+        },
+        "fleaPriceRoubles": 38000,
+        "handbookPriceRoubles": 30000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6973724fd6566b84cbdee7dc": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 36000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "041341F15FF1534100000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/handguard_isoh_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.598,
+            "Ergonomics": 7,
+            "Recoil": -4,
+            "ExtraSizeLeft": 3,
+            "ExtraSizeForceAdd": false,
+            "ConflictingItems": [
+                "04B24BF15FF15F24B0000000",
+                "04B24BF15EF15E24B0000000",
+                "04B24BF15DF15D24B0000000",
+                "04B34BF15FF15F34B0000000",
+                "04B34BF15EF15E34B0000000",
+                "04B34BF15DF15D34B0000000",
+                "04B04BF15FF15F0000000000",
+                "04B04BF15EF15E0000000000",
+                "04B04BF15DF15D0000000000",
+                "04B44BF15EF15E44B0000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "69736d8ec479ef5006001fd2",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_000",
+                    "_parent": "041341F15FF1534100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5a800961159bd4315e3a1657",
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5c06595c0db834001a66af6c",
+                                        "5cc9c20cd7f00c001336c65d",
+                                        "5d2369418abbc306c62e0c80",
+                                        "5b07dd285acfc4001754240d",
+                                        "56def37dd2720bec348b456a",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5a5f1ce64f39f90b401987bc",
+                                        "560d657b4bdc2da74d8b4572",
+                                        "5b3a337e5acfc4704b4a19a0",
+                                        "5c5952732e2216398b5abda2",
+                                        "57d17e212459775a1179a0f5",
+                                        "6267c6396b642f77f56f5c1c",
+                                        "6272370ee4013c5d7e31f418",
+                                        "6272379924e29f06af4d5ecb",
+                                        "626becf9582c3e319310b837",
+                                        "644a3df63b0b6f03e101e065",
+                                        "646f6322f43d0c5d62063715"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697479109c9390da029ccb83",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "041341F15FF1534100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5a800961159bd4315e3a1657",
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5c06595c0db834001a66af6c",
+                                        "5cc9c20cd7f00c001336c65d",
+                                        "5d2369418abbc306c62e0c80",
+                                        "5b07dd285acfc4001754240d",
+                                        "56def37dd2720bec348b456a",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5a5f1ce64f39f90b401987bc",
+                                        "560d657b4bdc2da74d8b4572",
+                                        "5b3a337e5acfc4704b4a19a0",
+                                        "5c5952732e2216398b5abda2",
+                                        "57d17e212459775a1179a0f5",
+                                        "6267c6396b642f77f56f5c1c",
+                                        "6272370ee4013c5d7e31f418",
+                                        "6272379924e29f06af4d5ecb",
+                                        "626becf9582c3e319310b837",
+                                        "644a3df63b0b6f03e101e065",
+                                        "646f6322f43d0c5d62063715"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69739034d9a5be34e0399d2a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "041341F15FF1534100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5a800961159bd4315e3a1657",
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5c06595c0db834001a66af6c",
+                                        "5cc9c20cd7f00c001336c65d",
+                                        "5d2369418abbc306c62e0c80",
+                                        "5b07dd285acfc4001754240d",
+                                        "56def37dd2720bec348b456a",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5a5f1ce64f39f90b401987bc",
+                                        "560d657b4bdc2da74d8b4572",
+                                        "5b3a337e5acfc4704b4a19a0",
+                                        "5c5952732e2216398b5abda2",
+                                        "57d17e212459775a1179a0f5",
+                                        "6267c6396b642f77f56f5c1c",
+                                        "6272370ee4013c5d7e31f418",
+                                        "6272379924e29f06af4d5ecb",
+                                        "626becf9582c3e319310b837",
+                                        "644a3df63b0b6f03e101e065",
+                                        "646f6322f43d0c5d62063715"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973730fbb01e1c2e22f1878",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041341F15FF1534100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5c7fc87d2e221644f31c0298",
+                                        "5cda9bcfd7f00c0c0b53e900",
+                                        "59f8a37386f7747af3328f06",
+                                        "5a7dbfc1159bd40016548fde",
+                                        "619386379fb0c665d5490dbe",
+                                        "5c87ca002e221600114cb150",
+                                        "588226d124597767ad33f787",
+                                        "588226dd24597767ad33f789",
+                                        "588226e62459776e3e094af7",
+                                        "588226ef24597767af46e39c",
+                                        "59fc48e086f77463b1118392",
+                                        "5fce0cf655375d18a253eff0",
+                                        "5cf4fb76d7f00c065703d3ac",
+                                        "5b057b4f5acfc4771e1bd3e9",
+                                        "5c791e872e2216001219c40a",
+                                        "558032614bdc2de7118b4585",
+                                        "58c157be86f77403c74b2bb6",
+                                        "58c157c886f774032749fb06",
+                                        "5f6340d3ca442212f4047eb2",
+                                        "591af28e86f77414a27a9e1d",
+                                        "5c1cd46f2e22164bef5cfedb",
+                                        "5c1bc4812e22164bef5cfde7",
+                                        "5c1bc5612e221602b5429350",
+                                        "5c1bc5af2e221602b412949b",
+                                        "5c1bc5fb2e221602b1779b32",
+                                        "5c1bc7432e221602b412949d",
+                                        "5c1bc7752e221602b1779b34",
+                                        "64807a29e5ffe165600abc97",
+                                        "64806bdd26c80811d408d37a",
+                                        "648067db042be0705c0b3009",
+                                        "65169d5b30425317755f8e25",
+                                        "655df24fdf80b12750626d0a",
+                                        "655dccfdbdcc6b5df71382b6",
+                                        "661e52e29c8b4dadef008577",
+                                        "661e53149c8b4dadef008579",
+                                        "661e52415be02310ed07a07a",
+                                        "661e52b5b099f32c28003586"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973730bd5bf8c944bd48b3b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "041341F15FF1534100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5ba26b01d4351e0085325a51",
+                                        "5dfa3d950dee1b22f862eae0",
+                                        "5c17804b2e2216152006c02f",
+                                        "5fb6567747ce63734e3fa1dc",
+                                        "5bc09a30d4351e00367fb7c8",
+                                        "5c18b90d2e2216152142466b",
+                                        "5fc0fa362770a0045c59c677",
+                                        "5894a73486f77426d259076c",
+                                        "55d4af3a4bdc2d972f8b456f",
+                                        "04CF4CF15FF15F4C00000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697478378fa53dddee957259",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "041341F15FF1534100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5649a2464bdc2d91118b45a8"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Cronen LR-30/56 ISO Hemlock handguard",
+                "shortName": "LR-30/56",
+                "description": "Handguard for ISO manufactured by Cronen."
+            }
+        },
+        "fleaPriceRoubles": 18000,
+        "handbookPriceRoubles": 14000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6973724d2f23b007b03c448a": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 26000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "041141F15FF1514100000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/handguard_isoh_pstl.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.202,
+            "Ergonomics": 8,
+            "Recoil": -5,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "ConflictingItems": [
+                "04B14BF15FF15F14B0000000",
+                "04B14BF15EF15E14B0000000",
+                "04B14BF15DF15D14B0000000",
+                "04B34BF15FF15F34B0000000",
+                "04B34BF15EF15E34B0000000",
+                "04B34BF15DF15D34B0000000",
+                "04B04BF15FF15F0000000000",
+                "04B04BF15EF15E0000000000",
+                "04B04BF15DF15D0000000000",
+                "04B44BF15EF15E44B0000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "697479178ae4ae929dd43236",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "041141F15FF1514100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5a800961159bd4315e3a1657",
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5c06595c0db834001a66af6c",
+                                        "5cc9c20cd7f00c001336c65d",
+                                        "5d2369418abbc306c62e0c80",
+                                        "5b07dd285acfc4001754240d",
+                                        "56def37dd2720bec348b456a",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5a5f1ce64f39f90b401987bc",
+                                        "560d657b4bdc2da74d8b4572",
+                                        "5b3a337e5acfc4704b4a19a0",
+                                        "5c5952732e2216398b5abda2",
+                                        "57d17e212459775a1179a0f5",
+                                        "6267c6396b642f77f56f5c1c",
+                                        "6272370ee4013c5d7e31f418",
+                                        "6272379924e29f06af4d5ecb",
+                                        "626becf9582c3e319310b837",
+                                        "644a3df63b0b6f03e101e065",
+                                        "646f6322f43d0c5d62063715"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973902fc6b8f2fd3875341f",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "041141F15FF1514100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5a800961159bd4315e3a1657",
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5c06595c0db834001a66af6c",
+                                        "5cc9c20cd7f00c001336c65d",
+                                        "5d2369418abbc306c62e0c80",
+                                        "5b07dd285acfc4001754240d",
+                                        "56def37dd2720bec348b456a",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5a5f1ce64f39f90b401987bc",
+                                        "560d657b4bdc2da74d8b4572",
+                                        "5b3a337e5acfc4704b4a19a0",
+                                        "5c5952732e2216398b5abda2",
+                                        "57d17e212459775a1179a0f5",
+                                        "6267c6396b642f77f56f5c1c",
+                                        "6272370ee4013c5d7e31f418",
+                                        "6272379924e29f06af4d5ecb",
+                                        "626becf9582c3e319310b837",
+                                        "644a3df63b0b6f03e101e065",
+                                        "646f6322f43d0c5d62063715"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69737306e7f639e697217a85",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041141F15FF1514100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5c7fc87d2e221644f31c0298",
+                                        "5cda9bcfd7f00c0c0b53e900",
+                                        "59f8a37386f7747af3328f06",
+                                        "5a7dbfc1159bd40016548fde",
+                                        "619386379fb0c665d5490dbe",
+                                        "5c87ca002e221600114cb150",
+                                        "588226d124597767ad33f787",
+                                        "588226dd24597767ad33f789",
+                                        "588226e62459776e3e094af7",
+                                        "588226ef24597767af46e39c",
+                                        "59fc48e086f77463b1118392",
+                                        "5fce0cf655375d18a253eff0",
+                                        "5cf4fb76d7f00c065703d3ac",
+                                        "5b057b4f5acfc4771e1bd3e9",
+                                        "5c791e872e2216001219c40a",
+                                        "558032614bdc2de7118b4585",
+                                        "58c157be86f77403c74b2bb6",
+                                        "58c157c886f774032749fb06",
+                                        "5f6340d3ca442212f4047eb2",
+                                        "591af28e86f77414a27a9e1d",
+                                        "5c1cd46f2e22164bef5cfedb",
+                                        "5c1bc4812e22164bef5cfde7",
+                                        "5c1bc5612e221602b5429350",
+                                        "5c1bc5af2e221602b412949b",
+                                        "5c1bc5fb2e221602b1779b32",
+                                        "5c1bc7432e221602b412949d",
+                                        "5c1bc7752e221602b1779b34",
+                                        "64807a29e5ffe165600abc97",
+                                        "64806bdd26c80811d408d37a",
+                                        "648067db042be0705c0b3009",
+                                        "65169d5b30425317755f8e25",
+                                        "655df24fdf80b12750626d0a",
+                                        "655dccfdbdcc6b5df71382b6",
+                                        "661e52e29c8b4dadef008577",
+                                        "661e53149c8b4dadef008579",
+                                        "661e52415be02310ed07a07a",
+                                        "661e52b5b099f32c28003586"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697368f3e9e86fb08125f718",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "041141F15FF1514100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5ba26b01d4351e0085325a51",
+                                        "5dfa3d950dee1b22f862eae0",
+                                        "5c17804b2e2216152006c02f",
+                                        "5fb6567747ce63734e3fa1dc",
+                                        "5bc09a30d4351e00367fb7c8",
+                                        "5c18b90d2e2216152142466b",
+                                        "5fc0fa362770a0045c59c677",
+                                        "5894a73486f77426d259076c",
+                                        "55d4af3a4bdc2d972f8b456f",
+                                        "04CF4CF15FF15F4C00000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Cronen RCQ-7 ISO Hemlock handguard",
+                "shortName": "RCQ-7",
+                "description": "Handguard for ISO manufactured by Cronen."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bf3be4b04af34934f84": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 6000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "041441F15FF1544100000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "ISOH/mods/handguard_isoh_shrt.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.39,
+            "Ergonomics": 6,
+            "Recoil": -1,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "ConflictingItems": [
+                "04B24BF15FF15F24B0000000",
+                "04B24BF15EF15E24B0000000",
+                "04B24BF15DF15D24B0000000",
+                "04B14BF15FF15F14B0000000",
+                "04B14BF15EF15E14B0000000",
+                "04B14BF15DF15D14B0000000"
+            ],
+            "Slots": [
+                {
+                    "_id": "69738eff8f4bc55fb54266a3",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "041441F15FF1544100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048048F15FF15F4800000000",
+                                        "048048F15EF15E4800000000",
+                                        "048048F15DF15D4800000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973902b3a053b5e5141b7d1",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "041441F15FF1544100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "048048F15FF15F4800000000",
+                                        "048048F15EF15E4800000000",
+                                        "048048F15DF15D4800000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697390aaba3ed14038ad273f",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "041441F15FF1544100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5ba26b01d4351e0085325a51",
+                                        "5dfa3d950dee1b22f862eae0",
+                                        "5c17804b2e2216152006c02f",
+                                        "5fb6567747ce63734e3fa1dc",
+                                        "5bc09a30d4351e00367fb7c8",
+                                        "5c18b90d2e2216152142466b",
+                                        "5fc0fa362770a0045c59c677",
+                                        "5894a73486f77426d259076c",
+                                        "55d4af3a4bdc2d972f8b456f",
+                                        "04CF4CF15FF15F4C00000000"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697390d9fb0a955a4f0e579c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "041441F15FF1544100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5649a2464bdc2d91118b45a8"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "69739117503c934510fb83db",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "041441F15FF1544100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "5c7fc87d2e221644f31c0298",
+                                        "5cda9bcfd7f00c0c0b53e900",
+                                        "59f8a37386f7747af3328f06",
+                                        "5a7dbfc1159bd40016548fde",
+                                        "619386379fb0c665d5490dbe",
+                                        "5c87ca002e221600114cb150",
+                                        "588226d124597767ad33f787",
+                                        "588226dd24597767ad33f789",
+                                        "588226e62459776e3e094af7",
+                                        "588226ef24597767af46e39c",
+                                        "59fc48e086f77463b1118392",
+                                        "5fce0cf655375d18a253eff0",
+                                        "5cf4fb76d7f00c065703d3ac",
+                                        "5b057b4f5acfc4771e1bd3e9",
+                                        "5c791e872e2216001219c40a",
+                                        "558032614bdc2de7118b4585",
+                                        "58c157be86f77403c74b2bb6",
+                                        "58c157c886f774032749fb06",
+                                        "5f6340d3ca442212f4047eb2",
+                                        "591af28e86f77414a27a9e1d",
+                                        "5c1cd46f2e22164bef5cfedb",
+                                        "5c1bc4812e22164bef5cfde7",
+                                        "5c1bc5612e221602b5429350",
+                                        "5c1bc5af2e221602b412949b",
+                                        "5c1bc5fb2e221602b1779b32",
+                                        "5c1bc7432e221602b412949d",
+                                        "5c1bc7752e221602b1779b34",
+                                        "64807a29e5ffe165600abc97",
+                                        "64806bdd26c80811d408d37a",
+                                        "648067db042be0705c0b3009",
+                                        "65169d5b30425317755f8e25",
+                                        "655df24fdf80b12750626d0a",
+                                        "655dccfdbdcc6b5df71382b6",
+                                        "661e52e29c8b4dadef008577",
+                                        "661e53149c8b4dadef008579",
+                                        "661e52415be02310ed07a07a",
+                                        "661e52b5b099f32c28003586"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6973913c4e28390190809349",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_000",
+                    "_parent": "041441F15FF1544100000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5d10b49bd7ad1a1a560708b0",
+                                        "5c06595c0db834001a66af6c",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5c5952732e2216398b5abda2",
+                                        "644a3df63b0b6f03e101e065"
+                                    ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "EXF ISO Hemlock handguard",
+                "shortName": "EXF",
+                "description": "Handguard for ISO Hemlock manufactured by Expedite Firearms."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bef06824cb7adbc4344": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 16000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "048048F15FF15F4800000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mount_isoh_side_def.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": {
+                "name": "F.T. ISO Hemlock handguard side rail",
+                "shortName": "F.T. side",
+                "description": "Side rail for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745be8a5c95927fbfb9332": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 1200,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "048048F15EF15E4800000000": {
+        "itemTplToClone": "048048F15FF15F4800000000",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mount_isoh_side_hvy.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": {
+                "name": "Fielder-T50 ISO Hemlock handguard side rail",
+                "shortName": "T50 side",
+                "description": "Side rail for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745be36b0f5658a0f76550": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 1200,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "048048F15DF15D4800000000": {
+        "itemTplToClone": "048048F15FF15F4800000000",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mount_isoh_side_shrt.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "EXF ISO Hemlock handguard side rail",
+                "shortName": "EXF side",
+                "description": "Side rail for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bdef96a5014f8207df8": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 1200,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "048148F15FF15F4810000000": {
+        "itemTplToClone": "5b7be4895acfc400170e2dd5",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mount_isoh_fg_def.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "F.T. ISO Hemlock handguard foregrip rail",
+                "shortName": "F.T. fg",
+                "description": "Foregrip rail for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bfaa74204c5f522bd94": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 1200,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "048248F15FF15F4820000000": {
+        "itemTplToClone": "5b7be47f5acfc400170e2dd2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mount_isoh_bt_def.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "F.T. ISO Hemlock handguard bottom rail",
+                "shortName": "F.T. bottom",
+                "description": "Side rail for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bd996ddfaeffd27b52f": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 1200,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "048248F15EF15E4820000000": {
+        "itemTplToClone": "048248F15FF15F4820000000",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mount_isoh_bt_hvy.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "Fielder-T50 ISO Hemlock handguard bottom rail",
+                "shortName": "T50 bottom",
+                "description": "Side rail for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bd4161d035d26030f30": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 1200,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "047047F15FF15F0470000000": {
+        "itemTplToClone": "6197b229af1f5202c57a9bea",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/stock_isoh_rail.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.14,
+                    "Slots": [
+                        {
+                            "_id": "69745afb97775c95c82f0aad",
+                            "_mergeSlotWithChildren": false,
+                            "_name": "mod_stock",
+                            "_parent": "047047F15FF15F0470000000",
+                            "_props": {
+                                "filters": [
+                                {
+                                    "Filter": [
+                                    "58ac1bf086f77420ed183f9f",
+                                    "5894a13e86f7742405482982",
+                                    "5fbcc429900b1d5091531dd7",
+                                    "5fbcc437d724d907e2077d5c",
+                                    "5c5db6ee2e221600113fba54",
+                                    "5c5db6f82e2216003a0fe914",
+                                    "6529348224cbe3c74a05e5c4",
+                                    "6686717ffb75ee4a5e02eb19",
+                                    "6761496fe2cf1419500357e9"
+                                    ],
+                                    "Shift": 0
+                                }
+                                ]
+                            },
+                            "_proto": "55d30c4c4bdc2db4468b457e",
+                            "_required": false
+                        }
+                    ],
+                    "Ergonomics": -1
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock stock rail adaptor",
+                "shortName": "Hemlock rail adaptor",
+                "description": "Stock rail adaptor for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69745bcfc056df5d311f49f2": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 5000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "047147F15FF15F1470000000": {
+        "itemTplToClone": "5894a13e86f7742405482982",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/stock_all_isoh.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.35,
+                    "Slots": [],
+                    "Ergonomics": 10,
+                    "Recoil": -22
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock standard stock",
+                "shortName": "Std.",
+                "description": "Standard fixed stock for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69748f356d05a95e16e55916": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 10000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "047247F15FF15F2470000000": {
+        "itemTplToClone": "5649b1c04bdc2d16268b457c",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/stock_isoh_lgt.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.34,
+                    "Slots": [],
+                    "Ergonomics": 7,
+                    "Recoil": -25,
+                    "BlockFolding": true,
+                    "BlockCollapsible": true
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock Res 2 fixed stock",
+                "shortName": "Res 2",
+                "description": "Res 2 fixed stock for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69748f2ec6ef22f18cc1e2b8": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 10000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "047347F15FF15F3470000000": {
+        "itemTplToClone": "5649b1c04bdc2d16268b457c",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/stock_isoh_hvy.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.67,
+                    "Slots": [],
+                    "Ergonomics": 10,
+                    "Recoil": -30,
+                    "BlockFolding": true,
+                    "BlockCollapsible": true
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock Mace 600 stock",
+                "shortName": "Mace 600",
+                "description": "Mace 600 ergonomical stock for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 38000,
+        "handbookPriceRoubles": 32000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69748f3b0ce4f182f7030de8": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 32000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "047447F15FF15F4470000000": {
+        "itemTplToClone": "5bd704e7209c4d00d7167c31",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/stock_isoh_skel.bundle",
+                        "rcid": ""
+                    },
+                    "Ergonomics": 8,
+                    "Recoil": -20,
+                    "IsAnimated": false
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock retractable stock",
+                "shortName": "ISO Hemlock retractable",
+                "description": "Retractable stock for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043043F15FF15F4300000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/pistolgrip_isoh.bundle",
+                        "rcid": ""
+                    },
+                    "Ergonomics": 6,
+                    "Weight": 0.08
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "AR-15 Sakin pistol grip",
+                "shortName": "Sakin",
+                "description": "Pistol grip for AR-15 platform manufactured by Sakin Arms."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_pistol_grip"
+        ]
+    },
+
+    "043143F15FF15F4310000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/pistolgrip_isoh_ass.bundle",
+                        "rcid": ""
+                    },
+                    "Ergonomics": 10,
+                    "Weight": 0.081
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "AR-15 Sakin ZX pistol grip",
+                "shortName": "Sakin ZX",
+                "description": "ZX pistol grip for AR-15 platform manufactured by Sakin Arms."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_pistol_grip"
+        ]
+    },
+
+    "043243F15FF15F4320000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/pistolgrip_isoh_skel.bundle",
+                        "rcid": ""
+                    },
+                    "Ergonomics": 7,
+                    "Weight": 0.06
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "AR-15 Phantom pistol grip",
+                "shortName": "Phantom",
+                "description": "Phantom pistol grip for AR-15 platform."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69748357898e124b5fbbe3f9": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 7000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_pistol_grip"
+        ]
+    },
+
+    "043343F15FF15F4330000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/pistolgrip_isoh_sn.bundle",
+                        "rcid": ""
+                    },
+                    "Ergonomics": 15,
+                    "Weight": 0.107
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "AR-15 CP90 pistol grip",
+                "shortName": "CP90",
+                "description": "CP90 pistol grip for AR-15 platform."
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 22200,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6974835265b2ceccd97c06e3": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 31000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_pistol_grip"
+        ]
+    },
+
+    "043443F15FF15F4340000000": {
+        "itemTplToClone": "55802f5d4bdc2dac148b458f",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/pistolgrip_isoh_tac.bundle",
+                        "rcid": ""
+                    },
+                    "Ergonomics": 12,
+                    "Weight": 0.08
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "AR-15 XTEN pistol grip",
+                "shortName": "XTEN",
+                "description": "Pistol grip for AR-15 platform manufactured by XTEN."
+            }
+        },
+        "fleaPriceRoubles": 19000,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6974834e941b9849227ccb84": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 16000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_pistol_grip"
+        ]
+    },
+
+    "04CB4CF15FF15B4C00000000": {
+        "itemTplToClone": "5bc09a18d4351e003562b68e",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/sight_rear_all_isoh.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock foldable rear sight",
+                "shortName": "Hemlock",
+                "description": "Foldable rear sight for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ]
+    },
+
+    "04CF4CF15FF15F4C00000000": {
+        "itemTplToClone": "5bc09a30d4351e00367fb7c8",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/sight_front_all_isoh.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock foldable front sight",
+                "shortName": "Hemlock",
+                "description": "Foldable front sight for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_front"
+        ]
+    },
+
+    "04B84BF15FF1584B00000000": {
+        "itemTplToClone": "5c48a2a42e221602b66d1e07",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/muzzle_isoh.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.116,
+                    "Slots": []
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "SA AR-15 muzzle device",
+                "shortName": "SA",
+                "description": "AR-15 muzzle device manufactured by Singuard Arms System."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_muzzle"
+        ]
+    },
+
+    "04B84BF15DF1584B00000000": {
+        "itemTplToClone": "5c48a2a42e221602b66d1e07",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/muzzle_isoh_hvy.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.103,
+                    "Slots": [],
+                    "Recoil": -8
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "XTEN AR-15 muzzle device",
+                "shortName": "XTEN",
+                "description": "AR-15 muzzle device manufactured by XTEN."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697483621571ec8e6914576b": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 10000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_muzzle"
+        ]
+    },
+
+    "04B84BF15EF1584B00000000": {
+        "itemTplToClone": "5dcbe965e4ed22586443a79d",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/muzzle_isoh_shrt.bundle",
+                        "rcid": ""
+                    },
+                    "Weight": 0.12,
+                    "Slots": []
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "ISO Hemlock muzzle device",
+                "shortName": "Hemlock",
+                "description": "Muzzle device manufactured for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_muzzle"
+        ]
+    },
+
+    "04B94BF15EF1594B00000000": {
+        "itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+        "parentId": "550aa4cd4bdc2dd8348b456c",
+        "handbookParentId": "5b5f731a86f774093e6cb4f9",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/silencer_isoh_sil.bundle",
+                        "rcid": ""
+                    },
+                    "Slots": [],
+                    "Ergonomics": -19,
+                    "Recoil": -13,
+                    "Loudness": -40,
+                    "Velocity": 0.88
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "EXF Cipher-121 ISO Hemlock suppressor",
+                "shortName": "Cipher-121",
+                "description": "Cipher-121 suppressor for ISO Hemlock."
+            }
+        },
+        "fleaPriceRoubles": 16000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697484622eaa848a10a45b6e": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 13000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "02F02FF15FF15F0000000000": {
+        "itemTplToClone": "55802d5f4bdc2dac148b458e",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mag_stanag_iso.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": "5.56x45 Demo 30 30-round magazine",
+                "shortName": "Demo 30",
+                "description": "A 30-round polymer magazine with an observation slot for faster capacity checking manufactured by Demo Weapon System."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69748501c836589d9de4428d": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 6000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F02FF15EF15E0000000000": {
+        "itemTplToClone": "5d1340b3d7ad1a0b52682ed7",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+                    "Prefab": {
+                        "path": "ISOH/mods/mag_stanag_iso_300.bundle",
+                        "rcid": ""
+                    }
+                },
+        "locales": {
+            "en": 
+            {
+                "name": ".300 BLK 30-round magazine",
+                "shortName": "BLK",
+                "description": "A 30-round polymer magazine marked .300 BLK. Of course nothing stops you from loading 5.56x45 in it."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6974854cd2ac9d91c25cec21": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 5000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    }
+}

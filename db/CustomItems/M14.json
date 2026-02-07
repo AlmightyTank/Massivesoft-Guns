@@ -1,0 +1,158 @@
+{
+    "020020AA14AA140000000000": {
+        "itemTplToClone": "5aafa857e5b5b00018480968",
+        "parentId": "5447b5fc4bdc2d87278b4567",
+        "handbookParentId": "5b5f791486f774093f2ed3be",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Weight": 4.7,
+            "NoFiremodeOnBoltcatch": true,
+            "weapFireType": [ "single", "fullauto" ],
+            "Prefab": {
+                "path": "M14/weapon_m14_762x51_container.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Springfield Armory M14 7.62x51 rifle",
+                "shortName": "M14",
+                "description": "USGI battle rifle chambered in 7.62x51 NATO."
+            }
+        },
+        "fleaPriceRoubles": 13056,
+        "handbookPriceRoubles": 13056,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "M14",
+                "Templates": [
+                    "020020AA14AA140000000000"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "041041AA14AA144100000000": {
+        "itemTplToClone": "5aaf8e43e5b5b00015693246",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Weight": 1.5,
+            "Recoil": -1,
+            "HeatFactor": 0.97,
+            "CoolFactor": 1.01,
+            "Ergonomics": 1,
+            "Prefab": {
+                "path": "M14/m14_handguard.bundle",
+                "rcid": ""
+            },
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "M14 wooden stock",
+                "shortName": "M14 wooden",
+                "description": "Standard wooden stock for M14."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [ "mod_stock" ]
+    },
+
+    "0410EBAA14AA14EB00000000": {
+        "itemTplToClone": "5addc7005acfc4001669f275",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "M14/m14_handguard_ebr.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "M14 SAGE International M14ALCS chassis",
+                "shortName": "M14ALCS",
+                "description": "EBR chassis system for M14 rifles."
+            }
+        },
+        "fleaPriceRoubles": 42000,
+        "handbookPriceRoubles": 42000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [ "mod_stock" ]
+    },
+
+    "04B04BAA14AA14BB00000000": {
+        "itemTplToClone": "5addbac75acfc400194dbc56",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Weight": 1.18,
+            "Recoil": -1,
+            "CenterOfImpact": 0.08,
+            "HeatFactor": 0.75,
+            "CoolFactor": 0.9,
+            "Velocity": 0.08,
+            "DurabilityBurnModificator": 0.8
+        },
+        "locales": {
+            "en": {
+                "name": "M14 7.62x51 22 inch barrel",
+                "shortName": "M14 22\"",
+                "description": "Standard 22 inch barrel for M14 rifles."
+            }
+        },
+        "fleaPriceRoubles": 18000,
+        "handbookPriceRoubles": 18000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [ "mod_barrel" ]
+    },
+
+    "04A04AAA14AA14AA00000000": {
+        "itemTplToClone": "5addbb6e5acfc408fb1393fd",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": { "Recoil": -1 },
+        "locales": {
+            "en": {
+                "name": "M14 Standard 7.62x51 flash suppressor",
+                "shortName": "M14",
+                "description": "Standard flash suppressor for M14 rifles."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [ "mod_muzzle" ]
+    },
+
+    "049049AA14AA14FF00000000": {
+        "itemTplToClone": "5addba3e5acfc4001669f0ab",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {},
+        "locales": {
+            "en": {
+                "name": "M14 Standard Blade front sight",
+                "shortName": "M14 Blade",
+                "description": "Detachable blade front sight for M14 rifles."
+            }
+        },
+        "fleaPriceRoubles": 2500,
+        "handbookPriceRoubles": 2500,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [ "mod_sight_front" ]
+    }
+}

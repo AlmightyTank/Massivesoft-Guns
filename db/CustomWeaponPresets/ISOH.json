@@ -1,0 +1,208 @@
+{
+    "697601c5571278f422fae8c2": {
+        "_id": "697601c5571278f422fae8c2",
+        "_name": "ISOH 7.62 Default",
+        "_changeWeaponName": false,
+        "_parent": "6975ff6cfa73a449ec47e5dc",
+        "_encyclopedia": "69735838ed1ac8c40baa0365",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "6975ff6cfa73a449ec47e5dc",
+                "_tpl": "69735838ed1ac8c40baa0365"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5dd",
+                "_tpl": "65293c38fc460e50a509cb25",
+                "parentId": "6975ff6cfa73a449ec47e5dc",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5de",
+                "_tpl": "043043f15ff15f4300000000",
+                "parentId": "6975ff6cfa73a449ec47e5dc",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5df",
+                "_tpl": "047147f15ff15f1470000000",
+                "parentId": "6975ff6cfa73a449ec47e5dc",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5e0",
+                "_tpl": "042042f15df15d0000000000",
+                "parentId": "6975ff6cfa73a449ec47e5dc",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5e2",
+                "_tpl": "04b14bf15df15d14b0000000",
+                "parentId": "6975ff6cfa73a449ec47e5e0",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5e3",
+                "_tpl": "041341f15ff1534100000000",
+                "parentId": "6975ff6cfa73a449ec47e5e0",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5e4",
+                "_tpl": "04cb4cf15ff15b4c00000000",
+                "parentId": "6975ff6cfa73a449ec47e5e0",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5e5",
+                "_tpl": "04b84bf15ef1584b00000000",
+                "parentId": "6975ff6cfa73a449ec47e5e2",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6975ff6cfa73a449ec47e5e6",
+                "_tpl": "04cf4cf15ff15f4c00000000",
+                "parentId": "6975ff6cfa73a449ec47e5e3",
+                "slotId": "mod_sight_front"
+            }
+        ]
+    },
+
+    "6976020029bb85fcabfe4be4": {
+        "_id": "6976020029bb85fcabfe4be4",
+        "_name": "ISOH Default",
+        "_changeWeaponName": false,
+        "_parent": "6975fa1b24f3215d9cb6bba8",
+        "_encyclopedia": "020020F15EF15E0000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "6975fa1b24f3215d9cb6bba8",
+                "_tpl": "020020F15EF15E0000000000"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bba9",
+                "_tpl": "02f02ff15ef15e0000000000",
+                "parentId": "6975fa1b24f3215d9cb6bba8",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbaa",
+                "_tpl": "043043f15ff15f4300000000",
+                "parentId": "6975fa1b24f3215d9cb6bba8",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbab",
+                "_tpl": "047147f15ff15f1470000000",
+                "parentId": "6975fa1b24f3215d9cb6bba8",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbac",
+                "_tpl": "042042f15ef15e0000000000",
+                "parentId": "6975fa1b24f3215d9cb6bba8",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbad",
+                "_tpl": "04b44bf15ef15e44b0000000",
+                "parentId": "6975fa1b24f3215d9cb6bbac",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbae",
+                "_tpl": "041441f15ff1544100000000",
+                "parentId": "6975fa1b24f3215d9cb6bbac",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbaf",
+                "_tpl": "04cb4cf15ff15b4c00000000",
+                "parentId": "6975fa1b24f3215d9cb6bbac",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbb0",
+                "_tpl": "04b94bf15ef1594b00000000",
+                "parentId": "6975fa1b24f3215d9cb6bbad",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6975fa1b24f3215d9cb6bbb1",
+                "_tpl": "04cf4cf15ff15f4c00000000",
+                "parentId": "6975fa1b24f3215d9cb6bbae",
+                "slotId": "mod_sight_front"
+            }
+        ]
+    },
+
+    "69760235715a857d7d836553": {
+        "_id": "69760235715a857d7d836553",
+        "_name": "ISOH Default",
+        "_changeWeaponName": false,
+        "_parent": "6975fa5e24f3215d9cb6bbb2",
+        "_encyclopedia": "6975f729ccca05b310f4c73b",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb2",
+                "_tpl": "6975f729ccca05b310f4c73b"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb3",
+                "_tpl": "02f02ff15ef15e0000000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb2",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb4",
+                "_tpl": "043043f15ff15f4300000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb2",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb5",
+                "_tpl": "047147f15ff15f1470000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb2",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb6",
+                "_tpl": "042042f15ff15f0000000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb2",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb7",
+                "_tpl": "041441f15ff1544100000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb6",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb8",
+                "_tpl": "04b04bf15ff15f0000000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb6",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbb9",
+                "_tpl": "04cb4cf15ff15b4c00000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb6",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbba",
+                "_tpl": "04cf4cf15ff15f4c00000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb7",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "6975fa5e24f3215d9cb6bbbb",
+                "_tpl": "04b84bf15ff1584b00000000",
+                "parentId": "6975fa5e24f3215d9cb6bbb8",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    }
+}

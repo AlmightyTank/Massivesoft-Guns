@@ -1,0 +1,1508 @@
+{
+    "02002010AB10AB0000000000": {
+        "itemTplToClone": "5de652c31b7e3716273428be",
+        "parentId": "5447b6254bdc2dc3278b4568",
+        "handbookParentId": "5b5f798886f77447ed5636b5",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Weight": 0.312,
+            "Width": 2,
+            "Height": 1,
+            "LootExperience": 20,
+            "RepairCost": 172,
+            "RepairSpeed": 5,
+            "ItemSound": "weap_ar",
+
+            "Slots": [
+                {
+                    "_name": "mod_barrel",
+                    "_id": "69762f5dc75658b07fcb528c",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04B04B10AB10AB4B00000000",
+                                    "04B14B10AB10AB4B10000000",
+                                    "04B24B10AB10AB4B20000000",
+                                    "04B34B10AB10AB4B30000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_handguard",
+                    "_id": "69762f5747b0a120af98f7ab",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04104110AB10AB4100000000",
+                                    "04114110AB10AB4110000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "69762f5467a25c957fa5c264",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04404410AB10AB4400000000",
+                                    "04414410AB10AB4410000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_charge",
+                    "_id": "69762f50080f2305184d1e5b",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04C04C10AB10AB4C00000000",
+                                    "04C14C10AB10AB4C10000000",
+                                    "04C24C10AB10AB4C20000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "6976301b1819b822939354e0",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5ac50c185acfc400163398d4",
+                                    "5cf50fc5d7f00c056c53f83c",
+                                    "5ac78eaf5acfc4001926317a",
+                                    "5beec8b20db834001961942a",
+                                    "6386300124a1dc425c00577a",
+                                    "649ec87d8007560a9001ab36",
+                                    "6761779c48fa5c377e06fc3f",
+                                    "04204210AB10AB4200000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "697630477ed95e65aa04fa5e",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "5f6341043ada5942720e2dc5",
+                                    "6087e663132d4d12c81fd96b",
+                                    "5beec8ea0db834001a6f9dbf",
+                                    "5649ad3f4bdc2df8348b4585",
+                                    "5649ade84bdc2d1b2b8b4587",
+                                    "59e62cc886f77440d40b52a1",
+                                    "5a0071d486f77404e23a12b2",
+                                    "57e3dba62459770f0c32322b",
+                                    "5cf54404d7f00c108840b2ef",
+                                    "5e2192a498a36665e8337386",
+                                    "5b30ac585acfc433000eb79c",
+                                    "59e6318286f77444dd62c4cc",
+                                    "5cf50850d7f00c056e24104c",
+                                    "5cf508bfd7f00c056e24104e",
+                                    "5947f92f86f77427344a76b1",
+                                    "5947fa2486f77425b47c1a9b",
+                                    "5c6bf4aa2e2216001219b0ae",
+                                    "5649ae4a4bdc2d1b2b8b4588",
+                                    "5998517986f7746017232f7e",
+                                    "623c3be0484b5003161840dc",
+                                    "628a664bccaab13006640e47",
+                                    "628c9ab845c59e5b80768a81",
+                                    "63f4da90f31d4a33b87bd054",
+                                    "648ae3e356c6310a830fc291",
+                                    "651580dc71a4f10aec4b6056",
+                                    "04304310AB10AB4300000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_magazine",
+                    "_id": "697630bc0ece7183c1343231",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "59e5d83b86f7745aed03d262",
+                                    "5a01c29586f77474660c694c",
+                                    "5ac66bea5acfc43b321d4aec",
+                                    "59d625f086f774661516605d",
+                                    "5b1fd4e35acfc40018633c39",
+                                    "5a0060fc86f7745793204432",
+                                    "59e5f5a486f7746c530b3ce2",
+                                    "5b1fb3e15acfc4001637f068",
+                                    "59d6272486f77466146386ff",
+                                    "5e21a3c67e40bd02257a008a",
+                                    "5cbdc23eae9215001136a407",
+                                    "5c6175362e221600133e3b94",
+                                    "59fafc5086f7740dbe19f6c3",
+                                    "59fafc9386f774067d462453",
+                                    "5cfe8010d7ad1a59283b14c6",
+                                    "6272874a6c47bd74f92e2087",
+                                    "64b9cf0ac12b9c38db26923a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c394bdc2dae468b4577"
+                }
+            ],
+            "ammoCaliber": "Caliber762x39",
+            "OperatingResource": 6100,
+            "RepairComplexity": 0,
+            "bFirerate": 100,
+            "Ergonomics": 37,
+            "Velocity": 1.8,
+            "bEffDist": 650,
+            "bHearDist": 80,
+            "isBoltCatch": true,
+            "defMagType": "5ac66bea5acfc43b321d4aec",
+            "defAmmo": "5656d7c34bdc2d9d198b4587",
+            "Chambers": [
+                {
+                    "_name": "patron_in_weapon",
+                    "_id": "5ac66d2e5acfc43b321d4b55",
+                    "_parent": "02002010AB10AB0000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e0d99486f7744a32234762",
+                                    "59e4d3d286f774176a36250a",
+                                    "5656d7c34bdc2d9d198b4587",
+                                    "59e4cf5286f7741778269d8a",
+                                    "59e4d24686f7741776641ac7",
+                                    "601aa3d2b2bcb34913271e6d",
+                                    "64b7af5a8532cf95ee0a0dbd",
+                                    "64b7af434b75259c590fa893",
+                                    "64b7af734b75259c590fa895"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d4af244bdc2d962f8b4571"
+                }
+            ],
+            "CenterOfImpact": 0.062,
+            "AimPlane": 0.19,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23,
+            "Foldable": true,
+            "RecoilCategoryMultiplierHandRotation": 0.207,
+            "RecoilReturnSpeedHandRotation": 2.4,
+            "RecoilDampingHandRotation": 0.85,
+            "RecoilCamera": 0.067,
+            "RecoilStableIndexShot": 5,
+            "RecoilForceBack": 397,
+            "RecoilForceUp": 151,
+            "RecolDispersion": 9,
+            "RecoilPosZMult": 1,
+            "RecoilReturnPathDampingHandRotation": 0.48,
+            "ProgressRecoilAngleOnStable": {
+                "x": 0,
+                "y": 28,
+                "z": 0
+            },
+            "RecoilCenter": {
+                "x": 0,
+                "y": -0.25,
+                "z": 0
+            },
+            "PostRecoilVerticalRangeHandRotation": {
+                "x": -1.5,
+                "y": 0,
+                "z": 0
+            },
+            "PostRecoilHorizontalRangeHandRotation": {
+                "x": -1.5,
+                "y": 1.5,
+                "z": 0
+            },
+            "ShotsGroupSettings": [
+                {
+                    "StartShotIndex": 1,
+                    "EndShotIndex": 200,
+                    "ShotRecoilRotationStrength": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "ShotRecoilPositionStrength": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "ShotRecoilRadianRange": {
+                        "x": 6,
+                        "y": -6,
+                        "z": 0
+                    }
+                }
+            ],
+            "CameraToWeaponAngleSpeedRange": {
+                "x": 0.1,
+                "y": 0.2,
+                "z": 0
+            },
+            "CameraToWeaponAngleStep": 0.1,
+            "CameraSnap": 3.5,
+            "RotationCenter": {
+                "x": 0,
+                "y": -0.1,
+                "z": -0.03
+            },
+            "RotationCenterNoStock": {
+                "x": 0,
+                "y": -0.27,
+                "z": -0.08
+            },
+            "FoldedSlot": "mod_stock",
+            "CompactHandling": true,
+            "IronSightRange": 100,
+            "BoltAction": true,
+            "BaseMalfunctionChance": 0.2277,
+            "AllowJam": false,
+            "HeatFactorGun": 0.9305,
+            "CoolFactorGun": 3.168,
+            "CoolFactorGunMods": 0.9502,
+            "HeatFactorByShot": 1.275,
+
+            "Prefab": {
+                "path": "Longbow/weapon_longbow_762x39_container.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 bolt-action rifle",
+                "shortName": "Longbow",
+                "description": "A lightweight, heavily modified sniper rifle designed for precision shooting and repeat shots thanks to recoil control and magazine capacity."
+            }
+        },
+        "fleaPriceRoubles": 60000,
+        "handbookPriceRoubles": 60000,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "LB",
+                "Templates": [
+                    "02002010AB10AB0000000000"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "04B04B10AB10AB4B00000000": {
+        "itemTplToClone": "5beec1bd0db834001e6006f3",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/barrel_longbow_def.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "697633cf4f189e4937579574",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04B04B10AB10AB4B00000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ac72e7d5acfc40016339a02",
+                            "5ac72e895acfc43b321d4bd5",
+                            "5f633f791b231926f2329f13",
+                            "5a9ea27ca2750c00137fa672",
+                            "5cc9ad73d7f00c000e2579d4",
+                            "5649ab884bdc2ded0b8b457f",
+                            "59bffc1f86f77435b128b872",
+                            "5e208b9842457a4a7a33d074",
+                            "5a0d63621526d8dba31fe3bf",
+                            "59fb257e86f7742981561852",
+                            "5a9fbacda2750c00141e080f"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "Weight": 1.4,
+            "Width": 3,
+            "Height": 1,
+            "Recoil": -8,
+            "ExtraSizeLeft": 3,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.043,
+            "Velocity": 8.2,
+            "HeatFactor": 0.98,
+            "CoolFactor": 0.99,
+            "Ergonomics": -19,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 standard barrel",
+                "shortName": "Std.",
+                "description": "Default barrel for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B14B10AB10AB4B10000000": {
+        "itemTplToClone": "5beec1bd0db834001e6006f3",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/barrel_longbow_lgtlong.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "697634856393d26d0c6052a4",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04B14B10AB10AB4B10000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ac72e7d5acfc40016339a02",
+                            "5ac72e895acfc43b321d4bd5",
+                            "5f633f791b231926f2329f13",
+                            "5a9ea27ca2750c00137fa672",
+                            "5cc9ad73d7f00c000e2579d4",
+                            "5649ab884bdc2ded0b8b457f",
+                            "59bffc1f86f77435b128b872",
+                            "5e208b9842457a4a7a33d074",
+                            "5a0d63621526d8dba31fe3bf",
+                            "59fb257e86f7742981561852",
+                            "5a9fbacda2750c00141e080f"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "Weight": 1.51,
+            "Width": 3,
+            "Height": 1,
+            "Recoil": -10,
+            "ExtraSizeLeft": 3,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.039,
+            "Velocity": 8.95,
+            "HeatFactor": 0.98,
+            "CoolFactor": 1.1,
+            "Ergonomics": -21,
+            "DeviationCurve": 1.35,
+            "DeviationMax": 23
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 long barrel",
+                "shortName": "Long",
+                "description": "Long barrel for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B24B10AB10AB4B20000000": {
+        "itemTplToClone": "5beec1bd0db834001e6006f3",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/barrel_longbow_shrt.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "69763489733485e312ac364e",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04B24B10AB10AB4B20000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ac72e7d5acfc40016339a02",
+                            "5ac72e895acfc43b321d4bd5",
+                            "5f633f791b231926f2329f13",
+                            "5a9ea27ca2750c00137fa672",
+                            "5cc9ad73d7f00c000e2579d4",
+                            "5649ab884bdc2ded0b8b457f",
+                            "59bffc1f86f77435b128b872",
+                            "5e208b9842457a4a7a33d074",
+                            "5a0d63621526d8dba31fe3bf",
+                            "59fb257e86f7742981561852",
+                            "5a9fbacda2750c00141e080f"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "Weight": 0.5,
+            "Width": 2,
+            "Height": 1,
+            "Recoil": -3,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.07,
+            "Velocity": -15,
+            "HeatFactor": 1.02,
+            "CoolFactor": 1.09,
+            "Ergonomics": -8,
+            "DeviationCurve": 1.5,
+            "DeviationMax": 21,
+            "DurabilityBurnModificator": 0.87
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 short barrel",
+                "shortName": "Short",
+                "description": "Short barrel for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04B34B10AB10AB4B30000000": {
+        "itemTplToClone": "5beec1bd0db834001e6006f3",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/barrel_longbow_sil.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "6976358cd760e081a0edfb0d",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "04B34B10AB10AB4B30000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "04514510AB10AB4510000000"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "Weight": 1.32,
+            "Width": 2,
+            "Height": 1,
+            "Recoil": -13,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "CenterOfImpact": 0.052,
+            "Velocity": -8.5,
+            "HeatFactor": 1.13,
+            "CoolFactor": 1.07,
+            "Ergonomics": -14,
+            "DeviationCurve": 1.5,
+            "DeviationMax": 22,
+            "DurabilityBurnModificator": 1
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 integrated suppressor barrel",
+                "shortName": "Integrated",
+                "description": "Integrated suppressor barrel for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04104110AB10AB4100000000": {
+        "itemTplToClone": "5cf4e3f3d7f00c06595bc7f0",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/handguard_longbow_def.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "69763593704ba494fcaf1541",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_000",
+                    "_parent": "04104110AB10AB4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "04604610AB10AB4600000000"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697636a4fc9ae7dde804565e",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "04104110AB10AB4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "591c4efa86f7741030027726",
+                            "570fd79bd2720bc7458b4583",
+                            "570fd6c2d2720bc6458b457f",
+                            "558022b54bdc2dac148b458d",
+                            "58491f3324597764bc48fa02",
+                            "584924ec24597768f12ae244",
+                            "5b30b0dc5acfc400153b7124",
+                            "6165ac8c290d254f5e6b2f6c",
+                            "60a23797a37c940de7062d02",
+                            "5d2da1e948f035477b1ce2ba",
+                            "5c0505e00db834001b735073",
+                            "609a63b6e2ff132951242d09",
+                            "584984812459776a704a82a6",
+                            "59f9d81586f7744c7506ee62",
+                            "570fd721d2720bc5458b4596",
+                            "57ae0171245977343c27bfcf",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5c5952732e2216398b5abda2",
+                            "58d39d3d86f77445bb794ae7",
+                            "616554fe50224f204c1da2aa",
+                            "5c7d55f52e221644f31bff6a",
+                            "616584766ef05c2ce828ef57",
+                            "615d8d878004cc50514c3233",
+                            "577d128124597739d65d0e56",
+                            "58d2664f86f7747fec5834f6",
+                            "5649a2464bdc2d91118b45a8",
+                            "61714b2467085e45ef140b2c",
+                            "5a33b2c9c4a282000c5a9511",
+                            "64785e7c19d732620e045e15",
+                            "644a3df63b0b6f03e101e065",
+                            "655f13e0a246670fb0373245"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697636dd9b57e1b5986a80e4",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "04104110AB10AB4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5b7be47f5acfc400170e2dd2",
+                            "6269220d70b6c02e665f2635",
+                            "6269545d0e57f218e4548ca2",
+                            "669a6a4a525be1d2d004b8eb"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6034e3e20ddce744014cb87c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "04104110AB10AB4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5b7be47f5acfc400170e2dd2",
+                            "6269220d70b6c02e665f2635",
+                            "6269545d0e57f218e4548ca2",
+                            "669a6a4a525be1d2d004b8eb",
+                            "671126b049e181972e0681fa"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6976373c8231ef7a6561ca1b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "04104110AB10AB4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "57cffb66245977632f391a99",
+                            "57cffcd624597763133760c5",
+                            "57cffcdd24597763f5110006",
+                            "57cffce524597763b31685d8",
+                            "5b7be4895acfc400170e2dd5",
+                            "651a8bf3a8520e48047bf708",
+                            "651a8e529829226ceb67c319",
+                            "665d5d9e338229cfd6078da1",
+                            "665edce564fb556f940ab32a"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6976375eb49de1fad139ab2c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "04104110AB10AB4100000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ba26b01d4351e0085325a51",
+                            "5dfa3d950dee1b22f862eae0",
+                            "5c17804b2e2216152006c02f",
+                            "5fb6567747ce63734e3fa1dc",
+                            "5bc09a30d4351e00367fb7c8",
+                            "5c18b90d2e2216152142466b",
+                            "5fc0fa362770a0045c59c677",
+                            "5894a73486f77426d259076c"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "ConflictingItems": [
+                "04B24B10AB10AB4B20000000"
+            ],
+            "Weight": 0.30,
+            "ExtraSizeLeft": 2,
+            "ExtraSizeForceAdd": false,
+            "Width": 2
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow standard handguard",
+                "shortName": "Std.",
+                "description": "Standard handguard for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 18000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04114110AB10AB4110000000": {
+        "itemTplToClone": "5cf4e3f3d7f00c06595bc7f0",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/handguard_longbow_shrt.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "697636a4fc9ae7dde804565e",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "04114110AB10AB4110000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "591c4efa86f7741030027726",
+                            "570fd79bd2720bc7458b4583",
+                            "570fd6c2d2720bc6458b457f",
+                            "558022b54bdc2dac148b458d",
+                            "58491f3324597764bc48fa02",
+                            "584924ec24597768f12ae244",
+                            "5b30b0dc5acfc400153b7124",
+                            "6165ac8c290d254f5e6b2f6c",
+                            "60a23797a37c940de7062d02",
+                            "5d2da1e948f035477b1ce2ba",
+                            "5c0505e00db834001b735073",
+                            "609a63b6e2ff132951242d09",
+                            "584984812459776a704a82a6",
+                            "59f9d81586f7744c7506ee62",
+                            "570fd721d2720bc5458b4596",
+                            "57ae0171245977343c27bfcf",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5c5952732e2216398b5abda2",
+                            "58d39d3d86f77445bb794ae7",
+                            "616554fe50224f204c1da2aa",
+                            "5c7d55f52e221644f31bff6a",
+                            "616584766ef05c2ce828ef57",
+                            "615d8d878004cc50514c3233",
+                            "577d128124597739d65d0e56",
+                            "58d2664f86f7747fec5834f6",
+                            "5649a2464bdc2d91118b45a8",
+                            "61714b2467085e45ef140b2c",
+                            "5a33b2c9c4a282000c5a9511",
+                            "64785e7c19d732620e045e15",
+                            "644a3df63b0b6f03e101e065",
+                            "655f13e0a246670fb0373245"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "697636dd9b57e1b5986a80e4",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "04114110AB10AB4110000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5b7be47f5acfc400170e2dd2",
+                            "6269220d70b6c02e665f2635",
+                            "6269545d0e57f218e4548ca2",
+                            "669a6a4a525be1d2d004b8eb"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6034e3e20ddce744014cb87c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "04114110AB10AB4110000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5b7be47f5acfc400170e2dd2",
+                            "6269220d70b6c02e665f2635",
+                            "6269545d0e57f218e4548ca2",
+                            "669a6a4a525be1d2d004b8eb",
+                            "671126b049e181972e0681fa"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6976373c8231ef7a6561ca1b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "04114110AB10AB4110000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "57cffb66245977632f391a99",
+                            "57cffcd624597763133760c5",
+                            "57cffcdd24597763f5110006",
+                            "57cffce524597763b31685d8",
+                            "5b7be4895acfc400170e2dd5",
+                            "651a8bf3a8520e48047bf708",
+                            "651a8e529829226ceb67c319",
+                            "665d5d9e338229cfd6078da1",
+                            "665edce564fb556f940ab32a"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6976375eb49de1fad139ab2c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "04114110AB10AB4110000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5ba26b01d4351e0085325a51",
+                            "5dfa3d950dee1b22f862eae0",
+                            "5c17804b2e2216152006c02f",
+                            "5fb6567747ce63734e3fa1dc",
+                            "5bc09a30d4351e00367fb7c8",
+                            "5c18b90d2e2216152142466b",
+                            "5fc0fa362770a0045c59c677",
+                            "5894a73486f77426d259076c"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "ConflictingItems": [],
+            "Weight": 0.173,
+            "ExtraSizeLeft": 1,
+            "ExtraSizeForceAdd": false,
+            "Width": 1,
+            "HeatFactor": 0.97,
+            "CoolFactor": 1.03,
+            "Recoil": -2,
+            "Ergonomics": 7
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow short handguard",
+                "shortName": "Short",
+                "description": "Short handguard for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 18000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04204210AB10AB4200000000": {
+        "itemTplToClone": "5ac50c185acfc400163398d4",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/stock_ak74m_longbow.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow standard stock",
+                "shortName": "Longbow std.",
+                "description": "Standard stock for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 14000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04304310AB10AB4300000000": {
+        "itemTplToClone": "5649ade84bdc2d1b2b8b4587",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/pistolgrip_ak_longbow.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow polymer pistol grip",
+                "shortName": "Longbow",
+                "description": "Pistol grip for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 800,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04404410AB10AB4400000000": {
+        "itemTplToClone": "5ac50da15acfc4001718d287",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/receiver_longbow_def.bundle",
+                "rcid": ""
+            },
+            "Slots":[
+                {
+                    "_id": "69763b2b5d9feb4d4ca45f44",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "04404410AB10AB4400000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "57ac965c24597706be5f975c",
+                            "57aca93d2459771f2c7e26db",
+                            "544a3f024bdc2d1d388b4568",
+                            "544a3a774bdc2d3a388b4567",
+                            "5d2dc3e548f035404a1a4798",
+                            "57adff4f24597737f373b6e6",
+                            "5c0517910db83400232ffee5",
+                            "591c4efa86f7741030027726",
+                            "570fd79bd2720bc7458b4583",
+                            "570fd6c2d2720bc6458b457f",
+                            "558022b54bdc2dac148b458d",
+                            "5c07dd120db834001c39092d",
+                            "5c0a2cec0db834001b7ce47d",
+                            "58491f3324597764bc48fa02",
+                            "584924ec24597768f12ae244",
+                            "5b30b0dc5acfc400153b7124",
+                            "6165ac8c290d254f5e6b2f6c",
+                            "60a23797a37c940de7062d02",
+                            "5d2da1e948f035477b1ce2ba",
+                            "5c0505e00db834001b735073",
+                            "609a63b6e2ff132951242d09",
+                            "584984812459776a704a82a6",
+                            "59f9d81586f7744c7506ee62",
+                            "570fd721d2720bc5458b4596",
+                            "57ae0171245977343c27bfcf",
+                            "5dfe6104585a0c3e995c7b82",
+                            "544a3d0a4bdc2d1b388b4567",
+                            "5d1b5e94d7ad1a2b865a96b0",
+                            "609bab8b455afd752b2e6138",
+                            "58d39d3d86f77445bb794ae7",
+                            "616554fe50224f204c1da2aa",
+                            "5c7d55f52e221644f31bff6a",
+                            "616584766ef05c2ce828ef57",
+                            "5b3b6dc75acfc47a8773fb1e",
+                            "615d8d878004cc50514c3233",
+                            "5b2389515acfc4771e1be0c0",
+                            "577d128124597739d65d0e56",
+                            "618b9643526131765025ab35",
+                            "618bab21526131765025ab3f",
+                            "5c86592b2e2216000e69e77c",
+                            "5a37ca54c4a282000d72296a",
+                            "5d0a29fed7ad1a002769ad08",
+                            "5c064c400db834001d23f468",
+                            "58d2664f86f7747fec5834f6",
+                            "57c69dd424597774c03b7bbc",
+                            "5b3b99265acfc4704b4a1afb",
+                            "5aa66a9be5b5b0214e506e89",
+                            "5aa66c72e5b5b00016327c93",
+                            "5c1cdd302e221602b3137250",
+                            "61714b2467085e45ef140b2c",
+                            "6171407e50224f204c1da3c5",
+                            "61713cc4d8e3106d9806c109",
+                            "5b31163c5acfc400153b71cb",
+                            "5a33b652c4a28232996e407c",
+                            "5a33b2c9c4a282000c5a9511",
+                            "59db7eed86f77461f8380365",
+                            "5a1ead28fcdbcb001912fa9f",
+                            "5dff77c759400025ea5150cf",
+                            "626bb8532c923541184624b4",
+                            "62811f461d5df4475f46a332",
+                            "63fc449f5bd61c6cf3784a88",
+                            "6478641c19d732620e045e17",
+                            "6477772ea8a38bb2050ed4db",
+                            "64785e7c19d732620e045e15",
+                            "65392f611406374f82152ba5",
+                            "653931da5db71d30ab1d6296",
+                            "655f13e0a246670fb0373245",
+                            "6567e751a715f85433025998",
+                            "67641a851b2899700609901a",
+                            "6761759e7ee06333f108bf86"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_name": "mod_sight_rear",
+                    "_id": "69763b6fe54d2a35e633943f",
+                    "_parent": "04404410AB10AB4400000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "69763b729556f07595e615d5",
+                                    "61817865d3a39d50044c13a4",
+                                    "5bb20e49d4351e3bac1212de",
+                                    "5ba26b17d4351e00367f9bdd",
+                                    "5dfa3d7ac41b2312ea33362a",
+                                    "5c1780312e221602b66cc189",
+                                    "5fb6564947ce63734e3fa1da",
+                                    "5bc09a18d4351e003562b68e",
+                                    "5c18b9192e2216398b5a8104",
+                                    "5fc0fa957283c4046c58147e",
+                                    "5894a81786f77427140b8347",
+                                    "55d5f46a4bdc2d1b198b4567",
+                                    "5ae30bad5acfc400185c2dc4",
+                                    "04D04D10AB10AB4D00000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_front",
+                    "_id": "69763b729556f07595e615d5",
+                    "_parent": "04404410AB10AB4400000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Shift": 0,
+                                "Filter": [
+                                    "04D14D10AB10AB4D10000000"
+                                ]
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow standard dust cover",
+                "shortName": "Longbow",
+                "description": "Dust cover for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04414410AB10AB4410000000": {
+        "itemTplToClone": "04404410AB10AB4400000000",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/receiver_longbow_jak.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.15,
+            "Ergonomics": 11,
+            "DurabilityBurnModificator": 0.99,
+            "HeatFactor": 1.02
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow carbon fiber dust cover",
+                "shortName": "JAK",
+                "description": "Carbon fiber dust cover for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 18000,
+        "handbookPriceRoubles": 18000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04C04C10AB10AB4C00000000": {
+        "itemTplToClone": "6181688c6c780c1e710c9b04",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "5b5f751486f77447ec5d770c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/charge_longbow_bolt.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "IsAnimated": true,
+            "Weight": 0.8,
+            "Ergonomics": 0,
+            "Recoil": -1
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow standard bolt",
+                "shortName": "std. bolt",
+                "description": "Standard bolt for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04C14C10AB10AB4C10000000": {
+        "itemTplToClone": "04C04C10AB10AB4C00000000",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "5b5f751486f77447ec5d770c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/charge_longbow_bolt_heavy.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "IsAnimated": true,
+            "Weight": 0.91,
+            "Ergonomics": -2,
+            "Recoil": -2,
+            "Accuracy": 2
+
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow heavy bolt",
+                "shortName": "Heavy bolt",
+                "description": "Heavy bolt for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04C24C10AB10AB4C20000000": {
+        "itemTplToClone": "04C04C10AB10AB4C00000000",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "5b5f751486f77447ec5d770c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/charge_longbow_bolt_light.bundle",
+                "rcid": ""
+            },
+            "Slots": [],
+            "IsAnimated": true,
+            "Weight": 0.72,
+            "Ergonomics": 2
+
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow light bolt",
+                "shortName": "Light bolt",
+                "description": "Light bolt for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04D04D10AB10AB4D00000000": {
+        "itemTplToClone": "5bc09a18d4351e003562b68e",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/sight_longbow_rear.bundle",
+                "rcid": ""
+            },
+
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "Ergonomics": 0,
+            "RaidModdable": false,
+
+            "ConflictingItems": [
+                "5ba26b01d4351e0085325a51",
+                "5dfa3d950dee1b22f862eae0",
+                "5c17804b2e2216152006c02f",
+                "5fb6567747ce63734e3fa1dc",
+                "5bc09a30d4351e00367fb7c8",
+                "5c18b90d2e2216152142466b",
+                "5fc0fa362770a0045c59c677",
+                "5894a73486f77426d259076c"
+            ]
+
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow rear sight",
+                "shortName": "Longbow R.",
+                "description": "Iron sight for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04D14D10AB10AB4D10000000": {
+        "itemTplToClone": "5bc09a18d4351e003562b68e",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Longbow/mods/sight_longbow_front.bundle",
+                "rcid": ""
+            },
+
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "Ergonomics": 0,
+            "RaidModdable": false,
+
+            "ConflictingItems": [
+                "5ba26b01d4351e0085325a51",
+                "5dfa3d950dee1b22f862eae0",
+                "5c17804b2e2216152006c02f",
+                "5fb6567747ce63734e3fa1dc",
+                "5bc09a30d4351e00367fb7c8",
+                "5c18b90d2e2216152142466b",
+                "5fc0fa362770a0045c59c677",
+                "5894a73486f77426d259076c",
+                "61817865d3a39d50044c13a4",
+                "5bb20e49d4351e3bac1212de",
+                "5ba26b17d4351e00367f9bdd",
+                "5dfa3d7ac41b2312ea33362a",
+                "5c1780312e221602b66cc189",
+                "5fb6564947ce63734e3fa1da",
+                "5bc09a18d4351e003562b68e",
+                "5c18b9192e2216398b5a8104",
+                "5fc0fa957283c4046c58147e",
+                "5894a81786f77427140b8347",
+                "55d5f46a4bdc2d1b198b4567",
+                "5ae30bad5acfc400185c2dc4"
+            ]
+
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow front sight",
+                "shortName": "Longbow F.",
+                "description": "Iron sight for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04504510AB10AB4500000000": {
+        "itemTplToClone": "5ac72e7d5acfc40016339a02",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": { 
+            "Prefab": {
+                "path": "Longbow/mods/muzzle_ak103_longbow_762x39.bundle",
+                "rcid": ""
+            }    
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 muzzle brake-compensator",
+                "shortName": "Longbow",
+                "description": "Muzzle brake-compensator for Longbow bolt-action rifle."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": true,
+        "modSlot": [ "mod_muzzle" ]
+    },
+
+    "04604610AB10AB4600000000": {
+        "itemTplToClone": "5b7be4895acfc400170e2dd5",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": { 
+            "Prefab": {
+                "path": "Longbow/mods/mount_longbow_def.bundle",
+                "rcid": ""
+            } ,
+            "Slots": [
+                {
+                    "_id": "69763fe39bbd9e189a617659",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical",
+                    "_parent": "04604610AB10AB4600000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Filter": [
+                            "5a800961159bd4315e3a1657",
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "5cc9c20cd7f00c001336c65d",
+                            "5d2369418abbc306c62e0c80",
+                            "5b07dd285acfc4001754240d",
+                            "56def37dd2720bec348b456a",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5a5f1ce64f39f90b401987bc",
+                            "560d657b4bdc2da74d8b4572",
+                            "5b3a337e5acfc4704b4a19a0",
+                            "5c5952732e2216398b5abda2",
+                            "57d17e212459775a1179a0f5",
+                            "6267c6396b642f77f56f5c1c",
+                            "6272370ee4013c5d7e31f418",
+                            "6272379924e29f06af4d5ecb",
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
+                            ],
+                            "Shift": 0
+                        }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow handguard bottom rail",
+                "shortName": "Longbow",
+                "description": "Bottom rail for Longbow handguard."
+            }
+        },
+        "fleaPriceRoubles": 1000,
+        "handbookPriceRoubles": 1000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04514510AB10AB4510000000": {
+        "itemTplToClone": "5ac72e7d5acfc40016339a02",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": { 
+            "Prefab": {
+                "path": "Longbow/mods/muzzle_longbow_sil.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 0,
+            "Loudness": -30,
+            "Recoil": -5,
+            "Weight": 0.001,
+            "muzzleModType": "silencer",
+            "DurabilityBurnModificator": 1.35,
+            "Velocity": 0.7 
+        },
+        "locales": {
+            "en": {
+                "name": "Longbow 7.62x39 suppressor muzzle",
+                "shortName": "Longbow",
+                "description": "Muzzle device for Longbow bolt-action rifle's integrated suppressor barrel."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 5000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    }
+}

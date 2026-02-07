@@ -1,0 +1,52 @@
+{
+    "696fb74c511edddc5766b3c0": {
+        "_id": "696fb74c511edddc5766b3c0",
+        "_name": "M14 Default",
+        "_changeWeaponName": false,
+        "_parent": "696fb1af9026c514b8db2161",
+        "_encyclopedia": "020020aa14aa140000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "696fb1af9026c514b8db2161",
+                "_tpl": "020020aa14aa140000000000"
+            },
+            {
+                "_id": "696fb1af9026c514b8db2162",
+                "_tpl": "5aaf8a0be5b5b00015693243",
+                "parentId": "696fb1af9026c514b8db2161",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "696fb1af9026c514b8db2163",
+                "_tpl": "041041aa14aa144100000000",
+                "parentId": "696fb1af9026c514b8db2161",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "696fb1af9026c514b8db2164",
+                "_tpl": "5aaf9d53e5b5b00015042a52",
+                "parentId": "696fb1af9026c514b8db2161",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "696fb1af9026c514b8db2165",
+                "_tpl": "5abcbb20d8ce87001773e258",
+                "parentId": "696fb1af9026c514b8db2161",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "696fb1af9026c514b8db2166",
+                "_tpl": "5aafa1c2e5b5b00015042a56",
+                "parentId": "696fb1af9026c514b8db2164",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "696fb1af9026c514b8db2167",
+                "_tpl": "049049aa14aa14ff00000000",
+                "parentId": "696fb1af9026c514b8db2166",
+                "slotId": "mod_sight_front"
+            }
+        ]
+    }
+}

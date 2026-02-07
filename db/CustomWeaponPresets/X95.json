@@ -1,0 +1,115 @@
+{
+    "6977137ba2ceb804eb64e3e4": {
+        "_id": "6977137ba2ceb804eb64e3e4",
+        "_name": "IWI X95 Default",
+        "_changeWeaponName": false,
+        "_parent": "2739ccbabababa0000000001",
+        "_encyclopedia": "020020195195F95556000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "2739ccbabababa0000000001",
+                "_tpl": "020020195195F95556000000"
+            },
+            {
+                "_id": "2739ccbabababa0000000002",
+                "_tpl": "042042195195F95042000000",
+                "parentId": "2739ccbabababa0000000001",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "2739ccbabababa0000000003",
+                "_tpl": "55d4887d4bdc2d962f8b4570",
+                "parentId": "2739ccbabababa0000000001",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "2739ccbabababa0000000004",
+                "_tpl": "041041195195F95041000000",
+                "parentId": "2739ccbabababa0000000001",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "2739ccbabababa0000000014",
+                "_tpl": "0419b11951959b19b1000000",
+                "parentId": "2739ccbabababa0000000004",
+                "slotId": "mod_tactical_002"
+            },
+            {
+                "_id": "2739ccbabababa0000000024",
+                "_tpl": "0419b21951959b29b2000000",
+                "parentId": "2739ccbabababa0000000004",
+                "slotId": "mod_tactical_001"
+            },
+            {
+                "_id": "2739ccbabababa0000000005",
+                "_tpl": "04B64B19519564B556000000",
+                "parentId": "2739ccbabababa0000000001",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "2739ccbabababa0000000006",
+                "_tpl": "544a38634bdc2d58388b4568",
+                "parentId": "2739ccbabababa0000000005",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    },
+
+    "697713cf41cbc4f51d3c8fe9": {
+        "_id": "697713cf41cbc4f51d3c8fe9",
+        "_name": "IWI X95-R Default",
+        "_changeWeaponName": false,
+        "_parent": "2545ccbabababa0000000001",
+        "_encyclopedia": "020020195195F95545000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "2545ccbabababa0000000001",
+                "_tpl": "020020195195F95545000000"
+            },
+            {
+                "_id": "2545ccbabababa0000000002",
+                "_tpl": "042042195195F95042000000",
+                "parentId": "2545ccbabababa0000000001",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "2545ccbabababa0000000003",
+                "_tpl": "02F030195195030545000000",
+                "parentId": "2545ccbabababa0000000001",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "2545ccbabababa0000000004",
+                "_tpl": "041041195195F95041000000",
+                "parentId": "2545ccbabababa0000000001",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "2545ccbabababa0000000014",
+                "_tpl": "0419b11951959b19b1000000",
+                "parentId": "2545ccbabababa0000000004",
+                "slotId": "mod_tactical_002"
+            },
+            {
+                "_id": "2545ccbabababa0000000024",
+                "_tpl": "0419b21951959b29b2000000",
+                "parentId": "2545ccbabababa0000000004",
+                "slotId": "mod_tactical_001"
+            },
+            {
+                "_id": "2545ccbabababa0000000005",
+                "_tpl": "04B64B19519564B545000000",
+                "parentId": "2545ccbabababa0000000001",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "2545ccbabababa0000000006",
+                "_tpl": "544a38634bdc2d58388b4568",
+                "parentId": "2545ccbabababa0000000005",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    }
+}

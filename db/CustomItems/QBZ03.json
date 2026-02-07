@@ -1,0 +1,1140 @@
+{
+    "020020BBA03BBA0300000000": {
+        "itemTplToClone": "59d6088586f774275f37482f",
+        "parentId": "5447b5f14bdc2d61278b4567",
+        "handbookParentId": "5b5f78fc86f77409407a7f90",
+
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Weight": 2.515,
+            "Prefab": {
+                "path": "QBZ03/weapon_qbz03_container.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 42,
+            "Velocity": -1,
+            "RecoilForceUp": 124,
+            "RecoilForceBack": 360,
+            "RecolDispersion": 25,
+            "bFirerate": 750,
+            "RecoilCamera": 0.08,
+            "AimPlane": 0.17,
+            "CenterOfImpact": 0.042,
+            "ammoCaliber": "Caliber556x45NATO",
+            "RecoilAngle": 90,
+            "Width": 4,
+            "Foldable": true,
+            "FoldedSlots": [ "mod_stock" ],
+            "CompactHandling": true,
+
+            "defMagType": "55d4887d4bdc2d962f8b4570",
+            "defAmmo": "54527a984bdc2d4e668b4567",
+
+            "Slots": [
+                {
+                    "_name": "mod_magazine",
+                    "_id": "020020BBA03BBA030000AAF",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "55d4887d4bdc2d962f8b4570",
+                                "61840bedd92c473c77021635",
+                                "61840d85568c120fdd2962a5",
+                                "5c05413a0db834001c390617",
+                                "5c6d450c2e221600114c997d",
+                                "5c6d42cb2e2216000e69d7d1",
+                                "59c1383d86f774290a37e0ca",
+                                "5aaa5e60e5b5b000140293d6",
+                                "5448c1d04bdc2dff2f8b4569",
+                                "5aaa5dfee5b5b000140293d3",
+                                "5d1340b3d7ad1a0b52682ed7",
+                                "544a378f4bdc2d30388b4567",
+                                "5d1340bdd7ad1a0e8d245aab",
+                                "55802d5f4bdc2dac148b458e",
+                                "5d1340cad7ad1a0b0b249869",
+                                "6241c2c2117ad530666a5108",
+                                "5c6592372e221600133e47d7",
+                                "544a37c44bdc2d25388b4567",
+                                "5c6d46132e221601da357d56",
+                                "6761765f1f08ed5e8800b7a6"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c394bdc2dae468b4577"
+                },
+                {
+                    "_name": "mod_gas_block",
+                    "_id": "020020BBA03BBA030000AA1",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "04C04CBBA03BBA03CCC00000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "020020BBA03BBA030000AA2",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "042042BBA03BBA0342000000",
+                            "042BEFBBA03BBA03BEF00000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "020020BBA03BBA030000AA3",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "043043BBA03BBA0343000000",
+                            "043BBBBBA03BBA03BB000000",
+                            "043BEFBBA03BBA03EF000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_sight_rear",
+                    "_id": "020020BBA03BBA030000AA4",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "049049BBA03BBA0349000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "020020BBA03BBA030000AA5",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "044AAABBA03BBA030A000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_charge",
+                    "_id": "020020BBA03BBA030000AAC",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                            "04ABEFBBA03BBA03BEF00000",
+                            "6130ca3fd92c473c77020dbd",
+                            "5648ac824bdc2ded0b8b457d"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "020020BBA03BBA030000AA6",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "5b3a16655acfc40016387a2a",
+                                "5c7e5f112e221600106f4ede",
+                                "5c0fafb6d174af02a96260ba",
+                                "612e0cfc8004cc50514c2d9e",
+                                "5cf6937cd7f00c056c53fb39",
+                                "544a38634bdc2d58388b4568",
+                                "5cff9e5ed7ad1a09407397d4",
+                                "5c48a2a42e221602b66d1e07",
+                                "5f6372e2865db925d54f3869",
+                                "615d8e2f1cb55961fa0fd9a4",
+                                "56ea8180d2720bf2698b456a",
+                                "5d02676dd7ad1a049e54f6dc",
+                                "56ea6fafd2720b844b8b4593",
+                                "5943ee5a86f77413872d25ec",
+                                "609269c3b0e443224b421cc1",
+                                "5c7fb51d2e2216001219ce11",
+                                "5ea172e498dacb342978818e",
+                                "5c6d710d2e22165df16b81e7",
+                                "612e0e55a112697a4b3a66e7",
+                                "5d440625a4b9361eec4ae6c5",
+                                "5cc9b815d7f00c000e2579d6",
+                                "5a7c147ce899ef00150bd8b8",
+                                "5c7954d52e221600106f4cc7",
+                                "59bffc1f86f77435b128b872",
+                                "5a9fbb84a2750c00137fa685",
+                                "626667e87379c44d557b7550",
+                                "62669bccdb9ebb4daa44cd14",
+                                "626a74340be03179a165e30c",
+                                "6386120cd6baa055ad1e201c",
+                                "63ac5c9658d0485fc039f0b8",
+                                "6405ff6bd4578826ec3e377a",
+                                "64943b74e9998d641b0412ed",
+                                "6621455e3aceea9e2b0b01e7",
+                                "664301213dd83ddae20dda18",
+                                "04A04ABBA03BBA034A000000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_tactical",
+                    "_id": "020020BBA03BBA030000AA9",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "04E04FBBA03BBA03DEF00000"
+                            ]
+                        }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ],
+
+            "Chambers": [
+                {
+                    "_id": "696fcdac1ce091d9bd98e080",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "patron_in_weapon",
+                    "_parent": "020020BBA03BBA0300000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e6920f86f77411d82aa167",
+                                    "59e6927d86f77411da468256",
+                                    "54527a984bdc2d4e668b4567",
+                                    "54527ac44bdc2d36668b4567",
+                                    "59e68f6f86f7746c9f75e846",
+                                    "59e6906286f7746c9f75e847",
+                                    "59e690b686f7746c9f75e848",
+                                    "59e6918f86f7746c9f75e849",
+                                    "60194943740c5d77f6705eea",
+                                    "601949593ae8f707c4608daa",
+                                    "5c0d5ae286f7741e46554302"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d4af244bdc2d962f8b4571",
+                    "_required": false
+                }
+            ]
+        },
+
+        "locales": {
+            "en": {
+                "name": "QBZ-03 5.56x45 assault rifle",
+                "shortName": "QBZ-03",
+                "description": "The Type 03 automatic rifle is a Chinese small caliber rifle developed and finalized in 2003. This gun is an export version that chambers 5.56x45mm NATO."
+            }
+        },
+
+        "fleaPriceRoubles": 13056,
+        "handbookPriceRoubles": 13056,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "QBZ03",
+                "Templates": [
+                    "020020BBA03BBA0300000000"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "041041BBA03BBA0341000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Weight": 0.3,
+            "Recoil": -1,
+            "ExtraSizeLeft": 0,
+            "Ergonomics": 8,
+            "Prefab": {
+                "path": "QBZ03/handguard/handguard_qbz03.bundle",
+                "rcid": ""
+            },
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 handguard",
+                "shortName": "QBZ-03",
+                "description": "Default handguard for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "0410AABBA03BBA03AA000000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Weight": 0.4,
+            "Recoil": -1,
+            "ExtraSizeLeft": 0,
+            "Ergonomics": 6,
+            "Prefab": {
+                "path": "QBZ03/handguard/handguard_qbz03_rail.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 handguard with rail",
+                "shortName": "QBZ-03 Rail",
+                "description": "Railed handguard for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 8300,
+        "handbookPriceRoubles": 8300,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "69733cfd6e787cfff239720e": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 8300,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+
+    "042042BBA03BBA0342000000": {
+        "itemTplToClone": "5947f92f86f77427344a76b1",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Ergonomics": 5,
+            "Prefab": {
+                "path": "QBZ03/pistol_qbz03.bundle",
+                "rcid": ""
+            } 
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 pistol grip",
+                "shortName": "QBZ-03",
+                "description": "Pistol grip for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04C04CBBA03BBA03CCC00000": {
+        "itemTplToClone": "59c6633186f7740cf0493bb9",
+        "parentId": "56ea9461d2720b67698b456f",
+        "handbookParentId": "5b5f760586f774093e6cb509",
+        "overrideProperties": {
+            "Weight": 0.005,
+            "Prefab": {
+                "path": "QBZ03/sek/gas_block_qbz03.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_handguard",
+                    "_parent": "04C04CBBA03BBA03CCC00000",
+                    "_id": "697337646baf5203487453f1",
+                    "_props": { 
+                        "filters": [ 
+                            { 
+                                "Shift": 0, 
+                                "Filter": [
+                                    "041041BBA03BBA0341000000",
+                                    "0410AABBA03BBA03AA000000",
+                                    "041BEFBBA03BBA03BEF00000"
+                                ]
+                            } 
+                        ] 
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_mergeSlotWithChildren": false,
+                    "_required": true
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 piston spring",
+                "shortName": "QBZ-03",
+                "description": "The piston spring necessary for the rifle to operate normally."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "043043BBA03BBA0343000000": {
+        "itemTplToClone": "59d6514b86f774171a068a08",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Ergonomics": 6,
+            "Weight": 0.31,
+            "Recoil": -31,
+            "BlockFolding": false,
+            "Prefab": {
+                "path": "QBZ03/stock_qbz03.bundle",
+                "rcid": ""
+            },
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 stock",
+                "shortName": "QBZ-03",
+                "description": "Default foldable stock for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        
+        "addtoModSlots": false
+    },
+
+    "049049BBA03BBA0349000000": {
+        "itemTplToClone": "55d5f46a4bdc2d1b198b4567",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Weight": 0.02,
+            "Prefab": {
+                "path": "QBZ03/sight_rear_qbz03.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": []
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 sight rear",
+                "shortName": "QBZ-03",
+                "description": "Default rear sight for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 2000,
+        "handbookPriceRoubles": 2000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+    "044AAABBA03BBA030A000000": {
+        "itemTplToClone": "5d2c76ed48f03532f2136169",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "Weight": 0.08,
+            "Ergonomics": -1,
+            "Prefab": {
+                "path": "QBZ03/mount_qbz03.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5947db3f86f77447880cf76f",
+                "57486e672459770abd687134",
+                "5c82342f2e221644f31c060e",
+                "576fd4ec2459777f0b518431",
+                "5c82343a2e221644f31c0611",
+                "5cf638cbd7f00c06595bc936",
+                "5a7c74b3e899ef0014332c29",
+                "591ee00d86f774592f7b841e",
+                "5d0a29ead7ad1a0026013f27",
+                "57acb6222459771ec34b5cb0",
+                "5c61a40d2e2216001403158d",
+                "5c90c3622e221601da359851"
+            ],
+            "Slots": [
+            {
+                "_name": "mod_scope",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "57ac965c24597706be5f975c",
+                        "57aca93d2459771f2c7e26db",
+                        "544a3f024bdc2d1d388b4568",
+                        "544a3a774bdc2d3a388b4567",
+                        "5d2dc3e548f035404a1a4798",
+                        "57adff4f24597737f373b6e6",
+                        "5c0517910db83400232ffee5",
+                        "591c4efa86f7741030027726",
+                        "570fd79bd2720bc7458b4583",
+                        "570fd6c2d2720bc6458b457f",
+                        "558022b54bdc2dac148b458d",
+                        "5c07dd120db834001c39092d",
+                        "5c0a2cec0db834001b7ce47d",
+                        "58491f3324597764bc48fa02",
+                        "584924ec24597768f12ae244",
+                        "5b30b0dc5acfc400153b7124",
+                        "6165ac8c290d254f5e6b2f6c",
+                        "60a23797a37c940de7062d02",
+                        "5d2da1e948f035477b1ce2ba",
+                        "5c0505e00db834001b735073",
+                        "609a63b6e2ff132951242d09",
+                        "584984812459776a704a82a6",
+                        "59f9d81586f7744c7506ee62",
+                        "570fd721d2720bc5458b4596",
+                        "57ae0171245977343c27bfcf",
+                        "5dfe6104585a0c3e995c7b82",
+                        "544a3d0a4bdc2d1b388b4567",
+                        "5d1b5e94d7ad1a2b865a96b0",
+                        "609bab8b455afd752b2e6138",
+                        "58d39d3d86f77445bb794ae7",
+                        "616554fe50224f204c1da2aa",
+                        "5c7d55f52e221644f31bff6a",
+                        "616584766ef05c2ce828ef57",
+                        "5b3b6dc75acfc47a8773fb1e",
+                        "615d8d878004cc50514c3233",
+                        "5b2389515acfc4771e1be0c0",
+                        "577d128124597739d65d0e56",
+                        "618b9643526131765025ab35",
+                        "618bab21526131765025ab3f",
+                        "5c86592b2e2216000e69e77c",
+                        "5a37ca54c4a282000d72296a",
+                        "5d0a29fed7ad1a002769ad08",
+                        "5c064c400db834001d23f468",
+                        "58d2664f86f7747fec5834f6",
+                        "57c69dd424597774c03b7bbc",
+                        "5b3b99265acfc4704b4a1afb",
+                        "5aa66a9be5b5b0214e506e89",
+                        "5aa66c72e5b5b00016327c93",
+                        "5c1cdd302e221602b3137250",
+                        "61714b2467085e45ef140b2c",
+                        "6171407e50224f204c1da3c5",
+                        "61713cc4d8e3106d9806c109",
+                        "5b31163c5acfc400153b71cb",
+                        "5a33b652c4a28232996e407c",
+                        "5a33b2c9c4a282000c5a9511",
+                        "59db7eed86f77461f8380365",
+                        "5a1ead28fcdbcb001912fa9f",
+                        "5dff77c759400025ea5150cf",
+                        "626bb8532c923541184624b4",
+                        "62811f461d5df4475f46a332",
+                        "63fc449f5bd61c6cf3784a88",
+                        "6477772ea8a38bb2050ed4db",
+                        "6478641c19d732620e045e17",
+                        "64785e7c19d732620e045e15",
+                        "65392f611406374f82152ba5",
+                        "653931da5db71d30ab1d6296",
+                        "655f13e0a246670fb0373245",
+                        "6567e751a715f85433025998",
+                        "67641a851b2899700609901a",
+                        "6761759e7ee06333f108bf86"
+                        ]
+                    }
+                ]
+                }
+            }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Tactica Tula 10000Rail",
+                "shortName": "TT10000",
+                "description": "TT10000 Rail mount for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 2800,
+        "handbookPriceRoubles": 2800,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697340950a67f44aab405a08": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 2350,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+    "04A04ABBA03BBA034A000000": {
+        "itemTplToClone": "544a38634bdc2d58388b4568",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Weight": 0.1,
+            "Ergonomics": -2,
+            "Recoil": -8,
+            "Prefab": {
+                "path": "QBZ03/muzzle_qbz03.bundle",
+                "rcid": ""
+            },
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 muzzle",
+                "shortName": "QBZ-03",
+                "description": "Default muzzle device for QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": true,
+        "addtoModSlots": false
+    },
+    "043BBBBBA03BBA03BB000000": {
+        "itemTplToClone": "6197b229af1f5202c57a9bea",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Weight": 0.13,
+            "BlockFolding": true,
+            "Prefab": {
+                "path": "QBZ03/tube_qbz03.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 buffer tube adapter",
+                "shortName": "QBZ-03",
+                "description": "Buffer tube adapter for using AR-15 style stock on QBZ-03."
+            }
+        },
+        "fleaPriceRoubles": 8000,
+        "handbookPriceRoubles": 8000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6973409b89d9f9a96adb7c75": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 2000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+    "041BEFBBA03BBA03BEF00000": {
+        "itemTplToClone": "5bb20de5d4351e0035629e59",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Weight": 0.43,
+            "Recoil": -1,
+            "ExtraSizeLeft": 0,
+            "Ergonomics": 10,
+            "Width": 4,
+            "ConflictingItems": [
+                "044AAABBA03BBA030A000000"
+            ],
+            "Prefab": {
+                "path": "QBZ03/sek/handguard_qbz03_sek_hmmlok01.bundle",
+                "rcid": ""
+            },
+                "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_props": { 
+                        "filters": [ 
+                            { 
+                                "Shift": 0, 
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ]
+                            } 
+                        ] 
+                    }
+                },
+                {
+                    "_name": "mod_mount_001",
+                    "_props": { 
+                        "filters": [ 
+                            { 
+                                "Shift": 0, 
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ]
+                            } 
+                        ] 
+                    }
+                },
+                {
+                    "_name": "mod_mount_002",
+                    "_props": { 
+                        "filters": [ 
+                            { 
+                                "Shift": 0, 
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2",
+                                    "671126b049e181972e0681fa"
+                                ] 
+                            } 
+                        ] 
+                    }
+                },
+                {
+                    "_name": "mod_mount_003",
+                    "_props": { 
+                        "filters": [ 
+                            { 
+                                "Shift": 0, 
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ]
+                            } 
+                        ] 
+                    }
+                },
+                {
+                    "_name": "mod_mount_004",
+                    "_props": { 
+                        "filters": [ 
+                            { 
+                                "Shift": 0, 
+                                "Filter": [
+                                    "5b7be47f5acfc400170e2dd2",
+                                    "6269220d70b6c02e665f2635",
+                                    "6269545d0e57f218e4548ca2"
+                                ]
+                            } 
+                        ] 
+                    }
+                },
+
+                {
+                    "_name": "mod_tactical",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Shift": 0,
+                        "Filter": [
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5c5952732e2216398b5abda2",
+                            "644a3df63b0b6f03e101e065"
+                            ]
+                        }
+                    ]
+                    }
+                },
+
+                {
+                    "_name": "mod_scope",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Shift": 0,
+                        "Filter": [
+                            "57ac965c24597706be5f975c",
+                            "57aca93d2459771f2c7e26db",
+                            "544a3f024bdc2d1d388b4568",
+                            "544a3a774bdc2d3a388b4567",
+                            "5d2dc3e548f035404a1a4798",
+                            "57adff4f24597737f373b6e6",
+                            "626bb8532c923541184624b4",
+                            "5c0517910db83400232ffee5",
+                            "591c4efa86f7741030027726",
+                            "570fd79bd2720bc7458b4583",
+                            "570fd6c2d2720bc6458b457f",
+                            "558022b54bdc2dac148b458d",
+                            "5c07dd120db834001c39092d",
+                            "5c0a2cec0db834001b7ce47d",
+                            "58491f3324597764bc48fa02",
+                            "584924ec24597768f12ae244",
+                            "5b30b0dc5acfc400153b7124",
+                            "6165ac8c290d254f5e6b2f6c",
+                            "60a23797a37c940de7062d02",
+                            "5d2da1e948f035477b1ce2ba",
+                            "5c0505e00db834001b735073",
+                            "609a63b6e2ff132951242d09",
+                            "584984812459776a704a82a6",
+                            "59f9d81586f7744c7506ee62",
+                            "570fd721d2720bc5458b4596",
+                            "57ae0171245977343c27bfcf",
+                            "5dfe6104585a0c3e995c7b82",
+                            "5d1b5e94d7ad1a2b865a96b0",
+                            "609bab8b455afd752b2e6138",
+                            "62811f461d5df4475f46a332",
+                            "58d39d3d86f77445bb794ae7",
+                            "616554fe50224f204c1da2aa",
+                            "5c7d55f52e221644f31bff6a",
+                            "616584766ef05c2ce828ef57",
+                            "5b3b6dc75acfc47a8773fb1e",
+                            "615d8d878004cc50514c3233",
+                            "5b2389515acfc4771e1be0c0",
+                            "577d128124597739d65d0e56",
+                            "618b9643526131765025ab35",
+                            "618bab21526131765025ab3f",
+                            "5c86592b2e2216000e69e77c",
+                            "5a37ca54c4a282000d72296a",
+                            "5d0a29fed7ad1a002769ad08",
+                            "5c064c400db834001d23f468",
+                            "58d2664f86f7747fec5834f6",
+                            "57c69dd424597774c03b7bbc",
+                            "5b3b99265acfc4704b4a1afb",
+                            "5aa66a9be5b5b0214e506e89",
+                            "5aa66c72e5b5b00016327c93",
+                            "5c1cdd302e221602b3137250",
+                            "61714b2467085e45ef140b2c",
+                            "6171407e50224f204c1da3c5",
+                            "61713cc4d8e3106d9806c109",
+                            "5b31163c5acfc400153b71cb",
+                            "5a33b652c4a28232996e407c",
+                            "5a33b2c9c4a282000c5a9511",
+                            "59db7eed86f77461f8380365",
+                            "5a1ead28fcdbcb001912fa9f",
+                            "63fc449f5bd61c6cf3784a88",
+                            "6477772ea8a38bb2050ed4db",
+                            "6478641c19d732620e045e17",
+                            "64785e7c19d732620e045e15",
+                            "65392f611406374f82152ba5",
+                            "653931da5db71d30ab1d6296",
+                            "655f13e0a246670fb0373245",
+                            "67641a851b2899700609901a",
+                            "6761759e7ee06333f108bf86",
+                            "6567e751a715f85433025998"
+                            ]
+                        }
+                    ]
+                    }
+                },
+
+                {
+                    "_name": "mod_mount",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Shift": 0,
+                        "Filter": [
+                            "5649a2464bdc2d91118b45a8"
+                            ]
+                        }
+                    ]
+                    }
+                },
+
+                {
+                    "_name": "mod_foregrip",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Shift": 0,
+                        "Filter": [
+                            "5b7be4895acfc400170e2dd5",
+                            "57cffb66245977632f391a99",
+                            "57cffcd624597763133760c5",
+                            "57cffce524597763b31685d8",
+                            "57cffcdd24597763f5110006",
+                            "651a8bf3a8520e48047bf708",
+                            "651a8e529829226ceb67c319",
+                            "665d5d9e338229cfd6078da1",
+                            "665edce564fb556f940ab32a"
+                            ]
+                        }
+                    ]
+                    }
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 SEK M-LOK handguard",
+                "shortName": "SEK M-LOK",
+                "description": "Handguard with m-lok mounts for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+            }
+        },
+        "fleaPriceRoubles": 28300,
+        "handbookPriceRoubles": 28300,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697340a0d4a6c78f0430a567": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 28300,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+        "042BEFBBA03BBA03BEF00000": {
+        "itemTplToClone": "5947f92f86f77427344a76b1",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Weight": 0.14,
+            "BlockFolding": true,
+            "Prefab": {
+                "path": "QBZ03/sek/pistol_qbz03_sek_wb02.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 SEK pistol grip",
+                "shortName": "SEK",
+                "description": "Ergonomic pistol grip for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+            }
+        },
+        "fleaPriceRoubles": 11000,
+        "handbookPriceRoubles": 11000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697340a6a47a0ff73fa37b47": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 11000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+    "04ABEFBBA03BBA03BEF00000": {
+        "itemTplToClone": "5648ac824bdc2ded0b8b457d",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "5b5f751486f77447ec5d770c",
+        "overrideProperties": {
+            "Ergonomics": 4,
+            "Prefab": {
+                "path": "QBZ03/sek/charge_qbz03_sek_ljb01.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 SEK charging handle",
+                "shortName": "SEK",
+                "description": "Ergonomic charging handle for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697340ac931f7203b5cdad13": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 3000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+    "043BEFBBA03BBA03EF000000": {
+        "itemTplToClone": "59d6514b86f774171a068a08",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "Ergonomics": 16,
+            "Weight": 0.75,
+            "Recoil": -27,
+            "BlockFolding": true,
+            "Prefab": {
+                "path": "QBZ03/sek/stock_qbz03_sek.bundle",
+                "rcid": ""
+            },
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 ACR style stock",
+                "shortName": "03 ACR",
+                "description": "ACR style stock for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+            }
+        },
+        "fleaPriceRoubles": 22000,
+        "handbookPriceRoubles": 22000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697340b1f91619015ef5ee9e": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 22000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    },
+    "04E04FBBA03BBA03DEF00000": {
+        "itemTplToClone": "5648ac824bdc2ded0b8b457d",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "5b5f751486f77447ec5d770c",
+        "overrideProperties": {
+            "Ergonomics": 2,
+            "Weight": 0.005,
+            "Prefab": {
+                "path": "QBZ03/sek/release_qbz03_sek.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "QBZ-03 SEK fast magazine release",
+                "shortName": "SEK",
+                "description": "Fast magazine release for QBZ-03, part of the SEK midification kit.\nMade by TacYL™."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "697340b7c9efc8ba953fb85c": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 6000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": false
+    }
+}

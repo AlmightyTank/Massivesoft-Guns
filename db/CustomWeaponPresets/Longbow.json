@@ -1,0 +1,76 @@
+{
+    "6976450fb3c44a7ebc939d2b": {
+        "_id": "6976450fb3c44a7ebc939d2b",
+        "_name": "Longbow Default",
+        "_changeWeaponName": false,
+        "_parent": "6976497e468cccc4e3aab8dd",
+        "_encyclopedia": "02002010AB10AB0000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "6976497e468cccc4e3aab8dd",
+                "_tpl": "02002010AB10AB0000000000"
+            },
+            {
+                "_id": "6976498e1045b40a0a1e36ce",
+                "_tpl": "5ac66bea5acfc43b321d4aec",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69764992074de6bee141c97f",
+                "_tpl": "04B04B10AB10AB4B00000000",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "697649996893a00ecaf98cde",
+                "_tpl": "04504510AB10AB4500000000",
+                "parentId": "69764992074de6bee141c97f",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "697649a15b5b06810a13ab60",
+                "_tpl": "04104110AB10AB4100000000",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "697649a8f9c3f187c39efd9c",
+                "_tpl": "04204210AB10AB4200000000",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "697649b1fa1a887e1dccdf84",
+                "_tpl": "04404410AB10AB4400000000",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "697649b8b571a1e684da9b72",
+                "_tpl": "04D14D10AB10AB4D10000000",
+                "parentId": "697649b1fa1a887e1dccdf84",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "697649c182e58eda0139dc2d",
+                "_tpl": "04D04D10AB10AB4D00000000",
+                "parentId": "697649b1fa1a887e1dccdf84",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "697649caa3314ca1f494d0dd",
+                "_tpl": "04C04C10AB10AB4C00000000",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_charge"
+            },
+            {
+                "_id": "697649d0307f9a1a55b1fdd6",
+                "_tpl": "04304310AB10AB4300000000",
+                "parentId": "6976497e468cccc4e3aab8dd",
+                "slotId": "mod_pistol_grip"
+            }
+        ]
+    }
+}

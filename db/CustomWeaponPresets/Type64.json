@@ -1,0 +1,46 @@
+{
+    "697611b45e4387fd07042f39": {
+        "_id": "697611b45e4387fd07042f39",
+        "_name": "Type64 Default",
+        "_changeWeaponName": false,
+        "_parent": "69760da5a57db576b445ef2e",
+        "_encyclopedia": "022022C64C64000000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69760da5a57db576b445ef2e",
+                "_tpl": "022022C64C64000000000000"
+            },
+            {
+                "_id": "69760da5a57db576b445ef2f",
+                "_tpl": "02f000c64c6402f000000000",
+                "parentId": "69760da5a57db576b445ef2e",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69760da5a57db576b445ef30",
+                "_tpl": "042f02c64c64f02000000000",
+                "parentId": "69760da5a57db576b445ef2e",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "69760da5a57db576b445ef31",
+                "_tpl": "043043c64c64043000000000",
+                "parentId": "69760da5a57db576b445ef2e",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "69760da5a57db576b445ef32",
+                "_tpl": "044044c64c64044000000000",
+                "parentId": "69760da5a57db576b445ef2e",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "69760da5a57db576b445ef33",
+                "_tpl": "04b04bc64c6404b000000000",
+                "parentId": "69760da5a57db576b445ef2e",
+                "slotId": "mod_barrel"
+            }
+        ]
+    }
+}

@@ -1,0 +1,660 @@
+{
+    "020020308308000000000000": {
+        "itemTplToClone": "5fb64bc92b1b027b1f50bcf2",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Weight": 2.50,
+            "Width": 3,
+            "Height": 2,
+            "ammoCaliber" : "Caliber762x51",
+            "weapClass": "assaultRifle",
+            "BaseMalfunctionChance": 0.19,
+            "DeviationCurve": 1.5,
+            "DeviationMax": 18,
+            "HeatFactorGun": 0.99,
+            "CoolFactorGunMods": 1.0,
+            "HeatFactorByShot": 1.4,
+            "IronSightRange": 100,
+            "bEffDist": 900,
+            "Velocity": 0,
+            "Convergence": 2.2,
+            "RecoilForceUp": 153,
+            "RecoilForceBack": 540,
+            "RecolDispersion": 45,
+            "bFirerate": 848,
+            "CameraRecoil": 0.06,
+            "CameraSnap": 3.5,
+            "defMagType": "02FD503083082FD500000000",
+            "defAmmo": "58dd3ad986f77403051cba8f",
+
+            "Prefab": {
+                "path": "V308/weapon_tdi_kriss_vector_gen_2_1143x23_container.bundle",
+                "rcid": ""
+            },
+
+            "Slots": [
+                {
+                    "_id": "5fb64bc92b1b027b1f50bcf4",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "AnimationIndex": -1,
+                        "Filter": [
+                            "02F02F30830802F000000000",
+                            "02FA20308308A20000000000",
+                            "02FD503083082FD500000000"
+                        ]
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_id": "5fb64bc92b1b027b1f50bcf6",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5ba26b01d4351e0085325a51",
+                            "5dfa3d950dee1b22f862eae0",
+                            "5c17804b2e2216152006c02f",
+                            "5fb6567747ce63734e3fa1dc",
+                            "5bc09a30d4351e00367fb7c8",
+                            "5c18b90d2e2216152142466b",
+                            "5894a73486f77426d259076c"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fb64bc92b1b027b1f50bcf7",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5ba26b17d4351e00367f9bdd",
+                            "5dfa3d7ac41b2312ea33362a",
+                            "5c1780312e221602b66cc189",
+                            "5fb6564947ce63734e3fa1da",
+                            "5bc09a18d4351e003562b68e",
+                            "5c18b9192e2216398b5a8104",
+                            "5894a81786f77427140b8347"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fb64bc92b1b027b1f50bcf8",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "57ac965c24597706be5f975c",
+                            "57aca93d2459771f2c7e26db",
+                            "544a3f024bdc2d1d388b4568",
+                            "544a3a774bdc2d3a388b4567",
+                            "5d2dc3e548f035404a1a4798",
+                            "57adff4f24597737f373b6e6",
+                            "5c0517910db83400232ffee5",
+                            "591c4efa86f7741030027726",
+                            "570fd79bd2720bc7458b4583",
+                            "570fd6c2d2720bc6458b457f",
+                            "558022b54bdc2dac148b458d",
+                            "5c07dd120db834001c39092d",
+                            "5c0a2cec0db834001b7ce47d",
+                            "58491f3324597764bc48fa02",
+                            "584924ec24597768f12ae244",
+                            "5b30b0dc5acfc400153b7124",
+                            "6165ac8c290d254f5e6b2f6c",
+                            "60a23797a37c940de7062d02",
+                            "5d2da1e948f035477b1ce2ba",
+                            "5c0505e00db834001b735073",
+                            "609a63b6e2ff132951242d09",
+                            "584984812459776a704a82a6",
+                            "59f9d81586f7744c7506ee62",
+                            "570fd721d2720bc5458b4596",
+                            "57ae0171245977343c27bfcf",
+                            "5dfe6104585a0c3e995c7b82",
+                            "5d1b5e94d7ad1a2b865a96b0",
+                            "609bab8b455afd752b2e6138",
+                            "58d39d3d86f77445bb794ae7",
+                            "616554fe50224f204c1da2aa",
+                            "5c7d55f52e221644f31bff6a",
+                            "616584766ef05c2ce828ef57",
+                            "5b3b6dc75acfc47a8773fb1e",
+                            "615d8d878004cc50514c3233",
+                            "577d128124597739d65d0e56",
+                            "58d2664f86f7747fec5834f6",
+                            "5c1cdd302e221602b3137250",
+                            "61714b2467085e45ef140b2c",
+                            "5b31163c5acfc400153b71cb",
+                            "5a33b652c4a28232996e407c",
+                            "5a33b2c9c4a282000c5a9511",
+                            "59db7eed86f77461f8380365",
+                            "5a1ead28fcdbcb001912fa9f",
+                            "626bb8532c923541184624b4",
+                            "63fc449f5bd61c6cf3784a88",
+                            "6477772ea8a38bb2050ed4db",
+                            "6478641c19d732620e045e17",
+                            "64785e7c19d732620e045e15",
+                            "65392f611406374f82152ba5",
+                            "653931da5db71d30ab1d6296",
+                            "655f13e0a246670fb0373245",
+                            "67641a851b2899700609901a"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fb64bc92b1b027b1f50bcf9",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_000",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "57fd23e32459772d0805bcf1",
+                            "544909bb4bdc2d6f028b4577",
+                            "5c06595c0db834001a66af6c",
+                            "5a7b483fe899ef0016170d15",
+                            "61605d88ffa6e502ac5e7eeb",
+                            "5c5952732e2216398b5abda2",
+                            "644a3df63b0b6f03e101e065"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fb64bc92b1b027b1f50bcfc",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_stock",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5fb6558ad6f0b2136f2d7eb7",
+                            "5fb655b748c711690e3a8d5a"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fb658d3c09e041e073f858c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_barrel",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "04B04B30830804B000000000",
+                            "04BC4B308308C4B000000000"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "5fc3f280900b1d5091531e56",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "041041308308041000000000"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fce17bd1f152d4312622bcc",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_001",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5fce0f9b55375d18a253eff2"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "5fce17c9cd04c62af60d806c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount_002",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5fce0f9b55375d18a253eff2"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+
+            "Chambers": [
+                {
+                    "_id": "69761c48926d6edf1fa2f97b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "patron_in_weapon",
+                    "_parent": "020020308308000000000000",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5a6086ea4f39f99cd479502f",
+                            "5a608bf24f39f98ffc77720e",
+                            "58dd3ad986f77403051cba8f",
+                            "5e023e53d4353e3302577c4c",
+                            "5efb0c1bd79ff02a1f5e68d9",
+                            "5e023e6e34d52a55c3304f71",
+                            "5e023e88277cce2b522ff2b1",
+                            "6768c25aa7b238f14a08d3f6"
+                        ]
+                        }
+                    ]
+                    },
+                    "_proto": "55d4af244bdc2d962f8b4571",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name":"TDI KRISS Vector Gen.2 7.62x51 assault rifle",
+                "shortName": "Vector .308",
+                "description": "A mysterious assault rifle that looks like an enlarged version of the KRISS Vector submachine gun and chambers in .308 Win (7.62x51mm) cartridge. Although it bears the trademark of KRISS, it is not a product of the company, and its designer and manufacturer are unknown. It has an enlarged and heavier bolt to accommodate the high chamber pressure of the .308 rifle bullet."
+            }
+        },
+        "fleaPriceRoubles": 45650,
+        "handbookPriceRoubles": 45650,
+        "addtoTraders": false,
+        "addWeaponPreset": false,
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "V308",
+                "Templates": [
+                    "020020308308000000000000"
+                ],
+                "Level2": 150,
+                "Level3": 300
+            }
+        ]
+    },
+
+    "04B04B30830804B000000000": {
+        "itemTplToClone": "5fb653962b1b027b1f50bd03",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Weight": 0.38,
+            "ExtraSizeLeft": 1,
+            "Ergonomics": -6,
+            "Velocity": -12,
+            "Accuracy": 2,
+            "Recoil": -2,
+            "CenterOfImpact": 0.09,
+            "HeatFactor": 0.98,
+            "CoolFactor": 1.01,
+            "DeviationCurve": 1.6,
+            "DeviationMax": 19,
+            "DurabilityBurnModificator": 0.87,
+            "Prefab": {
+                "path": "V308/barrel_vector_280mm_762x51.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                "_id": "6976277281a3e6fd8bd36a55",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04B04B30830804B000000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                            "612e0d3767085e45ef14057f",
+                            "5b7d693d5acfc43bca706a3d",
+                            "5a34fd2bc4a282329a73b4c5",
+                            "6065c6e7132d4d12c81fd8e1",
+                            "5d1f819086f7744b355c219b",
+                            "5dcbe965e4ed22586443a79d",
+                            "5d026791d7ad1a04a067ea63",
+                            "5dfa3cd1b33c0951220c079b",
+                            "6130c43c67085e45ef1405a1",
+                            "5cdd7685d7f00c000f260ed2",
+                            "5c878e9d2e2216000f201903",
+                            "5d02677ad7ad1a04a15c0f95",
+                            "5bbdb8bdd4351e4502011460",
+                            "5cdd7693d7f00c0010373aa5",
+                            "607ffb988900dc2d9a55b6e4",
+                            "615d8eb350224f204c1da1cf",
+                            "612e0e3c290d254f5e6b291d",
+                            "5d443f8fa4b93678dd4a01aa",
+                            "5c7954d52e221600106f4cc7",
+                            "5fbc22ccf24b94483f726483",
+                            "59bffc1f86f77435b128b872",
+                            "5cf78496d7f00c065703d6ca",
+                            "5fbe7618d6fa9c00c571bb6c",
+                            "628a66b41d5e41750e314f34",
+                            "6642f63667f5cb56a00662eb",
+                            "04A04A30830804A000000000"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector .308 11 inch barrel",
+                "shortName": "Vector .308 11",
+                "description": "A 11 inch (280mm) barrel for the KRISS Vector .308 assault rifle."
+            }
+        },
+        "fleaPriceRoubles": 11000,
+        "handbookPriceRoubles": 11000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04BC4B308308C4B000000000": {
+        "itemTplToClone": "5fb653962b1b027b1f50bd03",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Weight": 0.28,
+            "Ergonomics": 0,
+            "Velocity": -15,
+            "Accuracy": 0,
+            "Recoil": 0,
+            "CenterOfImpact": 0.11,
+            "HeatFactor": 0.96,
+            "CoolFactor": 0.99,
+            "DeviationCurve": 1.6,
+            "DeviationMax": 19,
+            "DurabilityBurnModificator": 0.8,
+            "Prefab": {
+                "path": "V308/barrel_vector_185mm_762x51.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                "_id": "6976279b9a2919436ac7d625",
+                "_mergeSlotWithChildren": false,
+                "_name": "mod_muzzle",
+                "_parent": "04BC4B308308C4B000000000",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                            "612e0d3767085e45ef14057f",
+                            "5b7d693d5acfc43bca706a3d",
+                            "5a34fd2bc4a282329a73b4c5",
+                            "6065c6e7132d4d12c81fd8e1",
+                            "5d1f819086f7744b355c219b",
+                            "5dcbe965e4ed22586443a79d",
+                            "5d026791d7ad1a04a067ea63",
+                            "5dfa3cd1b33c0951220c079b",
+                            "6130c43c67085e45ef1405a1",
+                            "5cdd7685d7f00c000f260ed2",
+                            "5c878e9d2e2216000f201903",
+                            "5d02677ad7ad1a04a15c0f95",
+                            "5bbdb8bdd4351e4502011460",
+                            "5cdd7693d7f00c0010373aa5",
+                            "607ffb988900dc2d9a55b6e4",
+                            "615d8eb350224f204c1da1cf",
+                            "612e0e3c290d254f5e6b291d",
+                            "5d443f8fa4b93678dd4a01aa",
+                            "5c7954d52e221600106f4cc7",
+                            "5fbc22ccf24b94483f726483",
+                            "59bffc1f86f77435b128b872",
+                            "5cf78496d7f00c065703d6ca",
+                            "5fbe7618d6fa9c00c571bb6c",
+                            "628a66b41d5e41750e314f34",
+                            "6642f63667f5cb56a00662eb",
+                            "04A04A30830804A000000000"
+                            ],
+                            "Shift": 0
+                        }
+                    ]
+                },
+                "_proto": "55d30c4c4bdc2db4468b457e",
+                "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector .308 185 mm barrel",
+                "shortName": "Vector .308 185mm",
+                "description": "A 185 mm barrel for the KRISS Vector .308 assault rifle."
+            }
+        },
+        "fleaPriceRoubles": 9000,
+        "handbookPriceRoubles": 9000,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02FD503083082FD500000000": {
+        "itemTplToClone": "5b7bef9c5acfc43d102852ec",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Weight": 0.75,
+            "Ergonomics": -18,
+            "Prefab": {
+                "path": "V308/mag_vector_drum.bundle",
+                "rcid": ""
+            },
+            "Slots": []
+        },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector 7.62x51 X Products X-Vector 50-round drum magazine",
+                "shortName": "X-Vector",
+                "description": "Modified X-FAL drum to fit Vector .308."
+            }
+        },
+        "fleaPriceRoubles": 30294,
+        "handbookPriceRoubles": 30294,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "04A04A30830804A000000000": {
+        "itemTplToClone": "5fb6548dd1409e5ca04b54f9",
+        "parentId": "550aa4dd4bdc2dc9348b4569",
+        "handbookParentId": "5b5f72f786f77447ec5d7702",
+        "overrideProperties": { "DurabilityBurnModificator": 0.95 },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector .308 thread protection cap",
+                "shortName": "Vector cap",
+                "description": "A thread protector cap for the KRISS Vector .308 barrel."
+            }
+        },
+        "fleaPriceRoubles": 400,
+        "handbookPriceRoubles": 400,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02F02F30830802F000000000": {
+        "itemTplToClone": "5b7c2d1d5acfc43d1028532a",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "V308/mag_vector_mag.bundle",
+                "rcid": ""
+            },
+            "Height": 1,
+            "ExtraSizeDown": 0,
+            "Weight": 0.14,
+            "MalfunctionChance": 0.085,
+            "CheckOverride": 1,
+            "LoadUnloadModifier": -10,
+            "CheckTimeModifier": -20,
+            "Ergonomics": -1,
+            "ItemSound": "magazine_metal",
+            "Cartridges": [
+                {
+                    "_id": "697628ec80b85c1f25c045cf",
+                    "_max_count": 10,
+                    "_name": "cartridges",
+                    "_parent": "02F02F30830802F000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a6086ea4f39f99cd479502f",
+                                    "5a608bf24f39f98ffc77720e",
+                                    "58dd3ad986f77403051cba8f",
+                                    "5e023e53d4353e3302577c4c",
+                                    "5efb0c1bd79ff02a1f5e68d9",
+                                    "5e023e6e34d52a55c3304f71",
+                                    "5e023e88277cce2b522ff2b1",
+                                    "6768c25aa7b238f14a08d3f6"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector 7.62x51 10-round magazine",
+                "shortName": "V308 10",
+                "description": "Just a 10rd magazine for 7.62x51 cartridges."
+            }
+        },
+        "fleaPriceRoubles": 3007,
+        "handbookPriceRoubles": 3007,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "041041308308041000000000": {
+        "itemTplToClone": "5fbb976df9986c4cff3fe5f2",
+        "parentId": "55818b224bdc2dde698b456f",
+        "handbookParentId": "5b5f755f86f77447ec5d770e",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "V308/mount_vector_kriss_bottom_rail_long.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.11
+        },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector extended bottom rail",
+                "shortName": "Vector Extended",
+                "description": "A bottom rail for the KRISS Vector assault rifle, allows installation of tactical foregrips and accessories."
+            }
+        },
+        "fleaPriceRoubles": 1500,
+        "handbookPriceRoubles": 1500,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    },
+
+    "02FA20308308A20000000000": {
+        "itemTplToClone": "5b7c2d1d5acfc43d1028532a",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "V308/magazine_v308_762x51_20.bundle",
+                "rcid": ""
+            },
+            "magAnimationIndex": 2,
+            "Height": 2,
+            "ExtraSizeDown": 1,
+            "Weight": 0.4,
+            "MalfunctionChance": 0.085,
+            "CheckOverride": 0,
+            "LoadUnloadModifier": -2,
+            "CheckTimeModifier": -10,
+            "Ergonomics": -3,
+            "ItemSound": "mag_plastic"
+        },
+        "locales": {
+            "en": {
+                "name": "KRISS Vector 7.62x51 20-round magazine",
+                "shortName": "V308 20",
+                "description": "20rd polymer magazine for Vector .308."
+            }
+        },
+        "fleaPriceRoubles": 3007,
+        "handbookPriceRoubles": 3007,
+        "addtoTraders": false,
+        "addtoModSlots": false
+    }
+}

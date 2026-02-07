@@ -1,0 +1,58 @@
+{
+    "69778b4fc3cb6ca54118b9ea": {
+        "_id": "69778b4fc3cb6ca54118b9ea",
+        "_name": "JAK12 Default",
+        "_changeWeaponName": false,
+        "_parent": "69778d9fc8d2526460e7346a",
+        "_encyclopedia": "023023A12A12A12000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69778d9fc8d2526460e7346a",
+                "_tpl": "023023A12A12A12000000000"
+            },
+            {
+                "_id": "69778d9fc8d2526460e7346b",
+                "_tpl": "04b04ba12a12baba00000000",
+                "parentId": "69778d9fc8d2526460e7346a",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "69778d9fc8d2526460e7346c",
+                "_tpl": "02f02fa12a12080800000000",
+                "parentId": "69778d9fc8d2526460e7346a",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69778d9fc8d2526460e7346d",
+                "_tpl": "041041a12a12041000000000",
+                "parentId": "69778d9fc8d2526460e7346a",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "69778d9fc8d2526460e7346e",
+                "_tpl": "049049a12a120f9000000000",
+                "parentId": "69778d9fc8d2526460e7346a",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "69778d9fc8d2526460e7346f",
+                "_tpl": "049099a12a120b9000000000",
+                "parentId": "69778d9fc8d2526460e7346a",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "69778d9fc8d2526460e73470",
+                "_tpl": "043043a12a12043000000000",
+                "parentId": "69778d9fc8d2526460e7346a",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "69778d9fc8d2526460e73471",
+                "_tpl": "04a04aa12a120aa000000000",
+                "parentId": "69778d9fc8d2526460e7346b",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1034 @@
+{
+    "02f02fae10ae100000000000": {
+        "itemTplToClone": "5a3501acc4a282000d72293a",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_ar10_xmag_762x51_30.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "697790f0e894acec81adba50",
+                    "_max_count": 30,
+                    "_name": "cartridges",
+                    "_parent": "02f02fae10ae100000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a6086ea4f39f99cd479502f",
+                                    "5a608bf24f39f98ffc77720e",
+                                    "58dd3ad986f77403051cba8f",
+                                    "5e023e53d4353e3302577c4c",
+                                    "5efb0c1bd79ff02a1f5e68d9",
+                                    "5e023e6e34d52a55c3304f71",
+                                    "5e023e88277cce2b522ff2b1",
+                                    "6529243824cbe3c74a05e5c1",
+                                    "6529302b8c26af6326029fb7"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 4,
+            "ItemSound": "mag_plastic",
+            "MagazineWithBelt": false,
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "BackgroundColor": "yellow",
+            "Weight": 0.44,
+            "Width": 1,
+            "Height": 2,
+            "CheckTimeModifier": 15,
+            "LoadUnloadModifier": 10,
+            "MalfunctionChance": 0.025,
+            "Ergonomics": -6,
+            "VisibleAmmoRangesString": "1-8"
+        },
+        "locales": {
+            "en": {
+                "name": "7.62x51mm AR-10 polymer 30-Round magazine",
+                "shortName": "AR-10 30",
+                "description": "A 30-round 7.62x51mm magazine designed for increased reliability in the field."
+            }
+        },
+        "fleaPriceRoubles": 6450,
+        "handbookPriceRoubles": 6450,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a8d36e8bbcc54ac76963": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 6450,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addWeaponPreset": false
+    },
+
+    "02F02FCCAEB0000000000000": {
+        "itemTplToClone": "618168dc8004cc50514c34fc",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_mk17_xrk_drum_762x51_50.bundle",
+                "rcid": ""
+            },
+            "BackgroundColor": "yellow",
+            "Cartridges": [
+                {
+                    "_id": "697790fe98dbdb7032e57a3c",
+                    "_max_count": 50,
+                    "_name": "cartridges",
+                    "_parent": "02F02FCCAEB0000000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a6086ea4f39f99cd479502f",
+                                    "5a608bf24f39f98ffc77720e",
+                                    "58dd3ad986f77403051cba8f",
+                                    "5e023e53d4353e3302577c4c",
+                                    "5efb0c1bd79ff02a1f5e68d9",
+                                    "5e023e6e34d52a55c3304f71",
+                                    "5e023e88277cce2b522ff2b1"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "Weight": 0.42,
+            "magAnimationIndex": 4,
+            "Width": 1,
+            "CheckTimeModifier": 20,
+            "LoadUnloadModifier": 60,
+            "MalfunctionChance": 0.035,
+            "Ergonomics": -18,
+            "VisibleAmmoRangesString": "1-4"
+        },
+        "locales": {
+            "en": {
+                "name": "7.62x51 XRK 50-Round SCAR-H drum magazine",
+                "shortName": "XRK 50",
+                "description": "A 50-round 7.62x51mm drum magazine manufactured by XRK designed for the SCAR-H rifle platform."
+            }
+        },
+        "fleaPriceRoubles": 16800,
+        "handbookPriceRoubles": 16800,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a8ff593d6ac08dfca760": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 14000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02f02ff36f36f36000000000": {
+        "itemTplToClone": "5c6d46132e221601da357d56",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_stanag_cod_100.bundle",
+                "rcid": ""
+            },
+            "BackgroundColor": "yellow",
+            "ConflictingItems": [
+                "622f02437762f55aaa68ac85"
+            ],
+            "Cartridges": [
+                {
+                    "_id": "69779176270d5c3548f47e67",
+                    "_max_count": 100,
+                    "_name": "cartridges",
+                    "_parent": "02f02ff36f36f36000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e6920f86f77411d82aa167",
+                                    "59e6927d86f77411da468256",
+                                    "54527a984bdc2d4e668b4567",
+                                    "54527ac44bdc2d36668b4567",
+                                    "59e68f6f86f7746c9f75e846",
+                                    "59e6906286f7746c9f75e847",
+                                    "59e690b686f7746c9f75e848",
+                                    "59e6918f86f7746c9f75e849",
+                                    "60194943740c5d77f6705eea",
+                                    "601949593ae8f707c4608daa",
+                                    "5c0d5ae286f7741e46554302",
+                                    "5fbe3ffdf8b6a877a729ea82",
+                                    "5fd20ff893a8961fc660a954",
+                                    "619636be6db0f2477964e710",
+                                    "6196364158ef8c428c287d9f",
+                                    "6196365d58ef8c428c287da1",
+                                    "64b8725c4b75259c590fa899"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 0,
+            "ItemSound": "mag_plastic",
+            "MagazineWithBelt": false,
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "Weight": 0.74,
+            "Width": 2,
+            "Height": 2,
+            "CheckTimeModifier": 27,
+            "LoadUnloadModifier": 27,
+            "MalfunctionChance": 0.39,
+            "Ergonomics": -25,
+            "VisibleAmmoRangesString": "1-3"
+        },
+        "locales": {
+            "en": {
+                "name": "C-MAG 5.56x45 STANAG 100-Round drum magazine",
+                "shortName": "C-MAG 100",
+                "description": "A 100-round 5.56x45 c-mag style drum magazine designed for AR-15."
+            }
+        },
+        "fleaPriceRoubles": 23000,
+        "handbookPriceRoubles": 23000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a90b0a38bc4b734df0ad": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 23000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F751D60CCC000000000000": {
+        "itemTplToClone": "5a3501acc4a282000d72293a",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_ar10_drum_762x51_50.bundle",
+                "rcid": ""
+            },
+            "BackgroundColor": "yellow",
+            "Cartridges": [
+                {
+                    "_id": "697791dba5479fcb9c97bb5c",
+                    "_max_count": 50,
+                    "_name": "cartridges",
+                    "_parent": "02F751D60CCC000000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a6086ea4f39f99cd479502f",
+                                    "5a608bf24f39f98ffc77720e",
+                                    "58dd3ad986f77403051cba8f",
+                                    "5e023e53d4353e3302577c4c",
+                                    "5efb0c1bd79ff02a1f5e68d9",
+                                    "5e023e6e34d52a55c3304f71",
+                                    "5e023e88277cce2b522ff2b1",
+                                    "6529243824cbe3c74a05e5c1",
+                                    "6529302b8c26af6326029fb7"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "Weight": 0.60,
+            "Ergonomics": -18,
+            "MalfunctionChance": 0.201,
+            "LoadUnloadModifier": 65,
+            "magAnimationIndex": 0,
+            "CheckTimeModifier": 22,
+            "VisibleAmmoRangesString": "1-6"
+        },
+        "locales": {
+            "en": {
+                "name": "6.8x51 Cronen 50-round drum magazine",
+                "shortName": "Cronen 50",
+                "description": "A 50-round drum magazine for 6.8x51 and 7.62x51 NATO ammunition."
+            }
+        },
+        "fleaPriceRoubles": 23000,
+        "handbookPriceRoubles": 23000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a917d01112683b7c9f8a": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 16000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F556A60A60000000000000": {
+        "itemTplToClone": "59c1383d86f774290a37e0ca",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_stanag_kimura_drum_60.bundle",
+                "rcid": ""
+            },
+            "BackgroundColor": "yellow",
+            "ConflictingItems": [
+                "622f02437762f55aaa68ac85"
+            ],
+            "Cartridges": [
+                {
+                    "_id": "6977922e494c879cf75f484b",
+                    "_max_count": 60,
+                    "_name": "cartridges",
+                    "_parent": "02F556A60A60000000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e6920f86f77411d82aa167",
+                                    "59e6927d86f77411da468256",
+                                    "54527a984bdc2d4e668b4567",
+                                    "54527ac44bdc2d36668b4567",
+                                    "59e68f6f86f7746c9f75e846",
+                                    "59e6906286f7746c9f75e847",
+                                    "59e690b686f7746c9f75e848",
+                                    "59e6918f86f7746c9f75e849",
+                                    "60194943740c5d77f6705eea",
+                                    "601949593ae8f707c4608daa",
+                                    "5c0d5ae286f7741e46554302",
+                                    "5fbe3ffdf8b6a877a729ea82",
+                                    "5fd20ff893a8961fc660a954",
+                                    "619636be6db0f2477964e710",
+                                    "6196364158ef8c428c287d9f",
+                                    "6196365d58ef8c428c287da1",
+                                    "64b8725c4b75259c590fa899"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "VisibleAmmoRangesString": "1-6",
+            "Ergonomics": -15
+        },
+        "locales": {
+            "en": {
+                "name": "5.56x45 Kimura STANAG 60-round drum magazine",
+                "shortName": "Kimura 60",
+                "description": "A 60-round 5.56x45mm polymer drum magazine designed for increased reliability in the field."
+            }
+        },
+        "fleaPriceRoubles": 16000,
+        "handbookPriceRoubles": 16000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a91f0e3f71c9b2c3d1ef": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 16000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F02B1BDB87625101700000": {
+        "itemTplToClone": "618168dc8004cc50514c34fc",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_mk17_762x51_big_drum.bundle",
+                "rcid": ""
+            },
+            "BackgroundColor": "yellow",
+            "Cartridges": [
+                {
+                    "_id": "69779276d3e2969304c984ec",
+                    "_max_count": 100,
+                    "_name": "cartridges",
+                    "_parent": "02F02B1BDB87625101700000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a6086ea4f39f99cd479502f",
+                                    "5a608bf24f39f98ffc77720e",
+                                    "58dd3ad986f77403051cba8f",
+                                    "5e023e53d4353e3302577c4c",
+                                    "5efb0c1bd79ff02a1f5e68d9",
+                                    "5e023e6e34d52a55c3304f71",
+                                    "5e023e88277cce2b522ff2b1"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "Weight": 0.81,
+            "magAnimationIndex": 4,
+            "Width": 2,
+            "Height": 2,
+            "CheckTimeModifier": 40,
+            "LoadUnloadModifier": 65,
+            "MalfunctionChance": 0.055,
+            "Ergonomics": -26,
+            "VisibleAmmoRangesString": "1-4"
+        },
+        "locales": {
+            "en": {
+                "name": "7.62x51 100-Round SCAR-H drum magazine",
+                "shortName": "Mk17 100",
+                "description": "A 100-round 7.62x51mm drum magazine designed for the SCAR-H rifle platform."
+            }
+        },
+        "fleaPriceRoubles": 26800,
+        "handbookPriceRoubles": 26800,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a92df69b1ad5aaf2e6db": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 24000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F556A40A40000000000000": {
+        "itemTplToClone": "55d4887d4bdc2d962f8b4570",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_stanag_cod40.bundle",
+                "rcid": ""
+            },
+            "BackgroundColor": "yellow",
+            "ConflictingItems": [
+                "622f02437762f55aaa68ac85"
+            ],
+            "Weight": 0.145,
+            "Height": 3,
+            "Cartridges": [
+                {
+                    "_id": "697792c947ebc67e77ccdbcf",
+                    "_max_count": 40,
+                    "_name": "cartridges",
+                    "_parent": "02F556A40A40000000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e6920f86f77411d82aa167",
+                                    "59e6927d86f77411da468256",
+                                    "54527a984bdc2d4e668b4567",
+                                    "54527ac44bdc2d36668b4567",
+                                    "59e68f6f86f7746c9f75e846",
+                                    "59e6906286f7746c9f75e847",
+                                    "59e690b686f7746c9f75e848",
+                                    "59e6918f86f7746c9f75e849",
+                                    "60194943740c5d77f6705eea",
+                                    "601949593ae8f707c4608daa",
+                                    "5c0d5ae286f7741e46554302",
+                                    "5fbe3ffdf8b6a877a729ea82",
+                                    "5fd20ff893a8961fc660a954",
+                                    "619636be6db0f2477964e710",
+                                    "6196364158ef8c428c287d9f",
+                                    "6196365d58ef8c428c287da1",
+                                    "64b8725c4b75259c590fa899"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ExtraSizeDown": 2,
+            "ExtraSizeForceAdd": false,
+            "magAnimationIndex": 3,
+            "VisibleAmmoRangesString": "1-3",
+            "Ergonomics": -8,
+            "LoadUnloadModifier": 11,
+            "CheckTimeModifier": 17
+        },
+        "locales": {
+            "en": {
+                "name": "5.56x45 AR-15 STANAG 40-round magazine",
+                "shortName": "STANAG 40",
+                "description": "A 40-round metal AR-15 magazine designed in compliance with the STANAG 4179 standard for 5.56x45 ammo.\nThe STANAG 4179 standard was approved by NATO members in 1980 for the unification of allied personnel ammo and magazines."
+            }
+        },
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a93b3141bc7a5a84e512": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 10000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F020A16A16020000000000": {
+        "itemTplToClone": "5448c1d04bdc2dff2f8b4569",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_stanag_cod20.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.091,
+            "ConflictingItems": [
+                "622f02437762f55aaa68ac85"
+            ],
+            "MalfunctionChance": 0.06
+        },
+        "locales": {
+            "en": {
+                "name": "5.56x45 AR-15 STANAG 20-round magazine",
+                "shortName": "STANAG 20",
+                "description": "A 20-round metal AR-15 magazine designed in compliance with the STANAG 4179 standard for 5.56x45 ammo.\nThe STANAG 4179 standard was approved by NATO members in 1980 for the unification of allied personnel ammo and magazines."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a9e0ea0a927029c9ebfd": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 3000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02F02FABAAABAA02F0000000": {
+        "itemTplToClone": "5cbdc23eae9215001136a407",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_ak_drum_762x39_100.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.091,
+            "MalfunctionChance": 0.5,
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "697793611ac6cdcb6270933c",
+                    "_parent": "02F02FABAAABAA02F0000000",
+                    "_max_count": 100,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "59e655cb86f77411dc52a77b",
+                                    "59e6542b86f77411dc52a77a",
+                                    "59e6658b86f77411d949b250",
+                                    "5f0596629e22f464da6bbdd9",
+                                    "59e0d99486f7744a32234762",
+                                    "59e4d3d286f774176a36250a",
+                                    "5656d7c34bdc2d9d198b4587",
+                                    "59e4cf5286f7741778269d8a",
+                                    "59e4d24686f7741776641ac7",
+                                    "601aa3d2b2bcb34913271e6d",
+                                    "64b7af5a8532cf95ee0a0dbd",
+                                    "64b7af434b75259c590fa893",
+                                    "64b7af734b75259c590fa895"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "VisibleAmmoRangesString": "1-4",
+            "LoadUnloadModifier": 95,
+            "CheckTimeModifier": 35,
+            "Ergonomics": -29
+        },
+        "locales": {
+            "en": {
+                "name": "AK 7.62x39 100-round drum magazine",
+                "shortName": "100rd",
+                "description": "A 100-round metal drum magazine for the RPK light machine gun. It fits in 7.62x39 AK and compatible weapon systems. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons."
+            }
+        },
+        "fleaPriceRoubles": 36000,
+        "handbookPriceRoubles": 36000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a9e51a5632f3528a3f2d": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 30000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02f02faab7aab70000000000": {
+        "itemTplToClone": "5ba26586d4351e44f824b340",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_mp7_xrk_46x30_100.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "697793a298560f5af2d4a7b5",
+                    "_max_count": 50,
+                    "_name": "cartridges",
+                    "_parent": "02f02faab7aab70000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26812d4351e003201fef1",
+                                    "5ba26835d4351e0035628ff5",
+                                    "5ba2678ad4351e44f824b344",
+                                    "5ba26844d4351e00334c9475",
+                                    "64b6979341772715af0f9c39"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 2,
+            "ItemSound": "mag_plastic",
+            "MagazineWithBelt": false,
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "BackgroundColor": "yellow",
+            "Weight": 0.37,
+            "Width": 1,
+            "Height": 2,
+            "CheckTimeModifier": 12,
+            "LoadUnloadModifier": 14,
+            "MalfunctionChance": 0.22,
+            "Ergonomics": -12
+        },
+        "locales": {
+            "en": {
+                "name": "MP7 4.6x30mm XRK 50-round drum magazine",
+                "shortName": "XRK 50",
+                "description": "A 50-round 4.6x30mm drum magazine manufactured by XRK for MP7."
+            }
+        },
+        "fleaPriceRoubles": 16000,
+        "handbookPriceRoubles": 16000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977a9f4fd6ad490271db32e": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 16500,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02f02faab9aab90000000000": {
+        "itemTplToClone": "5de8eac42a78646d96665d91",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_mp9_fjk_drum_9x19_60.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "697793e3c6c0c281b93f9ba7",
+                    "_max_count": 50,
+                    "_name": "cartridges",
+                    "_parent": "02f02faab9aab90000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ItemSound": "mag_plastic",
+            "MagazineWithBelt": false,
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "BackgroundColor": "yellow",
+            "Weight": 0.385,
+            "Width": 1,
+            "Height": 2,
+            "CheckTimeModifier": 15,
+            "LoadUnloadModifier": 15,
+            "MalfunctionChance": 0.17,
+            "Ergonomics": -10
+        },
+        "locales": {
+            "en": {
+                "name": "MP9 9x19 FJX 50-round drum magazine",
+                "shortName": "FJX 50",
+                "description": "A 50-round 9x19mm drum magazine manufactured by FJX for MP9."
+            }
+        },
+        "fleaPriceRoubles": 16000,
+        "handbookPriceRoubles": 16000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977aa01815bfafbda3fd674": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 16500,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02f02bb19bb1945000000000": {
+        "itemTplToClone": "599860ac86f77436b225ed1a",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_pp-19-01_9x19_big.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "6977941db5f73970c02ccf73",
+                    "_max_count": 45,
+                    "_name": "cartridges",
+                    "_parent": "02f02bb19bb1945000000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "ItemSound": "mag_plastic",
+            "MagazineWithBelt": false,
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "BackgroundColor": "yellow",
+            "Weight": 0.203,
+            "Width": 1,
+            "Height": 2,
+            "CheckTimeModifier": 10,
+            "LoadUnloadModifier": 10,
+            "MalfunctionChance": 0.12,
+            "Ergonomics": -6
+        },
+        "locales": {
+            "en": {
+                "name": "PP-19-01 9x19 45-round magazine",
+                "shortName": "PP-19-01 45",
+                "description": "A 45-round 9x19mm magazine for PP-19-01."
+            }
+        },
+        "fleaPriceRoubles": 12000,
+        "handbookPriceRoubles": 12000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977aa0e5ce68beacbb1970e": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 12000,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    },
+
+    "02f02fec0ec0045045000000": {
+        "itemTplToClone": "5fb651dc85f90547f674b6f4",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "NCM/mag_glock_glock_ft_1143x23_drum.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "697794732dc8f427c0472b3a",
+                    "_max_count": 50,
+                    "_name": "cartridges",
+                    "_parent": "02f02fec0ec0045045000000",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e81f423763d9f754677bf2e",
+                                    "5efb0cabfb3e451d70735af5",
+                                    "5efb0fc6aeb21837e749c801",
+                                    "5efb0d4f4bc50b58e81710f3",
+                                    "5ea2a8e200685063ec28c05a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 3,
+            "ItemSound": "mag_plastic",
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "Weight": 0.30,
+            "Width": 1,
+            "Height": 2,
+            "CheckTimeModifier": 22,
+            "LoadUnloadModifier": 20,
+            "MalfunctionChance": 0.20,
+            "Ergonomics": -12
+        },
+        "locales": {
+            "en": {
+                "name": "Glock .45 ACP Forge Tac 50-round drum magazine",
+                "shortName": "Forge Tac 50",
+                "description": "A 50-round drum magazine manufactured by Forge Tac for Glock in .45 ACP."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 20000,
+        "addtoTraders": true,
+        "traders": {
+            "MECHANIC": {
+                "6977aa1bc63b31c01f9cd1ac": {
+                    "barterSettings": {
+                        "loyalLevel": 2,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 99
+                    },
+                    "barters": [
+                        {
+                        "count": 19500,
+                        "_tpl": "MONEY_ROUBLES"
+                        }
+                    ]
+                }
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ]
+    }
+}

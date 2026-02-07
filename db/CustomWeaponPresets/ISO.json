@@ -1,0 +1,312 @@
+{
+    "697762e15ecdf643151a2f85": {
+        "_id": "697762e15ecdf643151a2f85",
+        "_name": "ZLR ISO Default",
+        "_changeWeaponName": false,
+        "_parent": "220020F150F1500000000060",
+        "_encyclopedia": "020020F150F1500000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "220020F150F1500000000060",
+                "_tpl": "020020F150F1500000000000"
+            },
+            {
+                "_id": "6979ca987a1181a8aefd2780",
+                "_tpl": "5a718b548dc32e000d46d262",
+                "parentId": "220020F150F1500000000060",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6979caab7cf83a23bd7e54ea",
+                "_tpl": "042042F150F1500000000000",
+                "parentId": "220020F150F1500000000060",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6979cab3fae94b4c09441810",
+                "_tpl": "04CB4CF150F15B4C00000000",
+                "parentId": "6979caab7cf83a23bd7e54ea",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6979cab85bb6a21f75c9ed91",
+                "_tpl": "04CF4CF150F15F4C00000000",
+                "parentId": "6979caab7cf83a23bd7e54ea",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "6979cabeae8509af2fe049fa",
+                "_tpl": "04B04BF150F1500000000000",
+                "parentId": "6979caab7cf83a23bd7e54ea",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6979cacd8e06c252712e7549",
+                "_tpl": "04B84BF150F1584B00000000",
+                "parentId": "6979cabeae8509af2fe049fa",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6979cad229c9c5d66dc870b2",
+                "_tpl": "047047F150F1500000000000",
+                "parentId": "220020F150F1500000000060",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6979cad75cd188adeb8f5014",
+                "_tpl": "043043F150F1504300000000",
+                "parentId": "220020F150F1500000000060",
+                "slotId": "mod_pistol_grip"
+            }
+        ]
+    },
+    "697763fda13619856acd9d89": {
+        "_id": "697763fda13619856acd9d89",
+        "_name": "EXF ISO Default",
+        "_changeWeaponName": false,
+        "_parent": "220020F151F1510000000060",
+        "_encyclopedia": "020020F151F1510000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "220020F151F1510000000060",
+                "_tpl": "020020F151F1510000000000"
+            },
+            {
+                "_id": "6979cae3231abd3c17b6a2f0",
+                "_tpl": "5a718b548dc32e000d46d262",
+                "parentId": "220020F151F1510000000060",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6979cae71253a9d1b0c4595f",
+                "_tpl": "042042F151F1510000000000",
+                "parentId": "220020F151F1510000000060",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6979caed27486bcb43948f68",
+                "_tpl": "04CB4CF151F15B4C00000000",
+                "parentId": "6979cae71253a9d1b0c4595f",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6979caf3f7e60c324bb87a90",
+                "_tpl": "04CF4CF151F15F4C00000000",
+                "parentId": "6979cae71253a9d1b0c4595f",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "6979cafa88b1aa21178efa5f",
+                "_tpl": "04B04BF150F1500000000000",
+                "parentId": "6979cae71253a9d1b0c4595f",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6979cafeb5eba43336d20926",
+                "_tpl": "04B84BF150F1584B00000000",
+                "parentId": "6979cafa88b1aa21178efa5f",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6979cb0376e0d7432b667026",
+                "_tpl": "047047F151F1510000000000",
+                "parentId": "220020F151F1510000000060",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6979cb08c5bc7d36c0902116",
+                "_tpl": "043043F151F1514300000000",
+                "parentId": "220020F151F1510000000060",
+                "slotId": "mod_pistol_grip"
+            }
+        ]
+    },
+    "697764d4c6d7aa37084717b8": {
+        "_id": "697764d4c6d7aa37084717b8",
+        "_name": "EXF ISO Default",
+        "_changeWeaponName": false,
+        "_parent": "220020F154F1540000000060",
+        "_encyclopedia": "020020F154F1540000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "220020F154F1540000000060",
+                "_tpl": "020020F154F1540000000000"
+            },
+            {
+                "_id": "6979cb16c644a26728541db6",
+                "_tpl": "5de8e8dafd6b4e6e2276dc32",
+                "parentId": "220020F154F1540000000060",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6979cb1b74f5d1e1263fbb7c",
+                "_tpl": "042042F151F1510000000000",
+                "parentId": "220020F154F1540000000060",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6979cb1f4ebc5740799f2b4e",
+                "_tpl": "04CB4CF151F15B4C00000000",
+                "parentId": "6979cb1b74f5d1e1263fbb7c",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6979cb22efe3bed3ab3000cf",
+                "_tpl": "04CF4CF151F15F4C00000000",
+                "parentId": "6979cb1b74f5d1e1263fbb7c",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "6979cb271591280acf465b05",
+                "_tpl": "04B04BF150F1500000000000",
+                "parentId": "6979cb1b74f5d1e1263fbb7c",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6979cb2d64f8fd659ae62081",
+                "_tpl": "04B84BF150F1584B00000000",
+                "parentId": "6979cb271591280acf465b05",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6979cb336acc44fc90ec87f2",
+                "_tpl": "047047F151F1510000000000",
+                "parentId": "220020F154F1540000000060",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6979cb377f5715c9f6392085",
+                "_tpl": "043043F151F1514300000000",
+                "parentId": "220020F154F1540000000060",
+                "slotId": "mod_pistol_grip"
+            }
+        ]
+    },
+    "697765ac61d0e3830b857cbc": {
+        "_id": "697765ac61d0e3830b857cbc",
+        "_name": "EXF ISO 45 Default",
+        "_changeWeaponName": false,
+        "_parent": "220020F152F1520000000060",
+        "_encyclopedia": "020020F152F1520000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "220020F152F1520000000060",
+                "_tpl": "020020F152F1520000000000"
+            },
+            {
+                "_id": "6979cb466311b4dd3bbbc08f",
+                "_tpl": "02F12FF152F1521110000000",
+                "parentId": "220020F152F1520000000060",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6979cb4907070ae650d75423",
+                "_tpl": "042042F152F1520000000000",
+                "parentId": "220020F152F1520000000060",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6979cb51452f106e40229773",
+                "_tpl": "04CB4CF151F15B4C00000000",
+                "parentId": "6979cb4907070ae650d75423",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6979cb563e2c5d557e0af829",
+                "_tpl": "04CF4CF151F15F4C00000000",
+                "parentId": "6979cb4907070ae650d75423",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "6979cb59970f0bb308869ed6",
+                "_tpl": "04B04BF152F2500000000000",
+                "parentId": "6979cb4907070ae650d75423",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6979cb5e79f6cef9b7c3e660",
+                "_tpl": "04B84BF152F2584B00000000",
+                "parentId": "6979cb59970f0bb308869ed6",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6979cb655c9f6b0780e194e2",
+                "_tpl": "047047F151F1510000000000",
+                "parentId": "220020F152F1520000000060",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6979cb682efaf94695a722ee",
+                "_tpl": "043043F151F1514300000000",
+                "parentId": "220020F152F1520000000060",
+                "slotId": "mod_pistol_grip"
+            }
+        ]
+    },
+    "697766c8d02341b0f065e349": {
+        "_id": "697766c8d02341b0f065e349",
+        "_name": "EXF ISO 45 Default",
+        "_changeWeaponName": false,
+        "_parent": "220020F153F1530000000060",
+        "_encyclopedia": "020020F153F1530000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "220020F153F1530000000060",
+                "_tpl": "020020F153F1530000000000"
+            },
+            {
+                "_id": "6979cb6c6a195a797787ce60",
+                "_tpl": "5fb651b52b1b027b1f50bcff",
+                "parentId": "220020F153F1530000000060",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6979cb74eca14817e22ddca0",
+                "_tpl": "042042F152F1520000000000",
+                "parentId": "220020F153F1530000000060",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6979cb7dc08197a17743229b",
+                "_tpl": "04CB4CF151F15B4C00000000",
+                "parentId": "6979cb74eca14817e22ddca0",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6979cb8222ebfe3068960377",
+                "_tpl": "04CF4CF151F15F4C00000000",
+                "parentId": "6979cb74eca14817e22ddca0",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "6979cb860fb8ec1b676bab71",
+                "_tpl": "04B04BF152F2500000000000",
+                "parentId": "6979cb74eca14817e22ddca0",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6979cb8b680cecfb016ef7ef",
+                "_tpl": "04B84BF152F2584B00000000",
+                "parentId": "6979cb860fb8ec1b676bab71",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6979cb8fa08301e999a32ec9",
+                "_tpl": "047047F151F1510000000000",
+                "parentId": "220020F153F1530000000060",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "6979cb93370fcb88f7f3fe15",
+                "_tpl": "043043F151F1514300000000",
+                "parentId": "220020F153F1530000000060",
+                "slotId": "mod_pistol_grip"
+            }
+        ]
+    }
+}

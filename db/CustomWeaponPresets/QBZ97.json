@@ -1,0 +1,40 @@
+{
+    "69788d64c30c7f2081bb8d41": {
+        "_id": "69788d64c30c7f2081bb8d41",
+        "_name": "QBZ97 Default",
+        "_changeWeaponName": false,
+        "_parent": "69788e4a4abd0a4bcbc1cc8d",
+        "_encyclopedia": "020020BBA97BBA9700000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69788e4a4abd0a4bcbc1cc8d",
+                "_tpl": "020020BBA97BBA9700000000"
+            },
+            {
+                "_id": "69788e548a162c448c4aa64f",
+                "_tpl": "55d4887d4bdc2d962f8b4570",
+                "parentId": "69788e4a4abd0a4bcbc1cc8d",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69788e5a4628abfdd777deaf",
+                "_tpl": "04C04CBBA97BBA974C000000",
+                "parentId": "69788e4a4abd0a4bcbc1cc8d",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "69788e6278002fbffd19c69c",
+                "_tpl": "04A04ABBA97BBA974A000000",
+                "parentId": "69788e4a4abd0a4bcbc1cc8d",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "69788e67342b5a0667f9cc8d",
+                "_tpl": "043043DF056DF05643000000",
+                "slotId": "mod_stock",
+                "parentId": "69788e4a4abd0a4bcbc1cc8d"
+            }
+        ]
+    }
+}

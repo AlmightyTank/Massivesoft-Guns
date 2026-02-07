@@ -1,0 +1,102 @@
+{
+    "6978a29cee2ffd9bf91b0f2b": {
+        "_id": "6978a29cee2ffd9bf91b0f2b",
+        "_name": "DG-56 Default",
+        "_changeWeaponName": false,
+        "_parent": "6978a21d8b7f7851aaebe3d2",
+        "_encyclopedia": "020020DF056DF05600000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "6978a21d8b7f7851aaebe3d2",
+                "_tpl": "020020DF056DF05600000000"
+            },
+            {
+                "_id": "6978a22ff52be428ec5f8c48",
+                "_tpl": "55d4887d4bdc2d962f8b4570",
+                "parentId": "6978a21d8b7f7851aaebe3d2",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6978a23759d4423c2171f5f7",
+                "_tpl": "04C04CDF056DF0564C000000",
+                "parentId": "6978a21d8b7f7851aaebe3d2",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6978a23ffd1731a48fb5c288",
+                "_tpl": "04B04BDF056DF0564B000000",
+                "parentId": "6978a21d8b7f7851aaebe3d2",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6978a24769d2fed3a335f5f3",
+                "_tpl": "04A04ADF056DF0564A000000",
+                "parentId": "6978a23ffd1731a48fb5c288",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6978a2532c7c0c48815ee2b1",
+                "_tpl": "041041DF056DF05641000000",
+                "parentId": "6978a23ffd1731a48fb5c288",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "6978a25cc6cde5aedd973534",
+                "_tpl": "048148DF056DF05648100000",
+                "parentId": "6978a2532c7c0c48815ee2b1",
+                "slotId": "mod_foregrip"
+            },
+            {
+                "_id": "6978a261999f66bf0e816347",
+                "_tpl": "043043DF056DF05643000000",
+                "parentId": "6978a21d8b7f7851aaebe3d2",
+                "slotId": "mod_stock"
+            }
+        ]
+    },
+    "6978a2a55cc9dae5c792ff99": {
+        "_id": "6978a2a55cc9dae5c792ff99",
+        "_name": "DG-56 Default",
+        "_changeWeaponName": false,
+        "_parent": "6978a21d8b7f7851aaebe3d2",
+        "_encyclopedia": "020020DF056DF05600000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "6978a2fd52ac7a46b14fe906",
+                "_tpl": "020020DF056DF05600000000"
+            },
+            {
+                "_id": "6978a305ff2ab5871b6ea006",
+                "_tpl": "55d4887d4bdc2d962f8b4570",
+                "parentId": "6978a2fd52ac7a46b14fe906",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6978a30c29bf24f50dfebdbf",
+                "_tpl": "04C04CDF056DF0564C000000",
+                "parentId": "6978a2fd52ac7a46b14fe906",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "6978a3117e02fab1441512a6",
+                "_tpl": "04B54BDF056DF0564B500000",
+                "parentId": "6978a2fd52ac7a46b14fe906",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6978a31b67f3f5de7b2556b6",
+                "_tpl": "04A14ADF056DF0564A100000",
+                "parentId": "6978a3117e02fab1441512a6",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "6978a3222983af4d9a10d00f",
+                "_tpl": "043043DF056DF05643000000",
+                "parentId": "6978a2fd52ac7a46b14fe906",
+                "slotId": "mod_stock"
+            }
+        ]
+    }
+}

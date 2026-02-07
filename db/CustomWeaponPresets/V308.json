@@ -1,0 +1,70 @@
+{
+    "69762c100adabefdabfac084": {
+        "_id": "69762c100adabefdabfac084",
+        "_name": "V308 Default",
+        "_changeWeaponName": false,
+        "_parent": "69762a6726ded22c840328a2",
+        "_encyclopedia": "020020308308000000000000",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69762a6726ded22c840328a2",
+                "_tpl": "020020308308000000000000"
+            },
+            {
+                "_id": "69762a6726ded22c840328a3",
+                "_tpl": "02f02f30830802f000000000",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69762a6726ded22c840328a4",
+                "_tpl": "5fb6567747ce63734e3fa1dc",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_sight_front"
+            },
+            {
+                "_id": "69762a6726ded22c840328a5",
+                "_tpl": "5fb6564947ce63734e3fa1da",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "69762a6726ded22c840328a6",
+                "_tpl": "5fb6558ad6f0b2136f2d7eb7",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "69762a6726ded22c840328a7",
+                "_tpl": "04bc4b308308c4b000000000",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "69762a6726ded22c840328a8",
+                "_tpl": "041041308308041000000000",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_mount"
+            },
+            {
+                "_id": "69762a6726ded22c840328a9",
+                "_tpl": "5fce0f9b55375d18a253eff2",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_mount_001"
+            },
+            {
+                "_id": "69762a6726ded22c840328aa",
+                "_tpl": "5fce0f9b55375d18a253eff2",
+                "parentId": "69762a6726ded22c840328a2",
+                "slotId": "mod_mount_002"
+            },
+            {
+                "_id": "69762a6726ded22c840328ab",
+                "_tpl": "04a04a30830804a000000000",
+                "parentId": "69762a6726ded22c840328a7",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    }
+}
